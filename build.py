@@ -306,7 +306,7 @@ def build_rss(items, now):
             f"<description>{html.escape(it['publisher'] + '｜' + cats + ('｜' + it['snippet'] if it['snippet'] else ''))}</description>"
             "</item>")
     return ('<?xml version="1.0" encoding="utf-8"?>\n<rss version="2.0"><channel>'
-            "<title>スマート農業・酪農 IoT ニュース</title>"
+            "<title>スマート農業News</title>"
             "<link>https://yusuke1090.github.io/smart-agri-news/</link>"
             "<description>スマート農業・酪農・畜産・IoT のニュースを毎朝まとめています</description>"
             "<language>ja</language>"
