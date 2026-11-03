@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T22:18+09:00",
+ "updated": "2026-11-03T22:29+09:00",
  "sources": [
   {
    "name": "日本農業新聞",
@@ -54,22 +54,22 @@
   {
    "name": "Google ニュース「スマート畜産」",
    "ok": true,
-   "count": 54
+   "count": 34
   },
   {
    "name": "Google ニュース「酪農」",
    "ok": true,
-   "count": 59
+   "count": 100
   },
   {
    "name": "Google ニュース「畜産 IoT」",
    "ok": true,
-   "count": 50
+   "count": 12
   },
   {
    "name": "Google ニュース「農業 IoT」",
    "ok": true,
-   "count": 37
+   "count": 100
   },
   {
    "name": "Google ニュース「農業 AI」",
@@ -99,7 +99,7 @@
   {
    "name": "Farm Progress",
    "ok": true,
-   "count": 10
+   "count": 11
   },
   {
    "name": "Agriland",
@@ -114,12 +114,12 @@
   {
    "name": "Google News \"smart farming\"",
    "ok": true,
-   "count": 53
+   "count": 100
   },
   {
    "name": "Google News \"dairy tech\"",
    "ok": true,
-   "count": 38
+   "count": 70
   },
   {
    "name": "Google News \"farm IoT\"",
@@ -128,6 +128,22 @@
   }
  ],
  "items": [
+  {
+   "title": "North Dakota court orders changes to beef commission nominations",
+   "link": "https://www.farmprogress.com/tv-and-radio/north-dakota-court-orders-changes-to-beef-commission-nominations",
+   "publisher": "Farm Progress",
+   "via": "Farm Progress",
+   "region": "world",
+   "snippet": "Farm Progress America: North Dakota ranchers win court ruling; beef checkoff nomination process changes.",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-11-03T22:09+09:00",
+   "first_seen": "2026-11-03T22:29+09:00",
+   "lang": "en",
+   "area": "overseas",
+   "summary_tries": 1
+  },
   {
    "title": "Mart report: Beef cattle hold steady amid price uncertainty in Tullow",
    "link": "https://www.agriland.ie/farming-news/mart-report-beef-cattle-hold-steady-amid-price-uncertainty-in-tullow/",
@@ -203,6 +219,22 @@
    "title_ja": "「行き先のないパイロット事業」：Aleph Eins Capitalが語る企業のアグリテックの罠",
    "summary_en": "An investor explains why many companies get stuck in farm tech pilot projects.",
    "summary_v": 2
+  },
+  {
+   "title": "Beware ‘pilots to nowhere’: Aleph Eins Capital on avoiding corporate agtech traps",
+   "link": "https://agfundernews.com/beware-pilots-to-nowhere-aleph-eins-capital-on-avoiding-corporate-agtech-traps",
+   "publisher": "AgFunderNews",
+   "via": "AgFunderNews",
+   "region": "world",
+   "snippet": "When it comes to exclusivity deals with corporates, just say no, says George Bilkis. \"Many startups are tempted because it's a matter of survival sometimes, but actually, it can kill them.\"",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-11-03T20:00+09:00",
+   "first_seen": "2026-11-03T22:29+09:00",
+   "lang": "en",
+   "area": "overseas",
+   "summary_tries": 1
   },
   {
    "title": "11/4(水)は鴨川市郷土資料館だけ休み｜館山城・渚の博物館・酪農のさと・菱川師宣記念館は開館、次に5施設とも休むのは11/9(月)",
@@ -571,6 +603,22 @@
    "title_ja": "Exedy Drones、米国の散布ドローン再編の中で予約受付を開始",
    "summary_en": "Exedy Drones is taking orders for spray drones, with first deliveries planned for spring 2027.",
    "summary_v": 2
+  },
+  {
+   "title": "Exedy Drones enters race to build American-made spray drones amid supply crunch",
+   "link": "https://agfundernews.com/exedy-drones-opens-reservations-amid-us-spray-drone-shakeup",
+   "publisher": "AgFunderNews",
+   "via": "AgFunderNews",
+   "region": "world",
+   "snippet": "Michigan-based Exedy Drones says first deliveries are targeted for spring 2027, subject to engineering, FAA, dealer and production readiness.",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-11-03T05:33+09:00",
+   "first_seen": "2026-11-03T22:29+09:00",
+   "lang": "en",
+   "area": "overseas",
+   "summary_tries": 1
   },
   {
    "title": "スマート畜産普及へ方針案 導入効果など情報提供重視 農水省検討会",
@@ -1388,6 +1436,23 @@
    "area": "japan",
    "summary": "2026年11月3日の文化の日に岡山で開かれる、無料のフェア・マルシェ・秋祭りなど6件のイベントを紹介する記事。",
    "summary_v": 2
+  },
+  {
+   "title": "Australian dairy farm becomes first to combine virtual fencing and robotic milking",
+   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOeEJ4TkNzNEs1aDFkVDNja0JfaW1aZl9PUGRsNW50QXY4MTlvc1FkX1l2cFo0T3hFZ1NDLTNvbWQwY3RNVkNDUmVLMmNvbEtnMkxBQVlUUm5JeXQzdHFVSGVIZkFpcGttTkN0NjNDbHl5NUp1Q0RHV1JyQW5mem1OLXN6SFJudlJEWVhHYkJvLWNEV005Q3B6MmttYk1YN0lJZnFTZ3Rld2tqc1A2YXpTUFgxaDk2anBMRnFZNkpOWXBBdw?oc=5",
+   "publisher": "Dairynews.today",
+   "via": "Google News \"dairy tech\"",
+   "region": "world",
+   "snippet": "",
+   "cats": [
+    "dairy",
+    "smart"
+   ],
+   "published": "2026-11-02T04:38+09:00",
+   "first_seen": "2026-11-03T22:29+09:00",
+   "lang": "en",
+   "area": "overseas",
+   "summary_tries": 1
   },
   {
    "title": "DAFM clarifies rise in official cull ewe kill figure data",
@@ -2361,6 +2426,22 @@
    "summary_v": 2
   },
   {
+   "title": "OneSoil Marks Nine Years With a Review of Agtech",
+   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOcHhaYWVkNWpoM015NVJpWVRUeE0xN2czejN4UE1HRUZXemZZUTlmQUJESF9DZ1dGVGhETXJfV1Q4anhKVGtJU29aVzVsTUVNS3FCOEd0MVV4amxmM01ZSEtsQ0JpdVZXYVBKRVY2LVM2a3dEUl9FNnkzb2tuVGxRWTNPODdHV0k?oc=5",
+   "publisher": "Morning Ag Clips",
+   "via": "Google News \"smart farming\"",
+   "region": "world",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-10-30T04:13+09:00",
+   "first_seen": "2026-11-03T22:29+09:00",
+   "lang": "en",
+   "area": "overseas",
+   "summary_tries": 1
+  },
+  {
    "title": "特集「2030年流通業界未来予想図」 ⑥ 農業／人手激減ショックを乗り越えるスマート農業の現在地／中野明正 千葉大学 園芸学研究院 教授",
    "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5Da1BVOVQ0UFNpbXlidHl4cEFPUEJaNFgzTkhrdkphTzlhWk9MOUd3OWlfVmtfbkJXSzZiLXFiTWpFVmhmdnhaMWJYU0tYXzRZRVE?oc=5",
    "publisher": "激流オンライン",
@@ -2450,6 +2531,22 @@
    "area": "japan",
    "summary": "御代田で、AI農業ロボットが自律走行しながら雑草を抜き取る様子が実演された。実用化に向けた前進を示した。",
    "summary_v": 2
+  },
+  {
+   "title": "Top Agtech Startups In Ireland To Watch In 2027",
+   "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNTVRkbG1mbVBULWRCNXdFRE9RZ2NCZlFlVWVTVUQ2S3BIcWJlWk1XTXpJYjMxQ0d5R1VhZW5ySlowZ2tvZ1o4dXkteVZXVUNEM1lxcG5VdWc5YW9ub3hLdnJMb1hJZC1vUUFYb0lCRnVHckdGeXNPS2FOTkFSS0sxS25hOA?oc=5",
+   "publisher": "TechRound",
+   "via": "Google News \"smart farming\"",
+   "region": "world",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-10-29T23:36+09:00",
+   "first_seen": "2026-11-03T22:29+09:00",
+   "lang": "en",
+   "area": "overseas",
+   "summary_tries": 1
   },
   {
    "title": "European summer gives the Magnum Ice Cream Company a boost in Q3",
@@ -2845,6 +2942,22 @@
    "title_ja": "OneSoil Global Analytics、衛星画像からほぼ30種類の作物を識別可能に",
    "summary_en": "OneSoil can now find nearly 30 crops in satellite pictures.",
    "summary_v": 2
+  },
+  {
+   "title": "Young farmer turns job loss into smart farming success",
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQU0pPeDBlRDUyanhxYjh4WEZURzlkeFFua1M0cnd0VjBhVnUzYzBrRGY1M2VqLUJTSzFxUmVVRDExMVNPdm03Ulh4T0pNa01BY0tHdTNXWmxwYlpBb0tYbVh3TVpDd1FGYXhvY2dhVlNxbmV4b2lOd3hKNlZKQ1YwSW8yNG5nLWZ2TW0wcU5WdXBsREFCZEVnenp5QXg4cDljN1HSAacBQVVfeXFMTzlmRnByNklIR1dvX3Z6X183RVp6aUNENWdhU2k2SVlQTWhfdlFad2hHR2w4cXZKbmpPc1FpUFRYaFpSR0M1SkNqSFZEdzVqblRueWtUQnNnSnZ4RnhkZTVtMmx3N2Jfc1o3SWhaaVc5b0xCS2s5SEpCZmdEMTdsTmFFRWgtSUxaaFJXZmVFNzN2dWpQT1JRREp4SXpLWFdiQl9udHlkbEU?oc=5",
+   "publisher": "The Korea Times",
+   "via": "Google News \"smart farming\"",
+   "region": "world",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-10-29T00:00+09:00",
+   "first_seen": "2026-11-03T22:29+09:00",
+   "lang": "en",
+   "area": "overseas",
+   "summary_tries": 1
   },
   {
    "title": "From Demo to Deal: FIRA USA Connects Pacific Northwest Growers With Ag Robotics and Tech",
@@ -3551,6 +3664,22 @@
    "summary_v": 2
   },
   {
+   "title": "Why agtech won’t transform food systems without better finance",
+   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPV0l1QllpTVZNZjdvdmxQQ1V3Xy02X0J6cS1nTmNleDlzR1V4b2xJNDJXdjN4QnFxaHRUV3U4THZTby05dnZ0X3BUN2Z6SEFhQV94WXFtQUNtYi1GbTcwWElfQU5pLTFGZzFLemo3ZzBRd1NFVk5HZjhrSlV4UUo5WHl2QVlSY0laWW85UDFCcTBOaF9HODllekswQ1U?oc=5",
+   "publisher": "Devex",
+   "via": "Google News \"smart farming\"",
+   "region": "world",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-10-27T02:31+09:00",
+   "first_seen": "2026-11-03T22:29+09:00",
+   "lang": "en",
+   "area": "overseas",
+   "summary_tries": 1
+  },
+  {
    "title": "The rise of ‘protein plus’",
    "link": "https://www.foodmanufacture.co.uk/Article/2026/10/26/the-future-of-protein/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
    "publisher": "DairyReporter",
@@ -3642,6 +3771,22 @@
    "area": "japan",
    "summary": "農畜産業振興機構（ALIC）が、『野菜情報』の11月号を掲載したと伝える。",
    "summary_v": 2
+  },
+  {
+   "title": "Smart farming",
+   "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1rNUYwcjdmV3N3TFpUOFZMbzBpRWJ1eU5RRDJOdVUzcGh5NEtjQmF3d0pxN0dPTGlYa21nLUM1bURzU1NyU2JzbExsNE5VV2V2LUdvNjlHQXhEWjRFYWdpS3Bn?oc=5",
+   "publisher": "Global Times",
+   "via": "Google News \"smart farming\"",
+   "region": "world",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-10-26T22:27+09:00",
+   "first_seen": "2026-11-03T22:29+09:00",
+   "lang": "en",
+   "area": "overseas",
+   "summary_tries": 1
   },
   {
    "title": "Arla withdraws protein puddings over glass contamination risk",
@@ -3757,6 +3902,22 @@
    "summary_v": 2
   },
   {
+   "title": "Where Smart Farming Is Already Paying Off",
+   "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5fNVhLODRYeG4zLWNRQjgwWUJMQVlTc0ZqMUVHZm9ubzFXYUtZZnBVZmxnbGhyYTZwUDhISG9zTTJDSFlubS1tOUJXQmJ6ZEtjaWRxYXJhLXZVVlFZNEFUOW95YnV4V2RkcUJCcm8wc2RoNll5Rl9BLVR4SQ?oc=5",
+   "publisher": "University of California, Berkeley",
+   "via": "Google News \"smart farming\"",
+   "region": "world",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-10-26T16:00+09:00",
+   "first_seen": "2026-11-03T22:29+09:00",
+   "lang": "en",
+   "area": "overseas",
+   "summary_tries": 1
+  },
+  {
    "title": "丹後王国ブルワリー、脱脂粉乳の新たな需要創出へ 『蒜山ジャージーミルクジャム ミルクのおすそわけ』10月26日発売 ～「蒜山地域酪農拠点再構築コンソーシアム」の取り組みから初の商品化～",
    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBCLXg1cXZpZWZ6VHByNTUySjdlUVo4MUFxX3NjeXlqTUh4bVNfS3AyTFJGQVlFWl9NQ0RTWGxJanVlT0VIcnpXZVBmZU1YTGRzQ0lpNk1OUVJ2Z29Oal9VckdkRkNQMFROelBDMVo0cFprSDBhc0owMzhZSEE?oc=5",
    "publisher": "パソナグループ",
@@ -3825,6 +3986,22 @@
    "area": "japan",
    "summary": "11月11日に中央大学で、生成AIの農業現場での活用例を紹介するイベントが開かれる。聴講は無料。",
    "summary_v": 2
+  },
+  {
+   "title": "AGTech Holdings (SEHK:8279) Stock May Be Overvalued On Sales Alone",
+   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZ0VXb2dQX19PbFQ3eHFqS0FsUTRObno5LTBYdmtVZDVfdWp4dmhiRFVYTWVWeHZTeHZKSUJwSEZyRjNZRXpYcTBDUEZrUmhwRDBiNHJTbnVSUW1FTWxzT2lSRm9nVWlnY0xSaVZoNV8yQzBlNHRmWFFoVm5tM3pQclZYUjEzeXVQeHcyc3cwY3p5VkpTS1hfS1A3UDM?oc=5",
+   "publisher": "Yahoo Finance",
+   "via": "Google News \"smart farming\"",
+   "region": "world",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-10-26T04:05+09:00",
+   "first_seen": "2026-11-03T22:29+09:00",
+   "lang": "en",
+   "area": "overseas",
+   "summary_tries": 1
   },
   {
    "title": "「畜産の情報」11月号を掲載しました。",
@@ -4052,6 +4229,22 @@
    "area": "japan",
    "summary": "農畜産業振興機構が、令和8年度の消費者との意見交換会の開催を案内している。",
    "summary_v": 2
+  },
+  {
+   "title": "Smart Farming And Precision Agriculture Platform Market Size, Share, Trends, And Forecast To 2030",
+   "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNLV9ZR3FJVDJWQkQ1dW01SG1GeHJPeHl0c3NoVTRTWEM1MkhPQnVUSU1YU2N0SXd3b2NDbFBtWklrdDFGMUZUa3Vva09ocXJzajJHS09xOHdLbHBYWjNFVFFUTHdmdi1nNEszQ3B5R0FsU21MTWNmSkswUVhHck5HY29RMjhrbk5wT0pWemxwRmpkQW1OWk5qZHhmOWdoQ012Tl9RVTRQOEpFMEozcHQtYmctZkVPUUFLcERfX2FyTk9EUl9GZnUxWlJQRGVrWElfbUhPaVZrbjc?oc=5",
+   "publisher": "EIN Presswire",
+   "via": "Google News \"smart farming\"",
+   "region": "world",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-10-23T09:30+09:00",
+   "first_seen": "2026-11-03T22:29+09:00",
+   "lang": "en",
+   "area": "overseas",
+   "summary_tries": 1
   },
   {
    "title": "‘No acceptable offers’ for Liberation Bioindustries as firm seeks to plug $25m funding gap",
@@ -4293,6 +4486,38 @@
    "summary_v": 2
   },
   {
+   "title": "FIRA USA event displays the future of farming with new AgTech",
+   "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOQ0RGWUhiX0V1dXdjZkVmU1dUcWdNQ1R4XzFVbGFUS1J1WGNGaWVaRHR4Ukp6Rm43Vzh3VnV4TXRVSUwtM01mUW5yTUpqOXlzdjJNcmEwT1FSMGdweGlRZXVxUTNiSlp2aVpFaENtRkpVc2FqSWl2RmtON1NiZkU5NTdjNDR5TGpnbGwyQ0h4Wk5iS3Z0eUZPQW5jU19KRDNIcFdwVVJqWGQ2ajh3d0Q5aGJDOVhhQTRreFBtZ2FXNFpPVGQ3QmdDTWdETDhuemo3NmFWem1peDQwcENW?oc=5",
+   "publisher": "Nonstop Local News",
+   "via": "Google News \"smart farming\"",
+   "region": "world",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-10-22T16:00+09:00",
+   "first_seen": "2026-11-03T22:29+09:00",
+   "lang": "en",
+   "area": "overseas",
+   "summary_tries": 1
+  },
+  {
+   "title": "New Study Maps Global Economic Potential of Smart Farming Innovations and Future Growth",
+   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNbU5MNm94X0VRN0Ftd2pHa3FPaWtoTDRfYmk5djZMcG5MREJhZGtUYy1UUldxQjVweE90S21hQ0hHYjdzdm9ReWFNeldfM2NPZWNyVkwyYmtMdGMyZEFzMTk1SjJQRXhQSEZOVG5vT2Y3UTl1RW5LVHpJS1NaSVdacWdsdXdyWTkzSTFMQjJiN0JsZU9GVjlacVVnMWJBblVfRHU1bHZ6UEd5QlhuQXltcTBtb2RkeVNmZFE?oc=5",
+   "publisher": "Global AgInvesting",
+   "via": "Google News \"smart farming\"",
+   "region": "world",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-10-22T16:00+09:00",
+   "first_seen": "2026-11-03T22:29+09:00",
+   "lang": "en",
+   "area": "overseas",
+   "summary_tries": 1
+  },
+  {
    "title": "ホエイ及び調製ホエイの売買同時入札（SBS方式）結果",
    "link": "http://www.alic.go.jp/content/001294360.pdf",
    "publisher": "農畜産業振興機構（ALIC）",
@@ -4342,6 +4567,22 @@
    "area": "japan",
    "summary": "ＪＡしまね津田支店が9月に第26回ジャンボかぼちゃコンテストを開き、85キロの新記録が出た。",
    "summary_v": 2
+  },
+  {
+   "title": "California AgTech Alliance Opens Applications for Innovation Grants of Up to $50,000",
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNRklqNW1ZeWNqRUJnSXhiWEF3bEFoYmQwdnp2TVE1bzN6OEt4VXVISHJNbDhlc3BMUHhDWWZqZ1h2S2IybFJidUdjMDVIWDBTNFZYeW5KcjUzQnVXRzV0MEp4T0Y3bzR4U2U4WDVxX1VuaUIxTHQzbF9BYjR0TWV3R0JRWDZBU2ZPLWVRcktrUU5kSVdpUmdtT21KejlNRlQydXFvUzNWdnIzNGd4eWhkNjBhcng?oc=5",
+   "publisher": "Morning Ag Clips",
+   "via": "Google News \"smart farming\"",
+   "region": "world",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-10-22T03:36+09:00",
+   "first_seen": "2026-11-03T22:29+09:00",
+   "lang": "en",
+   "area": "overseas",
+   "summary_tries": 1
   },
   {
    "title": "Layoffs at Carbon Robotics as firm “realigns costs due to broader economic conditions”",
@@ -4557,6 +4798,38 @@
    "summary_v": 2
   },
   {
+   "title": "AGCO Expands Smart Farming with Fendt and Autonomy",
+   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPLXlvN3FfV2hUT1huSHRqUlp3VzBPOUR2blFTNXA4M19LLUxXLWVfOXBWcTFOTlYzSXdtZFM4cDIzaHBKcE5LeVIyYjA0cEw5VHFNRnJIc3BJT1VFNXFvRVBwSmp3dnE5QWVaVGlyZjN6ck5lMDVSWi1TcUhybnNmYzFTdGxNVlVHQ1RKN1B6LURzT3hxMnhSUkU1VHE?oc=5",
+   "publisher": "Farms.com",
+   "via": "Google News \"smart farming\"",
+   "region": "world",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-10-21T16:00+09:00",
+   "first_seen": "2026-11-03T22:29+09:00",
+   "lang": "en",
+   "area": "overseas",
+   "summary_tries": 1
+  },
+  {
+   "title": "Smart farming technologies are starting to pay off",
+   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPSmNZaDZ1ZVRNNWVqak1lUHFKTm9tSzdWMlZWQ1BkeF9GQ0RaQUs4RGRDUmRIWTVtMy1na2RTajJVaG1rRXJLUmxQc05rNHNVblYxYWZDMkx1ZjVXYXBsWmhpaTNxTU13YUJaZHpsZE5zYmZVRWREUVJ5VmxyU01fc1hhNkk4V1k?oc=5",
+   "publisher": "Earth.com",
+   "via": "Google News \"smart farming\"",
+   "region": "world",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-10-21T16:00+09:00",
+   "first_seen": "2026-11-03T22:29+09:00",
+   "lang": "en",
+   "area": "overseas",
+   "summary_tries": 1
+  },
+  {
    "title": "豪州競争・消費者委員会、主要鶏卵事業者を競争法違反の疑いで提訴（豪州）",
    "link": "http://www.alic.go.jp/chosa-c/joho01_004448.html",
    "publisher": "農畜産業振興機構（ALIC）",
@@ -4644,6 +4917,22 @@
    "title_ja": "Reservoir Farms、太平洋岸北西部に拠点を拡大しフィジカルAIを加速",
    "summary_en": "Ag robotics company Reservoir is opening a new site in Washington State.",
    "summary_v": 2
+  },
+  {
+   "title": "Canadian Food & AgTech Innovation Challenge Launches with $150,000 Prize",
+   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQVVFTOE1NajNYYTcyQlRnR2RnODlKVVRDTEhFbUxYMUpZd01qNlZSRVZXbHRDdDNvajVTbjVSQy14d3l3OFNaajU3YTVWRmN4MGRNTjBsak9XOXFMQTYzcGFLNldBcHFrOHkwZEhoZkRQcEYwUUZZQ2duWmZhS1NJZk5TWXpkeUhULVJLNnZYVWp5bS1WWldZQ000MkpnMFpPc1FSOEVPYnFzYlNUTF9LZ3pLby1Tdw?oc=5",
+   "publisher": "Farms.com",
+   "via": "Google News \"smart farming\"",
+   "region": "world",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-10-20T23:28+09:00",
+   "first_seen": "2026-11-03T22:29+09:00",
+   "lang": "en",
+   "area": "overseas",
+   "summary_tries": 1
   },
   {
    "title": "IMIO raises $12m to unlock nutrients trapped in crop residues with new generation of ‘dependable ag biologicals’",
@@ -4748,6 +5037,39 @@
    "area": "japan",
    "summary": "南日本酪農協同の牛乳パックに詐欺防止の広告が掲載され、警察から感謝状が贈られた。",
    "summary_v": 2
+  },
+  {
+   "title": "Smart farming could pay off on half of global cropland",
+   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQY29uUkhGVElNdi1oOGdrZnd1S1VMTUpoalYzek5FVEswck1XeFQ3aGV6bzFLaC1JMjZrMFlQbnhfcXdjUjljTGVhV1NiaFpnSG52N241MnlxSjlkMjZGVGlMNVJjcHd3eURKMHlCXy1iSEY1d01oNWlldHI1Y05QOUtueHZldw?oc=5",
+   "publisher": "Bioengineer.org",
+   "via": "Google News \"smart farming\"",
+   "region": "world",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-10-20T16:00+09:00",
+   "first_seen": "2026-11-03T22:29+09:00",
+   "lang": "en",
+   "area": "overseas",
+   "summary_tries": 1
+  },
+  {
+   "title": "Robots become normal for WA’s “progressive” dairy farmers",
+   "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPY19idHc2UVdOdFlTc0ZsRHNSX0U5aDctMXlHVzdEX3paQzEzUU45VmNzSGRxNlMzSDZ2dFpEallYUXJBLTBPcXlWeFFYNzZZZ3FLWWF2R0tOeGg2Smc5Rmk2enpuWnZGbF9nYXJZaGlnNXlrcDI5ZW1OaDFnNDd4RFFfM0lGWWxZVXZnVDllSUJMejFKSzQ4NmJEN3NnbFljM1dIWDhJcE1JOUg4OGJtUkZOYTJ0Q01BNGdCYVlIbUtMeS1Zb1ZCSjZsSmNQMy1rOURYSzRBcElfb1VZVFdYTHVxS0NMa2pTazJoMWViTDdUcTA0YXo2VWhn?oc=5",
+   "publisher": "Countryman",
+   "via": "Google News \"dairy tech\"",
+   "region": "world",
+   "snippet": "",
+   "cats": [
+    "dairy",
+    "smart"
+   ],
+   "published": "2026-10-20T16:00+09:00",
+   "first_seen": "2026-11-03T22:29+09:00",
+   "lang": "en",
+   "area": "overseas",
+   "summary_tries": 1
   },
   {
    "title": "It will take more than data to improve traceability in the cotton supply chain",
@@ -4913,6 +5235,38 @@
    "summary_v": 2
   },
   {
+   "title": "Smart farming is already proving profitable in some regions, global analysis finds",
+   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBBa2xZaUlFX2FaUzFXTzRCV3QxX1FTT21Dam8wbEJabTFmZTVCU2RrRG4td3JIY1FyMXl6ZVpkT0xIQ1ZjcGx4TlhqUEVURGtXZnRIYUZ1NDU5dHBvaTgzS0ZMZkRieTRhUFdRbk5pQzUtM003dGhoejZ3OXV5MEk?oc=5",
+   "publisher": "Phys.org",
+   "via": "Google News \"smart farming\"",
+   "region": "world",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-10-19T16:00+09:00",
+   "first_seen": "2026-11-03T22:29+09:00",
+   "lang": "en",
+   "area": "overseas",
+   "summary_tries": 1
+  },
+  {
+   "title": "Robots and AI could make smart farming profitable on 75% of global cropland: Study",
+   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPV2hPUVN2WWY2Ui1HZWRQc09XMVJTSGx4a2piTjZ2MFpIVzNZZG53b2RuX3ZVLTlmOHJQSW9HWGVTa3lPTzlxQTBhbmpqN0phTXlzM1BLZS04V240SlNvWTJaNC1tc3dVTVY0MzZDTEN4OFhGRFZPX25GTXFKbUVENUdjNXB3VTZ3bmNTUzJlQm1jSFNwV2RLQVozQUxJU1R2TGEtcjZZR0V0NGVRMUtMV0lhdEhFRWpybGNN?oc=5",
+   "publisher": "Daily News Egypt",
+   "via": "Google News \"smart farming\"",
+   "region": "world",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-10-19T16:00+09:00",
+   "first_seen": "2026-11-03T22:29+09:00",
+   "lang": "en",
+   "area": "overseas",
+   "summary_tries": 1
+  },
+  {
    "title": "New hoeing robot benefits from growers’ critical eye",
    "link": "https://www.futurefarming.com/smart-farming/new-hoeing-robot-benefits-from-growers-critical-eye/",
    "publisher": "Future Farming",
@@ -4981,6 +5335,22 @@
    "area": "japan",
    "summary": "農業を舞台に、AI時代の仕事に挑戦する学生インターンを募集する。",
    "summary_v": 2
+  },
+  {
+   "title": "Future Food-AgTech Festival 2026",
+   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQOHVkb1lIWkFHYW5RbEo0X2FPaTdPUHBRc2xvWlh4WGRlWEltVERoTkhRMFVKZ2ltcXduVEIza2VZN052VjFIOGk4cDBvZVA5WldVOE0yVFhHTHdNR0t6QWZyTWlwUm1LUmhqUF90WDNGR3JvXzJwTjVkZG55VGdzRVkwYTNZalBPT0J1cC1GZDlNY1BvRGpmVEE1ZmdCZmVkQnBERWVLLXVvOGdwaFl2ek5hZHgxQU02VWdMNg?oc=5",
+   "publisher": "Food and Agriculture Organization",
+   "via": "Google News \"smart farming\"",
+   "region": "world",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-10-18T16:00+09:00",
+   "first_seen": "2026-11-03T22:29+09:00",
+   "lang": "en",
+   "area": "overseas",
+   "summary_tries": 1
   },
   {
    "title": "「スマート農業」体験 島原農高で出前講座 自動運転トラクターも ロボット、先端技術…活用 ／長崎",
@@ -5535,6 +5905,22 @@
    "summary_v": 2
   },
   {
+   "title": "Swedish agtech company raises €5 million to bring climate-resilient wheat to market",
+   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNeXMwMDVmMEo5cnUydFpnZEEtWWRYcDNVNUxkQnlheDVKR1pQX0NFNjVBN0Y0c3BzYlh4cGRQd1l1eTEtOFRTT3h6OEt0ckZiYWxNa2FwbGdRX2Yzb3VObFJWdDA1czEyMUNZdm1vM0N2S0dHb0F1OXpIdlYxX1VyVFJGaldyZGF6aGpiUzY0OTRZXzBwRjVCLUt4YTBFTzd2OXJ4VnppdVhPZ3VuWG8welhwMlljMVJY?oc=5",
+   "publisher": "BeBeez International",
+   "via": "Google News \"smart farming\"",
+   "region": "world",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-10-14T16:00+09:00",
+   "first_seen": "2026-11-03T22:29+09:00",
+   "lang": "en",
+   "area": "overseas",
+   "summary_tries": 1
+  },
+  {
    "title": "OlsAro raises $5.5m seed round as salt-tolerant wheat nears market",
    "link": "https://agfundernews.com/olsaro-raises-5-5m-seed-round-as-salt-tolerant-wheat-nears-market",
    "publisher": "AgFunderNews",
@@ -5552,6 +5938,38 @@
    "title_ja": "OlsAro、耐塩性小麦の市場投入が近づく中で550万ドルのシード資金を調達",
    "summary_en": "OlsAro raised $5.5m, and its salt-tolerant wheat is nearing the market.",
    "summary_v": 2
+  },
+  {
+   "title": "Terminus Capital takes majority stake in AgTech firm PickTrace",
+   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPTDhTUjJfRVliLVZXYlZ0QzNIczhJdmhDNkwwXzVjb0ZvallkTWdicGlzcmNGY2dGb2RaY3BGWVpUWDJjZmpaLW5hZWZYalVpVkJNTldWdnlrVHZUOW1wMll5Zy1JUTZPNXJWWl9NSFJtVHpwUWhJVGhKSXFQT080UUdUakZIZF9VOWlmNXRkM0gtRmZfTkJkR0U2dDE?oc=5",
+   "publisher": "Dealroom",
+   "via": "Google News \"smart farming\"",
+   "region": "world",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-10-14T13:52+09:00",
+   "first_seen": "2026-11-03T22:29+09:00",
+   "lang": "en",
+   "area": "overseas",
+   "summary_tries": 1
+  },
+  {
+   "title": "10 AgTech Software Development Solutions Transforming Farm Operations in 2026",
+   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPbnltMGFMOGdDc2dyNDVxbkNDSXBtN1k4XzZrdGNCeUFjRzdudFJTM085OW1ySHQyUElZNE9FNmVsN29ZN0dISFJwa3hLUGgxeE5NSlZKMnlSWGtfMVNEMXZZWlV3bmtvdWtIaTQ0WkhEZWcxdlNNMUdQNVdIdUNUSTk1alZaT2s1Xzd4UGdYaUx1Uy04RjdocGtDdkZTTGpJZ2dVSkdqc0J5ZkFfemc?oc=5",
+   "publisher": "Morning Ag Clips",
+   "via": "Google News \"smart farming\"",
+   "region": "world",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-10-14T11:02+09:00",
+   "first_seen": "2026-11-03T22:29+09:00",
+   "lang": "en",
+   "area": "overseas",
+   "summary_tries": 1
   },
   {
    "title": "Switch Bio partners with Bayer to advance ‘switchable’ tech for biofertilizers",
@@ -5825,6 +6243,22 @@
    "area": "japan",
    "summary": "野球一筋だった人が酪農の道に進み、脱脂粉乳を使った衣料づくりに挑戦する様子を伝える。",
    "summary_v": 2
+  },
+  {
+   "title": "North Dakota AgTech Engine launches $50K startup seed fund",
+   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQLUFUbk83bEhRNDNFMl82Tlg3bS1RYU5UWEF6YUtrWk1uUWdQekd6ZUpWcVJQdnVFUXI4cVc2VTFZNXVNVGwzTjA3QUNaYTNuaVktUDFaSkxuQVpyUkhrdW1kV04yWEtxbUxhQUxfMFlYckstdlRxN3l1alZzNnBQWGwzcURsS05XY1ctN2lES2h3dnRiQUpvclN3Y0I3SDg?oc=5",
+   "publisher": "Technical.ly",
+   "via": "Google News \"smart farming\"",
+   "region": "world",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-10-10T16:00+09:00",
+   "first_seen": "2026-11-03T22:29+09:00",
+   "lang": "en",
+   "area": "overseas",
+   "summary_tries": 1
   },
   {
    "title": "中国開発の農業AIエージェントがケニアで実用化 小規模農家の収入増を後押し",
@@ -6161,6 +6595,38 @@
    "summary_v": 2
   },
   {
+   "title": "Greenhouse, Agtech Trailers will Bring UC Merced Research to the Community",
+   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQSW5tR0JKVjUtQldLX0xpLUduYW92Q2ZwSkNoUDgzRlF6QWEyMGIxQ1lLcVRYUTlTX2lhT1pIaTNNMlBwdXNXbS1CTFBiX1lNSTBiVVBYbDZ3V1ZVaEw0VjFoUS16VUg3bWV1VllqNlQ1cXpJc3gyVnVTSV9iYnRQV21IOTV1NWdrLTZ0VVBRM3o3Y1hicUQ5aGFGY3hQVFBFQVBmXw?oc=5",
+   "publisher": "UC Merced",
+   "via": "Google News \"smart farming\"",
+   "region": "world",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-10-08T16:00+09:00",
+   "first_seen": "2026-11-03T22:29+09:00",
+   "lang": "en",
+   "area": "overseas",
+   "summary_tries": 1
+  },
+  {
+   "title": "China to foster 10,000 ‘high-potential’ agtech firms in drive towards self-reliance in farm science",
+   "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNUmpheUp6VmtpOGJmMHc0MjZWWXdjRVpfMEl1dktNN2xMTlItMEJLazhfeDZ4a3R0MXVfQ1NMYmNaWUw3Y19OdFR0cC1yR3VJa2xVNHRoSHZ4bnFwQm9weEd6NnhzX0otdi1DUjZ6X3hCYW1ZVjlJTzdqUEFhMmFpRmU5aVlUUVJmUXRpMlhWUHJtVzNWaUNScTlTaTQ1c2o5TktlcmtRbjM1Z0FSVi1WcnFOZGs2SFc5UFlNR2daN1NCZVdEMlRXVjROdi1UVEU1dVRHTld2V1c3c0dp?oc=5",
+   "publisher": "FeedNavigator.com",
+   "via": "Google News \"smart farming\"",
+   "region": "world",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-10-08T16:00+09:00",
+   "first_seen": "2026-11-03T22:29+09:00",
+   "lang": "en",
+   "area": "overseas",
+   "summary_tries": 1
+  },
+  {
    "title": "Vermeer Bale Hawk collects 257 bales in 24-hour test",
    "link": "https://www.futurefarming.com/tech-in-focus/autonomous-semiauto-steering/autonomous-vehicles/vermeer-bale-hawk-collects-257-bales-in-24-hour-test/",
    "publisher": "Future Farming",
@@ -6214,6 +6680,22 @@
    "area": "japan",
    "summary": "JAレーク滋賀が高島市の農地で、除草剤を組み合わせて畦畔の雑草を管理する「Ｃ―ＤＺ作戦」の実証試験に取り組んだ。",
    "summary_v": 2
+  },
+  {
+   "title": "Grand Farm lands $5M federal grant for year-round indoor AgTech test track",
+   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOb241R01lSzQxa1o5ck5IYVJ2dnQzQlJMOGpCbTFCQmxJNGRnMnZVbHFqSWJkc2VpVW94WW1lTld3aU1sQmN3SXktRll6enJCLUZOa2lrak5sSF9SZmh3SHItdHJlTnVSclRwbFFFQXo2U0NwbVRsNzgzQ2RseVRRUTRWcERfT1Q5b0NoUFRZUnd1V0h5VWE0LVE2d1prOVdzaUNmYzVZOVoxenM?oc=5",
+   "publisher": "Dealroom",
+   "via": "Google News \"smart farming\"",
+   "region": "world",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-10-08T00:31+09:00",
+   "first_seen": "2026-11-03T22:29+09:00",
+   "lang": "en",
+   "area": "overseas",
+   "summary_tries": 1
   },
   {
    "title": "Twiga’s demise underscores the need for new financing models in African agrifoodtech",
@@ -6490,6 +6972,38 @@
    "summary_v": 2
   },
   {
+   "title": "Q3 2026 Agtech VC First Look",
+   "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9ac0EtSnV5TGhGUGd3Z00wN3hJeWJsZWNQekRaRlVzcVRLUi1YbVRLTWRNcWc1TlpkYjYzX1Q3UHctVTFyOVhTOHI2bmdZV1ZKandzRzAyNktPNE1kU2hTcWM4OThJOEVfUkZGWE0zRHo?oc=5",
+   "publisher": "PitchBook",
+   "via": "Google News \"smart farming\"",
+   "region": "world",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-10-06T16:00+09:00",
+   "first_seen": "2026-11-03T22:29+09:00",
+   "lang": "en",
+   "area": "overseas",
+   "summary_tries": 1
+  },
+  {
+   "title": "Seed funding for ag technology available through AgTech Engine",
+   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQWno1N1lydmxRdjYtcUpjNGZPZ19mTjY2Zm0xOGRtTTgyczZwRUEyRGpmQmFKeXh4Q2luMUtJZHlST1gwUU4zX0xDQzZtNi1VbkYtM2czM0t6TFI2Z3RsSEpNOHFuOExseG96Y0NGcGNXSEZ0eV9fZEIzTUl4OXFUY1hxaF9OdWpWZ2g2d1NtSm05RHFBQ3NoZktEQjFGb28?oc=5",
+   "publisher": "Agweek",
+   "via": "Google News \"smart farming\"",
+   "region": "world",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-10-06T16:00+09:00",
+   "first_seen": "2026-11-03T22:29+09:00",
+   "lang": "en",
+   "area": "overseas",
+   "summary_tries": 1
+  },
+  {
    "title": "経営改善の視点からスマート農業を提案",
    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE0xRmxnd0VvX3NBcGM1TEg3dzg4TjVvUVRlQjJRTXkzVU9OQUdfRm9TQ2duLVVxVndrUEdqQ2diMHNUSGx2R00zSzBkUXdvZVdLQ0NYdmdEM2JLUQ?oc=5",
    "publisher": "ＪＡ全農ウィークリー",
@@ -6543,6 +7057,70 @@
    "title_ja": "Resurrect Bio、植物本来の防御を呼び覚ます「個別化医療のように非常にピンポイント」",
    "summary_en": "Resurrect Bio uses a new, chemical-free way to help crops fight back against diseases.",
    "summary_v": 2
+  },
+  {
+   "title": "Grand Farm awarded $5M for indoor AgTech test track",
+   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPRUk1d2lRdDJZWlVsdEctSjRYd0docTBudk9ldVJPbEdJWEs0RTVFWHJSN19xWUQ5NjNtT3RGSnVlT0F5dDlIbkp3Z09kaDFWZ21vbXFpUHROQ0FRelhpM3VKOXM0a1g0NUdVYlRvOWpTVmFRLTY5M3RyZXlfbnVxTmFxS2ZlcUxLamNXc2plMzVWSkHSAacBQVVfeXFMTW5tZ3JaUktGWFhfcWVLVVotdDhKZF9HOGtQbjZabFo4bzZ6T3dULUZTQ2RQcF9CX1FMM2FqRlZVQkpSeUhpOHR4cnRTNGxCUmhVTFlrQ0NUcHZLTUFMZnlFUTVPMHNGVFRYRVZQOWRjSVp3bEdIcFFQLUxoTjlCUlE3ZkRTQVpkenR6Z050SE52NkREQ2s1eGQ3cm04UHl4RzZNaldFT0k?oc=5",
+   "publisher": "Valley News Live",
+   "via": "Google News \"smart farming\"",
+   "region": "world",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-10-05T16:00+09:00",
+   "first_seen": "2026-11-03T22:29+09:00",
+   "lang": "en",
+   "area": "overseas",
+   "summary_tries": 1
+  },
+  {
+   "title": "Grand Farm receives $5 million for AgTech campus expansion",
+   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNVnc5dEY5S1YzZjMza29YNXBJV0s3d2lKZHdQV3dFSVdJc1Q3RXlRbXZ5MHBicnViNXFpSGFzczBxSFg5Yzd6ZTZSNGVXSEdWYlZVTHhuRF9YWTRYOXkwdnZSdElRakdaWnE2WDdSU0tjeS15R0xHYVJFeVJmTG13MHVZMHkxQzg4ZzUtc3UtSF9WQkJxaUxCUVdLa2hleEYzQ3RGMGxn?oc=5",
+   "publisher": "WDAY Radio",
+   "via": "Google News \"smart farming\"",
+   "region": "world",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-10-05T16:00+09:00",
+   "first_seen": "2026-11-03T22:29+09:00",
+   "lang": "en",
+   "area": "overseas",
+   "summary_tries": 1
+  },
+  {
+   "title": "AgTech appeals Arizona State Land Department decision to terminate land leases in Yuma County",
+   "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOeU1vWUVEX0lwTERyLXRwNzFQZ0lNbHMxb1dpbFpxd1dfUkh5Q3BPRWpCSjkwVGNqemQ2X21scEpkLVoxRHRrV0pSUE1TNlczTXZtSVRIU2l0dXdod3ZZbkRma2FucG93dFhDOE5EUzhkSTRSeUpnWmRMSmswekpmSVE5N0tUenA5bkY2RDNBLWF6eVNyYjlhWmVmNWZSNmdhb3pCV2xMRlk2TkFTS0YyM0FUY0F4Zl9PcTJpdjBxZXJWdElPZDFHcUo4Vk5UUGs?oc=5",
+   "publisher": "KJZZ",
+   "via": "Google News \"smart farming\"",
+   "region": "world",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-10-05T16:00+09:00",
+   "first_seen": "2026-11-03T22:29+09:00",
+   "lang": "en",
+   "area": "overseas",
+   "summary_tries": 1
+  },
+  {
+   "title": "Climate-smart farming armed with fresh data",
+   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOeEEteFdNRUVXYXFpZlpMN0NMV2xLUWlhSU5WQktSUzBkYVFNc0xFYzQ4MldvNEItY0hJNks2d0ZkdC1fSkZ6V3l6TF9oa0toVjlFMVp0aWhhY2ViOGJTY3hDVHlyXzA1RjdSU2tHTkRIQTNFMFhYX3VSQVhZdm1xWThrV2t3eTB0emFjYzhYNUpQX0dfMXBCYjRXRVg2SmNIamI4?oc=5",
+   "publisher": "Minot Daily News",
+   "via": "Google News \"smart farming\"",
+   "region": "world",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-10-05T16:00+09:00",
+   "first_seen": "2026-11-03T22:29+09:00",
+   "lang": "en",
+   "area": "overseas",
+   "summary_tries": 1
   },
   {
    "title": "Can second-hand robots make autonomous farming affordable for smaller growers?",
