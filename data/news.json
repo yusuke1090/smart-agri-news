@@ -1,0 +1,2122 @@
+{
+ "updated": "2026-11-03T22:00+09:00",
+ "sources": [
+  {
+   "name": "日本農業新聞",
+   "ok": true,
+   "count": 27
+  },
+  {
+   "name": "マイナビ農業",
+   "ok": true,
+   "count": 4
+  },
+  {
+   "name": "AGRI JOURNAL",
+   "ok": true,
+   "count": 5
+  },
+  {
+   "name": "農林水産省 報道発表",
+   "ok": true,
+   "count": 3
+  },
+  {
+   "name": "農畜産業振興機構（ALIC）",
+   "ok": true,
+   "count": 10
+  },
+  {
+   "name": "IoT NEWS",
+   "ok": true,
+   "count": 1
+  },
+  {
+   "name": "MONOist",
+   "ok": true,
+   "count": 0
+  },
+  {
+   "name": "ITmedia",
+   "ok": true,
+   "count": 0
+  },
+  {
+   "name": "日刊工業新聞",
+   "ok": true,
+   "count": 2
+  },
+  {
+   "name": "Google ニュース「スマート農業」",
+   "ok": true,
+   "count": 100
+  },
+  {
+   "name": "Google ニュース「スマート畜産」",
+   "ok": true,
+   "count": 34
+  },
+  {
+   "name": "Google ニュース「酪農」",
+   "ok": true,
+   "count": 100
+  },
+  {
+   "name": "Google ニュース「畜産 IoT」",
+   "ok": true,
+   "count": 12
+  },
+  {
+   "name": "Google ニュース「農業 IoT」",
+   "ok": true,
+   "count": 100
+  },
+  {
+   "name": "Google ニュース「農業 AI」",
+   "ok": true,
+   "count": 100
+  }
+ ],
+ "items": [
+  {
+   "title": "中国の生乳価格が53カ月ぶりにプラス転換 乳業各社の業績格差拡大、深加工が新たな主戦場に",
+   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE80RElZSFQ0aS1tbzJ3b2lFNlNRdzhYcy1JZUNXdVBsWm5faDF4eFhMbmNtdXF5UndDUkt4cW1UQ0FhdnV6bWdRcjV6Tkk1QjhESS1VbXRIU0o3eTBNN25ORTVLSXpxU2otazEtbHJxb3pkS0k0?oc=5",
+   "publisher": "BigGo ファイナンス",
+   "via": "Google ニュース「酪農」",
+   "snippet": "",
+   "cats": [
+    "dairy",
+    "policy"
+   ],
+   "published": "2026-11-03T16:05+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "児童に「スマート農業」実演 トラクターやコンバイン自動運転 赤磐で中四国クボタとファーム安井",
+   "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBvX0FMV3FRbUJOcWJ0VnBBY2xjV0dndjFTcHBtT2JQQkk1RlhPTnpfNUE2cTFtTGliaDVmQTRzMUZPcW15dDJ3R2kwNXA2ZDhjQ3c?oc=5",
+   "publisher": "山陽新聞",
+   "via": "Google ニュース「スマート農業」",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-11-03T14:49+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "生物学的安全性を確保した畜産は、疾病発生のリスクを低減する。",
+   "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPTlBveHRBcmVsMDVnRkZoVWQ0Tm1hZm5nblNFbWV1T1lNVmRDYzltTzJKcXc0bmhVMm1tTWpOSWJ6QnU2MmRLR09zWkhUZ3A2SXJMOTZnck9tWTBFaG44aUh6Qk9yTXFEWVM3LUd0Q1doVTVUS0FGMmRqUFE0VF96VUlmbw?oc=5",
+   "publisher": "Vietnam.vn",
+   "via": "Google ニュース「酪農」",
+   "snippet": "",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-11-03T13:17+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "【参加無料】農家の現場課題に、学生が生成AIで挑む！「Metagri Student Challenge 2026」応募受付を開始",
+   "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9mRUd4R1Izd1p6RVJaMGdldlhHR0hmMkloU25Sa2ZrUkJHa0RyeTRDMHczR05ZTmdzNXNpTloxWU5hbzRfQXU5VVRWay1RamVtdmJQOW0zMkdNZWRvWVhwNEtZV0x0bVNCTGc?oc=5",
+   "publisher": "PR TIMES",
+   "via": "Google ニュース「農業 AI」",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-11-03T11:25+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "日本チーズ協会の設立に尽力 「チーズ作りを通じて酪農を盛り上げる」 旭日単光章 山田保高さん",
+   "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE01M2lrYkpmY2lHXzR0VXFkRTkwSUl5Y2lLYUM1N2d1ZW8wV2E2c1V4eWF0by16S3dxSHNzUEtCTE9VRlM5SzRoWlVLWnM0THU1YTJiMnU3X1Q?oc=5",
+   "publisher": "京都新聞デジタル",
+   "via": "Google ニュース「酪農」",
+   "snippet": "",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-11-03T06:15+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "チーズの祭典「チーズフェスタ2026」にてニュージーランドの大自然から生まれるグラスフェッドチーズの魅力を紹介！",
+   "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE41QW1KZ2JqaUktUFFXNjd0Q2tkWHpmUFJraUp3eG4wT0t0dEpRaGhIek0yS0xvQmJWWjRDWG9yN08wRG5pUXJTbTYySFNmVnZmc3A4czNqdXlGZVNoZ1NQeEZjVXJCWWRw?oc=5",
+   "publisher": "ニコニコニュース",
+   "via": "Google ニュース「酪農」",
+   "snippet": "",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-11-03T06:15+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "高品種の乳牛生産に尽力、高レベルの酪農経営モデルも確立 旭日単光章 野村拓也さん",
+   "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9rWHp5UG1IMl96TEd2b2l0aW9VYjZGY0loZF96Um5ZZ0ZzZlVIbWxMRDdBN1RhX2ExaTYwOFFnWDJyNVB1MlJscHNPT1lCcnpzZU05SDhPaW8?oc=5",
+   "publisher": "京都新聞デジタル",
+   "via": "Google ニュース「酪農」",
+   "snippet": "",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-11-03T06:10+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "スマート畜産普及へ方針案 導入効果など情報提供重視 農水省検討会",
+   "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE8xMTB0dTVpV1hIdUtGeHZBLUpEVHF6Z3ZLaWVuNnFwU1J0M0xjM2JuVnMxbHJjekpILWxUd0Y5eFV4eVk5eG9hUUliZ0Nmem42a0N0bllidw?oc=5",
+   "publisher": "日本農業新聞",
+   "via": "Google ニュース「スマート畜産」",
+   "snippet": "",
+   "cats": [
+    "dairy",
+    "smart",
+    "policy"
+   ],
+   "published": "2026-11-03T05:03+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "三協リール、ビニールハウス開閉機 上下操作で換気",
+   "link": "https://www.nikkan.co.jp/articles/view/796003",
+   "publisher": "日刊工業新聞",
+   "via": "日刊工業新聞",
+   "snippet": "",
+   "cats": [
+    "iot"
+   ],
+   "published": "2026-11-03T05:00+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "三共木工、農作物を素早く選別 皿に載せて仕分け",
+   "link": "https://www.nikkan.co.jp/articles/view/796041",
+   "publisher": "日刊工業新聞",
+   "via": "日刊工業新聞",
+   "snippet": "",
+   "cats": [
+    "iot"
+   ],
+   "published": "2026-11-03T05:00+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "秋の勲章、元日本ホル協会長の前田勉氏ら受章",
+   "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9xV3NtRmFQaGplNHBhcHZKU2NldnFqN3NFTi1GOW5pYTFqdElZTy11Nkx3Y1VCTk5wTjBraHJLM0R6UXFOTDVrT1lPVDM?oc=5",
+   "publisher": "酪農乳業速報",
+   "via": "Google ニュース「酪農」",
+   "snippet": "",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-11-03T05:00+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "「アグリビジネス創出フェア2026」、11月11日～13日に東京ビッグサイトで開催",
+   "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1iUk9mM1JPUlVVLVY4STI2MU9HdDU4U0NHN1k3Nkduc0Ita2J0dDZDWXUyZTJDUWhKcnpTSzVNX0pKTlFlTEotY2plaw?oc=5",
+   "publisher": "農業とITの未来メディア",
+   "via": "Google ニュース「スマート農業」",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-11-03T02:00+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "酪農を学ぶ出前授業 小学校で乳搾り体験 埼玉 春日部",
+   "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1PY054dG95Sk1vNC1uMEJhNUctQjBTVXFsbWpIV0d6cFJSX2VabXk5M3dDQ2dORmVmdklGSUEyMGRnMUhaOE5yZjQ0Nk5FYVV3UFVoN1B4eXBhYmJrRG9r?oc=5",
+   "publisher": "NHKニュース",
+   "via": "Google ニュース「酪農」",
+   "snippet": "",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-11-02T19:11+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "酪政連が武部大臣を表敬訪問、需給対策求める",
+   "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9lODU3MFg0Umhmenk1MjdPdi1scWZzUksyQmp6ODFGTjUtbmJBRDRsUUQxUHVyZ0hMMEFVZ2plTnBFbDlDY045Ukl6RHc?oc=5",
+   "publisher": "酪農乳業速報",
+   "via": "Google ニュース「酪農」",
+   "snippet": "",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-11-02T16:59+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "新規就農へ、全酪アカデミーが入職式を開催",
+   "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBXZzF2OFBaY3E5N2h0NnNJUkVWcXV2cjhHMlI2TlBvV3JKZ1RBeXE0eEg1WFc0Zmx0ak8yUGFQVTVMN3Q3UmJRUlFvdzc?oc=5",
+   "publisher": "酪農乳業速報",
+   "via": "Google ニュース「酪農」",
+   "snippet": "",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-11-02T16:56+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "韓国でLSD多発、改めて衛生管理の徹底を",
+   "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1ZZnlsR3czbDJ4ek1FVXNaQWdhNVhXZnA1cE5sRzBTUlRxdlRzb0Q4SmxNZjlFbXpEeTNmRlJNRWRFRTZiYnljT2R5MkE?oc=5",
+   "publisher": "酪農乳業速報",
+   "via": "Google ニュース「酪農」",
+   "snippet": "",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-11-02T16:02+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "「観察徹底とハエの越冬阻止を」LSDで本川組合長",
+   "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE45X1NFeEFfeko1UVZGUTFGREpjVW1hZHF6YXR2T18zZV9VU05wSW93Xzdpdm1VNU51ZThsS1UyWmRxN0ptcm05R2k2eWM?oc=5",
+   "publisher": "酪農乳業速報",
+   "via": "Google ニュース「酪農」",
+   "snippet": "",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-11-02T16:00+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "牛乳料理コン金賞に標津高校の二平優李さん",
+   "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9Udl9nczBaYU9QX3NkUVdwMmtGTnZZWGNHbk9UZmI5SnBJVEhROXQwemdLQUpnUVE3WDVmajc5RG0tSDY4NDVKSldOXzM?oc=5",
+   "publisher": "酪農乳業速報",
+   "via": "Google ニュース「酪農」",
+   "snippet": "",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-11-02T16:00+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "福岡でランピースキン病発生、牛1頭を殺処分",
+   "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5tb1VnaHNjeVlqR0lGRmEzalN1eUdCM1NybE5TYjhUOHdFMXMzalpFczg3aWljWUQ3RGFNTFBVbFhsMVR5bTVDU1JTN18?oc=5",
+   "publisher": "酪農乳業速報",
+   "via": "Google ニュース「酪農」",
+   "snippet": "",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-11-02T16:00+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "AZx、現場の盗難被害を防ぐAI検知と自動警告を備えた防犯カメラ2種を発表",
+   "link": "https://iotnews.jp/ai/276402/",
+   "publisher": "IoT NEWS",
+   "via": "IoT NEWS",
+   "snippet": "近年、全国の建設・土木現場における金属資材や重機の盗難、収穫期を迎えた高級果樹の盗難が頻発し、深刻な社会問題となっている。 多くの現場は「コンセントやネット回線がない」「夜間の見回りが困難」という共通の悩みを抱えており、…",
+   "cats": [
+    "smart",
+    "iot"
+   ],
+   "published": "2026-11-02T15:56+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "牛の「げっぷ」に着目 新開発のエサが温暖化防ぐ？ 生産性向上にも期待 香川・東かがわ市",
+   "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBzaThDSjFTX1IzOUczQmlxNUtRdWc4RFRmUlBEaVNrem1zWHhSc3dqdEdmeDBZUzFBeFJJcmxFNjZFck1CdEY5YW5oT3lfZ29Y?oc=5",
+   "publisher": "KSBニュース",
+   "via": "Google ニュース「酪農」",
+   "snippet": "",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-11-02T15:31+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "「北陸みらい農業フォーラム2026」に出展 プレゼンテーションにも参加 フェイガー",
+   "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE53dWZUY29tcmtiVjdvVkpyOGhsSmw1MWc1Q29YaXNYNU90alRfNVFFbHpOZVJKOXIyX0ZLLVpyYkxiSGZxTlZHbk44SkhpVXdobktfclA2NVE2RFlJd2RkQWVoRlo?oc=5",
+   "publisher": "JAcom 農業協同組合新聞",
+   "via": "Google ニュース「スマート農業」",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-11-02T14:13+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "子牛への哺乳 小学生ドキドキ 新冠町教委が「酪農体験会」",
+   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1EZDlVZEpDb1RsSzdLQm1ndFJNdEVnd0tNTDAzOWh2OHgweXQ3RjNyZ3FZd2ZGWS1sdDFrR1N0T3hGcmhhMmZYd1g3dmVBMjh6c0pNTmxhTkc4QQ?oc=5",
+   "publisher": "北海道新聞デジタル",
+   "via": "Google ニュース「酪農」",
+   "snippet": "",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-11-02T13:23+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "【牛乳コスト指標】コスト上昇で前年比106に 価格交渉どう影響？",
+   "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9Pa3FkR09URmpxc0tEVzh3ZDNCSGlSb09DYmE3QlhOaERaODc1UXc4ZnNLNkhXN2o5SEkteGtEMjEzVkpTcWM1YmJZZThLNy0zWjNJemlvcnNRMGRFMXVfMWV1cjA?oc=5",
+   "publisher": "JAcom 農業協同組合新聞",
+   "via": "Google ニュース「酪農」",
+   "snippet": "",
+   "cats": [
+    "dairy",
+    "policy"
+   ],
+   "published": "2026-11-02T13:15+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "JA新はこだて酪農生産部会が遺愛女子高等学校で牛乳を配布～牛乳消費拡大と酪農への理解促進をPR～",
+   "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1jaktfOUpyTTRlQTJtdUhPUTZtZjFqWE01ck9YanlxR0d1U0c3bE1nekQ1RkVWRS1KRWxEZ25UQ3N0enFxbDhpN2VnbmpPSFhRS1F0NE1fZzNWX2gyMVo5Q3dnQ3BYX0NoLVJNZHdRbTZDOTBkaFlKRA?oc=5",
+   "publisher": "農林水産省",
+   "via": "Google ニュース「酪農」",
+   "snippet": "",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-11-02T12:08+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "TYMがセマングムで農業向けフィジカルAI育成提言",
+   "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPZ1B6SERsOTNFR1pXcTNYTnROSmN4TEJkX2xqajRSc0pZVFFxQmUzMnhFdUZlMzNXSmZIREhjb1NINmh1dzQzcnlJWU1Cb0V6bHU2OUFUZk1QR3JGOHN2c2VzbXNodUREZjNMd3luenlWXzJyLVZjTTBDNk1INXpJY1h3?oc=5",
+   "publisher": "Chosunbiz",
+   "via": "Google ニュース「農業 AI」",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-11-02T10:32+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "AIが農家の右腕になる2036年を、映像に。動画生成AIコンテスト「AGRI VISION 2036」開催決定",
+   "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9qTEZpQURseGZGT2RQbzJLX0N3UkxGWDcxeXFMYXBYR280am95c0k5MVNNc2NwVm16WmszRkdWYXRWSDBWaFZIX1dYZlRpV0REaEVWdFJkdFhtNXhTYlJRTDJwY1RxQXhySjVFMXZNMTdQRTJhS0JnRVhmYw?oc=5",
+   "publisher": "ニコニコニュース",
+   "via": "Google ニュース「農業 AI」",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-11-02T10:21+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "武部農相 11月2日記者会見「肥料価格が前年比2割以上高騰、国内資源への転換や適正施肥を進めていく」",
+   "link": "https://agrijournal.jp/aj-market/96335/",
+   "publisher": "AGRI JOURNAL",
+   "via": "AGRI JOURNAL",
+   "snippet": "武部農林水産大臣は11月2日の記者会見で、令和9年春用肥料の卸売価格が前年比21.1パーセントの値上げとなったことについて、「国際情勢に影響を受けにくい家畜の糞尿や下水汚泥など国内資源を活用した肥料への転換を進めるほか、…",
+   "cats": [
+    "dairy",
+    "policy"
+   ],
+   "published": "2026-11-02T09:50+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "日本農業アナリティクス市場：AI主導型農業、精密農業、スマートファームデータソリューションにおけるビジネス機会",
+   "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1XbS13cFdNNENDVTZHNG1aNERfUHhhR3B1VG1lMFVoTXVMZm9xbGpveUNVTmpzZ3dvc3ZTZ25NSFFoNkE4MC1hNTU4clFXMUp5cklF?oc=5",
+   "publisher": "ドリームニュース",
+   "via": "Google ニュース「スマート農業」",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-11-02T09:30+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "JA道東あさひ オリジナル牛乳販路拡大 東京や大阪でも（日本農業新聞）",
+   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9KU2Q0UVJTSXFqUzM3cVNZXzFzTlJTLXFUZk1FMEFlTTZKVExJSmVyYkxQN3dVbDdjYTF5dmxrbnJpWEFLOGJhczVsZXFZMEp2ZkdtTXRmM3RTUnJUaHpqVnRKb29FTGs0Wks0MFRTTnVMb3dOSWZkTThhaDk2V3M?oc=5",
+   "publisher": "Yahoo!ニュース",
+   "via": "Google ニュース「酪農」",
+   "snippet": "",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-11-02T09:30+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "【岡山】2026年11月3日「文化の日」開催の無料イベント6選 フェア＆マルシェ＆秋祭り",
+   "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1JZUZ2dFBiUHN1bnFRamNnM1ZDWHRSeVhqNnBfbGd6Qk95ZWgzbmczZW9RQTZMXzlDbXJJcG9oaW0xYnlRRENKbGRKQmZYQWRtTkE?oc=5",
+   "publisher": "いこーよニュース",
+   "via": "Google ニュース「酪農」",
+   "snippet": "",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-11-02T06:05+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "【岐路に立つコメ】第４部 新農法（５）スマート農業 収量増、コスト減を実現",
+   "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1NWmtWRGVBV3dwUWxHVElFbzhjMXdyN3VaOEh5QndBcVo4bTRnRTZkSXJ3d1hFSUQ4S1BoTUJZamVMdHp3WjZ4d0tPU25vUWhsc2c?oc=5",
+   "publisher": "山陽新聞",
+   "via": "Google ニュース「スマート農業」",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-11-01T16:00+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "最新の農業機器２５００台展示、ＡＩ活用も 秋田県農業機械化ショー開幕【種苗交換会】",
+   "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1yYnhrT2t6dGlVQ1BfWmFqMHVsZ0NkMlNZalJmSFlLcHctbXpfSWx4a1dTYWhpQmhXLXpyU0VqRk5ESUltRUdSZVdJaVVOUVNhbUVpZEJ2OEZIQXZyRU05VWxB?oc=5",
+   "publisher": "秋田魁新報電子版",
+   "via": "Google ニュース「農業 AI」",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-11-01T10:00+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "最新の農業機器2500台展示、AI活用も 秋田県農業機械化ショー開幕",
+   "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1XVDlrRXZpaFZsZ0NYMXBZYm1lVHB0ci0zU3lLZ3IzLXJoQ0Z2SWY5RXhfSm5wWFUxWkl2YWRMMHA1ckRfbDhDSWY2ZEFJS2swaWM5RksxUTlJTnBlNlo0T2N0b3lZeWJCNGhOQ2p3?oc=5",
+   "publisher": "au Webポータル",
+   "via": "Google ニュース「農業 AI」",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-11-01T10:00+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "家畜商組合７０年、畜産農協４０年で祝賀会 １６０ 人が十勝畜産業の発展願う",
+   "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBjU2RrUENnaThxTFNzREJnY3REZWF1MlAxRDVDdndVSF9uY25zel9UcFlvOXIwV1pPcEFkU3N3MVRWWk5zcjZXVFFQU3V4NkxNa280a1BwZ0hDZjJ0cWNzc3Exck8?oc=5",
+   "publisher": "十勝毎日新聞",
+   "via": "Google ニュース「酪農」",
+   "snippet": "",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-11-01T08:28+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "チーズの副産物からジェラートを！高血圧予防ナトカリとは?！",
+   "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB0UnU3ZGFxd05mNGdYOEhKZFZhdU1LMlJSbjRXcTZhXzVsWE9wcVhqSGFLTEItV0lLb0RBSVhmdkhfa3R5NG1iYXAzWHJyNTYyWmc?oc=5",
+   "publisher": "TBSラジオ",
+   "via": "Google ニュース「酪農」",
+   "snippet": "",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-11-01T08:00+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "【マンガ】やりなおし農家はじめ君《第55話》客足や傾向をつかんで、廃棄ロスを最小限に！",
+   "link": "https://agri.mynavi.jp/2026_11_01_598109/",
+   "publisher": "マイナビ農業",
+   "via": "マイナビ農業",
+   "snippet": "安易に納品数を増やしたことで多くのロスを招いた経験をもとに、少しずつ量を増やして傾向を探ることにした主人公・はじめ。データを集めるうちに、客足が多くなるある曜日を見つけるのだった。",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-11-01T07:00+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "「清潔感のある農業ができる」AI技術導入の大型きゅうり施設が完成 気候変動や担い手不足の課題解消へ",
+   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPMW5XZWdWNWhSS21EU3hUdWFObDFrTmF6YzUxSW1zbWhWMVAyYktqY0M0TDJaN2pMNVVUeVRBdU5CUHdNUjJLR3ZsZDJzQlRLQnhIWTAtYkJ1aWI2NkR6WlBQcTN4SkZmYVFKSTcwMjdieU5jSGY2SHpVTWl2NDdydTUxa0hPSnNvSTI3Zjdn?oc=5",
+   "publisher": "Yahoo!ニュース",
+   "via": "Google ニュース「農業 AI」",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-11-01T05:00+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "わたしのふるさと便：お国トリビア 栃木県 牛乳復権に挑む酪農県",
+   "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE90VzRCLTF3WVRyaUdwcmNYNFFlMHFKOXM5Z3FISmZMSExhOXB3RGk3V3ZtTGhWaUh6N0cyaHJiM2YyMnVrS1hxbGdsSUZseUJtUGlxWThnTks5UHl4R1B0WFBlZFlHMHBq?oc=5",
+   "publisher": "毎日新聞",
+   "via": "Google ニュース「酪農」",
+   "snippet": "",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-11-01T02:00+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "AIはベトナムにおけるスマート畜産の発展への道を開く。",
+   "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPUVpFY0tvWjlPTFo4dmJ1Y2hfZVJydXVBQmpIdXVrWXJ4aHZOUlZFMU04dDNFZXkzSzJhZE1ndnBnTnk0bmkyS29HT0tWY21ySjJvcEU0Q3FwWFNQZVJtSUhBLUY3czQtUHVuUlZRNm9QemlvUEhVQ3ZlU0ZacDFjbkpZWWpYOXZXV3c?oc=5",
+   "publisher": "Vietnam.vn",
+   "via": "Google ニュース「スマート畜産」",
+   "snippet": "",
+   "cats": [
+    "dairy",
+    "smart"
+   ],
+   "published": "2026-11-01T00:58+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "【本の日・全9冊無料】NFTから生成AIまで、農業の未来を読む。Metagriシリーズを期間限定で無料提供",
+   "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5sN2RJS1RxZWVWQXFHZDVHSWk0ODRTWDF4eDlKd0ptUUxBVF8yOEVWS1JSWFM0RzJsYm1xeVI2VlF5LW5rR0lPN0k5dzB5ZEtVZW9N?oc=5",
+   "publisher": "仙台経済新聞",
+   "via": "Google ニュース「農業 AI」",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-10-31T13:48+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "日米525億円調達「オイシイファーム」が描く【“新農業”100兆円産業】の野望：ガイアの夜明け",
+   "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1HLTM4dXEyWUoyOUVYeHJBXzdXZHFvTHRMUzhqcWhwMVV3cVZRWUt5ekNNZ3JqXzNyZzlhYk5NSXkwYVV2eFh0RWJCV3FxMjRtTmNoWWllRUg2NzVCME8zNDVKZzhGaENaYmtCcVFCRnMxdw?oc=5",
+   "publisher": "テレビ東京",
+   "via": "Google ニュース「農業 AI」",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-10-31T11:24+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "11月に「第44回JA全農酪農経営体験発表会」",
+   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBKc3hTWjBBZk5HTjJMSE52RWcwQ0syUzI2TFBsdGg3Mk5lX21xdlBFZWRlSk5HLWFVTUk1VFdhRzJHc2NzeXVMeExhcDZiOE9YYjdaUlFpSVFhdw?oc=5",
+   "publisher": "ＪＡ全農ウィークリー",
+   "via": "Google ニュース「酪農」",
+   "snippet": "",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-10-31T00:05+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "現存する日本最古の西洋式酪農牧場の ジャージー牛のミルクと発酵バターが主役のスイーツ専門店 「神津牧場」が品川駅に期間限定・初上陸！",
+   "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9JUDV0UzR3T1c3ZzVJaVpYWEpWU1QtM09tSF9KdlFtT25ZX19uVk5nUFlBVkk2MlpKODg1YS1JalYxZTdrSnhaRXRBR0FFcFE?oc=5",
+   "publisher": "Newscast.jp",
+   "via": "Google ニュース「酪農」",
+   "snippet": "",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-10-30T17:45+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "飲用牛乳のコスト指標公表「活用してほしい」",
+   "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBDSTVPamVPSWx1UHJub3cxWGZpSDFveWFFTHdyeC1weExkeWpZRjZCLS14U2xMWXlRaFFPM1JLdmotZTBMUVJCR1JEdFI?oc=5",
+   "publisher": "酪農乳業速報",
+   "via": "Google ニュース「酪農」",
+   "snippet": "",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-10-30T17:16+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "処理に困る剪定枝・伐採竹をバイオ炭化＆有害鳥獣を高速分解！ 資源循環を進める環境技術【農業WEEKリポート②】",
+   "link": "https://agrijournal.jp/technology/96079/",
+   "publisher": "AGRI JOURNAL",
+   "via": "AGRI JOURNAL",
+   "snippet": "2026年10月7日（水）～9日（金）、国内最大規模の農業・畜産の総合展「第16回 農業WEEK(通称 J-AGRI TOKYO)」が、千葉市の幕張メッセで開かれた。剪定枝を手軽に炭化できるモキ製作所の「無煙炭化機」と有…",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-10-30T17:00+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "京都ピックアップコラム 松平尚也 ＡＩと食と農",
+   "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE00aXRYeTBLU3lyWFpHaVh1S3dBbTdBOHRDOE12UzU0WGthYlZFeGpKMzBVSU5TdkJkSXdQOFhQaXdmUUs0OWtha1ZWQjBNUG5tcmU0VGNVYXQ?oc=5",
+   "publisher": "京都新聞デジタル",
+   "via": "Google ニュース「農業 AI」",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-10-30T16:00+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "熱波後初の2026年需給見通し、生乳・牛肉・豚肉は前回予測を維持も、トウモロコシは大幅減産（EU）",
+   "link": "http://www.alic.go.jp/chosa-c/joho01_004451.html",
+   "publisher": "農畜産業振興機構（ALIC）",
+   "via": "農畜産業振興機構（ALIC）",
+   "snippet": "熱波後初の2026年需給見通し、生乳・牛肉・豚肉は前回予測を維持も、トウモロコシは大幅減産（EU）",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-10-30T15:00+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "野菜の輸入動向 2026年9月速報レポートを掲載しました。",
+   "link": "https://vegetan.alic.go.jp/import-export-trends/latest-2.html",
+   "publisher": "農畜産業振興機構（ALIC）",
+   "via": "農畜産業振興機構（ALIC）",
+   "snippet": "野菜の輸入動向 2026年9月速報レポートを掲載しました。",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-10-30T14:23+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "国産バニラ 試験栽培 三重リコピー、トモＨＤ スマート農業導入",
+   "link": "https://www.agrinews.co.jp/society/index/415644",
+   "publisher": "日本農業新聞",
+   "via": "日本農業新聞",
+   "snippet": "事務機器やＩＴ機器の販売・保守サービスを手がける三重リコピー（津市）と、給食・美容事業などを展開するトモＨＤ（三重県四日市市）は、国産バニラの試験栽培を進めている。センサーを使ってハウス内の温度や日照を自動管理するスマー…",
+   "cats": [
+    "smart",
+    "iot"
+   ],
+   "published": "2026-10-30T05:00+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "特集「2030年流通業界未来予想図」 ⑥ 農業／人手激減ショックを乗り越えるスマート農業の現在地／中野明正 千葉大学 園芸学研究院 教授",
+   "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5Da1BVOVQ0UFNpbXlidHl4cEFPUEJaNFgzTkhrdkphTzlhWk9MOUd3OWlfVmtfbkJXSzZiLXFiTWpFVmhmdnhaMWJYU0tYXzRZRVE?oc=5",
+   "publisher": "激流オンライン",
+   "via": "Google ニュース「スマート農業」",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-10-30T04:05+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "AI農業ロボット、実用化へ前進 御代田で自律走行・雑草抜き取りを実演",
+   "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5HZkZ6SXAzU05jU0lsNWVGbE5rc0FkVUtZbjNGeDRvMEZBQnhuSWJhOUFSWm5YVGVrdGZHZEFVNzV3X09TWVZLX0NsTENlcjdRS0pCY1FwamNaaDRZTWMxNHFPb01uX1FEbTM4?oc=5",
+   "publisher": "軽井沢ウェブ",
+   "via": "Google ニュース「農業 AI」",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-10-30T00:00+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "【参加者募集中】園芸大国とちぎスマートイノベーション研究会キックオフセミナーについて",
+   "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9vTE9TNmJWTzd3NEF3di12bi1kckVXeG5pWWYyYm92cXkzUTFWZG5BNG92R0s5SjloN1ExVzY5d1NzeWFiZ3N2cHc2bDM2aXJLdlZpVk51bDZlMEJ2YzN4QlBVbXoxSzlRazdaYnVjSmpBNXNuVmlyUm93?oc=5",
+   "publisher": "栃木県公式ホームページ",
+   "via": "Google ニュース「スマート農業」",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-10-29T21:02+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "クマ対策で環境相と意見交換 酪農学園大・佐藤教授ら",
+   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE90ejYzcGFndVFndGR2cVQ5TjVmMW5iQ2loSFlneVQ4V0tPMmZBYUh1SzlETThmb3Q2aVdfSHFCVHlBSHhvdHZpNGpISG9kQlVaSzc3T19GWEp1Zw?oc=5",
+   "publisher": "北海道新聞デジタル",
+   "via": "Google ニュース「酪農」",
+   "snippet": "",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-10-29T20:54+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "AIを応用してスマート畜産を開発する。",
+   "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9MZThFR2ZDbU50QjhZOWJJa2JXUDJhdWpnRFNaWmJNaDltc085a1pTeXdTeGpQS05sb1dZZWd6OGJWV01PNHRBNVVfVUdaNlZHRTdJcExuY0ZxclFQNEhaTHNWbFZ4LTRyVi1wcDk1bEVYS0VyOERxM1M3Nm0?oc=5",
+   "publisher": "Vietnam.vn",
+   "via": "Google ニュース「スマート畜産」",
+   "snippet": "",
+   "cats": [
+    "dairy",
+    "smart"
+   ],
+   "published": "2026-10-29T17:24+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "省力化ツールに注目！ 農機の電動化支援＆ビニールハウス巻き上げ製品【農業WEEKリポート①】",
+   "link": "https://agrijournal.jp/technology/95967/",
+   "publisher": "AGRI JOURNAL",
+   "via": "AGRI JOURNAL",
+   "snippet": "2026年10月7日（水）～9日（金）、農業・畜産の総合展「第16回 農業WEEK(通称 J-AGRI TOKYO)」が、幕張メッセで開かれた。展示された中から、農業機械の電動化を支援するパーソルクロステクノロジーのサー…",
+   "cats": [
+    "dairy",
+    "smart"
+   ],
+   "published": "2026-10-29T17:00+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "“聞く農” 巨大酪農牧場で目撃！７２頭乗っても大丈夫な○○って？",
+   "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBHRXMtSWFOeHZHNGJfZnVoNHFNZmVPdTI4dUU0Z0hERXE3d1ctMDQ5YTFtel85d1E3NEM1am9HT3hjbnV0WE85akh6ak5MMmloaEZZaTRGNA?oc=5",
+   "publisher": "日本農業新聞",
+   "via": "Google ニュース「酪農」",
+   "snippet": "",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-10-29T15:42+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "ALPS処理水の海洋放出に関する国際原子力機関（IAEA）の枠組みの下での追加的モニタリングの分析結果に関する報告書の公表",
+   "link": "https://www.jfa.maff.go.jp/j/press/kenkyu/261029.html",
+   "publisher": "農林水産省 報道発表",
+   "via": "農林水産省 報道発表",
+   "snippet": "",
+   "cats": [
+    "iot",
+    "policy"
+   ],
+   "published": "2026-10-29T14:00+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "中国の農業用ドローン30万機超、省力化とスマート農業が加速",
+   "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1HdUo5Z0g2VDNmQ2M4RVNpV0t0YTdnejRfek1qdXpzcTB1cDFuQ0xpRTNQQy1tNk9iODV4QkdfM181OW1EbVVCUGx3MHlFeWRBa2VaYlltcVVjNHIyaGF4djVtc1hyX0Qw?oc=5",
+   "publisher": "亜州ビジネス中国",
+   "via": "Google ニュース「スマート農業」",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-10-29T13:42+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "AIの応用がベトナムにおけるスマート畜産開発の方向性を開く",
+   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPX1d0NmhWTml6OUd5TTJLTzRKbmxyeE9aV2ZxaWFlUEJKV1lYRnN0LTBOcW5SRmo0QjBoalhLSDFYSlNLcmVNdkZDRjJEY3otTkY4WjFRc0hTVFgwYUF5NTFXZ1RhQmszcWhqVTJlX0hVV0pwUmx3UGpwSWJpWWxhRjgxaTk0VHh3Y3BrcmsxbUQ5V2cyWWNNX0hhOTJfeENSZlZwNGswd2drZGpwd0E?oc=5",
+   "publisher": "Laodong.vn",
+   "via": "Google ニュース「スマート畜産」",
+   "snippet": "",
+   "cats": [
+    "dairy",
+    "smart"
+   ],
+   "published": "2026-10-29T12:42+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "「火柱がボンボンと」新潟・五泉市で“牛舎”全焼する火事 ケガ人なしも牛舎には約30頭の牛…警察・消防が被害状況調査",
+   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5XUm4xWUJMUkpQV0dVUExaMklDcXV4WldVblFncWl1OFpibXVtQ2pjb1BVeERaQlBHcld6S1lLazRFVk5YbTJrUFN5TW15STZfdmdRYmIwZzNaU21WZHZqQWNHMkM4S2VQcjRwTzRkZEQ1eGNJakxLVUJicnVGUVE?oc=5",
+   "publisher": "Yahoo!ニュース",
+   "via": "Google ニュース「酪農」",
+   "snippet": "",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-10-29T12:03+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "センチピードグラスを増やす2つの方法 種まき・株分けの手順と年間管理まで徹底解説",
+   "link": "https://agri.mynavi.jp/2026_10_29_610926/",
+   "publisher": "マイナビ農業",
+   "via": "マイナビ農業",
+   "snippet": "「庭を緑の芝生にしたいけれど、毎週末の芝刈りや草むしりをする時間がない」「畦畔の除草作業を省力化したい」。そんな方におすすめなのが、近年注目を集めるセンチピードグラスです。本記事では、センチピードグラスの特徴やメリット・…",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-10-29T12:00+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "【スマート農業団地】ノウハウ蓄積し横展開を",
+   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5jV3NNM1FnWG1zTWZHVzJpWjJ0Z3FrYnZxTHYyZFBHbHk0SUtlaE83QlhwNG94VGJ0QWNudms4VUdHREtuNDV0bW5EOXY1X0NHY0thTWdGZDBIeVk?oc=5",
+   "publisher": "下野新聞社",
+   "via": "Google ニュース「スマート農業」",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-10-29T08:00+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "なぜ鈴木農園は高単価での指名買いを実現しているのか？ 年間400品種の施策とデータ分析で挑む「再現性のある強い農業」",
+   "link": "https://agri.mynavi.jp/2026_10_29_611522/",
+   "publisher": "マイナビ農業",
+   "via": "マイナビ農業",
+   "snippet": "市場の相場変動や資材高騰に翻弄され、「作った作物の価格を自分で決められない」という構造的課題に直面する日本農業。そんな中、気候変動に負けない品種選抜を行い、生産者主導の自立型経営を確立しているのが、福島県郡山市の「鈴木農…",
+   "cats": [
+    "smart",
+    "policy"
+   ],
+   "published": "2026-10-29T07:00+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "ノウハウ蓄積し横展開を",
+   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBoaEpIY0hQdjB3S3VaR1N5RjVLNUJyX2ZjVlpUamtrMjNzS3JIVXVOZjItRHI1dDZTUE9TaVRqMXpfNFBMUzYzUVhOWm9sczl2Mll6RlJ3b3lGNG8?oc=5",
+   "publisher": "下野新聞社",
+   "via": "Google ニュース「スマート農業」",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-10-29T05:00+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "スマート農業の最前線とこれからの農業",
+   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBNSDN6cC1wQWRrRnBWeEQwMk1zcWlrNU5IYXc4U29MbnZJSHZiZHp6d2NoaVhrVVdwYWltdzc2QURyTmlTcl9vRnpfQ21mejV1UkNSR05Ld05oZ0E?oc=5",
+   "publisher": "九州大学",
+   "via": "Google ニュース「スマート農業」",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-10-28T18:41+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "Googleフォームを日報として活用する【応用編】データポータルで溜まった日報を見やすくしよう #14",
+   "link": "https://agrijournal.jp/production/95832/",
+   "publisher": "AGRI JOURNAL",
+   "via": "AGRI JOURNAL",
+   "snippet": "ベンチャー企業出身農家のコラム『マシュー農LABO』。Googleフォームで日報を作ろう！ 今回は応用編。データポータルと連携して、「入力が続いているのは誰か？」「どの圃場で作業したか？」「日ごとの作業の波」など、溜まっ…",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-10-28T17:00+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "「スマート畜産技術のイノベーション・普及に関する検討会（第3回）」の開催について",
+   "link": "https://www.maff.go.jp/j/press/chikusan/c_sinko/261028.html",
+   "publisher": "農林水産省 報道発表",
+   "via": "農林水産省 報道発表",
+   "snippet": "",
+   "cats": [
+    "dairy",
+    "smart",
+    "policy"
+   ],
+   "published": "2026-10-28T17:00+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "食肉の需給予測について",
+   "link": "http://www.alic.go.jp/r-nyugyo/raku02_000009.html",
+   "publisher": "農畜産業振興機構（ALIC）",
+   "via": "農畜産業振興機構（ALIC）",
+   "snippet": "食肉の需給予測について",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-10-28T16:00+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "【農家・JA・自治体・企業が対象】「農業現場のAI活用 実態調査（2026秋）」を開始",
+   "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE85WElCZXRaSG1XajZFeTlBSmMyaDR1SHZJazFaS1pmdzhyTmlJNkJJemVjdmNTcDhMckhNYVJCQ2VGSlppMFRBZVVXNlZ5N0hpVjFCdUpQLXFrWHB0U2h4QmdjQzJyS0VVOVVhYUtULWU?oc=5",
+   "publisher": "山陽新聞",
+   "via": "Google ニュース「農業 AI」",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-10-28T15:04+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "「農業現場のAI活用実態調査（2026秋）」調査概要",
+   "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBtS1hqZDV2NGtSaEFDdnZ4TW1HM2tvX2ZWY2Q5ME1ObkFYWng2LVlUUmNYZHc5aXh6d2tnSTFhVTdhY0VTdU96RDRaaEVaczJXaDVSWHNWVWRJaVptMzctcXNSSWpsdUtoY0FBTmpfQ1VTNHJLanpPbFRmTQ?oc=5",
+   "publisher": "産経ニュース",
+   "via": "Google ニュース「農業 AI」",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-10-28T15:04+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "フツパー[478A]：製造業の技能継承AIを農業へ。農林水産省のAI実装プログラムに選定 2026年10月28日(適時開示) ：日経会社情報DIGITAL",
+   "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB1dTVZQWFnSE4xLUFmaEhWTzdnSmhwT3FGZkVQMHJBZ0RmcDFrVnYzSEhBa3g2VlduTUhjSG15b1NFbWNMY0RkNE9PMzFlemNQWWgtVkJjeHBGNHJRQktoQkFsbkhST3NPcFE?oc=5",
+   "publisher": "日本経済新聞",
+   "via": "Google ニュース「農業 AI」",
+   "snippet": "",
+   "cats": [
+    "smart",
+    "policy"
+   ],
+   "published": "2026-10-28T13:30+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "フィジカルAI 農業分野で導入や開発の動き",
+   "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5XRmY0UjhVNXFkYktQVE9TUWQtN3hpMG8xMGdhUmpoX19UNkFvTGJTLUJ3Ujl3ZnZKemZ6NUY5aHllZHlpMmpmeG9IbXlSS0RKUUNOMkMxeWJnLTdQQUdB?oc=5",
+   "publisher": "NHKニュース",
+   "via": "Google ニュース「農業 AI」",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-10-28T05:33+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "市内でスマート農業体験会 トラクター「遠隔操縦難しい」",
+   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE45OW5oWlRQdHExeUdlWWJzSmhtM3hreEFzMHNzMkluMWxOT1U5aXl1Vm1qbUN1RHdMUTByTFNxWTI0NDc1LXRyU0ZpamtFaHB2TWF5Tk1SS1BNQQ?oc=5",
+   "publisher": "北海道新聞デジタル",
+   "via": "Google ニュース「スマート農業」",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-10-28T04:00+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "ほっとニュース北海道 【酪農×AI】道東の牧場 AI活用で作業効率化 労働環境改善も NHK ONE 配信中 11/3まで",
+   "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5nUWNuRTFnV1Q0dmlGdzl1RGdrUWFRcFVOVmVJcWsxTU50OC1SNDBOc21ZX255c2dBZm1GR2czdEVoSWp6Tml6Y3Ziclh6cVN1aTdoMUxNZXpEazRJSE1KeENqWUF5NGM?oc=5",
+   "publisher": "NHK",
+   "via": "Google ニュース「酪農」",
+   "snippet": "",
+   "cats": [
+    "dairy",
+    "smart"
+   ],
+   "published": "2026-10-27T19:25+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "クボタと北大がスマート農業体験会 小学生が無人トラクターを遠隔操作",
+   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5oZUp2QXBReUo2SjlkQk9uRkZ5NXVRRFRTVjE3X2N1RzRRZFo0bHRNeWtSZVMwajd0YnRXelg5QWFBSkp0ZnFQNlhtWmFGdE1KS2JiQnpMdUNLdw?oc=5",
+   "publisher": "北海道新聞デジタル",
+   "via": "Google ニュース「スマート農業」",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-10-27T19:04+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "武部農相 10月27日記者会見「生産資材の価格高騰、消費者理解を醸成して適正に価格転嫁を進めていくことが重要」",
+   "link": "https://agrijournal.jp/aj-market/96106/",
+   "publisher": "AGRI JOURNAL",
+   "via": "AGRI JOURNAL",
+   "snippet": "武部農林水産大臣は10月27日の記者会見で、肥料や飼料、燃料などの生産資材の価格高騰について、「生産者だけに負担を強いることがないように、消費者理解を醸成して適正に価格転嫁を進めていくことが重要と考えている」と述べた。…",
+   "cats": [
+    "dairy",
+    "policy"
+   ],
+   "published": "2026-10-27T15:51+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "農林水産省とバングラデシュ人民共和国農業省及び漁業・畜産省との協力覚書の署名・交換について",
+   "link": "https://www.maff.go.jp/j/press/y_kokusai/kokkyo/261027_1.html",
+   "publisher": "農林水産省 報道発表",
+   "via": "農林水産省 報道発表",
+   "snippet": "",
+   "cats": [
+    "dairy",
+    "policy"
+   ],
+   "published": "2026-10-27T14:00+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "スマート草刈り研修会 受講生募集",
+   "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1idUc4WVVqR09HaFZfWnBHMks3YjZNSzdlZTdWWkVlU1lOd0hBSk1aaFZOX19aOXhGeTROai1fNG91VFhYSVlsWFJranZhbkRoUkRPaEdhN0VnU2lFaTFSU0ZRUDFPa0RSdE9TeEk2Yw?oc=5",
+   "publisher": "香川県",
+   "via": "Google ニュース「スマート農業」",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-10-27T12:43+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "「スマート農業必要」 琉大平良教授 宮古で講話",
+   "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9zaHlpQ3JweUpMeDVURE5qTjJlVmJRWW1zTUs0a3hxRFRqV0RXV2NMOGtMN19VR0RiN0x6SDJNTjZMNm5kQm5OeDc5NlJ0Uk53MmN4ek0zcW04NGpweHc?oc=5",
+   "publisher": "沖縄タイムス社",
+   "via": "Google ニュース「スマート農業」",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-10-27T03:57+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "11月１日 畜産の魅力ぎっしり 湘南台公園でフェス",
+   "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1wMF90d2tZeWVGLVlpbWR5UmI1MFc1VXRral9vVGJubEx4U2RhNHhHTm9ySmpDMUxsbXlsak5pbWl5SHRicmx3eWt2Y3p5eUJ3YjBNeUFkMG1TREVESE12QXB2NlQ?oc=5",
+   "publisher": "タウンニュース",
+   "via": "Google ニュース「酪農」",
+   "snippet": "",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-10-27T00:00+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "「野菜情報」11月号を掲載しました。",
+   "link": "http://www.alic.go.jp/chosa-y/202611.html",
+   "publisher": "農畜産業振興機構（ALIC）",
+   "via": "農畜産業振興機構（ALIC）",
+   "snippet": "「野菜情報」11月号を掲載しました。",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-10-26T23:59+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "牧場を買わずに1,900頭を運営 所有と運営を分ける新しい酪農経営【岩佐と紐解く戦略農業 #31】",
+   "link": "https://agri.mynavi.jp/2026_10_26_603996/",
+   "publisher": "マイナビ農業",
+   "via": "マイナビ農業",
+   "snippet": "私、株式会社GRAの岩佐大輝（いわさ・ひろき）が、いま注目している農業経営者に突撃し、戦略を紐解いていく連載企画。今回は北海道のファームノートデーリィプラットフォームを訪ねました。FDP全体では6牧場・約1,900頭を管…",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-10-26T19:00+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "2026/27年度主要穀物の生産状況等の調査結果（第1回）を公表（ブラジル）",
+   "link": "http://www.alic.go.jp/chosa-c/joho01_004450.html",
+   "publisher": "農畜産業振興機構（ALIC）",
+   "via": "農畜産業振興機構（ALIC）",
+   "snippet": "2026/27年度主要穀物の生産状況等の調査結果（第1回）を公表（ブラジル）",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-10-26T17:00+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "丹後王国ブルワリー、脱脂粉乳の新たな需要創出へ 『蒜山ジャージーミルクジャム ミルクのおすそわけ』10月26日発売 ～「蒜山地域酪農拠点再構築コンソーシアム」の取り組みから初の商品化～",
+   "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBCLXg1cXZpZWZ6VHByNTUySjdlUVo4MUFxX3NjeXlqTUh4bVNfS3AyTFJGQVlFWl9NQ0RTWGxJanVlT0VIcnpXZVBmZU1YTGRzQ0lpNk1OUVJ2Z29Oal9VckdkRkNQMFROelBDMVo0cFprSDBhc0owMzhZSEE?oc=5",
+   "publisher": "パソナグループ",
+   "via": "Google ニュース「酪農」",
+   "snippet": "",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-10-26T13:04+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "SORA Technology、タンザニアでドローン・AI活用の精密農業事業を開始",
+   "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5YdjhfVm9mc2JieWVURmoxdkVUMXVvQmRMb0hSekJpMDBTR3pZaFZLWFROalBXYWV3ZEVLclRGLXVoV0s4bjVMZUt2X05oeFNCRV94TjhNbDk4aWhVQjNpTVN6Z1ZfN3lLVFE?oc=5",
+   "publisher": "ドローンジャーナル",
+   "via": "Google ニュース「農業 AI」",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-10-26T13:02+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "【11月11日・聴講無料】勘と経験の農業に、生成AIがやってきた。農業現場での活用例を中央大学で紹介",
+   "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE96QXNOWFE0LTlrUDNTY3RjZHdYb2k3azZfSFBHWHFkMHJKOWliYi1acjlDSVVvTmtTVEplbnNJOXJaVjhmUW5NLXAzSVR0ZXM?oc=5",
+   "publisher": "AGARA 紀伊民報",
+   "via": "Google ニュース「農業 AI」",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-10-26T10:09+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "「畜産の情報」11月号を掲載しました。",
+   "link": "http://www.alic.go.jp/joho-c/joho05_000168.html",
+   "publisher": "農畜産業振興機構（ALIC）",
+   "via": "農畜産業振興機構（ALIC）",
+   "snippet": "「畜産の情報」11月号を掲載しました。",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-10-26T00:00+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "ＪＡ道東あさひ オリジナル牛乳販路拡大 東京や大阪でも",
+   "link": "https://www.agrinews.co.jp/society/index/414804",
+   "publisher": "日本農業新聞",
+   "via": "日本農業新聞",
+   "snippet": "【道東あさひ】根室管内ＪＡ道東あさひが、オリジナル牛乳「Ｐｒｅｍｉｅｒ Ｒｉｃｈ Ｍｉｌｋ（プルミエ リッチ ミルク）」の販路を広げている。昨年１２月の発売以降、同ＪＡのＡコープ店舗を皮切りに道内各地、東京都内へ販路を開…",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-10-25T05:00+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "西条でスマート農業研修会 果樹農家らが最先端機器の導入探る",
+   "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9QSExJc1lFTG8zbTUzamZJLXVtM09rQnphTnFxVExEZHdKZUhlNVFQcG1iWU5IQXBXZTYyMzc0WFhJWnNSd0NIOGVxdFFWSjlsa0ptLUV4Nk91MFBTT1BvTg?oc=5",
+   "publisher": "愛媛新聞",
+   "via": "Google ニュース「スマート農業」",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-10-24T16:00+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "【無料・AIプロンプト集】農家の確定申告、準備は年内から。経費整理の判定キットを提供",
+   "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9USklYRk9jQTVmd1hOd2dYY0pCcDdWRV9mcmYxU2xWSzUwZXdMamRCRVhRZExGX2hsVklOQ0lsN0NkbTlvUU1Pa3R5eEMzaU9FSjZNUVVwYWVQbzhzTjZrYnRGalZ1ZGFxSzdJRlVn?oc=5",
+   "publisher": "www.tv-tokyo.co.jp",
+   "via": "Google ニュース「農業 AI」",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-10-24T16:00+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "学生がレシピ提案 静岡市の日本語学校 ＪＡ販売所で商品化 母国の料理を基に６品",
+   "link": "https://www.agrinews.co.jp/society/index/414395",
+   "publisher": "日本農業新聞",
+   "via": "日本農業新聞",
+   "snippet": "【静岡市】静岡市の学校法人国際ことば学院日本語学校で学ぶインドネシアや中国、ミャンマーの学生らが、同市の農畜産物を使ったレシピを考案した。ＪＡ静岡市女性部農産物販売所アグリロード美和で商品化し、販売する計画だ。 きっかけ…",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-10-24T05:00+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "豪州CSIROが農業由来GHG削減技術を評価、削減の鍵は技術の併用と提言（豪州）",
+   "link": "http://www.alic.go.jp/chosa-c/joho01_004449.html",
+   "publisher": "農畜産業振興機構（ALIC）",
+   "via": "農畜産業振興機構（ALIC）",
+   "snippet": "豪州CSIROが農業由来GHG削減技術を評価、削減の鍵は技術の併用と提言（豪州）",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-10-23T16:00+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "スマート農業すごい! 新米おにぎりうまい! 岩手町・沼宮内小の児童ら学ぶ",
+   "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1ucm5XdEZUc1p4U3J3OEV6VDg2bFBPcE16Nml4WXczREthWEUyU1pNb253RmlZRVBIUnZHcmt2QzdSMlB2SHlBSzgtdndGWmNOaTBiS1gzQWVyMldmVER5dV9n?oc=5",
+   "publisher": "岩手日報",
+   "via": "Google ニュース「スマート農業」",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-10-23T16:00+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "農業普及および生産におけるAIの応用に関する知識を更新する。",
+   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxORjNERm1qYmdfOWJUT3QyYjV2M3c5Qk9CNXpDemNsUi1YRThxd2ZyaTdXUE1HN2w2SG9ZbXhUdG8wLVp0aEVfWktBWmlRdUpobWhfZTJmcHZlNTFjY3Z5MUw0STk2Tk1IMDFGaGM2UFhPcVViVGJtazI1eW8xM2QwSVpRSHJxM3pkVGU2NUk0c2pyTUdrYlhQV21jRnpZWmxrenZFNXdnazk3ejBG?oc=5",
+   "publisher": "Vietnam.vn",
+   "via": "Google ニュース「農業 AI」",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-10-23T16:00+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "令和8年度消費者の方々との意見交換会の開催について",
+   "link": "http://www.alic.go.jp/content/001294392.pdf",
+   "publisher": "農畜産業振興機構（ALIC）",
+   "via": "農畜産業振興機構（ALIC）",
+   "snippet": "令和8年度消費者の方々との意見交換会の開催について",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-10-23T14:00+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "秋田県とフィンランド、光学技術生かしスマート農業推進へ 研究機関と覚書締結",
+   "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1EbGVHSWc3cENqN3FfaTZ1X1JiTk9CU0JOd0JsUzdyaV9Ta2pnLW9BN2VQR2I0UkdRSy1qVm42THAyQXF4by1ubWdOY0lCWU5qWE5mSUhlQUFMcy1qeHk0ZDdn?oc=5",
+   "publisher": "秋田魁新報電子版",
+   "via": "Google ニュース「スマート農業」",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-10-22T16:00+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "水迫畜産の元取締役を詐欺罪で追起訴 牛肉の産地偽装・詐欺事件 鹿児島（KKB鹿児島放送）",
+   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9kNXVIQ1NJeWtKLTZnUFo2d095Vk50U3FvTUgxcDZXblotS0h3a3VNNXhlODkzblU0c192T2pwUGxyUWlkLWNPMHNBZlJHaWxJb2FoYy05V09ka3ZpcDJQQXg2Wl9uZG1HNjlKWUhUNUFTZmlHMFRZZFdQdWRiZ1E?oc=5",
+   "publisher": "Yahoo!ニュース",
+   "via": "Google ニュース「酪農」",
+   "snippet": "",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-10-22T16:00+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "“AI活用”の農業を安全に 帯広市の農協で安全祈願祭 生産者の負担軽減めざす 北海道",
+   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPRnlTOWUzbGxJYlh3bXdWRTdQWVp6WGRLSTUzUWFhY0gtQW1GU0xjVmRQMzVKYmJOMzR5ekQxc0lNTkY5LXB2cURTbmFnT19sMUpaeGp0dkdZSDRVZENmcXJKc0N1c2kzQU1mdUJTSDJZVjhwZ0F2U25MeTB3elFTRTRrRE83ZHM?oc=5",
+   "publisher": "日テレNEWS NNN",
+   "via": "Google ニュース「農業 AI」",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-10-22T16:00+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "農家のAI活用事例から学ぶ「農業マーケティングと生成AI」。",
+   "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1DbzdLOGVhTnNtWjZnN2pyUl9rVlc3d2x3Ym10NEJHQTZFM0ZsNFZiSFdFb3dlYU9zYllURjZ6VXRaS1l4cEhoVlNpUFZ3eGxuN19INkxB?oc=5",
+   "publisher": "高崎前橋経済新聞",
+   "via": "Google ニュース「農業 AI」",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-10-22T16:00+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "ホエイ及び調製ホエイの売買同時入札（SBS方式）結果",
+   "link": "http://www.alic.go.jp/content/001294360.pdf",
+   "publisher": "農畜産業振興機構（ALIC）",
+   "via": "農畜産業振興機構（ALIC）",
+   "snippet": "ホエイ及び調製ホエイの売買同時入札（SBS方式）結果",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-10-22T13:53+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "スマート農業活用 石巻の農業法人ゆいっこ、国が認定 自操トラクターで作業効率化",
+   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9vYnJnckFnR3ZwNlUzMU51RUtqR3NQbDR6UUZSOEpiWEwzWkZKTzFGbi1mUVRLTVdKWGlmTGh4ZklKQ3VvVDd2dTA0NUJxRXpkdUd2a0ZpMmtPVnc?oc=5",
+   "publisher": "河北新報オンライン",
+   "via": "Google ニュース「スマート農業」",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-10-22T12:00+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "巨大カボチャ８５キロで新記録 ＪＡしまね津田支店",
+   "link": "https://www.agrinews.co.jp/society/index/413827",
+   "publisher": "日本農業新聞",
+   "via": "日本農業新聞",
+   "snippet": "【島根・くにびき】ＪＡしまね津田支店運営委員会は９月、松江市のＪＡ旧竹矢店倉庫で「第２６回ジャンボかぼちゃコンテスト」を開いた。同コンテストは、農産物の魅力をＰＲしようと毎年開く。団体と個人の部で飼料用カボチャの重量を競…",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-10-22T05:00+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "スマート農業技術で担い手不足解消へ 楢葉町でサツマイモ収穫（ふくしまNEWS -KFBデジタル-）",
+   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB1VDlSSnBoajJNS01zZjkwdk52dHJWZGE5dXMtenZxYnZ2LUFvSnl2bUNxdXpiMnRXVkZXQlQtOXp5MWszT3l0bFBBdmdnVS1oRm9iZzBVTldOb3pFTVFTbnA1UFJxeFRsa1ZCWG90MUoyUEowQmI2OE5BYjN5OW8?oc=5",
+   "publisher": "Yahoo!ニュース",
+   "via": "Google ニュース「スマート農業」",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-10-21T19:40+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "スマート農業取り組み促進！米八（新潟市南区）、北陸農政局が認定 他の生産者とデータ共有、品質や収量向上へ",
+   "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5DZWxnakdycndMdU1hZFM4WHJCSEVVbUZjekVsNWpvaUtCRzhteTlZWW9za09GWnc5MTRXZTJuWlcwRFNqRWRLbVN4enJRUXZOUlZTXzQwcmx1a1p4dWc?oc=5",
+   "publisher": "新潟日報",
+   "via": "Google ニュース「スマート農業」",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-10-21T16:00+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "新規就農の不安 取り除けるか 「スマート農業団地」整備で栃木県、モデルに4団体選ぶ",
+   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBZaDNkcUFrS3RHQm05WU9pRmNuX2dxdlJiTnRCTFoydkZoLUVIRzdwUThCV19zV2NtRG84TUdPWnV0eWdVYVp5MGpBT2dxc2FUMzlZVHlWd01FdVk?oc=5",
+   "publisher": "下野新聞社",
+   "via": "Google ニュース「スマート農業」",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-10-21T16:00+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "スマート農業に手応え 楢葉でサツマイモ栽培実証、高精度作業で安定生産:地域ニュース",
+   "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5jZXpaNXhDRERVcDNteEZaSDBXWXg0a1VacXdwRFhXbU9SdG93LWMzZTFHdXlDSE9VNXA4WWdkU3dCUkUxY3JTWE9pd1BERUtiWkZScHJyYjZUNFJqdlRpaXdsYnVqYkZC?oc=5",
+   "publisher": "福島民友新聞社",
+   "via": "Google ニュース「スマート農業」",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-10-21T16:00+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "秋田県と東フィンランド大学、光技術活用スマート農業推進などで覚書",
+   "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4xVlpBZDNvSldvSHU1a1hjd2pTVW1oR21Ra212VUxGYzU2SWVydjlFdWdSd3NGRFVKRmZXblBTZFBfUVd1MkctREMtc3FNRjRDY0pRSWJFaWRrQXZyNmVCV1ZnVy1YUm1DRTE5cA?oc=5",
+   "publisher": "日本経済新聞",
+   "via": "Google ニュース「スマート農業」",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-10-21T16:00+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "スマート農業に手応え 福島・楢葉でサツマイモ栽培実証、高精度作業で安定生産 (福島民友新聞)",
+   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOWkNyZDBKQTFNZUVVMGtFeWo3bVcybXloaEs5ck91aEFDY3VKVXJvcEttUVYtRkVVRUcxVWxtd2o3ZXVFT05sa3d4ZmMwMXl3Wl9HZ1lwV0xRb09XZmNTMTBJU0NvX1M2SlZUUU5HQS11ZkhfbVVWNU5hVXpnaXlBWTdGMkd2WTktSVJKbDhn?oc=5",
+   "publisher": "Yahoo!ニュース",
+   "via": "Google ニュース「スマート農業」",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-10-21T16:00+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "モデルに４団体選定 県のスマート農業団地整備 栽培データ共有、活性化へ｜朝刊・夕刊ニュース｜下野新聞デジタル",
+   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB4RlMtM0xsc1dSMkg2TlNkQXZIQk1PYUtoT0JETWxSd3ItSTE5NWVyTlhKbHZwdEFuc0E3NHpkM1k0dEh4Z09QR2p3OGRvZlNVSmFUOHZsSk9kX3M?oc=5",
+   "publisher": "下野新聞社",
+   "via": "Google ニュース「スマート農業」",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-10-21T16:00+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "SNEとCADCSAは、ビンフック省でAIとIoTを活用したドリアン栽培モデルを導入している。",
+   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNeFl3LVZlWHNILUswQjAtLWhIWDNjMDcyRHVvTVVXZEVCaFI5NWpmS0dmeUYtNkcxSC1DdVhFNnJYR2lXUUN4OHN5aGR0TjdnQmp4bTgwWWU5YXZVWWxIQ2REcVZ4RXpIeG5YMVlsaGNaeHozTGR1TTJNaWVvTkFxMGJMeHNPOW1kSkMzbnMyWlpBU1lQWUtSb3MxQW9wSUdtRTNGOA?oc=5",
+   "publisher": "Vietnam.vn",
+   "via": "Google ニュース「農業 IoT」",
+   "snippet": "",
+   "cats": [
+    "smart",
+    "iot"
+   ],
+   "published": "2026-10-21T16:00+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "豪州競争・消費者委員会、主要鶏卵事業者を競争法違反の疑いで提訴（豪州）",
+   "link": "http://www.alic.go.jp/chosa-c/joho01_004448.html",
+   "publisher": "農畜産業振興機構（ALIC）",
+   "via": "農畜産業振興機構（ALIC）",
+   "snippet": "豪州競争・消費者委員会、主要鶏卵事業者を競争法違反の疑いで提訴（豪州）",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-10-21T12:00+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "スマート農業に手応え 楢葉でサツマイモ栽培実証、高精度作業で安定生産",
+   "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFAyTlJWMEE3dnR0M2JXNzZ0RFpLdWFLVUduWUJjNjVuOHJaVVA0bGR0MmdiVGZmN2liTWIwZzFDQWNPOTZPZ0pvY1JQUQ?oc=5",
+   "publisher": "47NEWS",
+   "via": "Google ニュース「スマート農業」",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-10-21T08:20+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "スマート農業の効率性紹介 楢葉でイノベ構想推進機構",
+   "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBZQUdmeVo3UVJxLS1CV1B2Wm5vNlI0NXdsRGRRdElBdXhQQm9jWUJ3T3FUV2FtT3RybFd1Qlp0aXc2bVlNOU11NUFhd09xU1U?oc=5",
+   "publisher": "福島民報デジタル",
+   "via": "Google ニュース「スマート農業」",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-10-21T07:00+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "【2026年度】都道府県のスマート農業、農業DX事業⑥「九州エリア」",
+   "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBleHhsRjBXRXhadGM2TGwzOG9MS0ZpanhZNGczVmF2c3VSRmc3WjZnMk1meTlDYXg2Y0JXV3E3N2dEYjEtMUVXN3dYdHJuWE0t?oc=5",
+   "publisher": "アグリジャーナル",
+   "via": "Google ニュース「スマート農業」",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-10-20T16:00+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "山大附属小学校の児童が「いのち」と「食」を学ぶ酪農体験会を開催 ～モ～ッと知ろう牛のこと～",
+   "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBd2QwTWh4VzZKWmNMVGRJd0JZckxpMS1YcWdkVk8tSk9henBfT2JSN3FxR2JJWnA1akVZeVBHZ3NzdGdURGRWZjhXVmN2bmVYeHJCSmlHb2MydUpFQ1NB?oc=5",
+   "publisher": "山口県ホームページ トップページ",
+   "via": "Google ニュース「酪農」",
+   "snippet": "",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-10-20T16:00+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "牛乳パックに詐欺防止広告 南日本酪農協同に警察から感謝状（2026年10月20日掲載）｜UMK NEWS NNN",
+   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE05anhTT0NmOTAzMXNHU2MxY0tTTlVUdzNOUjZ0aTdQSE1pY0pKbXVpc3cySW1SWDlhUHE2YXQ4ZHJxSkEySjdBMk13dTVrWHZwMjdFNDhXX0NhNVVZcWFibjVwQ2tkdDN0bUZDNXIzek9acTdzNjJwR1p3UmYzWlE?oc=5",
+   "publisher": "日テレNEWS NNN",
+   "via": "Google ニュース「酪農」",
+   "snippet": "",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-10-20T16:00+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "JA福井県、AI配車で農業資材配送を効率化",
+   "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE8wTG0zZUd6R1QxcXRtLVBvSGRtREJyMW1kVjJoUVNVOTctZFprQmpCNmViTDl2RW84eHBWbjRPbmZPUHZmVi1IVEVB?oc=5",
+   "publisher": "LOGISTICS TODAY",
+   "via": "Google ニュース「農業 AI」",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-10-20T16:00+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "電子指示書システムの利用申請をお考えの皆様へ（対象：畜産分野）",
+   "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9PcjY3Zi1aVFZrRllwSHlFNFo5TUJWaUV5Ylk0Z1RfUk5QdEl6WlRTMEsxS2kwLUZ0SktTbllqMEQ3dUJTREtzNW1yNTRmTnZuNmJicVMxTGNMLUlNUlQ1RldHZm51REF6M3pFZlVKM2Q?oc=5",
+   "publisher": "農林水産省",
+   "via": "Google ニュース「酪農」",
+   "snippet": "",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-10-19T16:00+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "「酪農始まりの地」千葉県南房総 ミルクツアーで学ぶ牧場経営の現実",
+   "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9JeFNNQlBDbUNMUjh5SW1qdnk3WUt4OEE2NUJYQkN2Wklhb3daVW0wX3U4V2REQk1wMkhtQU9wQ21hcGVzQmhNQjRPVFhfWkF0by1KT1J5SXZINDZ6V0l0RGoxdWtTUEVaQ1ZtbA?oc=5",
+   "publisher": "日本経済新聞",
+   "via": "Google ニュース「酪農」",
+   "snippet": "",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-10-19T16:00+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "▽茨城・守谷で酪農の仕事を調査▽究極の2択",
+   "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE45ZTl1VVE1aFZqajFlTFlIT2xXaTRRb2VsY1EwSGEyQTVibVJmUWNQU0JYVDU4X293TjBYUl9ueTBfdUpzTEMxWXlvWC1HaGRSMVFwamc0dUxiblU0QzZOMllWSnZmaW1teElPYTQ4NFhxWHdULURJ?oc=5",
+   "publisher": "NHK ONE",
+   "via": "Google ニュース「酪農」",
+   "snippet": "",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-10-19T16:00+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "高校生も時給1,200円から参加可能！「農業×AI」で未来の仕事に挑戦する学生インターンを募集",
+   "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE52X0FlZ3FnX21YZUE3bXJjRl82VVg1U0t6aHlpQUR6X0NxWkc2anFLckI4a2dBWHdORkNzbDNBSEVDSkQ3YTNoS1oyQk5LWjVNUDR5NDhCTFQxUHVPdmtsYkNNOWRkb2ZqV1JlSmF3?oc=5",
+   "publisher": "株式会社ワカモノリサーチ",
+   "via": "Google ニュース「農業 AI」",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-10-19T16:00+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "AIで農業経営力UP 吉野川市で20日にセミナー",
+   "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBqOG5neEVwZkJsWVJwM1FzYU54UHd2aWRaaVo4WWUwTmtkRlBEV3NpWjdHWVNjWmFsaXRuNmZWRTJUbmdudHRGeFlOcVBlYlpMdjJQWEJ3?oc=5",
+   "publisher": "徳島新聞デジタル",
+   "via": "Google ニュース「農業 AI」",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-10-18T16:00+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "十勝AI農業特区の勉強会を開催｜帯広市議会・市政会と自動運転農機やドローンの可能性を考える",
+   "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1PekFfQ2RvMnpCTDU2dVBJZkVhZ2dNNFhDNUVHUTc5Q3FZTVpDT21MWVA0T0tyamZFNFN1ZThxMUpEbFRJM0R2anZPckdWN2hXenp6SjY1Y0VDMnI4QS00?oc=5",
+   "publisher": "選挙ドットコム",
+   "via": "Google ニュース「農業 AI」",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-10-18T16:00+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "AIが答えを出す時代に、あなたは何を生み出す？ 農業を舞台に挑戦する学生インターン募集",
+   "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5nWVRHaEMycmdBVWhDcjlsT1A2WEZ0Vi05MEVnLTBLdFlrZS1zdW82Yy1QNUZkMWNRcGxHTG02Qm1nb281ZW9xVmpCaHg0YWVYQVR6R3hR?oc=5",
+   "publisher": "高崎前橋経済新聞",
+   "via": "Google ニュース「農業 AI」",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-10-18T16:00+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "「スマート農業」体験 島原農高で出前講座 自動運転トラクターも ロボット、先端技術…活用 ／長崎",
+   "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBiV2RCOVR4VGlXd2hlbVk3Y3kxbWRkYXFySDd1TThjcUxxb0FVWGVNSFVUR2lYNDd5ZWZfUWZIY0lPbmNad2FjdW9TclA5S29RNFhDQ2JISlZOOHB2Sklfb0VKcWtleUdh?oc=5",
+   "publisher": "毎日新聞",
+   "via": "Google ニュース「スマート農業」",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-10-17T16:00+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "中央農業高校の酪農専門研究部 「牛」テーマに全国大会へ",
+   "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE90c0hNTnFBX2tBdExKelFEX1F5OWc4WUhtWWFoQ21pSFpOZzNLNzBFLWtqRGFDeTdzY1hWeHJCMURYTW4tUEZzWVRtNkJyWTFCQXVsVGhnLTVUczRsOUY2LVVhUG4?oc=5",
+   "publisher": "タウンニュース",
+   "via": "Google ニュース「酪農」",
+   "snippet": "",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-10-17T16:00+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "【3日間限定・無料】AIを使いこなす農家は、失敗の連続。酪農・稲作など5つの現場のAI活用実例集",
+   "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB6dzFmUUo1dWpHMzNCaVpZcDZoSWk1V1psaHgzSHlQY2VsWllJT3VnWVY4SHZWVi03QjJWVl82YnRIR2xrd2Fnc05sV05pV0VTa1VVRFpydTFTRWJt?oc=5",
+   "publisher": "愛媛新聞",
+   "via": "Google ニュース「農業 AI」",
+   "snippet": "",
+   "cats": [
+    "dairy",
+    "smart"
+   ],
+   "published": "2026-10-17T16:00+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "トマトプリンＰＲ コッコファーム・菊池農高 産学連携商品第１弾 試食販売が好評 次はレストランメニュー計画",
+   "link": "https://www.agrinews.co.jp/society/index/412921",
+   "publisher": "日本農業新聞",
+   "via": "日本農業新聞",
+   "snippet": "【熊本・菊池】菊池市で養鶏業を手がけるコッコファームは１０月中旬の２日間、熊本県立菊池農業高校の生徒と開発した地元産品を使った「放課後トマトプリン」の試食販売会を開いた。開発に加わった高校生が、試食用のプリンを手渡しＰＲ…",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-10-17T05:00+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "南京のDindaレポート:中国のスマート農業を覗き見、生産性を高めるためにドローンからAIまで",
+   "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE50VlNDMklmMTgySkU4amlQVWxuSy1mc3k2bUFXSFpDWmxaYVpHVnd2N2FQd2NsZll1eFlYX25BOWxTYTBackRUaldR?oc=5",
+   "publisher": "VOI.ID",
+   "via": "Google ニュース「農業 IoT」",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-10-17T04:44+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "AI・デジタルツインによる貯蔵庫の精密制御と積付最適化による品質保持の高度化が農林水産省「スマート農業技術の開発・供給に関する事業」に採択",
+   "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5XU18tLUNNbU91dWwzM2RTalJEWEQ1c3IwM18xdXdZUjZGemgyNW5TT2VLYlVmdkJkSU9JM0cwSXNiUmh5Ykx1NFZTOERYVGJsMFRmeXFyWkJrM0JF?oc=5",
+   "publisher": "九州大学",
+   "via": "Google ニュース「スマート農業」",
+   "snippet": "",
+   "cats": [
+    "smart",
+    "policy"
+   ],
+   "published": "2026-10-16T16:00+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "スマート農業技術活用で 宮城・石巻の農業法人が国の認定を受ける 自動操舵トラクターで作業効率化へ",
+   "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9hb2VuRFMtZ1lHa0R6VTBGeFhRSTZyQ0hfb1ItVzFmLWVQN1NuZktyNnlNaVcydkxrY29sSkVUVVFiYkNWMWx0b1B1Xy1OX0pHXzJiQnN3cw?oc=5",
+   "publisher": "TBS NEWS DIG",
+   "via": "Google ニュース「スマート農業」",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-10-16T16:00+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "スマート農業技術活用で 宮城・石巻の農業法人が国の認定を受ける 自動操舵トラクターで作業効率化へ（tbc東北放送）",
+   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE13WnRxNXUxWjMxQlF3ejJtaEZzRVZRV291dFNCRVRGNTBiVHUzQno4Q3ozT1ppb19QeEdWcHR5Z0ZxSTZ6c3k1OVRvNkZzbjNkMXBXbURhNzdUT2VudHJ3UXU5YlZzbHBfSnpTWGkzSmJfbEMtRTN5dnlzNXBWYVk?oc=5",
+   "publisher": "Yahoo!ニュース",
+   "via": "Google ニュース「スマート農業」",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-10-16T16:00+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "「酪農と食の体験ツアー～『いただきます』のひみつ発見～」を開催しました：北海道農政事務所",
+   "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFAweEtvcXBFa2xQY1pjMGpsRU1hMFR1Y3RIWk95aDRJWXVjNjhNUnVKSnlsMGRhV1d0TUtlRHQwclM2QUlWR2dyNW1NeHBfUXFReWdDaldIbU4xdDFBNEE?oc=5",
+   "publisher": "農林水産省",
+   "via": "Google ニュース「酪農」",
+   "snippet": "",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-10-16T16:00+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "カゴメ、AIで野菜品種開発を効率化 米農業テックと共同研究",
+   "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE12YlB5NDRkZ3BLUTE0M0cwRU9qZTUzQ2Z1Ynp5bWxKR3p2N1BuTW9VUU4xTS1hYkdZR3RhRl9MaVBHb3JVTE44RHEyV19UMXF1Slc3RnRjWUZXLXFhTFVBdDVhSE9UM0VNcnZYSA?oc=5",
+   "publisher": "日本経済新聞",
+   "via": "Google ニュース「農業 AI」",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-10-16T16:00+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "牛乳おいしさＰＲ パックに県キーフレーズ 「誰もが、誰かの、たからもの。」 島根県内の乳業３社",
+   "link": "https://www.agrinews.co.jp/society/index/412678",
+   "publisher": "日本農業新聞",
+   "via": "日本農業新聞",
+   "snippet": "【島根】島根県内の乳業３社が販売する牛乳パックに１０月から県キーフレーズ「誰もが、誰かの、たからもの。」の掲載が始まった。県産牛乳・乳製品のおいしさや魅力をより多くの消費者へアピールし、併せて県の施策を広く発信する。 県…",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-10-16T05:00+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "国際関係学部・高畑幸教授の報告書が酪農乳業団体から最優秀賞を受賞",
+   "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE4zcjRvOXM0ZDhMaHBiQkRpSWdUb3ljemN3R1cwMWpnTmo0ZEtyQk9SVF8zSTdPNGF3Nm5yMkVTaTVhOUQ1UmpnTXE5bTQzclZvZElIMlhrTFZsZi13?oc=5",
+   "publisher": "静岡県立大学",
+   "via": "Google ニュース「酪農」",
+   "snippet": "",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-10-15T16:00+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "京都橘大生、京野菜収穫ロボ開発めざす ＪＡ京都市の支部長がアドバイス",
+   "link": "https://www.agrinews.co.jp/society/index/412380",
+   "publisher": "日本農業新聞",
+   "via": "日本農業新聞",
+   "snippet": "【京都市】形状や実の付き方に固有の特徴があることから、人の経験に基づく判断や手作業に依存する京野菜の収穫を省力化しようと、京都橘大学工学部ロボティクス学科の学生が野菜の収穫ロボットの企画と試作を進める。ＪＡ京都市山科南部…",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-10-15T05:00+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "秋季北海道大会初の決勝進出 「酪農学園大とわの森三愛」とは",
+   "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1rWVdROW9VazVtcjhLZGQ4VzlMOFFTZlNvMGhnUFRJNHU2MDlZSWdfZGVONDRkWVVDYk9wN0p1MDRxSUNsQVk2MDl3T0dTLWtRX0dfR3RidlV0ZGZQcURpVF8zZEtYVDVW?oc=5",
+   "publisher": "毎日新聞",
+   "via": "Google ニュース「酪農」",
+   "snippet": "",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-10-14T16:00+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "＜記者ひとこと＞「収入捨てるよう」 生産抑制迫られる酪農家の叫び",
+   "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5xOTlvUU1aYjFiUXdfTnoxR3FRUkxGdTgwdFdBcDRza2hNSDg0TVpzY2dJc3dhek9XbUZqNUplM1V0ZGpUS0d3eUlYTkhucjlqbl9VazNSRQ?oc=5",
+   "publisher": "日本農業新聞",
+   "via": "Google ニュース「酪農」",
+   "snippet": "",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-10-14T16:00+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "米国産チーズ急増、豪酪農業界の生きる道は？ （2026/10/14） 業界団体ＤＡにインタビュー",
+   "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1LSUhLandtMVJPcWQxRWtOQ0RrSVRLUnRQNm5sT1l6VnVMT01FUXA2bkhMRFJwa1FSRnNTU1llbXlTRXN1OF9vUVpJZHRlakRJUmNwOXBSS0FKUlh6clBuanQ4Wk9kcGk1LVJ0c3N1Qy00dTJEaS1n?oc=5",
+   "publisher": "www.j-milk.jp",
+   "via": "Google ニュース「酪農」",
+   "snippet": "",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-10-14T16:00+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "【高校野球】「最後は選手なんだな」酪農学園大とわの森三愛が初の決勝へ！9番・鈴木が8回に2ラン「1点取れれば、ピッチャーを楽にさせることができると思った」",
+   "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE54bkJVSHppN1VjaGE5b1MtRXFCejJnTWZZMjRza043TksxSWxOSzl6NVpoNXh2Qlp5REMzUHJkQWtSeV9YNndUdWtGQm1vMFhnUHZSRnpaMA?oc=5",
+   "publisher": "UHB 北海道文化放送",
+   "via": "Google ニュース「酪農」",
+   "snippet": "",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-10-14T16:00+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "酪農学園大とわの森三愛が初の決勝へ 高校野球秋季北海道大会",
+   "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9EVTVFZDAzbVhQc0xIMVNpUl9mNTRYS05Pd2xXQ0ZMMF9iNjA1VlZ4UmVtcFBHV2xwUmZpa3J3YVJReG51WHdjZjZvZkUxSzRsMFcyenBKLWI0a2k2Q25QSEpzRFlZY3lk?oc=5",
+   "publisher": "毎日新聞",
+   "via": "Google ニュース「酪農」",
+   "snippet": "",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-10-14T16:00+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "農業AIエージェント「ノウノウ」シリーズを全面拡張 きゅうりトマトなすび",
+   "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1PMDhsQi1aZjZOU2xWNXlPeHJtZzI0LUVkOHZCVG1xODVDdHhOUl9mbk9qd2JjWmF0cGNlYmlvdVZVUHZyVHdCMEpwOThrZUdXcm9SbW9WTFU0Z3ZhVVhGWVBoUXE?oc=5",
+   "publisher": "JAcom 農業協同組合新聞",
+   "via": "Google ニュース「農業 AI」",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-10-14T16:00+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "農業の未来を変える新たなAI技術、最新の活用事例",
+   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1zWU5DM3p1d1kxX0pSZmRNRVlPeWk3LWRhOW13SmhjUDlJMTcyRWI1dnZFVlZwN2VvalViSjlnaVZxRzVpUWJNVFpndnQ4b3cycnZZZE5XSmVDZw?oc=5",
+   "publisher": "Forbes JAPAN",
+   "via": "Google ニュース「農業 AI」",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-10-14T16:00+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "きゅうりトマトなすび、農業AIエージェント「ノウノウ」シリーズを全面拡張。農場データと外部AIをつなぐ「ノウノウMCP」も公開",
+   "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE54VGpCa1IxbkJ4MXhlWUNud041cmNlOWZqYWFkd0N1eHA1cFhMUXBlU002VEZaTUNWQnNBT1NHVDNzaHZmTVdaQlhwaHhuQU8yQXpndWdfOUFjb01aRWd5dUw2SXlkQTRQSW8w?oc=5",
+   "publisher": "時事ドットコム",
+   "via": "Google ニュース「農業 AI」",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-10-14T16:00+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "【農業・建設機械×NVIDIA Jetson Orin NX】【AI】粉塵・振動・水に負けない、IP67対応の車載エッジAI『Falcon Vehicle System』の取り扱いを開始しました。",
+   "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1pZ2prMFVUYkVwbm5maC1faXA2Zzk4NFN4cnIwZmdnZ0wyVHJSbmZjTkVyS3dyQmFIdTIwUVk0RDRLS29TT0NJNTRwN2Y0YTdZOVkxR2Jzd3ZHM21wQ1kxNFRES3BLakNDNVFzRml3?oc=5",
+   "publisher": "www.tv-tokyo.co.jp",
+   "via": "Google ニュース「農業 AI」",
+   "snippet": "",
+   "cats": [
+    "smart",
+    "iot"
+   ],
+   "published": "2026-10-14T16:00+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "十勝AI農業特区で何が変わる？｜19市町村の指定と、農業現場の課題を国へ届ける取組",
+   "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5XZFA4M3JCSzNnRlNwZnY5LWxvX0NEdC1oeFFYRDlYVGZsTkd2MjdFcS1qbjh1NWxzUEplYkJIOW5CX29NYmxoLVJZT002Yl8wLU94cEZzbXR3QVhnRWtB?oc=5",
+   "publisher": "選挙ドットコム",
+   "via": "Google ニュース「農業 AI」",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-10-13T16:00+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "十勝AI農業特区の指定記念シンポ 11月に帯広で開催 先進事例を紹介",
+   "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBza2J1aDQzTjFqUTVQOG1mXzRIR1dQQWpYZk0tUUp2VkhTVU9GNkVaVVlCb3plRkg5Q0ItZ2ZTeGg5OHZSbzF1WTRPZw?oc=5",
+   "publisher": "47NEWS",
+   "via": "Google ニュース「農業 AI」",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-10-13T16:00+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "世界が称賛“東京ヤギチーズ” 脱サラ転身で“金賞職人”に 東京で30年ぶり酪農参入",
+   "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5naVpBbUlwYjJHTWlnQ21tVzEzNlFIdTZHSmVLZzkxME5uU1Vud2pOSUdEV1ZUakZZcXBiYkc4ay1NYnRNMUFqTWhhTGlpdkNtZXBmdzZqRXFHREhtX05NNEZCOFNpV1hXenk4RUdEdmtTdw?oc=5",
+   "publisher": "テレ朝NEWS",
+   "via": "Google ニュース「酪農」",
+   "snippet": "",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-10-12T16:00+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "中国AI応用がASEAN展開を加速 農業・医療が越境協力の突破口に",
+   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1yQ0YzUW85ZUlXNjFZSENzSmFTWGNLVjI4X0dGRUo5OUFNVnV4QXd1SERtT2ZQRFVTTDFEU2lBM2NkZ2pVRGZjeTZGVERTeG5weXkwUHdxOTBfeHR1aFNBMWcwUjNpOTVsU1FNcFI5eFpaQW1h?oc=5",
+   "publisher": "BigGo ファイナンス",
+   "via": "Google ニュース「農業 AI」",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-10-12T16:00+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "【高校野球】「身の丈に合った試合」で酪農学園大とわの森三愛が初のベスト4 エース藤村が無四球完封――秋季北海道大会",
+   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBvc3V0dDJ3T0dINzZCYV9mSTgxcTdHMm1pSk9NNHJ1LTEyTG13cmRFclJLRkVBMDByZ29CbkNJM3RMcFdUdG5aX01fdE5wdFktX3g1bTNuNG90YUpBT042dm56Vjhmazh6Z0hmQ1l0aDhjaDBDSUk0bE91OUx0S3c?oc=5",
+   "publisher": "Yahoo!ニュース",
+   "via": "Google ニュース「酪農」",
+   "snippet": "",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-10-11T16:00+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "野球一筋から酪農一筋へ！食から脱脂粉乳を使った衣料への挑戦！",
+   "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5mdzdreHNuWDZZRklwMDQySmU3QzBNcjZ3N2E4UzRMT05IYjc2RHRTb3oxR3NWMjBhTUlKRmtwOGV2ZjNFWFJMVU5HWFY0dGJXa2c?oc=5",
+   "publisher": "TBSラジオ",
+   "via": "Google ニュース「酪農」",
+   "snippet": "",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-10-11T16:00+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "中国開発の農業AIエージェントがケニアで実用化 小規模農家の収入増を後押し",
+   "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5GOUJNM3h4dk5USHNoUjI2OERheVh6VEE5aE5tVldwZ2liTkx0SThHWmNoWk4xb3BPaFZDWnI0cVVMM09HU05uZlJYdjhhaFNZTUHSAVRBVV95cUxNeUlFUms0S2QwZEx4UmYwcm1LZjdSQ0d3SDJPcVZXTi1WaE03TTVQWm1VdW5yZURkYTM1bUd3M1FuSl9URTNKOXdZN1E2dkN3NXVsNUY?oc=5",
+   "publisher": "AFPBB News",
+   "via": "Google ニュース「農業 AI」",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-10-10T14:34+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "ネパールから佐呂間へ 〜酪農支える女性たちの2年〜 | ETV特集",
+   "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBvRzVyNi1JYzBWQVNOZ0w2Sk1tZVVKR0ZTNXU3RERPXzlKaTR5eVZXRUlyWFc1QXBwRGlxTTFPN2JwbldMSXpDNnVjTEFsZFRKMnRxbGROeWxWNkJlb2ZYMlIzVjZnMWpMU08xMmgxTXdtcHpncG13OF9POA?oc=5",
+   "publisher": "NHK ONE",
+   "via": "Google ニュース「酪農」",
+   "snippet": "",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-10-10T06:23+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "新潟市畜産飼料価格高騰対策支援事業費補助金",
+   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNSTVzTVBHeHBMM0JFWkxOZ0FyQk51djh0UEFaWVZ2NkJOOHQ0dzJKYWNaM29HWktpempxZkhSZmJlZXR6R01IS21CblY1SGJEUnBqM2liaGdRelN4TkNHSWNkRzlNOW1mOS13Y3lTNWZySTBzNGhLSHpCTjNORHFCSTNFd05vc2s5Q1IzNVRLQ05hQzM2emVCSHZuTUhCLTlkLWxqR1JSMllfWFhXenUtNHM3VmY2ZGZ2?oc=5",
+   "publisher": "新潟市",
+   "via": "Google ニュース「酪農」",
+   "snippet": "",
+   "cats": [
+    "dairy",
+    "policy"
+   ],
+   "published": "2026-10-09T16:00+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "「牛舎テント化」「搾乳ロボ導入」…県内酪農家の規模拡大を後押し、新潟県が構造改革推進へ",
+   "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE8xZ185UmlqRG9ndXFpWVhYNGdPRGhNU3FQYjNCdnNQOEJQUER5NlF6dWRtaFl3cnZMNEVnYWJHTDFMbXFabGNGeG85VG9zbGpVMXdZcU1YdzRBOVlHN1E?oc=5",
+   "publisher": "新潟日報",
+   "via": "Google ニュース「酪農」",
+   "snippet": "",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-10-09T16:00+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "平塚市畜産共進会で６連覇を達成した 伊藤 宏さん 平塚市真土在住 53歳",
+   "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5WbGVjZ0ZvUUd6R2g3UzAyWE1YRGM4M0ZCdEFVQ3B2am5VTWp1VEVIcU1JeUhxVWtPOVdudDh0T0NPaVNwWEtaazhLcmZGeUt6Z3pJdG1NSjJjS000dC1wY0pWVnQ?oc=5",
+   "publisher": "タウンニュース",
+   "via": "Google ニュース「酪農」",
+   "snippet": "",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-10-09T16:00+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "「人工雷」で肥料を生み、キュウリでAIを育てる 福岡の100年商社「welzo」が挑む農業DX（1/4 ページ）",
+   "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE96SXpXTTVpTkV1MXd1dUVOMkc0VjhRbzVoTzFsSy0xaUc2VW9YWjFpanFTaHg5eGxGbU5kcGJCU1FhRFFlXzU0aGp4ckgza01UVi1PZk5UMTRmUVlOM1NfT3pBYXUxSTdQdDhXWGpJVXZDdw?oc=5",
+   "publisher": "ITmedia",
+   "via": "Google ニュース「農業 AI」",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-10-09T16:00+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "AIに仕事を奪われた漫画家が農業デビュー 桃の収穫で知った肉体労働の苦しみと喜び【漫画】",
+   "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE4tWlctd1Q1ZG1BRHNBV3VlX1ZYYUVJYmVmemdDSndlcjRPVkU2Uy00aWI2eHF3TGVSNWc5QXVoV3JWX1ZIZV9YNWJ4cHpDMVda?oc=5",
+   "publisher": "まいどなニュース",
+   "via": "Google ニュース「農業 AI」",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-10-09T16:00+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "スマート農機開発に現場の声を 農業WEEK連携企画「タッチ＆トライ」開く スマート農業イノベーション推進会議",
+   "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5hMjJaT1ZPZFdBY1ZxZzZCbXkxbTVpWG5WVFZzSFpqRC1uZWpvTkhWOUlxVHE1YUNpQzVGQzlGMGRpSnBNQTRqdG1vMjRaUXIyVFZTYi13U25VX0xYd2NaMmJVQVM?oc=5",
+   "publisher": "JAcom 農業協同組合新聞",
+   "via": "Google ニュース「スマート農業」",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-10-08T16:00+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "サトウ工務店、工務店×林業×AIで非住宅への参入を支援",
+   "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA3R1VBS2xDQWd4RjFnMWhXbkEtb1dMSXNGbUhHcnlUTEk5VzRKcTdBVFJYMnNkT1doWFhhbVlESjNtYjFsdk93TkpRT0FtSWYwS1E?oc=5",
+   "publisher": "新建ハウジング",
+   "via": "Google ニュース「農業 AI」",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-10-08T16:00+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "＜ＶＳ雑草＞除草剤を組み合わせ 畦畔草刈りゼロへ ＪＡレーク滋賀 ＴＡＣが省力化検証",
+   "link": "https://www.agrinews.co.jp/society/index/411151",
+   "publisher": "日本農業新聞",
+   "via": "日本農業新聞",
+   "snippet": "【レーク滋賀】ＪＡレーク滋賀ＴＡＣ推進課は本年度、高島市内の農地で除草剤を組み合わせて畦畔（けいはん）の雑草を管理する「Ｃ―ＤＺ作戦」の実証試験に取り組んだ。大津・高島地区の担い手に出向くＪＡ担当者（愛称ＴＡＣ）４人がチ…",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-10-08T05:00+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "【鈴木宣弘：食料・農業問題 本質と裏側】これ以上酪農家を苦しめたら牛乳も飲めなくなる ～コメ、ジャガイモの次は酪農だ",
+   "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFAzQVo5UkJncVM3a1owbUF5MkJON0VBeWxtQjZCWVpCWWItc3FCNkM5M3ZpdnhuSkpaOFpQNWJvR3oxUWdCSFAwMk5lMnJkVzBGd0I3ckl5dUFreFJ1UXRjbjNjQjY?oc=5",
+   "publisher": "JAcom 農業協同組合新聞",
+   "via": "Google ニュース「酪農」",
+   "snippet": "",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-10-07T16:00+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "畜産共進会 「愛情いっぱいに育てた」 伊藤宏さん６連覇達成",
+   "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1MRUFiQkVUQ2pvSnpUUnpEZVZXN2JzVzQtSkRUdEFWQ2Ezd3Roc3VPZ2NKTVp1NWY0eG1hMXY3bW5Uc242amNOeHFjYmxGUU5LTk4xVmxKZk9Lak5RRVpVTHBEc18?oc=5",
+   "publisher": "タウンニュース",
+   "via": "Google ニュース「酪農」",
+   "snippet": "",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-10-07T16:00+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "中山間地域のスマート農業推進 企業と大学が連携しロボット開発（2026年10月6日掲載）｜RNC NEWS NNN",
+   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOdFZLeE1PMG42dFBBRHI1bnNqcWM2a2VvX0xRUUJVRnhBV0tjMDFhcFYtTzZERDVoT2tNVVl6SUhMNl91YjdoSm5hbllQQkhWMVI4XzRCSWlreHhqOFkwY1AxUS1HYVZlbWFvVXYzVW9HZF9jeHdWZ3hVeTBJajRZYmxEeGcwSUk?oc=5",
+   "publisher": "日テレNEWS NNN",
+   "via": "Google ニュース「スマート農業」",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-10-06T16:00+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "高梁川水系第３次取水制限入りで酪農家は不安 ウシの生命にも影響…【岡山・笠岡市】",
+   "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5tNDJZbjl0cHpzcEpLRkpSajNZQm9SS19PRlN5MnkxM3doZlBISmVEREFkZUx4ME82amNobXBFRVlDMGxaZUNXSkxRSERFNXpNTElVOVBsZ2xHQ2FobGdkZHNpY2I?oc=5",
+   "publisher": "OHK 岡山放送",
+   "via": "Google ニュース「酪農」",
+   "snippet": "",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-10-06T16:00+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "経営改善の視点からスマート農業を提案",
+   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE0xRmxnd0VvX3NBcGM1TEg3dzg4TjVvUVRlQjJRTXkzVU9OQUdfRm9TQ2duLVVxVndrUEdqQ2diMHNUSGx2R00zSzBkUXdvZVdLQ0NYdmdEM2JLUQ?oc=5",
+   "publisher": "ＪＡ全農ウィークリー",
+   "via": "Google ニュース「スマート農業」",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-10-05T16:00+09:00",
+   "first_seen": "2026-11-03T22:00+09:00"
+  }
+ ]
+}
