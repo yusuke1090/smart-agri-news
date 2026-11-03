@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T22:00+09:00",
+ "updated": "2026-11-03T22:02+09:00",
  "sources": [
   {
    "name": "日本農業新聞",
@@ -74,7 +74,7 @@
   {
    "name": "Google ニュース「農業 AI」",
    "ok": true,
-   "count": 100
+   "count": 59
   }
  ],
  "items": [
@@ -1513,6 +1513,18 @@
    ],
    "published": "2026-10-20T16:00+09:00",
    "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "牛乳パックに詐欺防止広告 南日本酪農協同に警察から感謝状｜ニュース",
+   "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1BRmRiMk5Bb0o3T0NiXzlRSGdJZ0ZOZ3RUV1N3bmlmMTB3aHJreXVuUlY3RVNuZlV3VEctb2ZYUFo4NE5zM1RGb0w3TXFHUkVFVWtrQm41Y1BVRTJrZnZj?oc=5",
+   "publisher": "UMKテレビ宮崎",
+   "via": "Google ニュース「酪農」",
+   "snippet": "",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-10-20T16:00+09:00",
+   "first_seen": "2026-11-03T22:02+09:00"
   },
   {
    "title": "電子指示書システムの利用申請をお考えの皆様へ（対象：畜産分野）",
