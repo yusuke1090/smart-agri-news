@@ -4,22 +4,24 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>スマート農業News</title>
-<meta name="description" content="スマート農業・酪農・畜産・IoT に関するニュースを、毎朝7時にまとめて更新しています。">
+<meta name="description" content="国内外のスマート農業・酪農・畜産・IoT に関するニュースを、毎朝7時にまとめて更新しています。英語の記事には日本語訳とやさしい英語のまとめ付き。">
 <link rel="alternate" type="application/rss+xml" title="スマート農業News" href="feed.xml">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🐄</text></svg>">
 <style>
 :root {
   --bg: #f5f7f2; --panel: #ffffff; --border: #dde3d6; --text: #1e2a1c; --muted: #66735f;
-  --accent: #2e7d32; --accent-soft: #e5f2e3; --link: #1b5e20; --new: #d84315;
+  --accent: #2e7d32; --accent-soft: #cfe6cc; --link: #1b5e20; --new: #d84315;
   --t-dairy: #8d5a2b; --t-dairy-bg: #f6ece1; --t-smart: #1565c0; --t-smart-bg: #e3eefa;
   --t-iot: #6a3fa0; --t-iot-bg: #efe7f8; --t-policy: #546e7a; --t-policy-bg: #e8eef1;
+  --t-en: #00695c; --t-en-bg: #dff1ef; --en-box: #f2f7fb; --en-border: #cfdeea;
 }
 @media (prefers-color-scheme: dark) {
   :root {
     --bg: #121611; --panel: #1a2019; --border: #2d372a; --text: #e4ebdf; --muted: #93a08c;
-    --accent: #66bb6a; --accent-soft: #223322; --link: #a5d6a7; --new: #ff8a65;
+    --accent: #66bb6a; --accent-soft: #2f4a2f; --link: #a5d6a7; --new: #ff8a65;
     --t-dairy: #e0b07f; --t-dairy-bg: #3a2c1f; --t-smart: #90caf9; --t-smart-bg: #1b2b3d;
     --t-iot: #ce93d8; --t-iot-bg: #2f2238; --t-policy: #b0bec5; --t-policy-bg: #263035;
+    --t-en: #80cbc4; --t-en-bg: #1d3330; --en-box: #172028; --en-border: #2a3a48;
   }
 }
 * { box-sizing: border-box; }
@@ -27,17 +29,25 @@ body { margin: 0; background: var(--bg); color: var(--text);
   font: 15px/1.7 system-ui, -apple-system, "Hiragino Sans", "Noto Sans JP", "Yu Gothic", sans-serif; }
 .wrap { max-width: 860px; margin: 0 auto; padding: 0 16px; }
 header { background: var(--panel); border-bottom: 1px solid var(--border); }
-header .wrap { padding-top: 22px; padding-bottom: 18px; }
+header .wrap { padding-top: 22px; padding-bottom: 0; }
 h1 { font-size: 22px; margin: 0 0 4px; letter-spacing: .02em; }
 h1 span { margin-right: 6px; }
 .lead { color: var(--muted); margin: 0; font-size: 13.5px; }
 .stats { display: flex; gap: 16px; flex-wrap: wrap; margin-top: 10px; font-size: 13px; color: var(--muted); }
 .stats b { color: var(--text); font-size: 15px; }
 .stats .newc b { color: var(--new); }
-.controls { position: sticky; top: 0; z-index: 5; background: var(--bg); padding: 12px 0 10px;
+.tabs { display: flex; gap: 4px; margin-top: 16px; }
+.tab { font: inherit; font-size: 15px; font-weight: 700; padding: 8px 22px; cursor: pointer;
+  border: 1px solid var(--border); border-bottom: 0; border-radius: 10px 10px 0 0;
+  background: var(--bg); color: var(--muted); }
+.tab span { margin-left: 8px; font-size: 12px; font-weight: normal; }
+.tab.on { background: var(--accent); border-color: var(--accent); color: #fff; }
+.controls { position: sticky; top: 0; z-index: 5; background: var(--bg); padding: 10px 0 10px;
   border-bottom: 1px solid var(--border); }
-.chips { display: flex; gap: 6px; flex-wrap: wrap; }
-.chip { font: inherit; font-size: 13px; padding: 4px 12px; border-radius: 999px; cursor: pointer;
+.chips { display: flex; gap: 6px; flex-wrap: wrap; align-items: center; }
+.chips + .chips { margin-top: 6px; }
+.chips .label { font-size: 12px; color: var(--muted); min-width: 4.5em; }
+.chip { font: inherit; font-size: 13px; padding: 3px 12px; border-radius: 999px; cursor: pointer;
   border: 1px solid var(--border); background: var(--panel); color: var(--text); }
 .chip span { margin-left: 6px; color: var(--muted); font-size: 12px; }
 .chip.on { background: var(--accent); border-color: var(--accent); color: #fff; }
@@ -49,20 +59,37 @@ h1 span { margin-right: 6px; }
 main { padding-bottom: 40px; }
 .day h2 { font-size: 15px; margin: 26px 0 8px; display: flex; align-items: baseline; gap: 8px; }
 .day h2 .count { font-size: 12px; color: var(--muted); font-weight: normal; }
-.item { background: var(--panel); border: 1px solid var(--border); border-radius: 10px;
-  padding: 12px 16px; margin-bottom: 8px; }
+.item { position: relative; background: var(--panel); border: 1px solid var(--border); border-radius: 10px;
+  padding: 12px 48px 12px 16px; margin-bottom: 8px; }
+.fav { position: absolute; top: 8px; right: 8px; width: 36px; height: 36px; border: 0; border-radius: 50%;
+  background: none; font-size: 22px; line-height: 1; cursor: pointer; color: var(--muted); }
+.fav:hover { background: var(--bg); }
+.fav[aria-pressed="true"] { color: #f5a623; }
+.tab-fav.on { background: #f5a623; border-color: #f5a623; }
+.fav-head { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; margin: 22px 0 8px; }
+.fav-head h2 { font-size: 15px; margin: 0; }
+.fav-head p { margin: 0; font-size: 12px; color: var(--muted); }
 .item h3 { font-size: 15.5px; margin: 4px 0 2px; line-height: 1.55; }
 .item h3 a { color: var(--link); text-decoration: none; }
 .item h3 a:hover { text-decoration: underline; }
 .item h3 a:visited { color: var(--muted); }
+.title-ja { margin: 0; font-size: 13.5px; color: var(--text); font-weight: 600; }
+.summary { margin: 6px 0 0; font-size: 14px; padding-left: 10px; border-left: 3px solid var(--accent-soft); }
 .snippet { margin: 4px 0 0; color: var(--muted); font-size: 13.5px; }
-.meta { margin-top: 4px; font-size: 12px; color: var(--muted); }
+.en-box { margin-top: 8px; padding: 8px 12px; border-radius: 8px; background: var(--en-box);
+  border: 1px solid var(--en-border); font-size: 13.5px; line-height: 1.65; }
+.en-label { font-size: 11px; font-weight: 700; color: var(--t-en); letter-spacing: .05em; }
+.en-desc { margin: 2px 0 0; font-family: Georgia, "Times New Roman", serif; font-size: 14px; }
+.en-sum { margin: 4px 0 0; font-family: Georgia, "Times New Roman", serif; font-size: 14px; }
+.en-sum b { font-family: system-ui, sans-serif; font-size: 12px; color: var(--t-en); }
+.meta { margin-top: 6px; font-size: 12px; color: var(--muted); }
 .tags { display: flex; gap: 4px; flex-wrap: wrap; }
 .tag { font-size: 11px; padding: 0 8px; border-radius: 4px; line-height: 20px; }
 .t-dairy { color: var(--t-dairy); background: var(--t-dairy-bg); }
 .t-smart { color: var(--t-smart); background: var(--t-smart-bg); }
 .t-iot { color: var(--t-iot); background: var(--t-iot-bg); }
 .t-policy { color: var(--t-policy); background: var(--t-policy-bg); }
+.t-en { color: var(--t-en); background: var(--t-en-bg); font-weight: 700; }
 .new { font-size: 11px; font-weight: 700; color: var(--new); line-height: 20px; margin-left: 2px; }
 .empty, .noresult { color: var(--muted); text-align: center; padding: 40px 0; }
 footer { border-top: 1px solid var(--border); background: var(--panel); font-size: 12.5px; color: var(--muted); }
@@ -75,33 +102,42 @@ footer li.ng { color: var(--new); }
 footer a { color: var(--link); }
 footer p { margin: 4px 0; }
 [hidden] { display: none !important; }
+@media (max-width: 480px) { .tab { padding: 8px 14px; font-size: 14px; } .chips .label { display: none; } }
 </style>
 </head>
 <body>
 <header>
   <div class="wrap">
     <h1><span>🐄</span>スマート農業News</h1>
-    <p class="lead">スマート農業・酪農・畜産・IoT に関するニュースを、毎朝7時にまとめています。</p>
+    <p class="lead">国内外のスマート農業・酪農・畜産・IoT のニュースを、毎朝7時にまとめています。英語の記事には、日本語訳とやさしい英語のまとめが付いています。</p>
     <div class="stats">
       <span>最終更新 <b><time datetime="{{UPDATED_ISO}}">{{UPDATED}}</time></b></span>
       <span class="newc">24時間以内の新着 <b>{{NEW}}</b> 件</span>
       <span>過去{{DAYS}}日分 <b>{{TOTAL}}</b> 件</span>
     </div>
+    <nav class="tabs" id="tabs">{{TABS}}</nav>
   </div>
 </header>
 
 <div class="controls">
   <div class="wrap">
-    <div class="chips" id="chips">{{CHIPS}}</div>
+    <div class="chips" id="langs"><span class="label">言語</span>{{LANGS}}</div>
+    <div class="chips" id="chips"><span class="label">カテゴリ</span>{{CHIPS}}</div>
     <div class="row2">
-      <input type="search" id="q" placeholder="キーワードで絞り込む（例: 搾乳ロボット、ドローン）" aria-label="キーワード">
+      <input type="search" id="q" placeholder="キーワードで絞り込む（例: 搾乳ロボット、drone）" aria-label="キーワード">
       <label><input type="checkbox" id="onlyNew"> 24時間以内だけ</label>
     </div>
   </div>
 </div>
 
 <main class="wrap" id="list">
+<div id="news">
 {{ITEMS}}
+</div>
+<section id="favs" hidden>
+  <div class="fav-head"><h2>★ お気に入り</h2><p>このブラウザに保存されています（30日を過ぎて一覧から消えた記事も残ります）</p></div>
+  <div id="favList"></div>
+</section>
 <p class="noresult" id="noresult" hidden>条件に合うニュースはありません</p>
 </main>
 
@@ -109,7 +145,8 @@ footer p { margin: 4px 0; }
   <div class="wrap">
     <h2>ニュースの取得元</h2>
     <ul>{{SOURCES}}</ul>
-    <p>各記事のタイトル・抜粋の著作権は、それぞれの配信元に帰属します。記事の全文は、リンク先の配信元のサイトでお読みください。</p>
+    <p>各記事のタイトル・説明文の著作権は、それぞれの配信元に帰属します。記事の全文は、リンク先の配信元のサイトでお読みください。</p>
+    <p>記事のまとめ・日本語タイトル・やさしい英語のまとめ・日本／海外の分類は、AI（Claude）がタイトルと配信元の説明文から自動で作成しています。誤りを含むことがあるため、正確な内容はリンク先の記事でご確認ください。</p>
     <p>カテゴリはキーワードで自動的に分類しているため、内容と合わないことがあります。</p>
     <p><a href="feed.xml">RSS</a> ・ <a href="https://github.com/yusuke1090/smart-agri-news" target="_blank" rel="noopener">GitHub</a></p>
   </div>
@@ -117,47 +154,155 @@ footer p { margin: 4px 0; }
 
 <script>
 (function () {
-  var cat = "all";
+  var state = { area: "japan", lang: "all", cat: "all" };
   var store = {
     get: function (k) { try { return localStorage.getItem(k); } catch (e) { return null; } },
     set: function (k, v) { try { localStorage.setItem(k, v); } catch (e) {} }
   };
-  var q = document.getElementById("q"), onlyNew = document.getElementById("onlyNew");
-  var chips = document.querySelectorAll(".chip");
+  var FAV_KEY = "agri-news-favs";
+  var favs = {};
+  try { favs = JSON.parse(store.get(FAV_KEY) || "{}") || {}; } catch (e) { favs = {}; }
 
-  function apply() {
-    var words = q.value.trim().toLowerCase().split(/\s+/).filter(Boolean);
-    var any = false;
-    document.querySelectorAll(".day").forEach(function (day) {
-      var shown = 0;
-      day.querySelectorAll(".item").forEach(function (it) {
-        var ok = (cat === "all" || (" " + it.dataset.cats + " ").indexOf(" " + cat + " ") >= 0)
-          && (!onlyNew.checked || it.dataset.new === "1")
-          && words.every(function (w) { return it.dataset.search.indexOf(w) >= 0; });
-        it.hidden = !ok;
-        if (ok) shown++;
-      });
-      day.hidden = shown === 0;
-      var c = day.querySelector(".count");
-      if (c) c.textContent = shown + "件";
-      if (shown) any = true;
-    });
-    document.getElementById("noresult").hidden = any;
+  var q = document.getElementById("q"), onlyNew = document.getElementById("onlyNew");
+  var newsItems = Array.prototype.slice.call(document.querySelectorAll("#news .item"));
+  var favList = document.getElementById("favList");
+  var groups = {
+    area: document.querySelectorAll("#tabs .tab"),
+    lang: document.querySelectorAll("#langs .chip"),
+    cat: document.querySelectorAll("#chips .chip")
+  };
+
+  // ---------- お気に入り ----------
+  function saveFavs() { store.set(FAV_KEY, JSON.stringify(favs)); }
+
+  function setStar(btn, on) {
+    btn.textContent = on ? "★" : "☆";
+    btn.setAttribute("aria-pressed", on ? "true" : "false");
+    btn.title = on ? "お気に入りから外す" : "お気に入りに追加";
   }
 
-  chips.forEach(function (b) {
-    b.addEventListener("click", function () {
-      cat = b.dataset.cat;
-      chips.forEach(function (x) { x.classList.toggle("on", x === b); });
-      store.set("agri-news-cat", cat);
-      apply();
-    });
+  function toggleFav(article) {
+    var id = article.dataset.id;
+    if (favs[id]) {
+      delete favs[id];
+    } else {
+      var copy = article.cloneNode(true);
+      copy.removeAttribute("hidden");
+      copy.removeAttribute("id");
+      copy.dataset.new = "0";
+      var n = copy.querySelector(".new"); if (n) n.remove();
+      favs[id] = { html: copy.outerHTML, savedAt: Date.now() };
+    }
+    saveFavs();
+    newsItems.forEach(function (it) { if (it.dataset.id === id) setStar(it.querySelector(".fav"), !!favs[id]); });
+    if (state.area === "fav") renderFavs();
+    apply();
+  }
+
+  function renderFavs() {
+    var ids = Object.keys(favs).sort(function (a, b) { return favs[b].savedAt - favs[a].savedAt; });
+    favList.innerHTML = ids.map(function (id) { return favs[id].html; }).join("");
+    favList.querySelectorAll(".fav").forEach(function (b) { setStar(b, true); });
+  }
+
+  document.addEventListener("click", function (ev) {
+    var btn = ev.target.closest(".fav");
+    if (btn) toggleFav(btn.closest(".item"));
   });
+  newsItems.forEach(function (it) { setStar(it.querySelector(".fav"), !!favs[it.dataset.id]); });
+
+  // ---------- 絞り込み ----------
+  function hasCat(it, c) { return c === "all" || (" " + it.dataset.cats + " ").indexOf(" " + c + " ") >= 0; }
+
+  function match(it, skip) {
+    var words = q.value.trim().toLowerCase().split(/\s+/).filter(Boolean);
+    return (skip === "lang" || state.lang === "all" || it.dataset.lang === state.lang)
+      && (skip === "cat" || hasCat(it, state.cat))
+      && (!onlyNew.checked || it.dataset.new === "1")
+      && words.every(function (w) { return (it.dataset.search || "").indexOf(w) >= 0; });
+  }
+
+  function current() {
+    return state.area === "fav"
+      ? Array.prototype.slice.call(favList.querySelectorAll(".item"))
+      : newsItems.filter(function (it) { return it.dataset.area === state.area; });
+  }
+
+  // ボタンの横の件数を、ほかの条件に合わせて数え直す
+  function updateCounts() {
+    groups.area.forEach(function (b) {
+      var a = b.dataset.area;
+      var n = a === "fav" ? Object.keys(favs).length
+        : newsItems.filter(function (it) { return it.dataset.area === a && match(it); }).length;
+      b.querySelector("span").textContent = n;
+    });
+    var list = current();
+    groups.lang.forEach(function (b) {
+      var v = b.dataset.lang;
+      b.querySelector("span").textContent = list.filter(function (it) {
+        return match(it, "lang") && (v === "all" || it.dataset.lang === v);
+      }).length;
+    });
+    groups.cat.forEach(function (b) {
+      var v = b.dataset.cat;
+      b.querySelector("span").textContent = list.filter(function (it) {
+        return match(it, "cat") && hasCat(it, v);
+      }).length;
+    });
+  }
+
+  function apply() {
+    var fav = state.area === "fav", any = false;
+    document.getElementById("news").hidden = fav;
+    document.getElementById("favs").hidden = !fav;
+    if (fav) {
+      favList.querySelectorAll(".item").forEach(function (it) {
+        var ok = match(it); it.hidden = !ok; if (ok) any = true;
+      });
+    } else {
+      document.querySelectorAll("#news .day").forEach(function (day) {
+        var shown = 0;
+        day.querySelectorAll(".item").forEach(function (it) {
+          var ok = it.dataset.area === state.area && match(it);
+          it.hidden = !ok;
+          if (ok) shown++;
+        });
+        day.hidden = shown === 0;
+        day.querySelector(".count").textContent = shown + "件";
+        if (shown) any = true;
+      });
+    }
+    var nr = document.getElementById("noresult");
+    nr.hidden = any;
+    nr.textContent = fav && !Object.keys(favs).length
+      ? "お気に入りはまだありません。記事の右上の ☆ を押すと追加できます"
+      : "条件に合うニュースはありません";
+    updateCounts();
+  }
+
+  function select(key, value, save) {
+    state[key] = value;
+    groups[key].forEach(function (b) { b.classList.toggle("on", b.dataset[key] === value); });
+    if (save) store.set("agri-news-" + key, value);
+  }
+
+  Object.keys(groups).forEach(function (key) {
+    groups[key].forEach(function (b) {
+      b.addEventListener("click", function () {
+        select(key, b.dataset[key], true);
+        if (key === "area" && state.area === "fav") renderFavs();
+        apply();
+      });
+    });
+    var saved = store.get("agri-news-" + key);
+    if (saved && Array.prototype.some.call(groups[key], function (b) { return b.dataset[key] === saved; })) {
+      select(key, saved, false);
+    }
+  });
+  if (state.area === "fav") renderFavs();
   q.addEventListener("input", apply);
   onlyNew.addEventListener("change", apply);
-
-  var saved = store.get("agri-news-cat");
-  if (saved) chips.forEach(function (b) { if (b.dataset.cat === saved) b.click(); });
+  apply();
 })();
 </script>
 </body>

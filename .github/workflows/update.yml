@@ -30,8 +30,15 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: ニュースを集めてサイトを作る
-        run: python build.py
+      - name: Claude Code を入れる（記事のまとめ作りに使う）
+        run: npm install -g @anthropic-ai/claude-code
+
+      - name: ニュースを集めて、まとめを作り、サイトを作る
+        env:
+          # claude setup-token で作ったトークン（リポジトリの Secrets に登録）。
+          # 未登録・期限切れのときは、まとめなしでサイトだけ更新される
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+        run: python build.py --summarize
 
       - name: 集めたデータをコミットする
         run: |
