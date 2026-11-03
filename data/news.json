@@ -59,7 +59,7 @@
   {
    "name": "Google ニュース「酪農」",
    "ok": true,
-   "count": 100
+   "count": 59
   },
   {
    "name": "Google ニュース「畜産 IoT」",
@@ -74,10 +74,22 @@
   {
    "name": "Google ニュース「農業 AI」",
    "ok": true,
-   "count": 59
+   "count": 100
   }
  ],
  "items": [
+  {
+   "title": "11/4(水)は鴨川市郷土資料館だけ休み｜館山城・渚の博物館・酪農のさと・菱川師宣記念館は開館、次に5施設とも休むのは11/9(月)",
+   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNaUU2R1JlVXBEdTNpNkZJdlAwMkRvSWg0WjVZV1FsVHhjTUdMRTY4NUlqcDRCZUxFVENhbjE3NnYyVVlYeldDcl9lcGlrR0JqODdHdExucmpRaFJiVzVuZGJ3R1FoU1I1WjZZOXd5RXBaZGhoVnpHSjBhWnRGYWYzY2k1RDZaa0JRZ0lCTUZaTkNlUWhmNDY5WENnQU9YV2NTSkpZZ3hLS2Q?oc=5",
+   "publisher": "ジモはる",
+   "via": "Google ニュース「酪農」",
+   "snippet": "",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-11-03T19:20+09:00",
+   "first_seen": "2026-11-03T22:07+09:00"
+  },
   {
    "title": "中国の生乳価格が53カ月ぶりにプラス転換 乳業各社の業績格差拡大、深加工が新たな主戦場に",
    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE80RElZSFQ0aS1tbzJ3b2lFNlNRdzhYcy1JZUNXdVBsWm5faDF4eFhMbmNtdXF5UndDUkt4cW1UQ0FhdnV6bWdRcjV6Tkk1QjhESS1VbXRIU0o3eTBNN25ORTVLSXpxU2otazEtbHJxb3pkS0k0?oc=5",
@@ -236,6 +248,18 @@
    ],
    "published": "2026-11-02T19:11+09:00",
    "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "【束縛シリーズ 3つの新商品登場】第一弾は、初のチルドカップ・『ミルクの束縛",
+   "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9La1lNcTNYTVZtQlhJQTNzWC1QajhsQlFUU2hNTE4wRFYza3d1aWJpeVlZcENiMVl1ZUx4TzRkS1J2aHhLRDlwT3BBaE8wNDJxakIwblZWYU9VUFRYZFJQOFptRXd3Y2hzU0h2UVdxaGxNLVJJeFEwcg?oc=5",
+   "publisher": "ニコニコニュース",
+   "via": "Google ニュース「酪農」",
+   "snippet": "",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-11-02T18:30+09:00",
+   "first_seen": "2026-11-03T22:07+09:00"
   },
   {
    "title": "酪政連が武部大臣を表敬訪問、需給対策求める",
@@ -457,6 +481,18 @@
    "first_seen": "2026-11-03T22:00+09:00"
   },
   {
+   "title": "中国広東省で無人農機実演 農業の新たな姿示す",
+   "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1ILV92cFJRazlfcnl5R3laWUJ6M1NzNzFCRlM3RlNqUDRzQVdTOG9hYlZLOXYwZmFDdXd3OTRZZ1VnXzhsT3AzR1JvYnBrS0thWkJ6RGpoQ2ZrNTM5RlZfOHQwT1U1UFFqbTY4ZkhycUdhVmZTdEhoamtQdEM?oc=5",
+   "publisher": "新華網日本語",
+   "via": "Google ニュース「スマート農業」",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-11-01T21:28+09:00",
+   "first_seen": "2026-11-03T22:07+09:00"
+  },
+  {
    "title": "【岐路に立つコメ】第４部 新農法（５）スマート農業 収量増、コスト減を実現",
    "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1NWmtWRGVBV3dwUWxHVElFbzhjMXdyN3VaOEh5QndBcVo4bTRnRTZkSXJ3d1hFSUQ4S1BoTUJZamVMdHp3WjZ4d0tPU25vUWhsc2c?oc=5",
    "publisher": "山陽新聞",
@@ -636,6 +672,21 @@
    ],
    "published": "2026-10-30T17:00+09:00",
    "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "【農林水産省選定】酪農・和牛農家向け牛舎見守りAI「農家のミハルAI」、導入の無料相談を全国から受付開始",
+   "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBfVXVCRmJEYm8yaDBobGV5Vm16ZzItR0EtcDE0TmhfNHlwSmJhSWR5MlkyZ1QxUUxHdHYwckpDZXhHR0hqX2o4OVhzaUk2ZG0tSmtCYk80dTVQdDlRVlJVd0tRTWxJc21tcXc?oc=5",
+   "publisher": "PR TIMES",
+   "via": "Google ニュース「酪農」",
+   "snippet": "",
+   "cats": [
+    "dairy",
+    "smart",
+    "iot",
+    "policy"
+   ],
+   "published": "2026-10-30T16:12+09:00",
+   "first_seen": "2026-11-03T22:07+09:00"
   },
   {
    "title": "京都ピックアップコラム 松平尚也 ＡＩと食と農",
@@ -835,6 +886,18 @@
    "first_seen": "2026-11-03T22:00+09:00"
   },
   {
+   "title": "新潟・五泉市の牛舎が全焼 けが人なし 牛1頭は逃げ出すも他の牛の被害は不明 搾乳作業中に火事に気付く",
+   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9rUmhWNUVoUTVIYWRlbllMWk00Q094OUE0QWRULU5xQTVkZGtQRjd0aGxvcU5XRmhIZVQxenpVVm9YYnlTejlDcldXQV9FNnJIN0VScHRJdXZuQU9wQzFIdkVja3JFUE1LMGpSTVhEZ1ZFVk1SMDlzeFU3enFtM0k?oc=5",
+   "publisher": "Yahoo!ニュース",
+   "via": "Google ニュース「酪農」",
+   "snippet": "",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-10-29T09:36+09:00",
+   "first_seen": "2026-11-03T22:07+09:00"
+  },
+  {
    "title": "【スマート農業団地】ノウハウ蓄積し横展開を",
    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5jV3NNM1FnWG1zTWZHVzJpWjJ0Z3FrYnZxTHYyZFBHbHk0SUtlaE83QlhwNG94VGJ0QWNudms4VUdHREtuNDV0bW5EOXY1X0NHY0thTWdGZDBIeVk?oc=5",
    "publisher": "下野新聞社",
@@ -1006,6 +1069,18 @@
    ],
    "published": "2026-10-27T19:04+09:00",
    "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "資金繰り支援「安心して」、消費減税で片山大臣",
+   "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBDTnZXaXlQMVVQM25kejVOOUYzWGdDN2VhNFcxQzR0MHJQdXd5WVMtUlZUeDdLU285bEpBRWpNVVZXV25RQkZlUWNHY1k?oc=5",
+   "publisher": "酪農乳業速報",
+   "via": "Google ニュース「酪農」",
+   "snippet": "",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-10-27T16:00+09:00",
+   "first_seen": "2026-11-03T22:07+09:00"
   },
   {
    "title": "武部農相 10月27日記者会見「生産資材の価格高騰、消費者理解を醸成して適正に価格転嫁を進めていくことが重要」",
@@ -2035,6 +2110,18 @@
    "first_seen": "2026-11-03T22:00+09:00"
   },
   {
+   "title": "【製造業×スマート農業】精密板金技術が生んだ移動式果樹棚「MGG」、秋のアウトドアフェスで移動実証を展開",
+   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9wZmRwTU16Y3N6UnY1NExleVNBTTA4SHFvY19SR2tQN2NFNTZ5QVBGbWFpMUlxOC1sYVQ4dkJFZm5sdjQzV0t4amVvRi1SUjZQdV9iWVk3YnZEZw?oc=5",
+   "publisher": "日本農業新聞",
+   "via": "Google ニュース「スマート農業」",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-10-08T17:00+09:00",
+   "first_seen": "2026-11-03T22:07+09:00"
+  },
+  {
    "title": "スマート農機開発に現場の声を 農業WEEK連携企画「タッチ＆トライ」開く スマート農業イノベーション推進会議",
    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5hMjJaT1ZPZFdBY1ZxZzZCbXkxbTVpWG5WVFZzSFpqRC1uZWpvTkhWOUlxVHE1YUNpQzVGQzlGMGRpSnBNQTRqdG1vMjRaUXIyVFZTYi13U25VX0xYd2NaMmJVQVM?oc=5",
    "publisher": "JAcom 農業協同組合新聞",
@@ -2057,6 +2144,42 @@
    ],
    "published": "2026-10-08T16:00+09:00",
    "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "九州大学とスマート農業の商品化に向けた共同研究契約を締結 welzo",
+   "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE10a1pWV0tNSDBXbXplal9FbDlfRHJGa3JpbDBNa1BhUTh4RkdkYnlyamMzTUNPNXFHa3BzWll0dHFJSmFqX3pZY0cyZ2U2TlRfU3RSN3d4b0dLbjAtSmh1YTFzNjk?oc=5",
+   "publisher": "JAcom 農業協同組合新聞",
+   "via": "Google ニュース「スマート農業」",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-10-08T16:00+09:00",
+   "first_seen": "2026-11-03T22:07+09:00"
+  },
+  {
+   "title": "［製造業×スマート農業］精密板金技術が生んだ移動式果樹棚「MGG」、秋のアウトドアフェスで移動実証を展開（PR TIMES）",
+   "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFAweFJZV29Dd2lndFFFM2ZjMllxVmJpNXpJUXR0UGtEZVR4R0FpVzBSeXN3MC1qOWhMempGOHNSdlFNV3FvaFdDcHRfXzA5TVc2c000aWxOTVc1amd5ZnBHZW95enhWWGU3?oc=5",
+   "publisher": "毎日新聞",
+   "via": "Google ニュース「スマート農業」",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-10-08T16:00+09:00",
+   "first_seen": "2026-11-03T22:07+09:00"
+  },
+  {
+   "title": "スマート化で稼げる農業に 首相「十分な予算確保」",
+   "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1ETTh5TUItS25UM2NBQ3hKVTl1bkJjLTZwRFg2WFpjUG83SVRCTUMxRTBBWVRFenl1SWxMeG9uS3Y5cGdLQ0EwZThBVEFOWG5BUk1kTl82cw?oc=5",
+   "publisher": "日本農業新聞",
+   "via": "Google ニュース「スマート農業」",
+   "snippet": "",
+   "cats": [
+    "policy"
+   ],
+   "published": "2026-10-08T16:00+09:00",
+   "first_seen": "2026-11-03T22:07+09:00"
   },
   {
    "title": "＜ＶＳ雑草＞除草剤を組み合わせ 畦畔草刈りゼロへ ＪＡレーク滋賀 ＴＡＣが省力化検証",
@@ -2117,6 +2240,30 @@
    ],
    "published": "2026-10-06T16:00+09:00",
    "first_seen": "2026-11-03T22:00+09:00"
+  },
+  {
+   "title": "自動操舵・自律走行ロボットなど、スマート農業技術をAllyNavが展示へ…農業WEEK 2026（レスポンス） | 自動車情報・ニュース",
+   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOcXJqWUxmSUZRdm1jTTlVeUJFT3RicHluU0g5WlpTNnRGekpUWFZRc3FRdlBSVFpVX0pCODFlbkpYVXlndElQclZMTXVwSHI4dDNtM2NRRXh1MWNpQjVJTy1qTU9nOWU4SXlZdmdlMk5RalNoUFZta0FaUHUtZXd3cy1JRkx5YmVO?oc=5",
+   "publisher": "carview!",
+   "via": "Google ニュース「スマート農業」",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-10-06T16:00+09:00",
+   "first_seen": "2026-11-03T22:07+09:00"
+  },
+  {
+   "title": "自動操舵・自律走行ロボットなど、スマート農業技術をAllyNavが展示へ…農業WEEK 2026",
+   "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5CYjNCcklQTkp3Y1pRa2JZY3VfOEpKZnE5Ul93MXFMbTV1c0pvOC03Z3hmdHl0VXhMZGZuVVdFVE5IbjBNMGRVYmtOWVdHemhhU0Rqd0RsV2twdThqUjVB?oc=5",
+   "publisher": "レスポンス（Response.jp）",
+   "via": "Google ニュース「スマート農業」",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-10-06T16:00+09:00",
+   "first_seen": "2026-11-03T22:07+09:00"
   },
   {
    "title": "経営改善の視点からスマート農業を提案",
