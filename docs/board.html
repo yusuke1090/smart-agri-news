@@ -26,8 +26,15 @@ body { margin: 0; background: var(--bg); color: var(--text);
   font: 15px/1.75 system-ui, -apple-system, "Hiragino Sans", "Noto Sans JP", "Yu Gothic", sans-serif; }
 .wrap { max-width: 860px; margin: 0 auto; padding: 0 16px; }
 header { background: var(--panel); border-bottom: 1px solid var(--border); }
-header .wrap { padding-top: 18px; padding-bottom: 18px; }
-.back { font-size: 13px; color: var(--link); text-decoration: none; }
+header .wrap { padding-top: 18px; padding-bottom: 0; }
+.brand { font-size: 18px; font-weight: 700; }
+.tabs { display: flex; gap: 4px; margin-top: 12px; overflow-x: auto; scrollbar-width: none; }
+.tab { font-size: 15px; font-weight: 700; padding: 8px 22px; white-space: nowrap; flex-shrink: 0; text-decoration: none;
+  border: 1px solid var(--border); border-bottom: 0; border-radius: 10px 10px 0 0; background: var(--bg); color: var(--muted); }
+.tab.on { background: #5c6bc0; border-color: #5c6bc0; color: #fff; }
+.intro { border-bottom: 1px solid var(--border); }
+.intro .wrap { padding-top: 14px; padding-bottom: 14px; }
+@media (max-width: 480px) { .tabs { gap: 3px; } .tab { padding: 7px 10px; font-size: 13.5px; } }
 h1 { font-size: 22px; margin: 6px 0 4px; }
 .lead { color: var(--muted); margin: 0; font-size: 13.5px; }
 .actions { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 14px; align-items: center; }
@@ -68,12 +75,23 @@ footer { border-top: 1px solid var(--border); background: var(--panel); font-siz
 footer .wrap { padding-top: 16px; padding-bottom: 24px; }
 footer a { color: var(--link); }
 [hidden] { display: none !important; }
+@media (max-width: 380px) { .tab { padding: 7px 6px; font-size: 12.5px; } }
 </style>
 </head>
 <body>
 <header>
   <div class="wrap">
-    <a class="back" href="./">← スマート農業News にもどる</a>
+    <div class="brand">🐄 スマート農業News</div>
+    <nav class="tabs">
+      <a class="tab" href="./#japan">🗾 日本</a>
+      <a class="tab" href="./#overseas">🌏 海外</a>
+      <a class="tab" href="./#fav">★ お気に入り</a>
+      <a class="tab on" href="board.html" aria-current="page">📝 伝言板</a>
+    </nav>
+  </div>
+</header>
+<section class="intro">
+  <div class="wrap">
     <h1>📝 伝言板</h1>
     <p class="lead">将来やりたいこと・アイデア・相談を書き込む場所です。誰でも読めます。書き込みと編集には GitHub のアカウント（無料）が必要です。</p>
     <div class="actions">
@@ -91,7 +109,7 @@ footer a { color: var(--link); }
       </ol>
     </details>
   </div>
-</header>
+</section>
 
 <main class="wrap">
   <div class="chips" id="chips" hidden></div>
