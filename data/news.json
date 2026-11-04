@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T22:29+09:00",
+ "updated": "2026-11-04T10:38+09:00",
  "sources": [
   {
    "name": "日本農業新聞",
@@ -39,12 +39,12 @@
   {
    "name": "ITmedia",
    "ok": true,
-   "count": 0
+   "count": 2
   },
   {
    "name": "日刊工業新聞",
    "ok": true,
-   "count": 2
+   "count": 1
   },
   {
    "name": "Google ニュース「スマート農業」",
@@ -54,12 +54,12 @@
   {
    "name": "Google ニュース「スマート畜産」",
    "ok": true,
-   "count": 34
+   "count": 35
   },
   {
    "name": "Google ニュース「酪農」",
    "ok": true,
-   "count": 100
+   "count": 55
   },
   {
    "name": "Google ニュース「畜産 IoT」",
@@ -69,12 +69,12 @@
   {
    "name": "Google ニュース「農業 IoT」",
    "ok": true,
-   "count": 100
+   "count": 37
   },
   {
    "name": "Google ニュース「農業 AI」",
    "ok": true,
-   "count": 100
+   "count": 58
   },
   {
    "name": "AgFunderNews",
@@ -103,13 +103,13 @@
   },
   {
    "name": "Agriland",
-   "ok": true,
-   "count": 33
+   "ok": false,
+   "count": 0
   },
   {
    "name": "FeedNavigator",
    "ok": true,
-   "count": 7
+   "count": 6
   },
   {
    "name": "Google News \"smart farming\"",
@@ -119,15 +119,209 @@
   {
    "name": "Google News \"dairy tech\"",
    "ok": true,
-   "count": 70
+   "count": 71
   },
   {
    "name": "Google News \"farm IoT\"",
    "ok": true,
-   "count": 48
+   "count": 100
   }
  ],
  "items": [
+  {
+   "title": "大内山牛乳など使い新メニュー 大紀町ミルクフェスタ 22店舗でスタンプラリー",
+   "link": "https://news.google.com/rss/articles/CBMi3gJBVV95cUxPNDhITXc1LU5EbVV5bzMxbzEtOUViQ2FIYS1iRVFleU5tRWswMEdNdEVhMmVmYjdWVFVCSTJ1M1ZwMmtQOGZmc0ViUV8ySEFDcE9IT3lXRjFGVW1YVkdGcFhVVlNNOUR1aTBla21lMGlEVXZiNnFoYXFwWW9OYTlaVEhaTGl0NDJaUlViNzJHcmZTU0txSldoLVhzWVhlNDlQWENZSUtJNElkQ1hlWk84WFdZZXZqTnVtbXYyeW1XOGZuUjFybWJ3eUNDZFFqVENKREU4dnJoMEhPZzRDZ3ZTbS13b1Y2eUpKQXJtV0kwLUlYV0dMdHFlZnlTTGtEb1ZLUnNKSDc2TXZ6WXVDZW9SeGoxVm1Ia0VyN25YSHRvZGVaR05SMFI3YzJsVjBTajlZanZmYzBSNXhWMG1UaXBzejluMlZ5QjJWS2dBQmN6QUdURnJYeGJ5Uk5TVlplZw?oc=5",
+   "publisher": "伊勢新聞",
+   "via": "Google ニュース「酪農」",
+   "region": "jp",
+   "snippet": "",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-11-04T10:03+09:00",
+   "first_seen": "2026-11-04T10:38+09:00",
+   "lang": "ja",
+   "area": "japan",
+   "summary_tries": 1
+  },
+  {
+   "title": "Ottawa puts $750M into AgTech adoption",
+   "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOWEwzNy1BbTBjZktTSk1MUE81Snh0UEVnb09jc29RRTVIbHVRd3hNc2R1Xy1ocWx6NTJzaGRNUmFVR3ZlUkpOd2tyNlUzdGlFUkw2UXhQOU1iUnVKaXhqZ2FTWm4tMmdHa3VHeXppYTdPckFaOEFFM1JzdHQ1b3Y3RkMtYw?oc=5",
+   "publisher": "Digital Journal",
+   "via": "Google News \"smart farming\"",
+   "region": "world",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-11-04T08:37+09:00",
+   "first_seen": "2026-11-04T10:38+09:00",
+   "lang": "en",
+   "area": "overseas",
+   "summary_tries": 1
+  },
+  {
+   "title": "[ITmedia ビジネスオンライン] オープンハウス28歳エース、新卒2年目で「年収1000万円」達成 “最強”を目指す泥臭い仕事哲学とは？",
+   "link": "https://www.itmedia.co.jp/business/articles/2611/04/news008.html",
+   "publisher": "ITmedia",
+   "via": "ITmedia",
+   "region": "jp",
+   "snippet": "入社時に掲げた「年収1000万円」を新卒2年目で達成したオープンハウスグループの斉藤蕗さん。順風満帆に見えるキャリアの裏で、あえて厳しい現場に飛び込み自らを鍛えてきた。「仕事の借りは仕事で返す」と語る、独自の仕事哲学に迫る。",
+   "cats": [
+    "iot"
+   ],
+   "published": "2026-11-04T07:00+09:00",
+   "first_seen": "2026-11-04T10:38+09:00",
+   "lang": "ja",
+   "area": "japan",
+   "summary_tries": 1
+  },
+  {
+   "title": "[ITmedia ビジネスオンライン] なぜ、100年続く問屋がいま“急成長”？ 4年で売上5割増、welzo社長に聞く「多少の無駄」を許す組織改革",
+   "link": "https://www.itmedia.co.jp/business/articles/2611/04/news016.html",
+   "publisher": "ITmedia",
+   "via": "ITmedia",
+   "region": "jp",
+   "snippet": "ホームセンター市場の縮小や農家の減少という逆風の中、100年企業のwelzoは売上高を325億円から501億円へと4年で5割以上も急伸させた。2020年に就任した金尾佳文社長のもとで、挑戦を促す風土をどう根付かせたのか。100年企業の知られざる組織改革の舞台裏に迫る。",
+   "cats": [
+    "iot"
+   ],
+   "published": "2026-11-04T07:00+09:00",
+   "first_seen": "2026-11-04T10:38+09:00",
+   "lang": "ja",
+   "area": "japan",
+   "summary_tries": 1
+  },
+  {
+   "title": "漫画家・あらゐけいいち氏が挿絵 クボタのカタログでスマート農業描く",
+   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9zZGhzdjBYSGNIZUttYlBzdE5zTFhBaVpQWklRUGRSZDc0ZFk0VjVpbThzNWNua25oV2JXVVR4V2FvalVjNXNYSW9KcV9MR0wxV3NrWDRNemF0Zm8?oc=5",
+   "publisher": "日本農業新聞",
+   "via": "Google ニュース「スマート農業」",
+   "region": "jp",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-11-04T05:02+09:00",
+   "first_seen": "2026-11-04T10:38+09:00",
+   "lang": "ja",
+   "area": "japan",
+   "summary_tries": 1
+  },
+  {
+   "title": "都府県酪農５０００戸割れ １０年でほぼ半減、飼料高響く",
+   "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1Ld0V0WkwtazBZRzZpV2ZmZ2cydDBna2RnUGpLUUxLZUtIM21UYVNIRGc0dFNzek0xcFY0dm40RlZaS2lSUlVGT1doMEJMbDhYR1YxRzh5OA?oc=5",
+   "publisher": "日本農業新聞",
+   "via": "Google ニュース「酪農」",
+   "region": "jp",
+   "snippet": "",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-11-04T05:02+09:00",
+   "first_seen": "2026-11-04T10:38+09:00",
+   "lang": "ja",
+   "area": "japan",
+   "summary_tries": 1
+  },
+  {
+   "title": "［論説］積み上がる脱粉在庫 早めに不需要期対策を",
+   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBIcmV3WDJOZFNZWjhNcUJqX3pHUjA3RXg5UHN2TnVyaktjbkFCQWlXZWFUNWdISUlJdDQyaTIzTlJzMVhuNndEZVFfam5vYkRqTDlxVm1OcWNhbEU?oc=5",
+   "publisher": "日本農業新聞",
+   "via": "Google ニュース「酪農」",
+   "region": "jp",
+   "snippet": "",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-11-04T05:02+09:00",
+   "first_seen": "2026-11-04T10:38+09:00",
+   "lang": "ja",
+   "area": "japan",
+   "summary_tries": 1
+  },
+  {
+   "title": "NTT系、粒剤散布装置を開発 農業ドローン向け",
+   "link": "https://www.nikkan.co.jp/articles/view/796079",
+   "publisher": "日刊工業新聞",
+   "via": "日刊工業新聞",
+   "region": "jp",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-11-04T05:00+09:00",
+   "first_seen": "2026-11-04T10:38+09:00",
+   "lang": "ja",
+   "area": "japan",
+   "desc_checked": true,
+   "summary_tries": 1
+  },
+  {
+   "title": "Helping commercialize Sask. agtech",
+   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQZ0l4c3gyQXc0NWNGampub0F4Ukd0akVpLVZIWk02ZW9vdzIxWTlPaXJxU1VkcEFuanBoVUw4Zkx5TWN3ek54ckpHRndMMjZvYzQ2aHFKdVE1eUV3NjNtR2t6eTRyR1hHTjgwMUx0VWhJUzRJdDNiWHBhZHhvdFFYRENmSUZwbUFE?oc=5",
+   "publisher": "Farms.com",
+   "via": "Google News \"smart farming\"",
+   "region": "world",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-11-04T04:54+09:00",
+   "first_seen": "2026-11-04T10:38+09:00",
+   "lang": "en",
+   "area": "overseas",
+   "summary_tries": 1
+  },
+  {
+   "title": "AgConverge conference is back on Nov. 17-18 as Spur Ventures celebrates one year anniversary",
+   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQYXhQQnFxcTdwZU51VlpBY2VYX2I1bmVYSm1OSjlpOXlhRlNyRlQ3cERfZWxmbFZjMUhvbmxFRWpSRThPMnBhd0ZXNzg3bEhKR1pLQkNLYWQ0QVRKWllsSmtEaUVmQmE4UTJjQU1td2VfU2ZueTEwWkt1MkJUQnE4YXozWWlxb3lvRjRFSDJ3d2k5R3phTXFnQnRsbUpteTJCSXhBUzdiUG1nV0tnT19CRkFncjVlQ1lRM004VW5oclZPb3oyREN4cFREWQ?oc=5",
+   "publisher": "Silicon Prairie News",
+   "via": "Google News \"smart farming\"",
+   "region": "world",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-11-04T02:01+09:00",
+   "first_seen": "2026-11-04T10:38+09:00",
+   "lang": "en",
+   "area": "overseas",
+   "summary_tries": 1
+  },
+  {
+   "title": "十勝の成長「AI農業特区」が後押し ロボトラ・ドローン活用も",
+   "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5zVUJsd1lhNzRHV01PWFQyZk1Ua244Y0FnVTh4ZlpodzU3X1QzcW1TeWZRUURQTDZQb0d1ZGotZG1vdlp3YUdrQjJfcUpNZXdpa3k2U3ZwNVJXUU5VTE9VekVQbUVyY0VqRnY2Wg?oc=5",
+   "publisher": "日本経済新聞",
+   "via": "Google ニュース「農業 AI」",
+   "region": "jp",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-11-04T01:45+09:00",
+   "first_seen": "2026-11-04T10:38+09:00",
+   "lang": "ja",
+   "area": "japan",
+   "summary_tries": 1
+  },
+  {
+   "title": "US Dairy Checkoff campaign drives 30 new product launches in 2025",
+   "link": "https://www.dairyreporter.com/Article/2026/11/03/dairy-checkoff-campaign-boosts-drives-30-new-product-launches-in-2025/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+   "publisher": "DairyReporter",
+   "via": "DairyReporter",
+   "region": "world",
+   "snippet": "Partnerships with leading foodservice, retail and dairy companies in the US resulted in more than 30 new dairy-focused product launches during 2025, the Dairy Checkoff Program has revealed.",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-11-03T23:07+09:00",
+   "first_seen": "2026-11-04T10:38+09:00",
+   "lang": "en",
+   "area": "overseas",
+   "desc_checked": true,
+   "summary_tries": 1
+  },
   {
    "title": "North Dakota court orders changes to beef commission nominations",
    "link": "https://www.farmprogress.com/tv-and-radio/north-dakota-court-orders-changes-to-beef-commission-nominations",
@@ -142,7 +336,7 @@
    "first_seen": "2026-11-03T22:29+09:00",
    "lang": "en",
    "area": "overseas",
-   "summary_tries": 1
+   "summary_tries": 2
   },
   {
    "title": "Mart report: Beef cattle hold steady amid price uncertainty in Tullow",
@@ -234,7 +428,7 @@
    "first_seen": "2026-11-03T22:29+09:00",
    "lang": "en",
    "area": "overseas",
-   "summary_tries": 1
+   "summary_tries": 2
   },
   {
    "title": "11/4(水)は鴨川市郷土資料館だけ休み｜館山城・渚の博物館・酪農のさと・菱川師宣記念館は開館、次に5施設とも休むのは11/9(月)",
@@ -618,7 +812,7 @@
    "first_seen": "2026-11-03T22:29+09:00",
    "lang": "en",
    "area": "overseas",
-   "summary_tries": 1
+   "summary_tries": 2
   },
   {
    "title": "スマート畜産普及へ方針案 導入効果など情報提供重視 農水省検討会",
@@ -1247,6 +1441,22 @@
    "summary_v": 2
   },
   {
+   "title": "India Agriculture IoT Market Size, Share,Trends, Growth Analysis Report, 2030",
+   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOV3B1YlB0TjZTNU8tRXNEZ2lSLWhKU3UxQVh3WTdqRzN0aEtRMGZLOU9zcTBpVVEtOWhQc1hYTzFwc2U1UlRTZHdsNkNmcDZRTGUxbFJ2MEsyZ1YzWmQ0bnVKZjZUekh0MmNqa0xIbEw2OG5iSGVnTi04M2xiNXFueDdHNzBtejB4RGV1cm9UWnJtM29Z?oc=5",
+   "publisher": "MarketsandMarkets",
+   "via": "Google News \"farm IoT\"",
+   "region": "world",
+   "snippet": "",
+   "cats": [
+    "iot"
+   ],
+   "published": "2026-11-02T14:41+09:00",
+   "first_seen": "2026-11-04T10:38+09:00",
+   "lang": "en",
+   "area": "overseas",
+   "summary_tries": 1
+  },
+  {
    "title": "「北陸みらい農業フォーラム2026」に出展 プレゼンテーションにも参加 フェイガー",
    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE53dWZUY29tcmtiVjdvVkpyOGhsSmw1MWc1Q29YaXNYNU90alRfNVFFbHpOZVJKOXIyX0ZLLVpyYkxiSGZxTlZHbk44SkhpVXdobktfclA2NVE2RFlJd2RkQWVoRlo?oc=5",
    "publisher": "JAcom 農業協同組合新聞",
@@ -1297,6 +1507,22 @@
    "area": "japan",
    "summary": "牛乳のコスト指標が前年比106に上昇し、今後の乳価の価格交渉にどう影響するかを取り上げる記事。",
    "summary_v": 2
+  },
+  {
+   "title": "畜産業をより集約的なアプローチへと再構築する。",
+   "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBsZDgzMVZ2UlpsN1VzWkRPSTB3R3dNMkpoOVVKSV9QMEdBSjM5dUtOaERocjMyRnFRM0NyQ0VRRldwMGxPdUoxRnZteHpGaFFxZ3VlNzhvT082dFc1ZU9QcVBMS1VDdWcxdVUwRWxvN3BRX05NYnphUGF3R3BLQQ?oc=5",
+   "publisher": "Vietnam.vn",
+   "via": "Google ニュース「酪農」",
+   "region": "jp",
+   "snippet": "",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-11-02T12:56+09:00",
+   "first_seen": "2026-11-04T10:38+09:00",
+   "lang": "ja",
+   "area": "japan",
+   "summary_tries": 1
   },
   {
    "title": "JA新はこだて酪農生産部会が遺愛女子高等学校で牛乳を配布～牛乳消費拡大と酪農への理解促進をPR～",
@@ -1452,7 +1678,7 @@
    "first_seen": "2026-11-03T22:29+09:00",
    "lang": "en",
    "area": "overseas",
-   "summary_tries": 1
+   "summary_tries": 2
   },
   {
    "title": "DAFM clarifies rise in official cull ewe kill figure data",
@@ -2116,6 +2342,22 @@
    "summary_v": 2
   },
   {
+   "title": "【丸ビル】開けた瞬間にバター香る！「BUTTER 美瑛放牧酪農場」の贅沢ビスケット缶実食レポ",
+   "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5WeFQ4S0c2RTFQU3A4UmI1bzlsb1VvUkdNWEwyTzV4Vk9BUjgwOG45VExmZWtnSlVzLWpzNWoxbC00SW1kZ1pZUXZYT2J2N243RzRZYjhoWWxoMTU0TVdN?oc=5",
+   "publisher": "BAILA（バイラ）",
+   "via": "Google ニュース「酪農」",
+   "region": "jp",
+   "snippet": "",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-10-30T21:30+09:00",
+   "first_seen": "2026-11-04T10:38+09:00",
+   "lang": "ja",
+   "area": "japan",
+   "summary_tries": 1
+  },
+  {
    "title": "Farmers told to ‘note the names’ of workers maintaining hedges",
    "link": "https://www.agriland.ie/farming-news/farmers-told-to-note-the-names-of-workers-maintaining-hedges/",
    "publisher": "Agriland",
@@ -2133,6 +2375,22 @@
    "title_ja": "生け垣の整備作業員の名前を控えるよう農家に呼びかけ",
    "summary_en": "An Irish farm group tells farmers to write down the names of hedge workers.",
    "summary_v": 2
+  },
+  {
+   "title": "グランドチャンピオンはー 県ホルスタイン共進会 鹿児島（KKB鹿児島放送）",
+   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8yeE1pOGVoeGpkM0xLNkc2SnYwUWk2QXlaMTFxa0VrOFhwX2lIaWVRaGVoMzVQQ1RVbWQ2Vy1pajJuN1hvNVNtcXNoVVBkOHlnLTdzVU11dWVUd2NTQ1VWZ0NFWjZQVnJTMnJ3TWh5UVllN1JRT1NpdF81UGozTms?oc=5",
+   "publisher": "Yahoo!ニュース",
+   "via": "Google ニュース「酪農」",
+   "region": "jp",
+   "snippet": "",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-10-30T18:52+09:00",
+   "first_seen": "2026-11-04T10:38+09:00",
+   "lang": "ja",
+   "area": "overseas",
+   "summary_tries": 1
   },
   {
    "title": "現存する日本最古の西洋式酪農牧場の ジャージー牛のミルクと発酵バターが主役のスイーツ専門店 「神津牧場」が品川駅に期間限定・初上陸！",
@@ -2439,7 +2697,7 @@
    "first_seen": "2026-11-03T22:29+09:00",
    "lang": "en",
    "area": "overseas",
-   "summary_tries": 1
+   "summary_tries": 2
   },
   {
    "title": "特集「2030年流通業界未来予想図」 ⑥ 農業／人手激減ショックを乗り越えるスマート農業の現在地／中野明正 千葉大学 園芸学研究院 教授",
@@ -2546,7 +2804,7 @@
    "first_seen": "2026-11-03T22:29+09:00",
    "lang": "en",
    "area": "overseas",
-   "summary_tries": 1
+   "summary_tries": 2
   },
   {
    "title": "European summer gives the Magnum Ice Cream Company a boost in Q3",
@@ -2566,6 +2824,23 @@
    "title_ja": "欧州の夏が後押し、マグナム・アイスクリーム・カンパニーの第3四半期は好調",
    "summary_en": "Magnum Ice Cream Company did well in Q3, partly because summer in Europe lasted longer.",
    "summary_v": 2
+  },
+  {
+   "title": "AI, IoT can boost shrimp farm returns by over 80%, finds Icrier paper",
+   "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPekFKTGVvMDFkMWlaa2dOUkdjc3czdmNhd0pIckNtdDUyQ2FtOWR4em1DVWFVd3hEdEI2UUpfSnlpSjRNOGhBR2xzVnN6VFJFZVlQTEhiQ000OTBPNkMwS2ppOW1Vc3NHV1dYUk03bE5iYjZPMTVmeFE0SGJGTGFSb1RBX0w2TGxnZklUQ3B2NDd0ajEtS3Q2ME00ekh4ajAzTFpDTWlUU2VrOVdYb085STlBa1Vod0lsV3BiRW5YSXc5RmQ4cVBkOWFiNC1XRUJnUkhuakVvUG0?oc=5",
+   "publisher": "Business Standard",
+   "via": "Google News \"farm IoT\"",
+   "region": "world",
+   "snippet": "",
+   "cats": [
+    "smart",
+    "iot"
+   ],
+   "published": "2026-10-29T23:10+09:00",
+   "first_seen": "2026-11-04T10:38+09:00",
+   "lang": "en",
+   "area": "overseas",
+   "summary_tries": 1
   },
   {
    "title": "New DMI chief sets three-year goals for dairy checkoff",
@@ -2619,6 +2894,22 @@
    "area": "japan",
    "summary": "酪農学園大学の佐藤教授らが、環境大臣とクマ対策について意見を交わした。",
    "summary_v": 2
+  },
+  {
+   "title": "KijaniSpace Innovation Programme 2026: Up to €5,000",
+   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOQXIxdEJsS3ZDMHJHTlpsMHVCeEYxdlR5VnN3OGdiZklpWDBiRVdzRl94d1NVV043Zkw1amdyaGpRVktRSlMzMHNieUZtYWlrY3JZdHZoZzA1UEI1V2VrbVc5YXpRQ0hnLW4wZWpLZk5BcnVUd2FpTGUweTVGS01tNDlEVWZUM2NWb0RlWnJka0F4Y3M?oc=5",
+   "publisher": "Menterprise Africa",
+   "via": "Google News \"farm IoT\"",
+   "region": "world",
+   "snippet": "",
+   "cats": [
+    "iot"
+   ],
+   "published": "2026-10-29T20:30+09:00",
+   "first_seen": "2026-11-04T10:38+09:00",
+   "lang": "en",
+   "area": "overseas",
+   "summary_tries": 1
   },
   {
    "title": "Mark Golder: ‘Cacao-based chocolate will become increasingly premium, and for everything else, there’s Win-Win’",
@@ -2800,6 +3091,23 @@
    "summary_v": 2
   },
   {
+   "title": "「可哀想な俺」牧場主が豪快に転倒…なぜ？ 牛舎のカメラが捉えた衝撃の瞬間が81万回表示「初めての万バズ…感動」",
+   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1KU1M2cnA2SU9mMHFHVWNhMkVDSkkzMHFWM2RKdUktcmFuU21KZm9RQkxqbHZEckg4R3hQSnBBTmZtX04wRlgzUXlRajdkNGJWcTVlSEx0UjVZQ3hqZm9qamtYbkRlTTNRbk1WQVFkSFc0cEZLOWJVbWdLWUhqRVk?oc=5",
+   "publisher": "Yahoo!ニュース",
+   "via": "Google ニュース「酪農」",
+   "region": "jp",
+   "snippet": "",
+   "cats": [
+    "dairy",
+    "iot"
+   ],
+   "published": "2026-10-29T11:20+09:00",
+   "first_seen": "2026-11-04T10:38+09:00",
+   "lang": "ja",
+   "area": "japan",
+   "summary_tries": 1
+  },
+  {
    "title": "新潟・五泉市の牛舎が全焼 けが人なし 牛1頭は逃げ出すも他の牛の被害は不明 搾乳作業中に火事に気付く",
    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9rUmhWNUVoUTVIYWRlbllMWk00Q094OUE0QWRULU5xQTVkZGtQRjd0aGxvcU5XRmhIZVQxenpVVm9YYnlTejlDcldXQV9FNnJIN0VScHRJdXZuQU9wQzFIdkVja3JFUE1LMGpSTVhEZ1ZFVk1SMDlzeFU3enFtM0k?oc=5",
    "publisher": "Yahoo!ニュース",
@@ -2957,7 +3265,7 @@
    "first_seen": "2026-11-03T22:29+09:00",
    "lang": "en",
    "area": "overseas",
-   "summary_tries": 1
+   "summary_tries": 2
   },
   {
    "title": "From Demo to Deal: FIRA USA Connects Pacific Northwest Growers With Ag Robotics and Tech",
@@ -3677,7 +3985,7 @@
    "first_seen": "2026-11-03T22:29+09:00",
    "lang": "en",
    "area": "overseas",
-   "summary_tries": 1
+   "summary_tries": 2
   },
   {
    "title": "The rise of ‘protein plus’",
@@ -3786,7 +4094,7 @@
    "first_seen": "2026-11-03T22:29+09:00",
    "lang": "en",
    "area": "overseas",
-   "summary_tries": 1
+   "summary_tries": 2
   },
   {
    "title": "Arla withdraws protein puddings over glass contamination risk",
@@ -3915,7 +4223,7 @@
    "first_seen": "2026-11-03T22:29+09:00",
    "lang": "en",
    "area": "overseas",
-   "summary_tries": 1
+   "summary_tries": 2
   },
   {
    "title": "丹後王国ブルワリー、脱脂粉乳の新たな需要創出へ 『蒜山ジャージーミルクジャム ミルクのおすそわけ』10月26日発売 ～「蒜山地域酪農拠点再構築コンソーシアム」の取り組みから初の商品化～",
@@ -4001,7 +4309,7 @@
    "first_seen": "2026-11-03T22:29+09:00",
    "lang": "en",
    "area": "overseas",
-   "summary_tries": 1
+   "summary_tries": 2
   },
   {
    "title": "「畜産の情報」11月号を掲載しました。",
@@ -4244,7 +4552,7 @@
    "first_seen": "2026-11-03T22:29+09:00",
    "lang": "en",
    "area": "overseas",
-   "summary_tries": 1
+   "summary_tries": 2
   },
   {
    "title": "‘No acceptable offers’ for Liberation Bioindustries as firm seeks to plug $25m funding gap",
@@ -4499,7 +4807,7 @@
    "first_seen": "2026-11-03T22:29+09:00",
    "lang": "en",
    "area": "overseas",
-   "summary_tries": 1
+   "summary_tries": 2
   },
   {
    "title": "New Study Maps Global Economic Potential of Smart Farming Innovations and Future Growth",
@@ -4515,7 +4823,7 @@
    "first_seen": "2026-11-03T22:29+09:00",
    "lang": "en",
    "area": "overseas",
-   "summary_tries": 1
+   "summary_tries": 2
   },
   {
    "title": "ホエイ及び調製ホエイの売買同時入札（SBS方式）結果",
@@ -4582,7 +4890,7 @@
    "first_seen": "2026-11-03T22:29+09:00",
    "lang": "en",
    "area": "overseas",
-   "summary_tries": 1
+   "summary_tries": 2
   },
   {
    "title": "Layoffs at Carbon Robotics as firm “realigns costs due to broader economic conditions”",
@@ -4676,6 +4984,22 @@
    "area": "japan",
    "summary": "福島県楢葉町で、スマート農業技術を使ったサツマイモの収穫が行われた。担い手不足の解消が狙い。",
    "summary_v": 2
+  },
+  {
+   "title": "IoT-controlled hydroponic maize system produced green fodder in three sequential validation cycles",
+   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOSEhMNS1WdV9tc3FNcWtuRDVYdW1uZnREdFEtbXVScm5jbWtRMmpXSklfNEJ2VmZocEg3V3lmTC05S0hEOGlUcGpuajFhdDc4dHBPTVZjNjBGdXNMRFI0a1otc3p1ZVBzQm1MbGJjcnFBUDRScURFWkViZWR4Yndna1dYbkRaSGRtOXhrRl9OYmVYc3o4WDhCcGYzMC1qdlJwc0hQQ0N3NS11Nk81akFzLW12TXF6SHp0Y2hVdDFBR1o?oc=5",
+   "publisher": "Bioengineer.org",
+   "via": "Google News \"farm IoT\"",
+   "region": "world",
+   "snippet": "",
+   "cats": [
+    "iot"
+   ],
+   "published": "2026-10-21T18:48+09:00",
+   "first_seen": "2026-11-04T10:38+09:00",
+   "lang": "en",
+   "area": "overseas",
+   "summary_tries": 1
   },
   {
    "title": "スマート農業取り組み促進！米八（新潟市南区）、北陸農政局が認定 他の生産者とデータ共有、品質や収量向上へ",
@@ -4811,7 +5135,7 @@
    "first_seen": "2026-11-03T22:29+09:00",
    "lang": "en",
    "area": "overseas",
-   "summary_tries": 1
+   "summary_tries": 2
   },
   {
    "title": "Smart farming technologies are starting to pay off",
@@ -4827,7 +5151,7 @@
    "first_seen": "2026-11-03T22:29+09:00",
    "lang": "en",
    "area": "overseas",
-   "summary_tries": 1
+   "summary_tries": 2
   },
   {
    "title": "豪州競争・消費者委員会、主要鶏卵事業者を競争法違反の疑いで提訴（豪州）",
@@ -4932,7 +5256,7 @@
    "first_seen": "2026-11-03T22:29+09:00",
    "lang": "en",
    "area": "overseas",
-   "summary_tries": 1
+   "summary_tries": 2
   },
   {
    "title": "IMIO raises $12m to unlock nutrients trapped in crop residues with new generation of ‘dependable ag biologicals’",
@@ -5052,7 +5376,7 @@
    "first_seen": "2026-11-03T22:29+09:00",
    "lang": "en",
    "area": "overseas",
-   "summary_tries": 1
+   "summary_tries": 2
   },
   {
    "title": "Robots become normal for WA’s “progressive” dairy farmers",
@@ -5069,7 +5393,7 @@
    "first_seen": "2026-11-03T22:29+09:00",
    "lang": "en",
    "area": "overseas",
-   "summary_tries": 1
+   "summary_tries": 2
   },
   {
    "title": "It will take more than data to improve traceability in the cotton supply chain",
@@ -5248,7 +5572,7 @@
    "first_seen": "2026-11-03T22:29+09:00",
    "lang": "en",
    "area": "overseas",
-   "summary_tries": 1
+   "summary_tries": 2
   },
   {
    "title": "Robots and AI could make smart farming profitable on 75% of global cropland: Study",
@@ -5264,7 +5588,7 @@
    "first_seen": "2026-11-03T22:29+09:00",
    "lang": "en",
    "area": "overseas",
-   "summary_tries": 1
+   "summary_tries": 2
   },
   {
    "title": "New hoeing robot benefits from growers’ critical eye",
@@ -5348,6 +5672,41 @@
    ],
    "published": "2026-10-18T16:00+09:00",
    "first_seen": "2026-11-03T22:29+09:00",
+   "lang": "en",
+   "area": "overseas",
+   "summary_tries": 2
+  },
+  {
+   "title": "12 Best Agriculture Software Development Companies for Agribusinesses",
+   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNNU5GUHZVeDRaODVuOVpURjRBbGVFaFBITndMSm0zYWN4cF9fdkdRdENRWWwyUHBLSS1nc2lGVUU4ZDk5TXR0UkgtckxqMmFpek44OG53Mk4zcVBWR2I1U0ZrV1AtZW50NXR4akpPbHBIYkh0Qk9KeDRwcjhKMmppVDhud19lZHJmSk5ra1FyYmVPSk0xTWhqTzRoWEl1VUo5Sjh6VHBzck1aWEpKQVE?oc=5",
+   "publisher": "IoT Business News",
+   "via": "Google News \"farm IoT\"",
+   "region": "world",
+   "snippet": "",
+   "cats": [
+    "smart",
+    "iot"
+   ],
+   "published": "2026-10-18T16:00+09:00",
+   "first_seen": "2026-11-04T10:38+09:00",
+   "lang": "en",
+   "area": "overseas",
+   "summary_tries": 1
+  },
+  {
+   "title": "AI and IoT Turn Dairy Barns Into Welfare Monitoring Networks",
+   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOZ18tR0dnc1VKYWI0dUlBVXNwYkpaZTNHLUVvQ2d4T0Z4VEhxVWJPaUpZdzRIVUdBd1ZzbzJObVoybkFQd1B5Q2M0SjFnbmtyNmNKU0pYWmtoRzNDMTNBQWFfR2ZmOEVLYnZ5Q3dNeHRqbVRwbUx2R1Y4Y192RDM4NHBKMWJVTkhvOWlacFlR?oc=5",
+   "publisher": "Bioengineer.org",
+   "via": "Google News \"farm IoT\"",
+   "region": "world",
+   "snippet": "",
+   "cats": [
+    "dairy",
+    "smart",
+    "iot"
+   ],
+   "published": "2026-10-17T21:11+09:00",
+   "first_seen": "2026-11-04T10:38+09:00",
    "lang": "en",
    "area": "overseas",
    "summary_tries": 1
@@ -5918,7 +6277,7 @@
    "first_seen": "2026-11-03T22:29+09:00",
    "lang": "en",
    "area": "overseas",
-   "summary_tries": 1
+   "summary_tries": 2
   },
   {
    "title": "OlsAro raises $5.5m seed round as salt-tolerant wheat nears market",
@@ -5953,7 +6312,7 @@
    "first_seen": "2026-11-03T22:29+09:00",
    "lang": "en",
    "area": "overseas",
-   "summary_tries": 1
+   "summary_tries": 2
   },
   {
    "title": "10 AgTech Software Development Solutions Transforming Farm Operations in 2026",
@@ -5969,7 +6328,7 @@
    "first_seen": "2026-11-03T22:29+09:00",
    "lang": "en",
    "area": "overseas",
-   "summary_tries": 1
+   "summary_tries": 2
   },
   {
    "title": "Switch Bio partners with Bayer to advance ‘switchable’ tech for biofertilizers",
@@ -6192,6 +6551,39 @@
    "summary_v": 2
   },
   {
+   "title": "A MATLAB-based AI-IoT simulation framework for LSTM-driven smart solar irrigation and renewable energy management",
+   "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1oSG5XRWx6N2hMVDk4eFkyeDMzOEtXdXBzdVlKZjFobmE1R3RNSVUweGVPSUVhN2N2M1hmVGlsRDdVVFdmQkdQQ0dKcmtxc3E5NkQzdk1LNWtjT2JUMU5N?oc=5",
+   "publisher": "Nature",
+   "via": "Google News \"farm IoT\"",
+   "region": "world",
+   "snippet": "",
+   "cats": [
+    "smart",
+    "iot"
+   ],
+   "published": "2026-10-12T16:00+09:00",
+   "first_seen": "2026-11-04T10:38+09:00",
+   "lang": "en",
+   "area": "overseas",
+   "summary_tries": 1
+  },
+  {
+   "title": "LoRa and LoRaWAN IoT Market Size, Industry Share | Forecast, 2026-2034",
+   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1ZMGZFanB2MFlUMjR6RGxtSXRCZnU5T1BzSy1oNnpoRk1wSlNvTmRCdWNsM3oyei1DQ21UU0RQUFlxR2p6T2hFN1JqaTdOWXlGLXJuNUFtdjE2YnVKb00wUDZSZzJtcTVqbkZpWmdQd2RURzgwWHZVZVpab0tuSFk?oc=5",
+   "publisher": "Fortune Business Insights",
+   "via": "Google News \"farm IoT\"",
+   "region": "world",
+   "snippet": "",
+   "cats": [
+    "iot"
+   ],
+   "published": "2026-10-12T16:00+09:00",
+   "first_seen": "2026-11-04T10:38+09:00",
+   "lang": "en",
+   "area": "overseas",
+   "summary_tries": 1
+  },
+  {
    "title": "BREAKING: The EVERY Co prevails in legal spat with Onego Bio",
    "link": "https://agfundernews.com/breaking-the-every-co-prevails-in-legal-spat-with-onego-bio-onego-picked-a-fight-and-lost-says-judge",
    "publisher": "AgFunderNews",
@@ -6256,6 +6648,23 @@
    ],
    "published": "2026-10-10T16:00+09:00",
    "first_seen": "2026-11-03T22:29+09:00",
+   "lang": "en",
+   "area": "overseas",
+   "summary_tries": 2
+  },
+  {
+   "title": "Second Meeting of Global Initiative on AI for Agri-Food Systems (GI-AI4FS) held at IMC 2026 in New Delhi",
+   "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBnVVozSUFhX25ER0dhczNKZTdUcVF1NDU1R1R1MTlPZlZGRnhrN2NwaXBCM043OWNnUGZ5MDQtbkh1bmI4NFVOUm5PY0hDNmxZbWRSdFBmLS01SVRqa3FrZjdfNHNLM1JROEtIODVfT3lXb2tWWEJVVG1B?oc=5",
+   "publisher": "Press Information Bureau",
+   "via": "Google News \"farm IoT\"",
+   "region": "world",
+   "snippet": "",
+   "cats": [
+    "smart",
+    "iot"
+   ],
+   "published": "2026-10-10T16:00+09:00",
+   "first_seen": "2026-11-04T10:38+09:00",
    "lang": "en",
    "area": "overseas",
    "summary_tries": 1
@@ -6608,7 +7017,7 @@
    "first_seen": "2026-11-03T22:29+09:00",
    "lang": "en",
    "area": "overseas",
-   "summary_tries": 1
+   "summary_tries": 2
   },
   {
    "title": "China to foster 10,000 ‘high-potential’ agtech firms in drive towards self-reliance in farm science",
@@ -6624,7 +7033,7 @@
    "first_seen": "2026-11-03T22:29+09:00",
    "lang": "en",
    "area": "overseas",
-   "summary_tries": 1
+   "summary_tries": 2
   },
   {
    "title": "Vermeer Bale Hawk collects 257 bales in 24-hour test",
@@ -6695,7 +7104,7 @@
    "first_seen": "2026-11-03T22:29+09:00",
    "lang": "en",
    "area": "overseas",
-   "summary_tries": 1
+   "summary_tries": 2
   },
   {
    "title": "Twiga’s demise underscores the need for new financing models in African agrifoodtech",
@@ -6985,7 +7394,7 @@
    "first_seen": "2026-11-03T22:29+09:00",
    "lang": "en",
    "area": "overseas",
-   "summary_tries": 1
+   "summary_tries": 2
   },
   {
    "title": "Seed funding for ag technology available through AgTech Engine",
@@ -7001,7 +7410,7 @@
    "first_seen": "2026-11-03T22:29+09:00",
    "lang": "en",
    "area": "overseas",
-   "summary_tries": 1
+   "summary_tries": 2
   },
   {
    "title": "経営改善の視点からスマート農業を提案",
@@ -7072,7 +7481,7 @@
    "first_seen": "2026-11-03T22:29+09:00",
    "lang": "en",
    "area": "overseas",
-   "summary_tries": 1
+   "summary_tries": 2
   },
   {
    "title": "Grand Farm receives $5 million for AgTech campus expansion",
@@ -7088,7 +7497,7 @@
    "first_seen": "2026-11-03T22:29+09:00",
    "lang": "en",
    "area": "overseas",
-   "summary_tries": 1
+   "summary_tries": 2
   },
   {
    "title": "AgTech appeals Arizona State Land Department decision to terminate land leases in Yuma County",
@@ -7104,7 +7513,7 @@
    "first_seen": "2026-11-03T22:29+09:00",
    "lang": "en",
    "area": "overseas",
-   "summary_tries": 1
+   "summary_tries": 2
   },
   {
    "title": "Climate-smart farming armed with fresh data",
@@ -7120,7 +7529,7 @@
    "first_seen": "2026-11-03T22:29+09:00",
    "lang": "en",
    "area": "overseas",
-   "summary_tries": 1
+   "summary_tries": 2
   },
   {
    "title": "Can second-hand robots make autonomous farming affordable for smaller growers?",
