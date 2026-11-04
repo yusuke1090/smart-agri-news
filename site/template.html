@@ -90,6 +90,9 @@ main { padding-bottom: 40px; }
 .t-iot { color: var(--t-iot); background: var(--t-iot-bg); }
 .t-policy { color: var(--t-policy); background: var(--t-policy-bg); }
 .t-en { color: var(--t-en); background: var(--t-en-bg); font-weight: 700; }
+.t-africa { color: #a0521d; background: #fbeadc; font-weight: 700; }
+.t-general { color: #5d6b2f; background: #eef2dc; }
+@media (prefers-color-scheme: dark) { .t-africa { color: #f0b383; background: #3a271a; } .t-general { color: #c5d38e; background: #2c3220; } }
 .new { font-size: 11px; font-weight: 700; color: var(--new); line-height: 20px; margin-left: 2px; }
 .empty, .noresult { color: var(--muted); text-align: center; padding: 40px 0; }
 footer { border-top: 1px solid var(--border); background: var(--panel); font-size: 12.5px; color: var(--muted); }
@@ -121,6 +124,7 @@ footer p { margin: 4px 0; }
 
 <div class="controls">
   <div class="wrap">
+    <div class="chips" id="subareas" hidden><span class="label">地域</span>{{SUBAREAS}}</div>
     <div class="chips" id="langs"><span class="label">言語</span>{{LANGS}}</div>
     <div class="chips" id="chips"><span class="label">カテゴリ</span>{{CHIPS}}</div>
     <div class="row2">
@@ -154,7 +158,7 @@ footer p { margin: 4px 0; }
 
 <script>
 (function () {
-  var state = { area: "japan", lang: "all", cat: "all" };
+  var state = { area: "japan", sub: "all", lang: "all", cat: "all" };
   var store = {
     get: function (k) { try { return localStorage.getItem(k); } catch (e) { return null; } },
     set: function (k, v) { try { localStorage.setItem(k, v); } catch (e) {} }
@@ -168,6 +172,7 @@ footer p { margin: 4px 0; }
   var favList = document.getElementById("favList");
   var groups = {
     area: document.querySelectorAll("#tabs .tab"),
+    sub: document.querySelectorAll("#subareas .chip"),
     lang: document.querySelectorAll("#langs .chip"),
     cat: document.querySelectorAll("#chips .chip")
   };
@@ -214,6 +219,14 @@ footer p { margin: 4px 0; }
   // ---------- 絞り込み ----------
   function hasCat(it, c) { return c === "all" || (" " + it.dataset.cats + " ").indexOf(" " + c + " ") >= 0; }
 
+  // タブ（日本／海外）と、海外の中の小分類（アフリカ／アフリカ以外）に入る記事か
+  function inArea(it, area, sub) {
+    var a = it.dataset.area;
+    if (area === "japan") return a === "japan";
+    if (a === "japan") return false;
+    return sub === "all" || (sub === "africa" ? a === "africa" : a !== "africa");
+  }
+
   function match(it, skip) {
     var words = q.value.trim().toLowerCase().split(/\s+/).filter(Boolean);
     return (skip === "lang" || state.lang === "all" || it.dataset.lang === state.lang)
@@ -225,7 +238,7 @@ footer p { margin: 4px 0; }
   function current() {
     return state.area === "fav"
       ? Array.prototype.slice.call(favList.querySelectorAll(".item"))
-      : newsItems.filter(function (it) { return it.dataset.area === state.area; });
+      : newsItems.filter(function (it) { return inArea(it, state.area, state.sub); });
   }
 
   // ボタンの横の件数を、ほかの条件に合わせて数え直す
@@ -233,8 +246,13 @@ footer p { margin: 4px 0; }
     groups.area.forEach(function (b) {
       var a = b.dataset.area;
       var n = a === "fav" ? Object.keys(favs).length
-        : newsItems.filter(function (it) { return it.dataset.area === a && match(it); }).length;
+        : newsItems.filter(function (it) { return inArea(it, a, a === state.area ? state.sub : "all") && match(it); }).length;
       b.querySelector("span").textContent = n;
+    });
+    groups.sub.forEach(function (b) {
+      b.querySelector("span").textContent = newsItems.filter(function (it) {
+        return inArea(it, "overseas", b.dataset.sub) && match(it);
+      }).length;
     });
     var list = current();
     groups.lang.forEach(function (b) {
@@ -253,6 +271,7 @@ footer p { margin: 4px 0; }
 
   function apply() {
     var fav = state.area === "fav", any = false;
+    document.getElementById("subareas").hidden = state.area !== "overseas";
     document.getElementById("news").hidden = fav;
     document.getElementById("favs").hidden = !fav;
     if (fav) {
@@ -263,7 +282,7 @@ footer p { margin: 4px 0; }
       document.querySelectorAll("#news .day").forEach(function (day) {
         var shown = 0;
         day.querySelectorAll(".item").forEach(function (it) {
-          var ok = it.dataset.area === state.area && match(it);
+          var ok = inArea(it, state.area, state.sub) && match(it);
           it.hidden = !ok;
           if (ok) shown++;
         });

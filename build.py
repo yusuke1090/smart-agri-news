@@ -6,7 +6,7 @@
     python3 build.py --offline      # 取得せず、data/news.json から docs/ だけ作り直す
 
 ニュースの取得とページ作りは標準ライブラリだけで動く。
-まとめ作りには Claude Code（`claude` コマンド）を使う。使えないときは、まとめなしで続ける。
+まとめ作りには Ollama の無料モデル（既定）か Claude Code を使う。使えないときは、まとめなしで続ける。
 """
 
 import argparse
@@ -36,8 +36,14 @@ SNIPPET_LEN = 300          # まとめ作りに渡す説明文の長さ
 SHOW_LEN = 140             # まとめがないとき、ページに出す説明文の長さ
 UA = "Mozilla/5.0 (compatible; smart-agri-news/1.0; +https://github.com/yusuke1090/smart-agri-news)"
 
-SUMMARY_MODEL = os.environ.get("SUMMARY_MODEL", "haiku")
-SUMMARY_BATCH = 30          # 1回の Claude Code 呼び出しでまとめる記事数
+# まとめを作る AI
+#   ollama : 無料のモデルを Ollama で動かす（既定。GitHub Actions でも手元でも動く）
+#   claude : Claude Code（claude -p）を使う（Claude のサブスクリプションが必要）
+SUMMARY_BACKEND = os.environ.get("SUMMARY_BACKEND", "ollama")
+OLLAMA_HOST = os.environ.get("OLLAMA_HOST", "http://127.0.0.1:11434").rstrip("/")
+OLLAMA_MODEL = os.environ.get("OLLAMA_MODEL", "gemma4:e4b")
+SUMMARY_MODEL = os.environ.get("SUMMARY_MODEL", "haiku")       # claude のときのモデル
+SUMMARY_BATCH = int(os.environ.get("SUMMARY_BATCH", "8" if SUMMARY_BACKEND == "ollama" else "30"))
 SUMMARY_MAX_PER_RUN = int(os.environ.get("SUMMARY_MAX_PER_RUN", "300"))  # 1回の実行でまとめる記事の上限
 SUMMARY_MAX_TRIES = 2       # 失敗した記事を何回まで試す
 SUMMARY_VERSION = 2         # まとめの形式を変えたら上げる（古い形式の記事は作り直す）か
@@ -84,6 +90,10 @@ CATEGORIES = {
         "en": ["USDA", "policy", "regulation", "regulations", "subsidy", "subsidies", "ministry",
                "government", "EU", "tariff", "tariffs", "legislation"],
     },
+    "general": {
+        # キーワードでは付けない。アフリカのニュース元など、どれにも当てはまらない記事に付ける
+        "name": "農業全般", "ja": [], "en": [],
+    },
 }
 
 
@@ -93,12 +103,30 @@ def _en_regex(words):
 
 
 for _c in CATEGORIES.values():
-    _c["en_re"] = _en_regex(_c["en"])
+    _c["en_re"] = _en_regex(_c["en"]) if _c["en"] else re.compile(r"(?!x)x")
 
 # テック系・一般農業ニュースから拾うときに、農業に関係する記事かを判定する言葉
 AGRI_JA = ["農業", "農家", "農作", "農産", "農地", "営農", "圃場", "ほ場", "就農", "農機",
            "酪農", "畜産", "牛", "豚", "鶏", "牧場", "家畜", "飼料", "作物", "収穫", "栽培",
            "施設園芸", "ハウス", "果樹", "水田", "稲作", "アグリ", "JA", "ＪＡ"]
+AGRI_EN = _en_regex(["farm", "farms", "farmer", "farmers", "farming", "agriculture", "agricultural", "agri",
+                     "agritech", "agtech", "crop", "crops", "livestock", "dairy", "cattle", "harvest",
+                     "irrigation", "food security", "fertiliser", "fertilizer", "seed", "seeds", "maize", "poultry"])
+
+# アフリカの記事を見分ける言葉
+AFRICA_EN = _en_regex([
+    "Africa", "African", "Kenya", "Kenyan", "Tanzania", "Tanzanian", "Uganda", "Ugandan", "Rwanda", "Rwandan",
+    "Ethiopia", "Ethiopian", "Nigeria", "Nigerian", "Ghana", "Ghanaian", "Zambia", "Zambian", "Malawi",
+    "Mozambique", "Zimbabwe", "Zimbabwean", "Burundi", "Somalia", "Sudan", "Egypt", "Egyptian", "Morocco",
+    "Algeria", "Tunisia", "Senegal", "Ivory Coast", "Cote d'Ivoire", "Cameroon", "Botswana", "Namibia",
+    "Madagascar", "Mali", "Niger", "Burkina Faso", "Benin", "Togo", "Sierra Leone", "Liberia", "Angola",
+    "DRC", "Congo", "Lesotho", "Eswatini", "Gambia", "Guinea", "Nairobi", "Dar es Salaam", "Dodoma",
+    "Kampala", "Kigali", "Addis Ababa", "Lagos", "Accra", "Zanzibar", "Kilimanjaro", "Arusha", "Mombasa",
+    "Kisumu", "Eldoret", "Nakuru", "Swahili", "ECOWAS", "COMESA", "AfDB"])
+AFRICA_JA = ["アフリカ", "ケニア", "タンザニア", "ウガンダ", "ルワンダ", "エチオピア", "ナイジェリア", "ガーナ",
+             "ザンビア", "マラウイ", "モザンビーク", "ジンバブエ", "エジプト", "モロッコ", "セネガル",
+             "コートジボワール", "カメルーン", "ボツワナ", "ナミビア", "マダガスカル", "スーダン", "ソマリア",
+             "ナイロビ", "ザンジバル", "キリマンジャロ"]
 
 # ---------------------------------------------------------------------------
 # ニュース元
@@ -106,10 +134,16 @@ AGRI_JA = ["農業", "農家", "農作", "農産", "農地", "営農", "圃場",
 #   kind = "gov"    : 行政。filter と同じ条件で、「行政・政策」も付ける
 #   kind = "all"    : 専門メディア・検索。全部載せる（当てはまるカテゴリがなければ cat を付ける）
 #   kind = "tech"   : テック系。農業に関係する言葉（AGRI_JA）を含む記事だけ載せる
-#   region = "jp"（国内）/ "world"（海外）
+#   region = "jp"（国内）/ "world"（海外）/ "africa"（アフリカ）
 # ---------------------------------------------------------------------------
+GNEWS_LOC = {
+    "ja": "hl=ja&gl=JP&ceid=JP:ja", "en": "hl=en-US&gl=US&ceid=US:en",
+    "ke": "hl=en-KE&gl=KE&ceid=KE:en", "tz": "hl=en-TZ&gl=TZ&ceid=TZ:en",
+}
+
+
 def gnews(q, lang="ja"):
-    loc = "hl=ja&gl=JP&ceid=JP:ja" if lang == "ja" else "hl=en-US&gl=US&ceid=US:en"
+    loc = GNEWS_LOC[lang]
     return "https://news.google.com/rss/search?q=" + urllib.parse.quote(q) + "&" + loc
 
 
@@ -141,6 +175,17 @@ SOURCES = [
     {"name": "Google News \"smart farming\"", "url": gnews('"smart farming" OR agtech', "en"), "kind": "all", "cat": "smart", "region": "world"},
     {"name": "Google News \"dairy tech\"", "url": gnews('"dairy technology" OR "precision livestock" OR "dairy farm" robot', "en"), "kind": "all", "cat": "dairy", "region": "world"},
     {"name": "Google News \"farm IoT\"", "url": gnews('agriculture IoT OR "farm sensors" OR "livestock sensors"', "en"), "kind": "all", "cat": "iot", "region": "world"},
+    # ---- アフリカ（英語）。スマート農業に限らず、農業全般を載せる ----
+    {"name": "AllAfrica Agriculture", "url": "https://allafrica.com/tools/headlines/rdf/agriculture/headlines.rdf", "kind": "all", "cat": "general", "region": "africa"},
+    {"name": "Kilimo News（ケニア）", "url": "https://kilimonews.co.ke/feed/", "kind": "all", "cat": "general", "region": "africa"},
+    {"name": "Smart Farmer Kenya", "url": "https://www.smartfarmerkenya.com/feed/", "kind": "all", "cat": "general", "region": "africa"},
+    {"name": "FarmBiz Africa", "url": "https://www.farmbizafrica.com/feed", "kind": "all", "cat": "general", "region": "africa"},
+    {"name": "Farmers Review Africa", "url": "https://farmersreviewafrica.com/feed/", "kind": "all", "cat": "general", "region": "africa"},
+    {"name": "TechCabal", "url": "https://techcabal.com/feed/", "kind": "tech", "region": "africa"},
+    {"name": "Disrupt Africa", "url": "https://disrupt-africa.com/feed/", "kind": "tech", "region": "africa"},
+    {"name": "Google News Kenya", "url": gnews("Kenya agriculture OR Kenya dairy OR Kenya farmers OR Kenya livestock", "ke"), "kind": "all", "cat": "general", "region": "africa"},
+    {"name": "Google News Tanzania", "url": gnews("Tanzania agriculture OR Tanzania dairy OR Tanzania farmers OR Tanzania livestock", "tz"), "kind": "all", "cat": "general", "region": "africa"},
+    {"name": "Google News Africa agritech", "url": gnews('Africa agritech OR "smart farming" Africa OR Africa dairy technology', "en"), "kind": "all", "cat": "smart", "region": "africa"},
 ]
 
 NS = {
@@ -239,12 +284,19 @@ FOREIGN_JA = ["海外", "世界", "米国", "米 ", "アメリカ", "中国", "�
 JAPAN_EN = re.compile(r"\b(Japan|Japanese|Tokyo|Hokkaido|Osaka)\b", re.I)
 
 
-def guess_area(it):
-    """AI が使えないときの、日本／海外の簡易判定"""
+def is_africa(it):
     text = it["title"] + " " + it["snippet"]
+    return it.get("region") == "africa" or bool(AFRICA_EN.search(text)) or any(w in text for w in AFRICA_JA)
+
+
+def guess_area(it):
+    """AI が使えないときの、日本／アフリカ／海外の簡易判定"""
     if it["lang"] == "en":
-        return "japan" if JAPAN_EN.search(it["title"]) else "overseas"
-    return "overseas" if any(w in it["title"] for w in FOREIGN_JA) else "japan"
+        if JAPAN_EN.search(it["title"]):
+            return "japan"
+    elif not any(w in it["title"] for w in FOREIGN_JA):
+        return "japan"
+    return "africa" if is_africa(it) else "overseas"
 
 
 def is_google(link):
@@ -279,11 +331,13 @@ def collect(source, now):
                 continue
             cats = sorted(set(cats) | {"policy"}, key=list(CATEGORIES).index)
         if kind == "tech":
-            if not any(w in text for w in AGRI_JA):
+            if not (any(w in text for w in AGRI_JA) or AGRI_EN.search(text)):
                 continue
             cats = cats or ["iot"]
         if kind == "all":
-            if source["cat"] not in cats:
+            if source["cat"] == "general":
+                cats = cats if main else sorted(set(cats) | {"general"}, key=list(CATEGORIES).index)
+            elif source["cat"] not in cats:
                 cats = sorted(set(cats) | {source["cat"]}, key=list(CATEGORIES).index)
         published = parse_date(it["date"]) or now
         if published > now + timedelta(hours=1):
@@ -346,7 +400,7 @@ SUMMARY_PROMPT = """あなたは農業・酪農・IoT のニュースサイト�
 - summary: どんな記事かを、日本語の1〜2文・80字程度でまとめる。読者が記事を開くか判断できるように、何が・どうしたのかを具体的に書く。
 - title_ja: english が true の記事だけ、タイトルを自然な日本語に訳したもの。false の記事は空文字。
 - summary_en: english が true の記事だけ、英語学習者向けのやさしい英語（中学〜高校レベルの単語）で、1文・25語以内のまとめ。false の記事は空文字。
-- area: 記事の主な舞台が日本（日本の地域・企業・団体・行政）なら "japan"、それ以外の国・地域や世界全体なら "overseas"。
+- area: 記事の主な舞台が日本（日本の地域・企業・団体・行政）なら "japan"、アフリカの国・地域なら "africa"、それ以外の国・地域や世界全体なら "overseas"。
 
 守ること:
 - タイトルと説明文に書かれていることだけを使い、書かれていない事実（数字・日付・固有名詞など）を付け足さない。
@@ -364,31 +418,66 @@ def needs_translation(title):
     return ja < 2
 
 
-def summarize_batch(batch):
-    payload = [{"id": str(i), "title": it["title"], "description": it["snippet"], "publisher": it["publisher"],
-                "english": it["lang"] == "en"}
-               for i, it in enumerate(batch)]
-    prompt = SUMMARY_PROMPT + json.dumps(payload, ensure_ascii=False, indent=1)
+def ask_claude(prompt):
     cmd = ["claude", "-p", "--model", SUMMARY_MODEL, "--output-format", "json",
            "--tools", "", "--no-session-persistence"]
     r = subprocess.run(cmd, input=prompt, capture_output=True, text=True, timeout=900)
     if r.returncode != 0:
         raise RuntimeError((r.stderr or r.stdout).strip()[:300])
-    result = json.loads(r.stdout).get("result", "")
-    m = re.search(r"\{.*\}", result, re.S)
+    return json.loads(r.stdout).get("result", "")
+
+
+def ask_ollama(prompt):
+    body = json.dumps({
+        "model": OLLAMA_MODEL, "stream": False, "format": "json", "think": False,
+        "messages": [{"role": "user", "content": prompt}],
+        "options": {"temperature": 0.2, "num_ctx": 8192},
+    }).encode()
+    req = urllib.request.Request(OLLAMA_HOST + "/api/chat", data=body,
+                                 headers={"Content-Type": "application/json"})
+    with urllib.request.urlopen(req, timeout=1800) as r:
+        return json.loads(r.read())["message"]["content"]
+
+
+def backend_ready():
+    if SUMMARY_BACKEND == "claude":
+        return bool(shutil.which("claude"))
+    try:
+        with urllib.request.urlopen(OLLAMA_HOST + "/api/tags", timeout=5) as r:
+            names = [m["name"] for m in json.loads(r.read()).get("models", [])]
+        return OLLAMA_MODEL in names or OLLAMA_MODEL + ":latest" in names
+    except Exception:  # noqa: BLE001
+        return False
+
+
+def summarize_batch(batch):
+    payload = [{"id": str(i), "title": it["title"], "description": it["snippet"], "publisher": it["publisher"],
+                "english": it["lang"] == "en"}
+               for i, it in enumerate(batch)]
+    prompt = SUMMARY_PROMPT + json.dumps(payload, ensure_ascii=False, indent=1)
+    result = ask_ollama(prompt) if SUMMARY_BACKEND == "ollama" else ask_claude(prompt)
+    m = re.search(r"[\{\[].*[\}\]]", result, re.S)
     if not m:
         raise RuntimeError("JSON が返ってきませんでした: " + result[:200])
     data = json.loads(m.group(0))
+    # 小さいモデルは形が少し違う JSON を返すことがあるので、よくある形に対応する
+    if isinstance(data, dict) and len(data) == 1 and isinstance(next(iter(data.values())), (list, dict)) \
+            and "0" not in data:
+        data = next(iter(data.values()))
+    if isinstance(data, list):
+        data = {str(x.get("id", i)): x for i, x in enumerate(data) if isinstance(x, dict)}
     done = 0
     for i, it in enumerate(batch):
         got = data.get(str(i)) or {}
+        if not isinstance(got, dict):
+            got = {}
         summary = clean_text(got.get("summary", ""), 200)
         if summary:
             it["summary"] = summary
             if it["lang"] == "en":
                 it["title_ja"] = clean_text(got.get("title_ja", ""), 200)
                 it["summary_en"] = clean_text(got.get("summary_en", ""), 300)
-            if got.get("area") in ("japan", "overseas"):
+            if got.get("area") in ("japan", "africa", "overseas"):
                 it["area"] = got["area"]
             it["summary_v"] = SUMMARY_VERSION
             it.pop("summary_tries", None)
@@ -397,13 +486,15 @@ def summarize_batch(batch):
 
 
 def summarize(items):
-    if not shutil.which("claude"):
-        print("claude コマンドが見つからないので、まとめは作りません", file=sys.stderr)
+    if not backend_ready():
+        what = f"Ollama（{OLLAMA_HOST} の {OLLAMA_MODEL}）" if SUMMARY_BACKEND == "ollama" else "claude コマンド"
+        print(f"{what}が使えないので、まとめは作りません", file=sys.stderr)
         return
     todo = [it for it in items
             if it.get("summary_v") != SUMMARY_VERSION
             and it.get("summary_tries", 0) < SUMMARY_MAX_TRIES][:SUMMARY_MAX_PER_RUN]
-    print(f"まとめを作る記事: {len(todo)}件（モデル: {SUMMARY_MODEL}）")
+    model = OLLAMA_MODEL if SUMMARY_BACKEND == "ollama" else SUMMARY_MODEL
+    print(f"まとめを作る記事: {len(todo)}件（{SUMMARY_BACKEND} / {model}）", flush=True)
     total = 0
     for start in range(0, len(todo), SUMMARY_BATCH):
         batch = todo[start:start + SUMMARY_BATCH]
@@ -411,6 +502,7 @@ def summarize(items):
             it["summary_tries"] = it.get("summary_tries", 0) + 1
         try:
             total += summarize_batch(batch)
+            print(f"  {min(start + SUMMARY_BATCH, len(todo))}/{len(todo)}件", flush=True)
         except Exception as e:  # noqa: BLE001  まとめに失敗しても、サイトの更新は続ける
             print(f"まとめ作りに失敗: {type(e).__name__}: {e}", file=sys.stderr)
             if start == 0 and "auth" in str(e).lower():
@@ -422,7 +514,8 @@ def summarize(items):
 # サイトの生成
 # ---------------------------------------------------------------------------
 WEEKDAYS = "月火水木金土日"
-AREAS = {"japan": "🗾 日本", "overseas": "🌏 海外"}
+AREAS = {"japan": "🗾 日本", "overseas": "🌏 海外"}          # 海外のタブには africa と overseas が入る
+SUBAREAS = {"all": "海外すべて", "africa": "🌍 アフリカ", "other": "アフリカ以外"}
 LANGS = {"ja": "日本語の記事", "en": "英語の記事"}
 
 
@@ -435,6 +528,8 @@ def render_item(it, d, now):
     tags = "".join(f'<span class="tag t-{c}">{html.escape(CATEGORIES[c]["name"])}</span>' for c in it["cats"])
     if it["lang"] == "en":
         tags = '<span class="tag t-en">EN</span>' + tags
+    if it["area"] == "africa":
+        tags = '<span class="tag t-africa">🌍 アフリカ</span>' + tags
     e = html.escape
     summary = it.get("summary", "")
     if it["lang"] == "en":
@@ -491,6 +586,8 @@ def render(items, statuses, now):
     tabs = "".join(f'<button class="tab{" on" if k == "japan" else ""}" data-area="{k}">{v}<span></span></button>'
                    for k, v in AREAS.items())
     tabs += '<button class="tab tab-fav" data-area="fav">★ お気に入り<span></span></button>'
+    subs = "".join(f'<button class="chip{" on" if k == "all" else ""}" data-sub="{k}">{v}<span></span></button>'
+                   for k, v in SUBAREAS.items())
     langs = '<button class="chip on" data-lang="all">すべての言語<span></span></button>'
     langs += "".join(f'<button class="chip" data-lang="{k}">{v}<span></span></button>' for k, v in LANGS.items())
     chips = '<button class="chip on" data-cat="all">すべて<span></span></button>'
@@ -512,6 +609,7 @@ def render(items, statuses, now):
             .replace("{{DAYS}}", str(KEEP_DAYS))
             .replace("{{TABS}}", tabs)
             .replace("{{LANGS}}", langs)
+            .replace("{{SUBAREAS}}", subs)
             .replace("{{CHIPS}}", chips)
             .replace("{{SOURCES}}", src_rows)
             .replace("{{ITEMS}}", "\n".join(parts) or '<p class="empty">ニュースがありません</p>'))
@@ -579,8 +677,10 @@ def main():
     kept.sort(key=lambda it: it["published"], reverse=True)
     for it in kept:
         it["lang"] = "en" if needs_translation(it["title"]) else "ja"
-        if it.get("summary_v") != SUMMARY_VERSION:
+        if it.get("summary_v") != SUMMARY_VERSION or not it.get("area"):
             it["area"] = guess_area(it)
+        elif it["area"] == "overseas" and is_africa(it):
+            it["area"] = "africa"          # AI が「海外」としたアフリカの記事
 
     if not args.offline:
         fill_descriptions(kept)

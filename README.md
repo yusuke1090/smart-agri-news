@@ -1,13 +1,14 @@
 # スマート農業News
 
-国内外のスマート農業・酪農・畜産・IoT に関するニュースを、毎朝7時にまとめる Web サイト。
+国内外のスマート農業・酪農・畜産・IoT に関するニュースと、アフリカの農業ニュースを、毎朝7時にまとめる Web サイト。
 
 **サイト: https://yusuke1090.github.io/smart-agri-news/**
 
 - 国内外の農業専門メディア・行政・テック系メディア・Google ニュースの RSS から記事を集める
-- 各記事に **AI（Claude Code）が作った日本語のまとめ**を付ける。英語の記事はタイトルも日本語に訳す
+- 各記事に **無料の AI（Ollama + Gemma）が作った日本語のまとめ**を付ける。英語の記事はタイトルも日本語に訳す
 - 「酪農・畜産」「スマート農業」「IoT・センサー」「行政・政策」に自動で分類する
 - 「🗾 日本」「🌏 海外」のタブで分かれている（記事の舞台で AI が判定）。その中で「日本語の記事」「英語の記事」に分けられる
+- 海外のタブは「🌍 アフリカ」「アフリカ以外」にも分けられる。アフリカはスマート農業に限らず農業全般の記事を載せる（カテゴリ「農業全般」）
 - 英語の記事は英語の練習にも使えるように、英語のタイトル・英語の説明文・やさしい英語のまとめ（In short）と、日本語訳のタイトル・日本語のまとめを並べて表示する
 - ☆ でお気に入りに追加でき、「★ お気に入り」タブで後から見られる（見ているブラウザに保存。30日を過ぎて一覧から消えた記事も残る）
 - カテゴリ・キーワード・24時間以内の新着で絞り込める
@@ -17,12 +18,12 @@
 ## しくみ
 
 ```
-毎朝 6:40（日本時間）GitHub Actions が起動
+毎朝 6:00（日本時間）GitHub Actions が起動
    │
    ├─ build.py が各ニュース元の RSS を取得
    │     → キーワードで関係する記事を選び、カテゴリを付ける
    │     → RSS に説明文がない記事は、記事ページの紹介文（og:description）で補う
-   │     → Claude Code（claude -p）で、新しい記事の日本語まとめ・訳タイトル・やさしい英語のまとめ・日本／海外の判定を作る
+   │     → Ollama（Gemma）で、新しい記事の日本語まとめ・訳タイトル・やさしい英語のまとめ・日本／アフリカ／海外の判定を作る
    │     → data/news.json に追記（30日より古いものは消す）
    │     → docs/index.html と docs/feed.xml を作る
    │
@@ -31,7 +32,7 @@
 ```
 
 - サーバーも PC も不要。GitHub の無料枠だけで動く
-- 実行は少し早めの 6:40 にしてある（GitHub の定期実行は混雑で遅れることがあるため）
+- 実行は早めの 6:00 にしてある（AI を CPU で動かすので時間がかかるのと、GitHub の定期実行は混雑で遅れることがあるため）
 - 毎日コミットするので、「60日間更新がないと定期実行が止まる」という GitHub の制限にもかからない
 
 ## ニュース元
@@ -46,24 +47,30 @@
 | AgFunderNews・Future Farming・PrecisionAg・DairyReporter（海外） | 専門 | すべて |
 | Farm Progress・Agriland・FeedNavigator（海外） | 農業全般 | 酪農・スマート農業・IoT のキーワードを含むもの |
 | Google News（英語） | キーワード検索 | smart farming / agtech、dairy technology / precision livestock、agriculture IoT / farm sensors |
+| AllAfrica・Kilimo News・Smart Farmer Kenya・FarmBiz Africa・Farmers Review Africa（アフリカ） | 農業 | すべて |
+| TechCabal・Disrupt Africa（アフリカ） | テック | 農業に関係する言葉を含むもの |
+| Google News（ケニア・タンザニア・アフリカ） | キーワード検索 | 農業・酪農・畜産・アグリテック |
 
 ニュース元やキーワードは `build.py` の `SOURCES`・`CATEGORIES`・`AGRI_WORDS` で変えられる。
 
-## AI のまとめ（Claude Code）
+## AI のまとめ（Ollama + Gemma）
 
-- GitHub Actions の中で Claude Code を `claude -p --model haiku --tools ""` で動かす（ツールは使わせず、要約だけ）
+- GitHub Actions の中で [Ollama](https://ollama.com) を入れ、無料のモデル `gemma4:e4b` でまとめを作る。API キーやサブスクリプションは不要
+- モデルは Actions のキャッシュに保存するので、毎回はダウンロードしない
 - 渡すのは記事のタイトル・説明文・配信元だけ。記事の本文は読まない
-- 1回に30件ずつまとめる。一度まとめた記事はやり直さない（失敗した記事は2回まで試す）
-- 認証は Claude のサブスクリプションのトークン。リポジトリの Secrets に `CLAUDE_CODE_OAUTH_TOKEN` として登録する
-
-```sh
-claude setup-token                              # ブラウザでログイン → トークンが表示される
-gh secret set CLAUDE_CODE_OAUTH_TOKEN -R yusuke1090/smart-agri-news   # 表示されたトークンを貼り付ける
-```
-
-- トークンがない・期限切れのときは、まとめなしでサイトだけ更新される（RSS の説明文を表示）
-- モデルは環境変数 `SUMMARY_MODEL` で変えられる（既定は `haiku`）
+- 1回に8件ずつ、1回の実行で最大150件まとめる。残りは次の回に回る。一度まとめた記事はやり直さない（失敗した記事は2回まで試す）
+- Ollama が使えないときは、まとめなしでサイトだけ更新される（RSS の説明文を表示）
 - Google ニュース経由の記事は説明文がないので、タイトルから分かる範囲の短いまとめになる
+
+環境変数で変えられること:
+
+| 変数 | 既定 | 意味 |
+| --- | --- | --- |
+| `SUMMARY_BACKEND` | `ollama` | `claude` にすると Claude Code（`claude -p`）を使う |
+| `OLLAMA_MODEL` | `gemma4:e4b` | Ollama のモデル |
+| `OLLAMA_HOST` | `http://127.0.0.1:11434` | Ollama の場所 |
+| `SUMMARY_MAX_PER_RUN` | `300`（Actions では `150`） | 1回の実行でまとめる記事の上限 |
+| `SUMMARY_MODEL` | `haiku` | Claude Code を使うときのモデル |
 
 ## 手元で動かす
 
@@ -71,7 +78,8 @@ Python 3.10 以上があれば、追加のライブラリは不要。
 
 ```sh
 python3 build.py            # ニュースを取得して docs/ を作る
-python3 build.py --summarize  # さらに Claude Code でまとめを作る（claude にログインしている必要あり）
+ollama pull gemma4:e4b       # 初回だけ。まとめ用のモデルを入れる
+python3 build.py --summarize  # さらに Ollama でまとめを作る
 python3 build.py --offline  # 取得せずに、今のデータで docs/ だけ作り直す（見た目を直したとき）
 xdg-open docs/index.html    # ブラウザで確認
 ```
