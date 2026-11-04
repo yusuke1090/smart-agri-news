@@ -14,6 +14,7 @@
 - カテゴリ・キーワード・24時間以内の新着で絞り込める
 - 過去30日分を表示する。サイト自身の [RSS](https://yusuke1090.github.io/smart-agri-news/feed.xml) もある
 - スマホでも見やすい。ダークモード対応
+- [📝 伝言板](https://yusuke1090.github.io/smart-agri-news/board.html) で、将来やりたいこと・アイデア・相談を書き込める
 
 ## しくみ
 
@@ -72,6 +73,14 @@
 | `SUMMARY_MAX_PER_RUN` | `300`（Actions では `150`） | 1回の実行でまとめる記事の上限 |
 | `SUMMARY_MODEL` | `haiku` | Claude Code を使うときのモデル |
 
+## 伝言板
+
+- 書き込みは GitHub の Issues に保存する。ラベル「伝言板」が付いた、開いている Issue が [board.html](https://yusuke1090.github.io/smart-agri-news/board.html) に出る
+- ページは開くたびに GitHub の API から読み込むので、書き込みはすぐに反映される（サイトの作り直しは不要）
+- 書き込むには GitHub のアカウントが必要。「＋ 書き込む」から専用のフォーム（`.github/ISSUE_TEMPLATE/board.yml`）が開き、ラベルは自動で付く
+- 編集は GitHub の Issue の画面で行う。自分の書き込みは本人が直せる。リポジトリの持ち主はすべての書き込みを直せる・消せる
+- Issue を Close すると伝言板から消える。Issues は公開なので、書き込みは誰でも読める
+
 ## 手元で動かす
 
 Python 3.10 以上があれば、追加のライブラリは不要。
@@ -98,6 +107,7 @@ gh workflow run update-news
 ```
 build.py                       ニュースを集めてサイトを作るスクリプト
 site/template.html             ページのひな形（デザインはここ）
+site/board.html                伝言板のページ（そのまま docs/ にコピーされる）
 data/news.json                 集めた記事（過去30日分）
 docs/                          公開されるサイト（build.py が作る。手で編集しない）
 .github/workflows/update.yml   毎朝の自動更新
