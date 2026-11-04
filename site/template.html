@@ -36,7 +36,8 @@ h1 span { margin-right: 6px; }
 .stats { display: flex; gap: 16px; flex-wrap: wrap; margin-top: 10px; font-size: 13px; color: var(--muted); }
 .stats b { color: var(--text); font-size: 15px; }
 .stats .newc b { color: var(--new); }
-.tabs { display: flex; gap: 4px; margin-top: 16px; }
+.tabs { display: flex; gap: 4px; margin-top: 16px; overflow-x: auto; scrollbar-width: none; }
+.tab { white-space: nowrap; flex-shrink: 0; }
 .tab { font: inherit; font-size: 15px; font-weight: 700; padding: 8px 22px; cursor: pointer;
   border: 1px solid var(--border); border-bottom: 0; border-radius: 10px 10px 0 0;
   background: var(--bg); color: var(--muted); }
@@ -104,17 +105,16 @@ footer li { display: flex; justify-content: space-between; gap: 8px; }
 footer li.ng { color: var(--new); }
 footer a { color: var(--link); }
 footer p { margin: 4px 0; }
-.toprow { display: flex; justify-content: space-between; align-items: center; gap: 10px; flex-wrap: wrap; }
-.boardlink { font-size: 13.5px; font-weight: 700; color: var(--link); text-decoration: none; padding: 4px 14px;
-  border: 1px solid var(--border); border-radius: 999px; background: var(--bg); white-space: nowrap; }
+.tab-board { text-decoration: none; }
 [hidden] { display: none !important; }
-@media (max-width: 480px) { .tab { padding: 8px 14px; font-size: 14px; } .chips .label { display: none; } }
+@media (max-width: 480px) { .tabs { gap: 3px; } .tab { padding: 7px 10px; font-size: 13.5px; } .tab span { display: none; } .chips .label { display: none; } }
+@media (max-width: 380px) { .tab { padding: 7px 6px; font-size: 12.5px; } }
 </style>
 </head>
 <body>
 <header>
   <div class="wrap">
-    <div class="toprow"><h1><span>🐄</span>スマート農業News</h1><a class="boardlink" href="board.html">📝 伝言板</a></div>
+    <h1><span>🐄</span>スマート農業News</h1>
     <p class="lead">国内外のスマート農業・酪農・畜産・IoT のニュースを、毎朝7時にまとめています。英語の記事には、日本語訳とやさしい英語のまとめが付いています。</p>
     <div class="stats">
       <span>最終更新 <b><time datetime="{{UPDATED_ISO}}">{{UPDATED}}</time></b></span>
@@ -174,7 +174,7 @@ footer p { margin: 4px 0; }
   var newsItems = Array.prototype.slice.call(document.querySelectorAll("#news .item"));
   var favList = document.getElementById("favList");
   var groups = {
-    area: document.querySelectorAll("#tabs .tab"),
+    area: document.querySelectorAll("#tabs button.tab"),
     sub: document.querySelectorAll("#subareas .chip"),
     lang: document.querySelectorAll("#langs .chip"),
     cat: document.querySelectorAll("#chips .chip")
@@ -321,6 +321,12 @@ footer p { margin: 4px 0; }
       select(key, saved, false);
     }
   });
+  // 伝言板のページのタブから来たとき（#japan・#overseas・#fav）は、そのタブを開く
+  var fromHash = location.hash.slice(1);
+  if (Array.prototype.some.call(groups.area, function (b) { return b.dataset.area === fromHash; })) {
+    select("area", fromHash, true);
+    history.replaceState(null, "", location.pathname + location.search);
+  }
   if (state.area === "fav") renderFavs();
   q.addEventListener("input", apply);
   onlyNew.addEventListener("change", apply);
