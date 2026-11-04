@@ -66,6 +66,14 @@ main { padding-bottom: 40px; }
 .meta { display: flex; gap: 12px; flex-wrap: wrap; font-size: 12.5px; color: var(--muted); margin-top: 8px;
   border-top: 1px dashed var(--border); padding-top: 8px; }
 .meta a { color: var(--link); }
+.cbtn { font: inherit; font-size: 12.5px; color: var(--link); background: none; border: 0; padding: 0; cursor: pointer; }
+.comments { margin-top: 10px; border-left: 3px solid var(--accent-soft); padding-left: 12px; }
+.comment { padding: 8px 0; }
+.comment + .comment { border-top: 1px dashed var(--border); }
+.comment .who { font-size: 12.5px; color: var(--muted); }
+.comment .who b { color: var(--text); }
+.comments .msg { padding: 8px 0; text-align: left; font-size: 13px; }
+.comments .add { display: inline-block; margin-top: 6px; font-size: 13px; color: var(--link); }
 .msg { color: var(--muted); text-align: center; padding: 40px 0; }
 .msg.err { color: var(--warn); }
 .howto { font-size: 13px; color: var(--muted); }
@@ -104,7 +112,7 @@ footer a { color: var(--link); }
         <li>「＋ 書き込む」を押すと GitHub の書き込み画面が開きます（初めてのときはログイン・アカウント作成）</li>
         <li>題名・種類・内容を書いて「Create」を押すと、この伝言板に出ます</li>
         <li>直したいときは、各書き込みの「編集・コメント」から GitHub を開き、本文右上の「…」→「Edit」で直せます。自分の書き込みは自分で直せます</li>
-        <li>ほかの人の書き込みには、同じ画面の下からコメントできます</li>
+        <li>コメントは、各書き込みの「💬 コメントを見る」でこのページの中で読めます。コメントを書くときは「＋ コメントを書く」から GitHub を開きます</li>
         <li>終わった・取り下げたいときは「Close」を押すと、伝言板から消えます</li>
       </ol>
     </details>
@@ -189,8 +197,9 @@ footer a { color: var(--link); }
         + '<h2>' + esc(n.title) + '</h2>'
         + '<div class="body">' + md(n.content) + '</div>'
         + '<div class="meta"><span>' + esc(n.user) + ' ・ ' + fmt(n.created) + edited + '</span>'
-        + (n.comments ? '<span>💬 コメント ' + n.comments + '件</span>' : '')
-        + '<a href="' + esc(n.url) + '" target="_blank" rel="noopener">編集・コメント →</a></div>'
+        + (n.comments ? '<button class="cbtn" type="button" data-i="' + notes.indexOf(n) + '">💬 コメント ' + n.comments + '件を見る ▼</button>' : '<span>💬 コメントなし</span>')
+        + '<a href="' + esc(n.url) + '" target="_blank" rel="noopener">編集・コメントする →</a></div>'
+        + '<div class="comments" hidden></div>'
         + '</article>';
     }).join("");
     // 長い書き込みは折りたたむ
@@ -204,6 +213,34 @@ footer a { color: var(--link); }
       }
     });
   }
+  // コメントは、ボタンを押したときだけ GitHub から読み込む（読み込みの回数制限を節約するため）
+  list.addEventListener("click", function (e) {
+    var btn = e.target.closest(".cbtn"); if (!btn) return;
+    var n = notes[+btn.dataset.i];
+    var box = btn.closest(".note").querySelector(".comments");
+    if (!box.hidden) { box.hidden = true; btn.textContent = "💬 コメント " + n.comments + "件を見る ▼"; return; }
+    box.hidden = false;
+    btn.textContent = "💬 コメントを閉じる ▲";
+    if (box.dataset.loaded) return;
+    box.innerHTML = '<p class="msg">読み込み中…</p>';
+    fetch(n.curl + "?per_page=100", { headers: { Accept: "application/vnd.github+json" } })
+      .then(function (r) {
+        if (!r.ok) throw new Error(r.status === 403 ? "読み込みの回数制限にかかりました。しばらくしてから開き直してください。" : "読み込めませんでした（" + r.status + "）");
+        return r.json();
+      })
+      .then(function (cs) {
+        box.dataset.loaded = "1";
+        box.innerHTML = cs.map(function (c) {
+          var edited = c.updated_at.slice(0, 10) !== c.created_at.slice(0, 10) ? " ・ " + fmt(c.updated_at) + " 更新" : "";
+          return '<div class="comment"><div class="who"><b>' + esc(c.user.login) + '</b> ・ ' + fmt(c.created_at) + edited + '</div>'
+            + '<div class="body">' + md(c.body || "") + '</div></div>';
+        }).join("") + '<a class="add" href="' + esc(n.url) + '#new_comment_field" target="_blank" rel="noopener">＋ コメントを書く（GitHub）</a>';
+      })
+      .catch(function (err) {
+        box.innerHTML = '<p class="msg err">' + esc(err.message) + '</p>';
+      });
+  });
+
   function renderChips() {
     var counts = {};
     notes.forEach(function (n) { counts[n.kind] = (counts[n.kind] || 0) + 1; });
@@ -230,7 +267,7 @@ footer a { color: var(--link); }
       notes = data.filter(function (i) { return !i.pull_request; }).map(function (i) {
         var p = parse(i.body);
         return { title: i.title, kind: p.kind, content: p.content, user: i.user.login,
-                 created: i.created_at, updated: i.updated_at, comments: i.comments, url: i.html_url };
+                 created: i.created_at, updated: i.updated_at, comments: i.comments, url: i.html_url, curl: i.comments_url };
       });
       renderChips();
       render();

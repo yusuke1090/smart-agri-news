@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T21:17+09:00",
+ "updated": "2026-11-04T21:21+09:00",
  "sources": [
   {
    "name": "日本農業新聞",
@@ -49,7 +49,7 @@
   {
    "name": "Google ニュース「スマート農業」",
    "ok": true,
-   "count": 30
+   "count": 100
   },
   {
    "name": "Google ニュース「スマート畜産」",
@@ -59,7 +59,7 @@
   {
    "name": "Google ニュース「酪農」",
    "ok": true,
-   "count": 62
+   "count": 100
   },
   {
    "name": "Google ニュース「畜産 IoT」",
@@ -69,7 +69,7 @@
   {
    "name": "Google ニュース「農業 IoT」",
    "ok": true,
-   "count": 100
+   "count": 38
   },
   {
    "name": "Google ニュース「農業 AI」",
@@ -114,17 +114,17 @@
   {
    "name": "Google News \"smart farming\"",
    "ok": true,
-   "count": 100
+   "count": 52
   },
   {
    "name": "Google News \"dairy tech\"",
    "ok": true,
-   "count": 71
+   "count": 37
   },
   {
    "name": "Google News \"farm IoT\"",
    "ok": true,
-   "count": 49
+   "count": 100
   },
   {
    "name": "AllAfrica Agriculture",
@@ -164,7 +164,7 @@
   {
    "name": "Google News Kenya",
    "ok": true,
-   "count": 64
+   "count": 100
   },
   {
    "name": "Google News Tanzania",
@@ -174,7 +174,7 @@
   {
    "name": "Google News Africa agritech",
    "ok": true,
-   "count": 46
+   "count": 47
   }
  ],
  "items": [
@@ -491,6 +491,21 @@
    ],
    "published": "2026-11-04T16:47+09:00",
    "first_seen": "2026-11-04T21:08+09:00",
+   "lang": "ja",
+   "area": "japan"
+  },
+  {
+   "title": "生乳生産4年ぶり減産へ 北海道内、27年度目標1％減 過剰在庫を懸念",
+   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE81WGdSV0RtY3VaNUlVYjNOZk1BQ0tudE5qVUhKTjdVbFU2UEVPYV8zbEhGdXI3dkk1XzVUeVJIeU9iR2NxNEVKRkowdWJIaEdIQ1lxVGxFQjNrUQ?oc=5",
+   "publisher": "北海道新聞デジタル",
+   "via": "Google ニュース「酪農」",
+   "region": "jp",
+   "snippet": "",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-11-04T16:46+09:00",
+   "first_seen": "2026-11-04T21:21+09:00",
    "lang": "ja",
    "area": "japan"
   },
@@ -3699,6 +3714,21 @@
    "summary_v": 2
   },
   {
+   "title": "Field to fortune: Kenya’s Kajiado hay revolution takes root",
+   "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9pSndzRTI5OFFnaGhGWTdaNDF6NVhETVRGNDlMUUNMUlQtbXRfM0lDcmRPeWc2VzlqRXZFRzJxZC01R3hJYVp0azFSbUo4bHVhaVViVzc2VmV1UUVYR1RzRENQZW4?oc=5",
+   "publisher": "TRT Afrika",
+   "via": "Google News Kenya",
+   "region": "africa",
+   "snippet": "",
+   "cats": [
+    "general"
+   ],
+   "published": "2026-10-31T05:55+09:00",
+   "first_seen": "2026-11-04T21:21+09:00",
+   "lang": "en",
+   "area": "africa"
+  },
+  {
    "title": "Better welfare can also cut environmental impact on dairy farms",
    "link": "https://www.agriland.ie/farming-news/better-welfare-can-also-cut-environmental-impact-on-dairy-farms/",
    "publisher": "Agriland",
@@ -4742,6 +4772,21 @@
    "summary_v": 2
   },
   {
+   "title": "Kenya could host Ebola vaccine trial",
+   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOTExVbVVWdEVQSWpTdHZoTTBXVWZPUnJYb1ZyLTZ5MTJyaG9KaHBFZ29YUzlpNm5kempxM2FVS09PMENtNlFVZjB6bmJFTGxZa3BjMlFCWUxVWkMtVHFnRnBBSG9EOGlsYURneVNYU25mRjV0U1kzZ3VOV3ozT2tyVVVkN2ZUUQ?oc=5",
+   "publisher": "The Star, Kenya",
+   "via": "Google News Kenya",
+   "region": "africa",
+   "snippet": "",
+   "cats": [
+    "general"
+   ],
+   "published": "2026-10-29T13:15+09:00",
+   "first_seen": "2026-11-04T21:21+09:00",
+   "lang": "en",
+   "area": "africa"
+  },
+  {
    "title": "AIの応用がベトナムにおけるスマート畜産開発の方向性を開く",
    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPX1d0NmhWTml6OUd5TTJLTzRKbmxyeE9aV2ZxaWFlUEJKV1lYRnN0LTBOcW5SRmo0QjBoalhLSDFYSlNLcmVNdkZDRjJEY3otTkY4WjFRc0hTVFgwYUF5NTFXZ1RhQmszcWhqVTJlX0hVV0pwUmx3UGpwSWJpWWxhRjgxaTk0VHh3Y3BrcmsxbUQ5V2cyWWNNX0hhOTJfeENSZlZwNGswd2drZGpwd0E?oc=5",
    "publisher": "Laodong.vn",
@@ -5397,6 +5442,21 @@
    "area": "japan",
    "summary": "フィジカルAIを農業分野で導入・開発する動きが広がっていることを伝える記事。",
    "summary_v": 2
+  },
+  {
+   "title": "Kenya has taken centre stage in the global potato industry, with Agriculture and Livestock Development Cabinet Secretary (CS), Mutahi Kagwe, opening the 13th World Potato Congress and inviting investors to help the country replace imported potato product",
+   "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPSDdiNkNuZkxGSjNfbUF1TEJnMDRlY0ljQUhaT29lVVczU1JNbHFZTkhYRUdiWlUwZF9VWWJadXdpS2hMNy1ySnY4OWhEX0w4aXp3X21zek1mTGs5Q1BBZF9sVnpyRkdFYmtvaGk5Z0ZTVU5haEtQNXNfcUJBcF84ckl1aHJxT2NfVFU2UGVLNlhibmUtQTBqdTlOX19wejZ6WGZFRy1LbENxMk9ZV2pxc0NaTlg3R3pZWk4tTjl0dFB6b3ZYV0hvbGx0R2JDXzVQM2NnSHZOU2QxMTBaMFE?oc=5",
+   "publisher": "Facebook",
+   "via": "Google News Kenya",
+   "region": "africa",
+   "snippet": "",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-10-28T04:38+09:00",
+   "first_seen": "2026-11-04T21:21+09:00",
+   "lang": "en",
+   "area": "africa"
   },
   {
    "title": "市内でスマート農業体験会 トラクター「遠隔操縦難しい」",
@@ -8011,6 +8071,21 @@
    "summary_v": 2
   },
   {
+   "title": "Govt Sets Conditions Before Kenyans Can Import Buffaloes",
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPTHpvRldnMjI2VzZkZEVQQ2FaRlVHTEhQT1dpUTFsM1YxM2V6SzhXUVlwUzdPRzNhcnNJMHBaVmFueDQtSER0MmRCMlMydEt5dU5BVGRyVm56TF8tZWF0c0RzaGlzNHprelozN3FyZGkySFZpZ3UxZng0aTAtU3g0cElkM1ZNRzJpSnlMZmRGOVRTV1dXQzMwdA?oc=5",
+   "publisher": "The Kenya Times",
+   "via": "Google News Kenya",
+   "region": "africa",
+   "snippet": "",
+   "cats": [
+    "general"
+   ],
+   "published": "2026-10-17T16:00+09:00",
+   "first_seen": "2026-11-04T21:21+09:00",
+   "lang": "en",
+   "area": "africa"
+  },
+  {
    "title": "トマトプリンＰＲ コッコファーム・菊池農高 産学連携商品第１弾 試食販売が好評 次はレストランメニュー計画",
    "link": "https://www.agrinews.co.jp/society/index/412921",
    "publisher": "日本農業新聞",
@@ -8588,6 +8663,21 @@
    "area": "japan"
   },
   {
+   "title": "Livestock Bill proposes new fund, regulator and leather body",
+   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNUEVyR0xCcE5lX0h3eV9RdE9fdGxqeG1HdHpGc2wza0FkQktoLVA5WWlSb2Nfd1lwRUIwNDIta2VDajlOUjVJTDMyUU9MSVlvdk0wU3IyczlKejV1YXVJSnE5ZFJvRG9UUWJNSGM2VGFJU0JTdE81V3R5SWdUYk1ncV9HVVVkZFpERldTLVR3cw?oc=5",
+   "publisher": "Sacco Review",
+   "via": "Google News Kenya",
+   "region": "africa",
+   "snippet": "",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-10-14T16:00+09:00",
+   "first_seen": "2026-11-04T21:21+09:00",
+   "lang": "en",
+   "area": "africa"
+  },
+  {
    "title": "OlsAro raises $5.5m seed round as salt-tolerant wheat nears market",
    "link": "https://agfundernews.com/olsaro-raises-5-5m-seed-round-as-salt-tolerant-wheat-nears-market",
    "publisher": "AgFunderNews",
@@ -8637,6 +8727,21 @@
    "lang": "en",
    "area": "overseas",
    "summary_tries": 2
+  },
+  {
+   "title": "Fascioliasis in Kenya: a review",
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPWUZDZmhtZng2UFFianNkRVZpUGRESGxfUk94UGNCYVpJSkVKdGZYZl9GOEpsWVItS0lqak4xQS1vdklWVVF6dzNublJBVWk0RFQ0akRaVTFaWlVtOV95OHBQcDktUmZ1S1NEQmpsM1V1S2w1LWFGakpKTWJRZkFDcmVYY1MyRnZBcFo5STc0TWUwQmtxMm9RNndCN3JWcm43Wmc?oc=5",
+   "publisher": "Frontiers",
+   "via": "Google News Kenya",
+   "region": "africa",
+   "snippet": "",
+   "cats": [
+    "general"
+   ],
+   "published": "2026-10-13T22:33+09:00",
+   "first_seen": "2026-11-04T21:21+09:00",
+   "lang": "en",
+   "area": "africa"
   },
   {
    "title": "Switch Bio partners with Bayer to advance ‘switchable’ tech for biofertilizers",
@@ -8922,6 +9027,36 @@
    "area": "africa"
   },
   {
+   "title": "𝗞𝗲𝗻𝘆𝗮 𝘂𝗻𝘃𝗲𝗶𝗹𝘀 𝗮𝗺𝗯𝗶𝘁𝗶𝗼𝘂𝘀 𝘄𝗮𝘁𝗲𝗿 𝗶𝗻𝗳𝗿𝗮𝘀𝘁𝗿𝘂𝗰𝘁𝘂𝗿𝗲 𝗽𝗹𝗮𝗻 𝘁𝗼 𝘁𝗿𝗮𝗻𝘀𝗳𝗼𝗿𝗺 𝗔𝗦𝗔𝗟 𝗮𝗴𝗿𝗶𝗰𝘂𝗹𝘁𝘂𝗿𝗲 Kenya has unveiled an ambitious water infrastructure and agricultural transformation plan aimed at boosting food security, expanding irri",
+   "link": "https://news.google.com/rss/articles/CBMi4AlBVV95cUxNdzNtWVZBdlBlZEE0RXdWMlNNdkptVERSMDVpaVJfTWdsTGthelg0UF84Z3BpNThhUEIxYzFWWWFwU28xd05wbXVLb0FIeFJuTm1ZQ1p6ZnhNbUZObnV5aVdMVXQzeVlFTTdlOGYzNFpKWjNsa2YwTkJrblh3d0hHUXpWcDljU2toWXVDemJmN042dEJoY0hCcTB1NVY0VTUxWFlJek1YS1hYU3UxMVRBaU81XzNCUVlfbEIyRVQwZHdHejFWZUlqRFN5QlhyQlVPWlFjY2s1U21tODZZZWNjaGJGOEIyQmhxRE5UeG9BQ2NRV3pXR01pWm9JTjN0dE55dVBuQnEtNHZIQk9MRjZSSDREMk56RUh5MDBUWl9DYl83VWc4cTBxMHVLZHB3TWFmV3JtYTdkeDhFanhvYUVpLXRkckJ6NnJLZl9YdURhUXBKV29EdGhINkdzcl8xaGI5MXMxUEljNGlqV3AwekNwV0JBakpkZXZXY0pWQ3dLTGctQkkza0R4RG00WTFzckFRdnYxMDdXMTFvZm5oZk1NbUlheVR0ZGd2MkIxaDdMMGxFRFluX3pOMFJRM3FPUWMxbVB0NUw2VGlwYW50a1dmRzQyb210UFgwaWNFMC1rakxrajJ0azJZUmhyQ2J5a1BLbllmRWZ0ZTgyRXlvOVpaODJfU3UxZE05alZSaW4zanZTZWcwT3dfSnB5eWxxNVVhUGNwRzRkSXlCX1hCaHk5RnBCRWlqbFNMbWhsUjhmSXltUzYyTUFYSmNKM1NEUUwtNWVoRlFsY282VWtJMm5sblhubXphdGpPaWxpbmx4T0g5TlZmNVRzUHNKYkd3ZzVKc051dWhpME9tOGtROWhaNXFDMWFiOUVmbEwxQ2hFUzZBdGkxVHUtSGgyNzFhV3gtdk1kTXowRndZX1F4TXpnUXNBNEE0VHJrTEZQdm52MmNFSC1IQ1NJRkJjZkNIX1dob3RObXpJVGk1LUs3X0xxMlowVVRRVWxNMXNKQ3Y0WUZNUkxvWjhkNFlpbkpja1pWN21WTFdNak1VYVFIbjQxUE5GRUM4RlplMGdhemFoVGJZWWVvb0hqYTJsQWs1bTdaN1hyMTJ5ZFdZXy1hUXdES2dmdVNyNGNWMW1Jb0lkdlNUUTNjREVwdTVQNUNnVXNkNVBZcFB0cGdBVFkwTjlpV1d4TmJHZGtDUS1laVB3dnJPTmlfSXNsb0Qxdl9oTXRGWWFKRmJrQVIwVEpWTF9TLVRjMHhxbkJCdW5tSTBtZDlVSFRSbmlvdno3cEE3YmZ6aHlFeHE3R3JFUGVfejk1d3dQbXRUMVlyVXUwZDBMU2hJU2hiQlJjOVZFdFNfVVlIUVdsQjZRYXNVSm14YTNoTVJ3d09adXRPR2ZsMkI4aVpsZUxJcFVwMlBPU29sRUFpalBoN3RiaXdFUGZfd2NYZHNIVFl0blV4UDU3Y1M4eGczS2V5MEVveS0zS3NteFhnX1NCUVpZaFpZcFkxWTdnRk80MXJLd04tekJ4ZWgzVWJrcmFyQWpENE9qVkN0S2ZEd1dTRE03Y0RUaFQ3clB6Mkt4aGpwaFpESDIwbC13VFlKRFkwbEpsNXZaNE9ST2tJRmg3VUp1OWtGQ0dGdEZSYkZydVhtTVlja1Ntd3M3Wmk?oc=5",
+   "publisher": "Facebook",
+   "via": "Google News Kenya",
+   "region": "africa",
+   "snippet": "",
+   "cats": [
+    "general"
+   ],
+   "published": "2026-10-12T16:00+09:00",
+   "first_seen": "2026-11-04T21:21+09:00",
+   "lang": "en",
+   "area": "africa"
+  },
+  {
+   "title": "Mother Brooders Changing Poultry Farming and Saving Chicks’ Mortality in Western Kenya",
+   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPMWdvWENSSjhYVFJEMTQtc2FFdHN3MnhJcmJLa3FuVnlXQVhSc0o0bWVNYTNmelFBT0FqVUxrNlFoYklTNzBLOTB4RHNEbF81Rmp3VnhYYWhfMU9xajhvOTlxc29SR0FmQ2JILWlQU29iZEM2N3RZYUx0ODBRMzJsa3ZvQ3ZRSnhuWlFPTkpBeUREZ0FPVjVXelhMSXYtaE1HaEF0OVhJUWpyQWx6LXhNNXpmRnhxZw?oc=5",
+   "publisher": "Talk Africa",
+   "via": "Google News Kenya",
+   "region": "africa",
+   "snippet": "",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-10-12T16:00+09:00",
+   "first_seen": "2026-11-04T21:21+09:00",
+   "lang": "en",
+   "area": "africa"
+  },
+  {
    "title": "Nandi Farmers Turn to Avocado as Maize Losses Mount",
    "link": "https://kilimonews.co.ke/agriculture-policy/nandi-farmers-turn-to-avocado-as-maize-losses-mount/",
    "publisher": "Kilimo News（ケニア）",
@@ -9034,6 +9169,37 @@
    ],
    "published": "2026-10-10T16:00+09:00",
    "first_seen": "2026-11-04T21:08+09:00",
+   "lang": "en",
+   "area": "africa"
+  },
+  {
+   "title": "Government shifts focus from producing more food to making farming pay",
+   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQZzVZRnB3S21NeFZ5N0JoSUhON214RDdPNHJNOC1TczYweS1UdmhMTEJyT3pHLXlOTDNJOHlkbW1hOXJxY0ZjUlRRT0liTHZ2LTNqNGlOT1JZRjdUZ3pacm1iWlFjNTJUSXVJRVQ5ci04NEp3UC01M2M3ck9nWFA1VktxN04zVEN0cEJwNlVRc1BFcThJanNKZENSTUZOOExVcUl3Q29pNkZYV1Y4MEZfS213?oc=5",
+   "publisher": "Daily Nation",
+   "via": "Google News Kenya",
+   "region": "africa",
+   "snippet": "",
+   "cats": [
+    "policy",
+    "general"
+   ],
+   "published": "2026-10-10T16:00+09:00",
+   "first_seen": "2026-11-04T21:21+09:00",
+   "lang": "en",
+   "area": "africa"
+  },
+  {
+   "title": "Ruto’s milk politics: Buffalo proposal raises questions as Kenya faces shortages",
+   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOaFRieDJzbTdTUFFzWFNfeDVlYUh4VDloWFN4c3NzbE1kRnczSERaRDdBdGY4aEZkc0MzQ3p1SmZwTFNvQkRNdFAwYWJ5ZzFqdXhWcE85OHlKVWpyMWVNbFlaY1hFR1dRUGEtSFY1LW41VER6QlNRTHhoNWV1NERKckE0SUdSb05jSVBnX3l0ODJvdDFtN2FCVTczTWxxWktORkRUWjZoNFdoN3ZFY1dmT01uYXl1QQ?oc=5",
+   "publisher": "People Daily",
+   "via": "Google News Kenya",
+   "region": "africa",
+   "snippet": "",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-10-10T16:00+09:00",
+   "first_seen": "2026-11-04T21:21+09:00",
    "lang": "en",
    "area": "africa"
   },
@@ -9510,6 +9676,21 @@
    "summary_tries": 2
   },
   {
+   "title": "Ruto unveils plan to transform Kenya’s agriculture into a food economy",
+   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxObWFrSlM2WjdUcUo0YTlZTzJqeUNVVVVHT2o1SXJrSEFhN0doZ1otSVZ0NDlGeG13WXJmS1ZnaDQtUExFbTNLNXJrUG1VNWpHTXJtQTZFOWpkTkxPa0lvYXpnWmk1SVB6aFJTMHRqZktHZFJ0WlpzS01OanBXbWNMSDZ1SmdldlBsWjB1amJqYVYzY2x5MUVZ?oc=5",
+   "publisher": "KBC Digital",
+   "via": "Google News Kenya",
+   "region": "africa",
+   "snippet": "",
+   "cats": [
+    "general"
+   ],
+   "published": "2026-10-08T16:00+09:00",
+   "first_seen": "2026-11-04T21:21+09:00",
+   "lang": "en",
+   "area": "africa"
+  },
+  {
    "title": "Vermeer Bale Hawk collects 257 bales in 24-hour test",
    "link": "https://www.futurefarming.com/tech-in-focus/autonomous-semiauto-steering/autonomous-vehicles/vermeer-bale-hawk-collects-257-bales-in-24-hour-test/",
    "publisher": "Future Farming",
@@ -9579,6 +9760,21 @@
    "lang": "en",
    "area": "overseas",
    "summary_tries": 2
+  },
+  {
+   "title": "Kenya charts a unified path for rangelands and pastoralists ahead of global 2026 gathering in Mongolia",
+   "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOZTc4akVaZ3RfekpwUWQwQ0l6YVNrb0J1YUc2NWJxWGlTam5OUDdObmVFaFQ3bU1Zc0ZlVWdnTG9rN3NuUjhtSWo1QkM0d1YwOUtmdEgzWmktYWhGNlRTd3ctcHJHckNFR2c2Ym5oVE5JYlpRdE4wWHhTeVFEVlRiYzNzRFdFbEJacXdWSW5QSEItSVRHLWI3dVR5bmNmTW9GdllqWHZ1S2RxOGQ2WHRoam5sTk95Ukg0RFNFSlEwbmhudGVfN3RqNlkweGFkWm1zOUNxT1VSUmNOdEZxODQ0bC1R?oc=5",
+   "publisher": "Food and Agriculture Organization",
+   "via": "Google News Kenya",
+   "region": "africa",
+   "snippet": "",
+   "cats": [
+    "general"
+   ],
+   "published": "2026-10-08T00:30+09:00",
+   "first_seen": "2026-11-04T21:21+09:00",
+   "lang": "en",
+   "area": "africa"
   },
   {
    "title": "Twiga’s demise underscores the need for new financing models in African agrifoodtech",
@@ -9752,6 +9948,21 @@
    ],
    "published": "2026-10-07T16:00+09:00",
    "first_seen": "2026-11-04T21:17+09:00",
+   "lang": "en",
+   "area": "africa"
+  },
+  {
+   "title": "Kenya’s Drylands: Is This the Future of Agriculture?",
+   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQWERoT2VtbTkyUU5IWV9Fc3lJQXRaTko3UTVOR0pwOW9FTGNHd2ZFNk0tLVpZbUxuRUxGQ3B2QmRmbzlYczFxVmt5UTgtQjVsekJQcFAyOE9DZW9SWm55aV92aHJlNXZmMnNValBmbU1JckIwdVRtbTdzR3BHZmFSNmRSWGxIUQ?oc=5",
+   "publisher": "Talk Africa",
+   "via": "Google News Kenya",
+   "region": "africa",
+   "snippet": "",
+   "cats": [
+    "general"
+   ],
+   "published": "2026-10-07T16:00+09:00",
+   "first_seen": "2026-11-04T21:21+09:00",
    "lang": "en",
    "area": "africa"
   },
