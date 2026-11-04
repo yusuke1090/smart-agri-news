@@ -694,6 +694,7 @@ def main():
     (OUT / "index.html").write_text(render(kept, statuses, now), encoding="utf-8")
     (OUT / "feed.xml").write_text(build_rss(kept, now), encoding="utf-8")
     (OUT / ".nojekyll").write_text("")
+    (OUT / "board.html").write_text((ROOT / "site" / "board.html").read_text(encoding="utf-8"), encoding="utf-8")
     print(f"記事 {len(kept)}件で docs/ を作りました（{now:%Y-%m-%d %H:%M} JST）")
 
 

@@ -104,6 +104,9 @@ footer li { display: flex; justify-content: space-between; gap: 8px; }
 footer li.ng { color: var(--new); }
 footer a { color: var(--link); }
 footer p { margin: 4px 0; }
+.toprow { display: flex; justify-content: space-between; align-items: center; gap: 10px; flex-wrap: wrap; }
+.boardlink { font-size: 13.5px; font-weight: 700; color: var(--link); text-decoration: none; padding: 4px 14px;
+  border: 1px solid var(--border); border-radius: 999px; background: var(--bg); white-space: nowrap; }
 [hidden] { display: none !important; }
 @media (max-width: 480px) { .tab { padding: 8px 14px; font-size: 14px; } .chips .label { display: none; } }
 </style>
@@ -111,7 +114,7 @@ footer p { margin: 4px 0; }
 <body>
 <header>
   <div class="wrap">
-    <h1><span>🐄</span>スマート農業News</h1>
+    <div class="toprow"><h1><span>🐄</span>スマート農業News</h1><a class="boardlink" href="board.html">📝 伝言板</a></div>
     <p class="lead">国内外のスマート農業・酪農・畜産・IoT のニュースを、毎朝7時にまとめています。英語の記事には、日本語訳とやさしい英語のまとめが付いています。</p>
     <div class="stats">
       <span>最終更新 <b><time datetime="{{UPDATED_ISO}}">{{UPDATED}}</time></b></span>
@@ -150,9 +153,9 @@ footer p { margin: 4px 0; }
     <h2>ニュースの取得元</h2>
     <ul>{{SOURCES}}</ul>
     <p>各記事のタイトル・説明文の著作権は、それぞれの配信元に帰属します。記事の全文は、リンク先の配信元のサイトでお読みください。</p>
-    <p>記事のまとめ・日本語タイトル・やさしい英語のまとめ・日本／海外の分類は、AI（Claude）がタイトルと配信元の説明文から自動で作成しています。誤りを含むことがあるため、正確な内容はリンク先の記事でご確認ください。</p>
+    <p>記事のまとめ・日本語タイトル・やさしい英語のまとめ・日本／海外の分類は、AI（Ollama で動かす Gemma）がタイトルと配信元の説明文から自動で作成しています。誤りを含むことがあるため、正確な内容はリンク先の記事でご確認ください。</p>
     <p>カテゴリはキーワードで自動的に分類しているため、内容と合わないことがあります。</p>
-    <p><a href="feed.xml">RSS</a> ・ <a href="https://github.com/yusuke1090/smart-agri-news" target="_blank" rel="noopener">GitHub</a></p>
+    <p><a href="board.html">伝言板</a> ・ <a href="feed.xml">RSS</a> ・ <a href="https://github.com/yusuke1090/smart-agri-news" target="_blank" rel="noopener">GitHub</a></p>
   </div>
 </footer>
 

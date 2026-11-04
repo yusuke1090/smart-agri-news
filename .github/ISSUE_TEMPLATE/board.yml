@@ -1,0 +1,28 @@
+name: 伝言板に書き込む
+description: スマート農業News の伝言板（将来やりたいこと・アイデア・相談）に書き込みます
+title: "（ここに題名）"
+labels: ["伝言板"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        書き込んだ内容は、サイトの [伝言板](https://yusuke1090.github.io/smart-agri-news/board.html) に誰でも見られる形で表示されます。
+        後から右上の「…」→「Edit」で直せます。
+  - type: dropdown
+    id: kind
+    attributes:
+      label: 種類
+      options:
+        - やりたいこと
+        - アイデア
+        - 質問・相談
+        - その他
+    validations:
+      required: true
+  - type: textarea
+    id: body
+    attributes:
+      label: 内容
+      description: 箇条書き（- で始める）や **太字** も使えます
+    validations:
+      required: true
