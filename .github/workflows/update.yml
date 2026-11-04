@@ -1,11 +1,11 @@
-# 毎朝ニュースを集め、無料の AI（Ollama + Gemma）でまとめを作り、GitHub Pages のサイトを更新する
+# 毎朝ニュースを集めて、GitHub Pages のサイトを更新する
 name: update-news
 
 on:
   schedule:
-    # GitHub の時刻は UTC。21:00 UTC = 日本時間 6:00。
-    # AI のまとめ作り（CPU で動かすので時間がかかる）と、混雑による遅れを見込んで早めに始める
-    - cron: "0 21 * * *"
+    # GitHub の時刻は UTC。21:40 UTC = 日本時間 6:40。
+    # 混雑で実行が数分〜数十分遅れることがあるので、7時に間に合うよう少し早めにしている
+    - cron: "40 21 * * *"
   workflow_dispatch:      # GitHub の画面（Actions → update-news → Run workflow）から手動でも実行できる
   push:                   # build.py やデザインを変えて push したら、すぐサイトに反映する
     branches: [main]
@@ -20,15 +20,10 @@ concurrency:
   group: update-news
   cancel-in-progress: false
 
-env:
-  OLLAMA_MODEL: gemma4:e4b      # まとめを作る無料のモデル
-  SUMMARY_BACKEND: ollama
-  SUMMARY_MAX_PER_RUN: "150"    # 1回にまとめる記事の上限（残りは次の回に回る）
-
 jobs:
   build:
     runs-on: ubuntu-latest
-    timeout-minutes: 150
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
 
@@ -36,26 +31,8 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Ollama を入れる
-        run: |
-          curl -fsSL https://ollama.com/install.sh | sh
-          sudo systemctl stop ollama || true     # 自分で起動し直す（モデルの保存場所をキャッシュに合わせるため）
-
-      - name: モデルのキャッシュ（毎回ダウンロードしないように）
-        uses: actions/cache@v4
-        with:
-          path: ~/.ollama/models
-          key: ollama-${{ env.OLLAMA_MODEL }}
-
-      - name: Ollama を起動してモデルを用意する
-        run: |
-          export OLLAMA_MODELS="$HOME/.ollama/models"
-          nohup ollama serve > /tmp/ollama.log 2>&1 &
-          for i in $(seq 1 30); do curl -sf http://127.0.0.1:11434/api/tags >/dev/null && break; sleep 2; done
-          ollama pull "$OLLAMA_MODEL"
-
-      - name: ニュースを集めて、まとめを作り、サイトを作る
-        run: python build.py --summarize
+      - name: ニュースを集めて、サイトを作る
+        run: python build.py
 
       - name: 集めたデータをコミットする
         if: always()
