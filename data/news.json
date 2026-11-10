@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T10:12+09:00",
+ "updated": "2026-11-10T12:48+09:00",
  "sources": [
   {
    "name": "日本農業新聞",
@@ -14,7 +14,7 @@
   {
    "name": "AGRI JOURNAL",
    "ok": true,
-   "count": 5
+   "count": 3
   },
   {
    "name": "農林水産省 報道発表",
@@ -34,32 +34,32 @@
   {
    "name": "MONOist",
    "ok": true,
-   "count": 1
+   "count": 0
   },
   {
    "name": "ITmedia",
    "ok": true,
-   "count": 0
+   "count": 2
   },
   {
    "name": "日刊工業新聞",
    "ok": true,
-   "count": 0
+   "count": 1
   },
   {
    "name": "Google ニュース「スマート農業」",
    "ok": true,
-   "count": 30
+   "count": 32
   },
   {
    "name": "Google ニュース「スマート畜産」",
    "ok": true,
-   "count": 38
+   "count": 36
   },
   {
    "name": "Google ニュース「酪農」",
    "ok": true,
-   "count": 75
+   "count": 85
   },
   {
    "name": "Google ニュース「畜産 IoT」",
@@ -74,7 +74,7 @@
   {
    "name": "Google ニュース「農業 AI」",
    "ok": true,
-   "count": 57
+   "count": 63
   },
   {
    "name": "AgFunderNews",
@@ -99,22 +99,22 @@
   {
    "name": "Farm Progress",
    "ok": true,
-   "count": 12
+   "count": 14
   },
   {
    "name": "Agriland",
    "ok": true,
-   "count": 32
+   "count": 31
   },
   {
    "name": "FeedNavigator",
    "ok": true,
-   "count": 2
+   "count": 4
   },
   {
    "name": "Google News \"smart farming\"",
    "ok": true,
-   "count": 53
+   "count": 52
   },
   {
    "name": "Google News \"dairy tech\"",
@@ -124,7 +124,7 @@
   {
    "name": "Google News \"farm IoT\"",
    "ok": true,
-   "count": 49
+   "count": 50
   },
   {
    "name": "AllAfrica Agriculture",
@@ -164,12 +164,12 @@
   {
    "name": "Google News Kenya",
    "ok": true,
-   "count": 63
+   "count": 73
   },
   {
    "name": "Google News Tanzania",
    "ok": true,
-   "count": 43
+   "count": 41
   },
   {
    "name": "Google News Africa agritech",
@@ -178,6 +178,1261 @@
   }
  ],
  "items": [
+  {
+   "title": "タイ232名実証・満足度4.62のスマートAIグラス「NASGlass」、介護から農業へ BS",
+   "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBwY3BpUjQyU1NaZjNvMDdVdGZxbWtqaHRxTFFzcXFjaFhHcHZWT0ZTejBzbnhaMVlQVzRGSk1pUHFPaHc2MTZsbHc4MkFIb0JKQnJBQTdPWnhKbl9nNXFsUkdfNGlmTVA5NTdxcERhTElJQmVlNW1BTVlhZw?oc=5",
+   "publisher": "ニコニコニュース",
+   "via": "Google ニュース「農業 AI」",
+   "region": "jp",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-11-10T12:15+09:00",
+   "first_seen": "2026-11-10T12:48+09:00",
+   "lang": "ja",
+   "area": "overseas"
+  },
+  {
+   "title": "Seven agtech companies show orchard, vineyard tech at Kearney field day",
+   "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE85NllDczNQNHMyQnY1dXZSeTRRNGF5SHBwU2VFblYtYWwyLUM5TWZHSWhNSUpodUVfZEYyMFNGajA5Wk5tZEctVHRMWURZa2FsZEdJcGpTYVJYcEJSeHBNM1JKcWo1Q1B3N014UjlReFprT1RORnl1VEdhRQ?oc=5",
+   "publisher": "The Business Journal",
+   "via": "Google News \"smart farming\"",
+   "region": "world",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-11-10T10:28+09:00",
+   "first_seen": "2026-11-10T12:48+09:00",
+   "lang": "en",
+   "area": "overseas"
+  },
+  {
+   "title": "【茨城県下妻市】ガス会社営業から未経験で農家へ転身！ 「スマート農業」を駆使し",
+   "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5OQUxFaVI1ZlAtQmp2OXlGUUtHNEZobjRvUXFCOEtrd0N0Ylc3enZVVUFBcUNzUmx3UThOMEM0czcwZTNmQ19oQ21HTjRZZEl6dmpxcWxtNXgzOTU3YnpqbTFGQmdwNkR1cDRHVEhCTkRJcWYxWVN2emlZOWk?oc=5",
+   "publisher": "ニコニコニュース",
+   "via": "Google ニュース「スマート農業」",
+   "region": "jp",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-11-10T09:36+09:00",
+   "first_seen": "2026-11-10T12:48+09:00",
+   "lang": "ja",
+   "area": "japan"
+  },
+  {
+   "title": "【茨城県下妻市】ガス会社営業から未経験で農家へ転身！「スマート農業」を駆使し、就農からわずか5年で関東農政局長賞を受賞した移住就農者について情報公開 (2026年11月10日掲載)",
+   "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5DQXNLRHBEeGFPZkh6OE9KQmxpa1M2MkdvVW5xOW1FTHdraTc2aG1DTmRFLWhGdE5kSjJaZjV6bmpHWW4ta0RzckVjVWhYdWR1bzM0VVVQNGZtSEpYQk9WSFR3?oc=5",
+   "publisher": "ライブドアニュース",
+   "via": "Google ニュース「スマート農業」",
+   "region": "jp",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-11-10T09:30+09:00",
+   "first_seen": "2026-11-10T12:48+09:00",
+   "lang": "ja",
+   "area": "japan"
+  },
+  {
+   "title": "2036年、農家の仕事はAIに奪われる？ ラクになる？ 10年後の未来農業を描く動画コンテスト開催",
+   "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBzZ2xmeS1TSTFUYWotTDI0SElRS25SZGZ6WXF3T01iWjhISkNkV2FCbE1JRzFKTFNqZlFqYzhGQ2V4bTdYZUM0cmo1cGZ6MGlrMGlSM2ZTc1VpNVVoRlVyODQ4anAwY2RTTUE?oc=5",
+   "publisher": "PR TIMES",
+   "via": "Google ニュース「農業 AI」",
+   "region": "jp",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-11-10T08:23+09:00",
+   "first_seen": "2026-11-10T12:48+09:00",
+   "lang": "ja",
+   "area": "japan"
+  },
+  {
+   "title": "牛乳の魅力、見て感じて 紙パックや瓶千個展示",
+   "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBQZGtJTmJ3Q0l3cmsxNG5yc2xrSk1vT1p1ZE5VM0V6Z0VqX0h3M2NmSGRJa1BGOWQ3dkZha3l2b2JlR0tybFY4amhSdnFFS084dlA4eno3OUg0a3UtV0E?oc=5",
+   "publisher": "沖縄タイムス社",
+   "via": "Google ニュース「酪農」",
+   "region": "jp",
+   "snippet": "",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-11-10T08:00+09:00",
+   "first_seen": "2026-11-10T12:48+09:00",
+   "lang": "ja",
+   "area": "japan"
+  },
+  {
+   "title": "牛乳の魅力、見て感じて 紙パックや瓶千個展示｜全国のニュース｜Web東奥",
+   "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5xNkxMejZDQU5GQlQxdjJpTzM0UkZxVU5ZeVRKTlJVRlZONFhCcXU3czdyOW1IQ1dvcnZNSVdlVXNULXVjYVgxWnduSHdMMXhxbUdHUVZSNnU?oc=5",
+   "publisher": "東奥日報社",
+   "via": "Google ニュース「酪農」",
+   "region": "jp",
+   "snippet": "",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-11-10T08:00+09:00",
+   "first_seen": "2026-11-10T12:48+09:00",
+   "lang": "ja",
+   "area": "japan"
+  },
+  {
+   "title": "Uganda: Sudanese Community Donates 650 Tonnes of Maize Flour to Hunger-Hit Karamoja",
+   "link": "https://allafrica.com/stories/202611090796.html",
+   "publisher": "AllAfrica Agriculture",
+   "via": "AllAfrica Agriculture",
+   "region": "africa",
+   "snippet": "[Nile Post] The Sudanese community living in Kampala has donated 650 tonnes of maize flour to support households affected by food shortages in the Karamoja Sub-region.",
+   "cats": [
+    "general"
+   ],
+   "published": "2026-11-10T07:44+09:00",
+   "first_seen": "2026-11-10T12:48+09:00",
+   "lang": "en",
+   "area": "africa"
+  },
+  {
+   "title": "触れた乳牛、「穏やか」「石のよう」 大仁小児童が観察、バター作り 伊豆の国でＪＡ体験会",
+   "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1RTnBWOWpWZUZLSzAxWHVUbjI3dnF4TGE5UW1jcVJwbEg3Y0Zzc25pcHl5X0g3LXZGSHh3Sm9uX3VnZGlzckdSU1kzTXF5UQ?oc=5",
+   "publisher": "静岡新聞DIGITAL",
+   "via": "Google ニュース「酪農」",
+   "region": "jp",
+   "snippet": "",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-11-10T06:00+09:00",
+   "first_seen": "2026-11-10T12:48+09:00",
+   "lang": "ja",
+   "area": "japan"
+  },
+  {
+   "title": "Namibia: Communal Farmer Proves Farming Can Thrive Without Irrigation",
+   "link": "https://allafrica.com/stories/202611090766.html",
+   "publisher": "AllAfrica Agriculture",
+   "via": "AllAfrica Agriculture",
+   "region": "africa",
+   "snippet": "[New Era] Ongwediva -- A communal farmer from Ongaka village in Omuthiya constituency, Oshikoto region, is showing that agriculture can thrive without irrigation through diversified farming practices and effective use of seasonal rainfall.",
+   "cats": [
+    "general"
+   ],
+   "published": "2026-11-10T05:37+09:00",
+   "first_seen": "2026-11-10T12:48+09:00",
+   "lang": "en",
+   "area": "africa"
+  },
+  {
+   "title": "積水ハウスなど、水素コンロの家庭利用検証",
+   "link": "https://www.nikkan.co.jp/articles/view/796581",
+   "publisher": "日刊工業新聞",
+   "via": "日刊工業新聞",
+   "region": "jp",
+   "snippet": "",
+   "cats": [
+    "iot"
+   ],
+   "published": "2026-11-10T05:00+09:00",
+   "first_seen": "2026-11-10T12:48+09:00",
+   "lang": "ja",
+   "area": "japan",
+   "desc_checked": true
+  },
+  {
+   "title": "【農業経営に役立ったITツールランキング・ベスト15】AIが上位に食い込む中、1位に輝いた三菱商事や農機メーカーが出資する「農業アプリ」の実力とは…freee、kintone、マネフォは何位に？農家823人が回答",
+   "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9tZTBLYkJ2NHBqWllqV3JjT1ZkY2pmTFhvLW14T1lBVENPWUhhWXhCOEhESW5fNTJGcFRuMktFcDFuU242VkowNTBVSE4?oc=5",
+   "publisher": "ダイヤモンド・オンライン",
+   "via": "Google ニュース「農業 AI」",
+   "region": "jp",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-11-10T04:30+09:00",
+   "first_seen": "2026-11-10T12:48+09:00",
+   "lang": "ja",
+   "area": "japan"
+  },
+  {
+   "title": "National Policy Dialogue: Making Kenya’s Agricultural Evidence Count",
+   "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1JVkRaMElJM2ZBaGdMUThiWFowTVBmYmdZcWVOd0FTRW42aGFFT0M4M2dQbjU1WmdlQm9IWlpkcVBDSExmMHc2c1VBbHExM2l3bnp6QmR4amNKdV9lVWlraHNPa0piQQ?oc=5",
+   "publisher": "Africa South of the Sahara",
+   "via": "Google News Kenya",
+   "region": "africa",
+   "snippet": "",
+   "cats": [
+    "policy",
+    "general"
+   ],
+   "published": "2026-11-10T03:44+09:00",
+   "first_seen": "2026-11-10T12:48+09:00",
+   "lang": "en",
+   "area": "africa"
+  },
+  {
+   "title": "Wild Animals Awe Safari-goers in Kenya",
+   "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBIekc0c1pic05pN25xYkRCUzVxYVhhWVBiMTZVLXozWE9jZDdhX185cnJFbWdwdzVTbG13aXRMWXUzTExDbkFFbGx6UUlVNWRNeWYyNkZHdXZXSEg4U2lUcGlmS3ZFbDQtTGhPN1pMV3JrQzFvVzFzLXlR?oc=5",
+   "publisher": "Leisure Group Travel",
+   "via": "Google News Kenya",
+   "region": "africa",
+   "snippet": "",
+   "cats": [
+    "general"
+   ],
+   "published": "2026-11-10T03:19+09:00",
+   "first_seen": "2026-11-10T12:48+09:00",
+   "lang": "en",
+   "area": "africa"
+  },
+  {
+   "title": "Guest article: A landscape-scale strategy for regenerative agriculture",
+   "link": "https://agfundernews.com/guest-article-a-landscape-scale-strategy-for-regenerative-agriculture",
+   "publisher": "AgFunderNews",
+   "via": "AgFunderNews",
+   "region": "world",
+   "snippet": "Growth of regenerative agriculture depends less on scaling a single model and more on understanding how change unfolds in different places.",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-11-10T02:39+09:00",
+   "first_seen": "2026-11-10T12:48+09:00",
+   "lang": "en",
+   "area": "overseas"
+  },
+  {
+   "title": "「第13回“日本の食品”輸出EXPO」11月11日開幕 コメ加工品の展示に注目",
+   "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1IY0tPUFpfeW1GYkw3azJ1a0hEX2owV2lzbWtBYzA4VklmbzRwbXRveGIwbjFWbHJYR2JwMVlFYnZZcURtTUszY3pxdw?oc=5",
+   "publisher": "農業とITの未来メディア",
+   "via": "Google ニュース「スマート農業」",
+   "region": "jp",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-11-10T02:04+09:00",
+   "first_seen": "2026-11-10T12:48+09:00",
+   "lang": "ja",
+   "area": "japan"
+  },
+  {
+   "title": "Building a regenerative beef business: Industry pioneer Laura Freeman shares Mt. Folly’s story",
+   "link": "https://www.agnavigator.com/Article/2026/11/09/from-organic-to-regenerative-inside-beef-pioneer-laura-freemans-mt-folly-business/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+   "publisher": "FeedNavigator",
+   "via": "FeedNavigator",
+   "region": "world",
+   "snippet": "Making beef more sustainable is one thing — making it affordable is another",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-11-10T00:54+09:00",
+   "first_seen": "2026-11-10T12:48+09:00",
+   "lang": "en",
+   "area": "overseas"
+  },
+  {
+   "title": "Dr Shelukindo stresses the need for Tanzania and Oman to establish stronger strategies, address existing obstacles",
+   "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxORm5abWZNT19BSzlRb3pmNUtwWGNpUE1VcDd3SlpCNzBZRHA0aUIxLUUxbVpoY0U1MndKUHpFMXV0amFuZG96TDN3QjNIRnl2XzdmNkl6QmFVYWNUU21ETWpXX2NQQVNYTGljeUU5UlV2TjFYSzU4QmpEZWlrX2ItUmxSeVpnWUlxMU10V19kSHBwZHJ6bmppX1VJT1N5T2RzZ0JkUVFtMTBWcjlxWXlkNlE5TElJZ1R4LVAwaGFCNmxxUDM4cVJZcGEtc3doVVAzZkN4Zw?oc=5",
+   "publisher": "Daily News",
+   "via": "Google News Tanzania",
+   "region": "africa",
+   "snippet": "",
+   "cats": [
+    "general"
+   ],
+   "published": "2026-11-10T00:52+09:00",
+   "first_seen": "2026-11-10T12:48+09:00",
+   "lang": "en",
+   "area": "africa"
+  },
+  {
+   "title": "Brenntag Showcases Its Full Animal Nutrition and Pet Food Portfolio at EuroTier 2026",
+   "link": "https://farmersreviewafrica.com/brenntag-showcases-its-full-animal-nutrition-and-pet-food-portfolio-at-eurotier-2026/",
+   "publisher": "Farmers Review Africa",
+   "via": "Farmers Review Africa",
+   "region": "africa",
+   "snippet": "Brenntag Animal Nutrition will participate in EuroTier 2026, the world’s leading trade fair for animal production, taking place from 10-13 November 2026 in Hannover, Germany. At Booth 23B08, visitors will have the opportunity to meet Brenntag’s Animal Nutrition experts and learn more about the compa…",
+   "cats": [
+    "general"
+   ],
+   "published": "2026-11-10T00:03+09:00",
+   "first_seen": "2026-11-10T12:48+09:00",
+   "lang": "en",
+   "area": "africa"
+  },
+  {
+   "title": "「砂糖類・でん粉情報」11月号を掲載しました。",
+   "link": "http://www.alic.go.jp/joho-s/joho07_000588.html",
+   "publisher": "農畜産業振興機構（ALIC）",
+   "via": "農畜産業振興機構（ALIC）",
+   "region": "jp",
+   "snippet": "「砂糖類・でん粉情報」11月号を掲載しました。",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-11-10T00:00+09:00",
+   "first_seen": "2026-11-10T12:48+09:00",
+   "lang": "ja",
+   "area": "japan"
+  },
+  {
+   "title": "「あいちの農林水産フェア」「2026あいち畜産フェスタ」開催 愛知県",
+   "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBWM1NDa1lhZXJmX081eV9ELWQzWEwzenpFNzVia3g1NGJDM1VOMEVpUGRLeERpeWFIVWpJZjFqd3FkTFJoNTFtLTdDNHFucGExSW5EM2VBZjUtRS1mUnF3ZTNhTlI?oc=5",
+   "publisher": "JAcom 農業協同組合新聞",
+   "via": "Google ニュース「酪農」",
+   "region": "jp",
+   "snippet": "",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-11-10T00:00+09:00",
+   "first_seen": "2026-11-10T12:48+09:00",
+   "lang": "ja",
+   "area": "japan"
+  },
+  {
+   "title": "Cream cheese ‘losing’ to cottage cheese as protein trend reshapes US dairy market",
+   "link": "https://www.dairyreporter.com/Article/2026/11/09/cream-cheese-losing-to-cottage-cheese-as-protein-trend-reshapes-us-dairy-market/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+   "publisher": "DairyReporter",
+   "via": "DairyReporter",
+   "region": "world",
+   "snippet": "More innovation is needed in the US cream cheese category as consumers increasingly switch to cottage cheese and other protein-forward products, according to the boss of Kraft Heinz.",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-11-09T23:55+09:00",
+   "first_seen": "2026-11-10T12:48+09:00",
+   "lang": "en",
+   "area": "overseas",
+   "desc_checked": true
+  },
+  {
+   "title": "Nissan Patrol Celebrates 75 Years of Adventure and Unbreakable Spirit",
+   "link": "https://farmersreviewafrica.com/nissan-patrol-celebrates-75-years-of-adventure-and-unbreakable-spirit/",
+   "publisher": "Farmers Review Africa",
+   "via": "Farmers Review Africa",
+   "region": "africa",
+   "snippet": "For 75 years, Nissan Patrol has gone further, tackled challenging terrain and taken generations of customers on adventures around the world. From its beginnings in Japan in 1951 as Nissan’s first four-wheel-drive vehicle to today’s seventh-generation model currently built in Japan, Patrol has been d…",
+   "cats": [
+    "general"
+   ],
+   "published": "2026-11-09T23:16+09:00",
+   "first_seen": "2026-11-10T12:48+09:00",
+   "lang": "en",
+   "area": "africa"
+  },
+  {
+   "title": "Nigeria: 3-Time Contestant Wins Kaduna Agritech Bootcamp, Gets N500,000",
+   "link": "https://allafrica.com/stories/202611090505.html",
+   "publisher": "AllAfrica Agriculture",
+   "via": "AllAfrica Agriculture",
+   "region": "africa",
+   "snippet": "[Leadership] A three-time contestant, Gabriel Adinga, has emerged as the winner of the 2026 Kaduna Agritech Bootcamp, winning a N500,000 grant for his agricultural technology venture, Farmket by Seedo.",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-11-09T22:55+09:00",
+   "first_seen": "2026-11-10T12:48+09:00",
+   "lang": "en",
+   "area": "africa"
+  },
+  {
+   "title": "Factory quotes: Beef cattle price cuts stalled this week as trade firms",
+   "link": "https://www.agriland.ie/farming-news/factory-quotes-beef-cattle-price-cuts-stalled-this-week-as-trade-firms/",
+   "publisher": "Agriland",
+   "via": "Agriland",
+   "region": "world",
+   "snippet": "This week’s factory quotes have seen beef price offers hold steady with most outlets opening their beef price offers for this week at the same level as last week. Beef prices had been under some pressure for the past few weeks with prime cattle price offers cut last week but prices have remained fir…",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-11-09T22:49+09:00",
+   "first_seen": "2026-11-10T12:48+09:00",
+   "lang": "en",
+   "area": "overseas"
+  },
+  {
+   "title": "Zero tariffs boost Tru-Cape’s apple exports to China, while India remains a concern",
+   "link": "https://farmersreviewafrica.com/zero-tariffs-boost-tru-capes-apple-exports-to-china-while-india-remains-a-concern/",
+   "publisher": "Farmers Review Africa",
+   "via": "Farmers Review Africa",
+   "region": "africa",
+   "snippet": "The removal of Chinese import tariffs on South African fruit is already delivering results for Tru-Cape Fruit Marketing, with the company’s apple exports to China increasing by almost 50% year to date. The development has created new opportunities to grow South African apples’ presence in one of the…",
+   "cats": [
+    "policy",
+    "general"
+   ],
+   "published": "2026-11-09T22:49+09:00",
+   "first_seen": "2026-11-10T12:48+09:00",
+   "lang": "en",
+   "area": "africa"
+  },
+  {
+   "title": "FUCHS expands east African footprint with new joint venture in Kenya",
+   "link": "https://farmersreviewafrica.com/fuchs-expands-east-african-footprint-with-new-joint-venture-in-kenya/",
+   "publisher": "Farmers Review Africa",
+   "via": "Farmers Review Africa",
+   "region": "africa",
+   "snippet": "The FUCHS Group, which operates globally in the lubricants industry, has announced the opening of a new joint venture in Kenya, marking an exciting new chapter in the company’s growth journey across the African continent. The Kenyan operation expands FUCHS’ regional portfolio, which already includes…",
+   "cats": [
+    "general"
+   ],
+   "published": "2026-11-09T22:42+09:00",
+   "first_seen": "2026-11-10T12:48+09:00",
+   "lang": "en",
+   "area": "africa"
+  },
+  {
+   "title": "From Insight to Impact: Omnia Turns Analysis Into Better Production Decisions",
+   "link": "https://farmersreviewafrica.com/from-insight-to-impact-omnia-turns-analysis-into-better-production-decisions/",
+   "publisher": "Farmers Review Africa",
+   "via": "Farmers Review Africa",
+   "region": "africa",
+   "snippet": "Omnia expands Analytical Services into the Western Cape Marking World Science Day for Peace and Development on 10 November, Omnia is demonstrating the practical value of agricultural science with the expansion of its Analytical Services capability into the Western Cape. The recent opening of its new…",
+   "cats": [
+    "general"
+   ],
+   "published": "2026-11-09T22:31+09:00",
+   "first_seen": "2026-11-10T12:48+09:00",
+   "lang": "en",
+   "area": "africa"
+  },
+  {
+   "title": "U.S. beef exports stay strong despite record-high prices in September",
+   "link": "https://www.farmprogress.com/tv-and-radio/u-s-beef-exports-stay-strong-despite-record-high-prices-in-september",
+   "publisher": "Farm Progress",
+   "via": "Farm Progress",
+   "region": "world",
+   "snippet": "Farm Progress America: U.S. beef exports continue to climb in value and volume as global buyers prioritize quality protein even amid rising household costs worldwide.",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-11-09T22:21+09:00",
+   "first_seen": "2026-11-10T12:48+09:00",
+   "lang": "en",
+   "area": "overseas"
+  },
+  {
+   "title": "欲しいアプリは農家が自分でつくる時代へ！ 酪農家が実践する「Vibe Coding」の最前線",
+   "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9YT2NXelBnSE9sbHdua1c3VTBnczM3REU2YkNkbGRnX1h0OTJfNmJQcHY1dVAtcUEwUEl5SkNZS3JLYTJSSEhhRU1UdGozZklBRi1HUGlhSGc1X09tb3lFT0pXQkZ4REVWVFU4M0Z4emFUUQ?oc=5",
+   "publisher": "Infoseek",
+   "via": "Google ニュース「酪農」",
+   "region": "jp",
+   "snippet": "",
+   "cats": [
+    "dairy",
+    "smart"
+   ],
+   "published": "2026-11-09T22:10+09:00",
+   "first_seen": "2026-11-10T12:48+09:00",
+   "lang": "ja",
+   "area": "japan"
+  },
+  {
+   "title": "Kenya: Food Crisis Hits Ethiopians Fleeing Violence Into Kenya's Moyale",
+   "link": "https://allafrica.com/stories/202611090419.html",
+   "publisher": "AllAfrica Agriculture",
+   "via": "AllAfrica Agriculture",
+   "region": "africa",
+   "snippet": "[Capital FM] Nairobi -- Thousands of Ethiopian families who fled violent clashes in their country and sought refuge in Kenya's Moyale area are facing acute food shortages, with more than seven in ten households reporting insufficient food, a new humanitarian assessment has found.",
+   "cats": [
+    "general"
+   ],
+   "published": "2026-11-09T21:45+09:00",
+   "first_seen": "2026-11-10T12:48+09:00",
+   "lang": "en",
+   "area": "africa"
+  },
+  {
+   "title": "Nigeria: Hunger, Diseases Ravage Nasarawa Flood Victims As Relief Fail to Arrive",
+   "link": "https://allafrica.com/stories/202611090296.html",
+   "publisher": "AllAfrica Agriculture",
+   "via": "AllAfrica Agriculture",
+   "region": "africa",
+   "snippet": "[Leadership] Weeks after floodwaters receded in Nasarawa State, displaced residents who have returned to their communities are now battling hunger, malaria and typhoid, as they drink polluted river water and sleep in makeshift shelters, with promised government relief yet to arrive.",
+   "cats": [
+    "policy",
+    "general"
+   ],
+   "published": "2026-11-09T20:27+09:00",
+   "first_seen": "2026-11-10T12:48+09:00",
+   "lang": "en",
+   "area": "africa"
+  },
+  {
+   "title": "Algeria: President Tebboune Orders Ban On Crop Hoarding and Use of Green Corn As Livestock Feed",
+   "link": "https://allafrica.com/stories/202611090286.html",
+   "publisher": "AllAfrica Agriculture",
+   "via": "AllAfrica Agriculture",
+   "region": "africa",
+   "snippet": "[Algerie Presse Service] Algiers -- President of the Republic Abdelmadjid Tebboune on Sunday ordered a crackdown on agricultural hoarding and a total ban on using green corn as livestock feed.",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-11-09T20:21+09:00",
+   "first_seen": "2026-11-10T12:48+09:00",
+   "lang": "en",
+   "area": "africa"
+  },
+  {
+   "title": "Algeria: President Tebboune Directs Preparation of New Plan for Local Organization of Agriculture",
+   "link": "https://allafrica.com/stories/202611090285.html",
+   "publisher": "AllAfrica Agriculture",
+   "via": "AllAfrica Agriculture",
+   "region": "africa",
+   "snippet": "[Algerie Presse Service] Algiers -- President of the Republic Abdelmadjid Tebboune, chairing a Council of Ministers meeting Sunday devoted to reviewing a presentation on the state and prospects of the agriculture, rural development and fisheries sector, directed the preparation of a new plan for the…",
+   "cats": [
+    "general"
+   ],
+   "published": "2026-11-09T20:20+09:00",
+   "first_seen": "2026-11-10T12:48+09:00",
+   "lang": "en",
+   "area": "africa"
+  },
+  {
+   "title": "Uganda, Italy collaborate to establish coffee training centre",
+   "link": "https://farmersreviewafrica.com/uganda-italy-collaborate-to-establish-coffee-training-centre/",
+   "publisher": "Farmers Review Africa",
+   "via": "Farmers Review Africa",
+   "region": "africa",
+   "snippet": "Groundbreaking for the Italy-Uganda Coffee Training Center. Photo @MAAIF_Uganda. Uganda and Italy have strengthened their bilateral partnership to establish a coffee training centre at Kyambogo University, in a move aimed at promoting value addition, developing professional skills and increasing Uga…",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-11-09T20:00+09:00",
+   "first_seen": "2026-11-10T12:48+09:00",
+   "lang": "en",
+   "area": "africa"
+  },
+  {
+   "title": "Climate change poses growing threat to competitiveness of Europe’s dairy sector",
+   "link": "https://www.dairyreporter.com/Article/2026/11/09/climate-change-poses-growing-threat-to-competitiveness-of-europes-dairy-sector/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+   "publisher": "DairyReporter",
+   "via": "DairyReporter",
+   "region": "world",
+   "snippet": "European dairy production is coming under increasing pressure as climate change and rising heat stress in cows is threatening milk yields and competitiveness, Rabobank has revealed.",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-11-09T19:52+09:00",
+   "first_seen": "2026-11-10T12:48+09:00",
+   "lang": "en",
+   "area": "overseas",
+   "desc_checked": true
+  },
+  {
+   "title": "Mt Kenya Times ePAPER November 9, 2026",
+   "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5jQ2JPa3JmTHJ6WmJwUmdlMVg5djZ2VWViQmExQk1ZMVFJY203T2RlYWVYQktjcWk1UVV5UDkxZDFVM3RGT01LM0tSQUl0XzEzZDgxQVphWFowY3NYdXRaME4yVVZYWTg5eTFnV0VKcUVxZDFRRHhJ?oc=5",
+   "publisher": "The Mt Kenya Times",
+   "via": "Google News Kenya",
+   "region": "africa",
+   "snippet": "",
+   "cats": [
+    "general"
+   ],
+   "published": "2026-11-09T19:39+09:00",
+   "first_seen": "2026-11-10T12:48+09:00",
+   "lang": "en",
+   "area": "africa"
+  },
+  {
+   "title": "Syngenta deepens biologicals push with BRAIN Biotech synthetic biology partnership",
+   "link": "https://www.agnavigator.com/Article/2026/11/09/syngenta-deepens-biologicals-push-with-brain-biotech-synthetic-biology-partnership/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+   "publisher": "FeedNavigator",
+   "via": "FeedNavigator",
+   "region": "world",
+   "snippet": "Syngenta has entered a strategic partnership with BRAIN Biotech AG to accelerate the development of agricultural biologicals, leveraging BRAIN’s expertise in synthetic biology and its extensive microbial library. The collaboration aims to develop next-generation biological solutions to enhance crop…",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-11-09T19:36+09:00",
+   "first_seen": "2026-11-10T12:48+09:00",
+   "lang": "en",
+   "area": "overseas"
+  },
+  {
+   "title": "牛の模型で搾乳体験＆牛乳3種を試飲OK！恵比寿ガーデンプレイスでよつ葉ミルクフェア",
+   "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBmQkFXYnlRRFNZcUU3dFB0S3VXeHZIZENBYnllSGlTa016eExvYXBVMXloRHJmWEFqU04yUEpOYnd3bVg5S2ZwV3h4djM4WnRpZ0E?oc=5",
+   "publisher": "いこーよニュース",
+   "via": "Google ニュース「酪農」",
+   "region": "jp",
+   "snippet": "",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-11-09T19:21+09:00",
+   "first_seen": "2026-11-10T12:48+09:00",
+   "lang": "ja",
+   "area": "japan"
+  },
+  {
+   "title": "Gachagua and Kalonzo vow to end Ruto’s presidency in 2027",
+   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOa3dXRjhZN2RESWdWOUNMS0hDcG1UQWJNOHJfZTU2c015SmRoa21rOXBLbWx1Rmt5Q3RZVVRhU1pPbVpqYjhoRm1FLXdMWWppV1BsWmF1cnZNbHhqRnJ1UFV5WVRFcEI1YUhSSFZueVVKekVxaG1qOGJjODByVmxrNUlBcElkTEdBblZxLTlQYjA?oc=5",
+   "publisher": "The Mt Kenya Times",
+   "via": "Google News Kenya",
+   "region": "africa",
+   "snippet": "",
+   "cats": [
+    "general"
+   ],
+   "published": "2026-11-09T18:45+09:00",
+   "first_seen": "2026-11-10T12:48+09:00",
+   "lang": "en",
+   "area": "africa"
+  },
+  {
+   "title": "How Kenya’s Lake Jipe communities are adapting to climate and wildlife pressures",
+   "link": "https://smartfarmerkenya.com/how-kenyas-lake-jipe-communities-are-adapting-to-climate-and-wildlife-pressures/",
+   "publisher": "Smart Farmer Kenya",
+   "via": "Smart Farmer Kenya",
+   "region": "africa",
+   "snippet": "By Zablon Oyugi Lake Jipe, a shallow border lake shared by Kenya’s Taita-Taveta County and Tanzania’s Kilimanjaro region, is shrinking as unpredictable rainfall and roaming...",
+   "cats": [
+    "general"
+   ],
+   "published": "2026-11-09T18:41+09:00",
+   "first_seen": "2026-11-10T12:48+09:00",
+   "lang": "en",
+   "area": "africa"
+  },
+  {
+   "title": "Rwanda: Rwanda Strikes Singapore Deal to Expand Coffee Trade in Southeast Asia",
+   "link": "https://allafrica.com/stories/202611090136.html",
+   "publisher": "AllAfrica Agriculture",
+   "via": "AllAfrica Agriculture",
+   "region": "africa",
+   "snippet": "[New Times] Rwanda is opening new opportunities for its coffee in Southeast Asia through a strategic partnership with Singapore, aimed at strengthening trade connections, facilitating access to regional buyers and expanding the country's presence in the wider Association of Southeast Asian Nations (…",
+   "cats": [
+    "general"
+   ],
+   "published": "2026-11-09T18:31+09:00",
+   "first_seen": "2026-11-10T12:48+09:00",
+   "lang": "en",
+   "area": "africa"
+  },
+  {
+   "title": "北海道酪農の魅力を‟見て・知って・味わう”体験イベント 「よつ葉ミルクフェア in Tokyo」11月21日（土）、22日（日）に開催",
+   "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9tYldvZGZieDNvVmx0LWxEY3hpamR2NWx4VmhEbTV5R3BtM0w5MXdDWm1scjFielpuLVlmdXhyTWNhRXRfSWVPQmp4N28yREF2ZGJWS0NSc0l5RWg0cEw1a1JOcHYzNjY3X1pBZGV2NWxPdw?oc=5",
+   "publisher": "クレアウェブ",
+   "via": "Google ニュース「酪農」",
+   "region": "jp",
+   "snippet": "",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-11-09T18:21+09:00",
+   "first_seen": "2026-11-10T12:48+09:00",
+   "lang": "ja",
+   "area": "japan"
+  },
+  {
+   "title": "Ahead of COP31, climate disruptions in Africa force children out of school",
+   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQb2lSeldjdFhmZlFMUnpBUE5HeDlEVUlnem1hd0pYWUtCdFpoci1DbXhSTE1zRnRrQkdSV1ZBb1FBcEdwSF83RnRQa1JoN2JjR2FfLTZUcjhTSzdBLVBrTDZQUGY5WmoxLV8zRm5ZUm14UDN1WmZVYUpjVTctOUR0Smswc0NmSVhfSG00SVZwZE5OVUdlLXV1MzdVR3MwTWtMTXFkZ016RFBoczJLS3pOeXJn?oc=5",
+   "publisher": "Global Sisters Report",
+   "via": "Google News Kenya",
+   "region": "africa",
+   "snippet": "",
+   "cats": [
+    "general"
+   ],
+   "published": "2026-11-09T18:05+09:00",
+   "first_seen": "2026-11-10T12:48+09:00",
+   "lang": "en",
+   "area": "africa"
+  },
+  {
+   "title": "Chipamuriwo VBU a source of inspiration for ward 2 Rushinga District",
+   "link": "https://farmersreviewafrica.com/chipamuriwo-vbu-a-source-of-inspiration-for-ward-2-rushinga-district/",
+   "publisher": "Farmers Review Africa",
+   "via": "Farmers Review Africa",
+   "region": "africa",
+   "snippet": "Chipamuriwo Village Business Unit (VBU) remains the centre of attraction and a place of hope for Chipamuriwo, Mandendera and the surrounding villages in Ward 2 and 7 in Rushinga District, Zimbabwe. The garden, which measures one hectare, is benefiting a total of 107 families, transforming what was o…",
+   "cats": [
+    "general"
+   ],
+   "published": "2026-11-09T18:00+09:00",
+   "first_seen": "2026-11-10T12:48+09:00",
+   "lang": "en",
+   "area": "africa"
+  },
+  {
+   "title": "Farming against the odds: How Kenya’s Lake Jipe communities are adapting to climate and wildlife pressures",
+   "link": "https://farmersreviewafrica.com/farming-against-the-odds-how-kenyas-lake-jipe-communities-are-adapting-to-climate-and-wildlife-pressures/",
+   "publisher": "Farmers Review Africa",
+   "via": "Farmers Review Africa",
+   "region": "africa",
+   "snippet": "By Zablon Oyugi Lake Jipe, a shallow border lake shared by Kenya’s Taita-Taveta County and Tanzania’s Kilimanjaro region, is shrinking as unpredictable rainfall and roaming elephants force surrounding communities to rethink how they survive. For generations, fishing has been central to life around L…",
+   "cats": [
+    "general"
+   ],
+   "published": "2026-11-09T17:37+09:00",
+   "first_seen": "2026-11-10T12:48+09:00",
+   "lang": "en",
+   "area": "africa"
+  },
+  {
+   "title": "Kajiado farmer switches from dairy cows to camels to beat rising feed costs",
+   "link": "https://farmbizafrica.com/kajiado-farmer-switches-from-dairy-cows-to-camels-to-beat-rising-feed-costs/",
+   "publisher": "FarmBiz Africa",
+   "via": "FarmBiz Africa",
+   "region": "africa",
+   "snippet": "Kajiado dairy farmer, Ole Nkiu Lele has opted to keep his 30…",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-11-09T17:24+09:00",
+   "first_seen": "2026-11-10T12:48+09:00",
+   "lang": "en",
+   "area": "africa"
+  },
+  {
+   "title": "森永乳業の中間決算、増収過去最高益で着地",
+   "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9YRFdnekJ3VzNVLS05dFRxNXhwRXRwQWt4WVd6TnB2bDUwWFpTcTRPSG1vcTE4VDc0S21JSHZzNk9ucnpaRE9ZeDFVRlU?oc=5",
+   "publisher": "酪農乳業速報",
+   "via": "Google ニュース「酪農」",
+   "region": "jp",
+   "snippet": "",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-11-09T17:14+09:00",
+   "first_seen": "2026-11-10T12:48+09:00",
+   "lang": "ja",
+   "area": "japan"
+  },
+  {
+   "title": "Finite Robotics to solve labour and knowledge gap in apple thinning",
+   "link": "https://www.futurefarming.com/tech-in-focus/field-robots/finite-robotics-to-solve-labour-and-knowledge-gap-in-apple-thinning/",
+   "publisher": "Future Farming",
+   "via": "Future Farming",
+   "region": "world",
+   "snippet": "Finite Robotics is developing a robotic thinning solution for apple orchards in particular. Their Robothinner is intended to be used in addition to common thinning methods.",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-11-09T17:00+09:00",
+   "first_seen": "2026-11-10T12:48+09:00",
+   "lang": "en",
+   "area": "overseas"
+  },
+  {
+   "title": "Turn pig waste into wealth before it’s too late",
+   "link": "https://www.farmprogress.com/hog-and-pork-news/turn-pig-waste-into-wealth-before-it-s-too-late",
+   "publisher": "Farm Progress",
+   "via": "Farm Progress",
+   "region": "world",
+   "snippet": "Hog Outlook: As fertilizer costs soar and 2027 uncertainty looms, hog producers should consider looking at manure as less of a burden and more of a lifeline.",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-11-09T17:00+09:00",
+   "first_seen": "2026-11-10T12:48+09:00",
+   "lang": "en",
+   "area": "overseas"
+  },
+  {
+   "title": "Sungai Sebiew Precision Farming Park to bring IoT, modern farming to Bintulu upon completion next year",
+   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPN2phMUNweWFUbGItMXNmQm1hRV9oQ05iOEg5UnJYYkQyWm00R28tTy1GZmRGd3otYlpSdnc4YWRVRXI5emZQaEduV3JodTQzdGVmdFBMMjcyeUFEZGZCNTRJbTk3Rmc1WGRORGJjNDJvMEJXREhZSmt0RkNfSEJEZ0EyRHJ5ZGhKTlpCOHY5Vk13MDlGekI2R0ZrRmI2eHVvdWo5MlFOc1Y0LTAtMUQ4WEstMWJCMDNLcGE3em5QY2NydTQ?oc=5",
+   "publisher": "DayakDaily",
+   "via": "Google News \"farm IoT\"",
+   "region": "world",
+   "snippet": "",
+   "cats": [
+    "iot"
+   ],
+   "published": "2026-11-09T16:52+09:00",
+   "first_seen": "2026-11-10T12:48+09:00",
+   "lang": "en",
+   "area": "overseas"
+  },
+  {
+   "title": "North Dakota farms to trial new ag tech solutions",
+   "link": "https://www.farmprogress.com/technology/5-startups-receive-500-000-to-develop-ag-tech-solutions",
+   "publisher": "Farm Progress",
+   "via": "Farm Progress",
+   "region": "world",
+   "snippet": "NSF AgTech Engine awards $500,000 to five startups advancing farm and ranch technology, with testing set to occur in North Dakota.",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-11-09T16:40+09:00",
+   "first_seen": "2026-11-10T12:48+09:00",
+   "lang": "en",
+   "area": "overseas"
+  },
+  {
+   "title": "East and Southern African Farmers Pay More Than Double Global Fertilizer Prices, Study Finds",
+   "link": "https://kilimonews.co.ke/general-news/east-and-southern-african-farmers-pay-more-than-double-global-fertilizer-prices-study-finds/",
+   "publisher": "Kilimo News（ケニア）",
+   "via": "Kilimo News（ケニア）",
+   "region": "africa",
+   "snippet": "By Kimuri Mwangi Farmers in East and Southern Africa pay more than twice the international price for fertilizer, raising concerns about weak market competition and high agricultural input costs. A new study by the Centre for Competition, Regulation and Economic Development (CCRED) and the Shamba Cen…",
+   "cats": [
+    "policy",
+    "general"
+   ],
+   "published": "2026-11-09T16:28+09:00",
+   "first_seen": "2026-11-10T12:48+09:00",
+   "lang": "en",
+   "area": "africa"
+  },
+  {
+   "title": "フィジカルAIを活用した農業課題の解決に向けて、シンガポールの企業とMOUを締結 AGRIST",
+   "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1UQ2ZqMkRZLUFVTy1pZTJkcmRiVmtLN3lQYXlWbVVucWExUGUteWZxSVNhZVhOUnpHb3BSVHp5eFFndzBRdXBTMnhaTzZKYjFzZWl5Nkk1dTA5U2JkWklYcXJpMy0?oc=5",
+   "publisher": "JAcom 農業協同組合新聞",
+   "via": "Google ニュース「農業 AI」",
+   "region": "jp",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-11-09T16:23+09:00",
+   "first_seen": "2026-11-10T12:48+09:00",
+   "lang": "ja",
+   "area": "japan"
+  },
+  {
+   "title": "[ITmedia PC USER] BLUETTI、ポータブル電源「AORA mini」に重量約3.3kgの小型モデルなど2製品を追加",
+   "link": "https://www.itmedia.co.jp/pcuser/articles/2611/09/news071.html",
+   "publisher": "ITmedia",
+   "via": "ITmedia",
+   "region": "jp",
+   "snippet": "BLUETTI JAPANは、同社製ポータブル電源「AORA mini」シリーズの新モデル2製品「AORA 30 mini」「AORA 200 mini」を発表した。",
+   "cats": [
+    "iot"
+   ],
+   "published": "2026-11-09T16:06+09:00",
+   "first_seen": "2026-11-10T12:48+09:00",
+   "lang": "ja",
+   "area": "japan"
+  },
+  {
+   "title": "脱脂粉乳応援サイトで消費呼びかけ、Jミルク",
+   "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1mRFRGRm1KNkRtTE1RZHA1Nnd1TGl1LXFkc0Q2NzhjTVBUSWxmQzBwbDdNQzc4eGdNdTd3YVVKM2N0MHA3NlZ2QUhfaVU?oc=5",
+   "publisher": "酪農乳業速報",
+   "via": "Google ニュース「酪農」",
+   "region": "jp",
+   "snippet": "",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-11-09T16:04+09:00",
+   "first_seen": "2026-11-10T12:48+09:00",
+   "lang": "ja",
+   "area": "japan"
+  },
+  {
+   "title": "揺らぐ物流体制、酪農現場で懸念大・北海道",
+   "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE03ckJfR1dZQm5Eb1hTS19hUng5cVZXaHF2TlNqdnZuc2FMdExzUUhuSWVHZXBScUM2VXg1ejhGZGdDQS1wWHJBOU1iazA?oc=5",
+   "publisher": "酪農乳業速報",
+   "via": "Google ニュース「酪農」",
+   "region": "jp",
+   "snippet": "",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-11-09T16:00+09:00",
+   "first_seen": "2026-11-10T12:48+09:00",
+   "lang": "ja",
+   "area": "japan"
+  },
+  {
+   "title": "愛知で震度5強の地震、酪農乳業に被害なし",
+   "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1pLUdiNzFvT0hXR1VZemQ1R2FJdTk0ODA5NG51dTVkeXBGZVRKRlZtZ2R1RlU0aUk2U0wwQ1FrcG5MTFZxOGhzNVU2dlM?oc=5",
+   "publisher": "酪農乳業速報",
+   "via": "Google ニュース「酪農」",
+   "region": "jp",
+   "snippet": "",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-11-09T16:00+09:00",
+   "first_seen": "2026-11-10T12:48+09:00",
+   "lang": "ja",
+   "area": "japan"
+  },
+  {
+   "title": "ホクレンLL輸出、上期は新商品でやや伸長",
+   "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBsU0cwSVM1bFdSVUhDbTdmNHhOWnMwZDZyT0pHcW9oUkFUalZDSkhCTVp5TzljSXlVcDRpcDUxMDJsbW9QVHZNNF8xa0M?oc=5",
+   "publisher": "酪農乳業速報",
+   "via": "Google ニュース「酪農」",
+   "region": "jp",
+   "snippet": "",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-11-09T16:00+09:00",
+   "first_seen": "2026-11-10T12:48+09:00",
+   "lang": "ja",
+   "area": "japan"
+  },
+  {
+   "title": "愛知牛乳料理コン、最優秀賞に近藤ほなみさん",
+   "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1FTHVMS2p2N25WMG5vQ2xKWHB1bG1tcF9DV0pGdGI5a09RUnJmTUpQZDE1cWN4cEpZRkt0NlJ5LTVRV2dqTFdCX3dsVjg?oc=5",
+   "publisher": "酪農乳業速報",
+   "via": "Google ニュース「酪農」",
+   "region": "jp",
+   "snippet": "",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-11-09T16:00+09:00",
+   "first_seen": "2026-11-10T12:48+09:00",
+   "lang": "ja",
+   "area": "japan"
+  },
+  {
+   "title": "よつ葉、37台目の博愛号を日本赤十字へ寄贈",
+   "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1aZHIyU3RCTFYtN0RTQThDcm5MRTVqXzZTa01INHhvVldkOHZocDV5dHlHLUZmdHRWZ2ZtRWVsUFNzMGpqTm5UdnYxY2c?oc=5",
+   "publisher": "酪農乳業速報",
+   "via": "Google ニュース「酪農」",
+   "region": "jp",
+   "snippet": "",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-11-09T16:00+09:00",
+   "first_seen": "2026-11-10T12:48+09:00",
+   "lang": "ja",
+   "area": "japan"
+  },
+  {
+   "title": "Who is to blame if an agricultural robot kills someone?",
+   "link": "https://www.futurefarming.com/smart-farming/who-is-to-blame-if-an-agricultural-robot-kills-someone/",
+   "publisher": "Future Farming",
+   "via": "Future Farming",
+   "region": "world",
+   "snippet": "Autonomous tractors and robots are gradually making their way onto farms. There are several reasons why we are unlikely to see a massive wave of adoption just yet. One is the uncertainty surrounding legislation and liability. After all, what happens if a driverless tractor causes a fatal accident? W…",
+   "cats": [
+    "smart",
+    "policy"
+   ],
+   "published": "2026-11-09T16:00+09:00",
+   "first_seen": "2026-11-10T12:48+09:00",
+   "lang": "en",
+   "area": "overseas"
+  },
+  {
+   "title": "[ITmedia PC USER] HANCEPT LAB、7種類のトレイを自由に組み替えできる卓上収納スタンド",
+   "link": "https://www.itmedia.co.jp/pcuser/articles/2611/09/news070.html",
+   "publisher": "ITmedia",
+   "via": "ITmedia",
+   "region": "jp",
+   "snippet": "AJAXは、韓国HANCEPT LAB製の組み替え式卓上収納スタンド「THE MUSEUM」の国内取り扱いを発表した。",
+   "cats": [
+    "iot"
+   ],
+   "published": "2026-11-09T15:57+09:00",
+   "first_seen": "2026-11-10T12:48+09:00",
+   "lang": "ja",
+   "area": "japan"
+  },
+  {
+   "title": "日本最古の酪農牧場「神津牧場」が品川駅エキュート品川に初出店！11/15まで 発酵バター缶やバターフィナンシェを期間限定販売！",
+   "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOUHhubS1hbjVPSmd4QXdjSU1UcFNmM0VrWF9hM21rRFdONnRMM1FhNlgzS2FrZ21yeC1TdGs5ckRCbDkxQXVGSFZZQzNpNk54ZjRha295UkhHd1ktN3c1bHJ0ZFlMbC1SX29sOGxsRFotM2s2SGlXQ3dWN0l3dW1DYTB0WjBROUphWXVBVzFBcTFGVXAwc0VCemlNcjN1cHZ0eEJQZUtjT2x0RnZTbzJZUkRvM1EyWWRuR19jMTBfRmh3RGJNaFU4Z3l2bUNlVGRPcTFJc2JPVdIBhwFBVV95cUxQZm5xYUlSdm1Uejh1QUtIZ1Q2UEJXZDExclVFcDBteEFtcEI3QWFZY0tBLXBVQWgzSE16dk0yRFpJRU5EWTF2NzZkNDB4LUtodUlnclkwYzNDSWJ5RGVwanUtdVFWbUE0OThzWVAxcUVCb0FhVlhlUlQtMnBXQ2Q0YXZSVzA3Nmc?oc=5",
+   "publisher": "ｄメニューニュース",
+   "via": "Google ニュース「酪農」",
+   "region": "jp",
+   "snippet": "",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-11-09T15:45+09:00",
+   "first_seen": "2026-11-10T12:48+09:00",
+   "lang": "ja",
+   "area": "japan"
+  },
+  {
+   "title": "日本最古の酪農牧場「神津牧場」が品川駅エキュート品川に初出店！11/15まで 発酵バター缶やバターフィナンシェを期間限定販売！ (2026年11月9日掲載)",
+   "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1WOTlTUnNGdm5wM2U0OVJiS09hbGUxUWV2VHp3RjM4ZE1xc3prUkdfeTd5ZzI5ZDZ4UU5wdnFRRGpXZk1JVHJIQ2dZckdvOG5ITWVFVkxMZ0VnUEZoQ3c?oc=5",
+   "publisher": "ライブドアニュース",
+   "via": "Google ニュース「酪農」",
+   "region": "jp",
+   "snippet": "",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-11-09T15:45+09:00",
+   "first_seen": "2026-11-10T12:48+09:00",
+   "lang": "ja",
+   "area": "japan"
+  },
+  {
+   "title": "DALTEX, One of the World’s Largest Fresh Potato Exporters, Deploys AI at Scale with ORTH",
+   "link": "https://farmersreviewafrica.com/daltex-one-of-the-worlds-largest-fresh-potato-exporters-deploys-ai-at-scale-with-orth/",
+   "publisher": "Farmers Review Africa",
+   "via": "Farmers Review Africa",
+   "region": "africa",
+   "snippet": "ORTH puts AI to work across DALTEX’s farms, agronomy teams and field crews to raise yields, improve quality and cut losses—with all of the group’s data in one place. Cairo, DALTEX, one of the world’s leading potato exporters and one of Egypt’s leading vertically integrated agriculture groups, today…",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-11-09T15:26+09:00",
+   "first_seen": "2026-11-10T12:48+09:00",
+   "lang": "en",
+   "area": "africa"
+  },
+  {
+   "title": "酪農現場での感染症対策学ぶ 女性従事者ら集まり帯広で「サミット」",
+   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE4xQkMtNHQ5aUhPLTVoZmRiSlhYbGJkUnpNYjBVcGd2TlZqNU9xOEt1UXY0SWw3Umxwbm5fZ1dEUzVOTHc1UXRQUFZMUk5iem8tbmRnS0lxNk9WZw?oc=5",
+   "publisher": "北海道新聞デジタル",
+   "via": "Google ニュース「酪農」",
+   "region": "jp",
+   "snippet": "",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-11-09T15:18+09:00",
+   "first_seen": "2026-11-10T12:48+09:00",
+   "lang": "ja",
+   "area": "japan"
+  },
+  {
+   "title": "Winter milking: The importance of proper colostrum management",
+   "link": "https://www.agriland.ie/farming-news/winter-milking-the-importance-of-proper-colostrum-management/",
+   "publisher": "Agriland",
+   "via": "Agriland",
+   "region": "world",
+   "snippet": "With plenty of calves hitting the ground still for winter milking herds, farmers need to ensure November-born calves are still getting the attention and care they need. This means feeding fresh calves the required amount of colostrum (beestings) to boost growth and animal welfare. Quality colostrum…",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-11-09T15:15+09:00",
+   "first_seen": "2026-11-10T12:48+09:00",
+   "lang": "en",
+   "area": "overseas"
+  },
+  {
+   "title": "SenseHub Lifetime: Every animal, every stage, every minute",
+   "link": "https://www.agriland.ie/farming-news/sensehub-lifetime-every-animal-every-stage-every-minute/",
+   "publisher": "Agriland",
+   "via": "Agriland",
+   "region": "world",
+   "snippet": "MSD Animal Health has launched SenseHub Lifetime, the world’s only system that monitors dairy animals at every stage of life. It covers newborn calves, replacement heifers, and the cow’s entire lactation. SenseHub Lifetime tracks each calf’s activity, feeding and rumination from the day she is born.…",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-11-09T15:00+09:00",
+   "first_seen": "2026-11-10T12:48+09:00",
+   "lang": "en",
+   "area": "overseas"
+  },
+  {
+   "title": "PSRA urges marts to end credit sales, adopt ‘pay on the day’",
+   "link": "https://www.agriland.ie/farming-news/psra-urges-marts-to-end-credit-sales-adopt-pay-on-the-day/",
+   "publisher": "Agriland",
+   "via": "Agriland",
+   "region": "world",
+   "snippet": "Cattle marts have been “strongly encouraged” to cease the tradition of providing credit and introduce ‘pay on the day’ practices. This caution was sounded by the Property Services Regulatory Authority (PSRA). Most farmers buying cattle at a mart pay on the day of purchase and before the cattle leave…",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-11-09T15:00+09:00",
+   "first_seen": "2026-11-10T12:48+09:00",
+   "lang": "en",
+   "area": "overseas"
+  },
+  {
+   "title": "「牛乳のこと、牛のこと、モ～っと知りたい！親子で牛乳体験教室」の開催について：近畿農政局",
+   "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE93OXFGYWxRbUpBTEtiTGFKX2hnV1JwdFNYM3ViVmVGeXk3YTNWY3ZyZG9FNkZYTXhpazJUSDNVVHowSE1QUDFvYlpPd0MzbjMycEZ6eFY3WWd5cnJwYTRCenZ6dG5Hdw?oc=5",
+   "publisher": "農林水産省",
+   "via": "Google ニュース「酪農」",
+   "region": "jp",
+   "snippet": "",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-11-09T14:01+09:00",
+   "first_seen": "2026-11-10T12:48+09:00",
+   "lang": "ja",
+   "area": "japan"
+  },
+  {
+   "title": "元農協職員、退職金使って牛乳パックなど千個収集 北海道に私設の酪農博物館を開館",
+   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9RX2ZJeUI0TVNLWmdwRFM0c1gyamdSaUhkbDUxYURpM0Z6bUJiSDZnQU5DbUNBSTJ1cnlFVjN1QjFZTVhGR2ozSXZMWWpNVTRZSGlYZG9fNUlXSGRNRnZ6ZF85a2NQdklPT3ZHRVZXSGc5b1Fmbnc?oc=5",
+   "publisher": "産経ニュース",
+   "via": "Google ニュース「酪農」",
+   "region": "jp",
+   "snippet": "",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-11-09T14:00+09:00",
+   "first_seen": "2026-11-10T12:48+09:00",
+   "lang": "ja",
+   "area": "japan"
+  },
+  {
+   "title": "酪農博物館館長の佐々木正昭さん（左）と妻淳子さん＝北海道新冠町",
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQVVlnWXRRTHpoU3NIb1REa05xYm9EQzhhazR2bl9LeDVVNHNqam1ObW5VMHFVTmNCNDlqZmVyOUQ5NHAwenY3MG84VXdvMEhubVBmWVJTcnRDd2x0dGVBMTJpNjNrVWJ1NEZNQWlsUHc1MVJwUE53QVBlMG5nVTh5V2ZJbGw5ZmxVeElfMzlnbS1NRTBoZFFnZXBXc3FiQ2NsX2c?oc=5",
+   "publisher": "産経ニュース",
+   "via": "Google ニュース「酪農」",
+   "region": "jp",
+   "snippet": "",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-11-09T14:00+09:00",
+   "first_seen": "2026-11-10T12:48+09:00",
+   "lang": "ja",
+   "area": "japan"
+  },
+  {
+   "title": "2026年10月27日 衆議院【農林水産委員会】臼木秀剛議員 米国産生食用ジャガイモ輸入解禁協議と酪農・漁業の経営安定 #国民民主党 #臼木ひでたけ",
+   "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5hN01VaXhUb1VlMXN4RjZ3TDBoMWh5dmpMQlpkU19TOGlQemdsN3ZCOGpCZ2F3bFRGenR0aXVDVVRFZ21ENVZ2eDVSSUdGdEhxU1Npbms1OTY3SHcy?oc=5",
+   "publisher": "YouTube",
+   "via": "Google ニュース「酪農」",
+   "region": "jp",
+   "snippet": "",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-11-09T13:53+09:00",
+   "first_seen": "2026-11-10T12:48+09:00",
+   "lang": "ja",
+   "area": "overseas"
+  },
+  {
+   "title": "Sudan: Sudan Fuel Shortages Damage Crops in El Gezira As Food Prices Soar, Bakeries Strike in North Kordofan",
+   "link": "https://allafrica.com/stories/202611090013.html",
+   "publisher": "AllAfrica Agriculture",
+   "via": "AllAfrica Agriculture",
+   "region": "africa",
+   "snippet": "[Dabanga] Fuel shortages and soaring production costs are damaging agricultural crops in Sudan's El Gezira state, while rising food and transport prices are placing further pressure on household budgets. Reports of a general strike by bakeries in El Obeid, the capital of North Kordofan, has disrupte…",
+   "cats": [
+    "general"
+   ],
+   "published": "2026-11-09T13:36+09:00",
+   "first_seen": "2026-11-10T12:48+09:00",
+   "lang": "en",
+   "area": "africa"
+  },
+  {
+   "title": "Southern Africa: Southern African Farmers Prepare for Powerful El Nino With Agroecology",
+   "link": "https://allafrica.com/stories/202611090004.html",
+   "publisher": "AllAfrica Agriculture",
+   "via": "AllAfrica Agriculture",
+   "region": "africa",
+   "snippet": "[RFI] Farmer Dudzai Matsapa works under a scorching sun, digging small, shallow pits across his field in Nyanga, east of the Zimbabwean capital, Harare. He will later fill these potholes with organic manure and wait for the rainy season. This is all part of Matsapa's preparation for the anticipated…",
+   "cats": [
+    "general"
+   ],
+   "published": "2026-11-09T13:32+09:00",
+   "first_seen": "2026-11-10T12:48+09:00",
+   "lang": "en",
+   "area": "africa"
+  },
+  {
+   "title": "乳牛を喰い殺し、胎児を引き出す。酪農郷を震撼させた「牧場荒らし」の正体【前編】（山と溪谷オンライン）",
+   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5uc1QtLVRUZWF1OVNScGdPQWJIbzhORGpHNUxEWG1pejZGZ0N3MWVoRWpaLVdLMy1lRk5xbnZFYUg1X3h2WFExa3FIcnQ1MHZOQkI0TkRmeG11a2VjY1ZzbDVDbTZ5TUE5cWRlZ2EyWGp3aDktR2Yya0tlcGM1bW8?oc=5",
+   "publisher": "Yahoo!ニュース",
+   "via": "Google ニュース「酪農」",
+   "region": "jp",
+   "snippet": "",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-11-09T12:30+09:00",
+   "first_seen": "2026-11-10T12:48+09:00",
+   "lang": "ja",
+   "area": "japan"
+  },
+  {
+   "title": "栽培棚をロボットが搬送、MD-Farmが植物工場の新システムを公開 特許も出願中",
+   "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9uYXlaSmdkS2VUc1B0SXhPX1J0cncwZ1dubEhwQXFSbWh6ZEt6VUV0WUtyZWRwaE53ZUxqU3FpVWJwa0JORnZUMk9rdw?oc=5",
+   "publisher": "農業とITの未来メディア",
+   "via": "Google ニュース「スマート農業」",
+   "region": "jp",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-11-09T12:03+09:00",
+   "first_seen": "2026-11-10T12:48+09:00",
+   "lang": "ja",
+   "area": "japan"
+  },
+  {
+   "title": "【阪神梅田本店】飲んだ数は700種類以上！ミルクマイスター(R)と贈る、見て・知って・味わう体験型ミルクイベントを初開催",
+   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1FSmJsbUh6SFFoMllOaVJ2QTVUWVU3MExhRWNFVGdZbGtJWFhVLWNJMWdRZVVWT0VnbTBQNXRadGFlME9BemFYb00wVVNrZzdUbFV3T3ZXR0FRd1NmV0hoakgxR1gzM2N4SUhucFJjdnpiSy0wckE?oc=5",
+   "publisher": "ニコニコニュース",
+   "via": "Google ニュース「酪農」",
+   "region": "jp",
+   "snippet": "",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-11-09T11:15+09:00",
+   "first_seen": "2026-11-10T12:48+09:00",
+   "lang": "ja",
+   "area": "japan"
+  },
+  {
+   "title": "Inside the crisis gripping Kenya’s public universities",
+   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPdTdOQU0zanJCalB3SzlBNEU4Q05zZkJZaXBnUG91azl5WmxheVN1eTJUVldUNjFsb1JNMkFXcHRSTEMzRmY2TjZhNlAzWE9oQzhDdnB0Ti1aYnIzUUVLSTVzOXZ0VEJ5UmNURE5GRGFFVWpkbFlzbDl3SDg2d2pwU3ExX2k1clRIYzdsZw?oc=5",
+   "publisher": "The Mt Kenya Times",
+   "via": "Google News Kenya",
+   "region": "africa",
+   "snippet": "",
+   "cats": [
+    "general"
+   ],
+   "published": "2026-11-09T11:02+09:00",
+   "first_seen": "2026-11-10T12:48+09:00",
+   "lang": "en",
+   "area": "africa"
+  },
+  {
+   "title": "Effects of rising technology exposure on the youth",
+   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxORkJNRTJSM1VxUTZwbHpUOWpDZ0VFbXd5amhzOUhyakRiTW5KVXNXc21weEx4WEhCMERWOXA0SzEyWHl6M3V3ak5ucXFBODZ6NkpfT2FDYzZVMjQ3R3JCelM3YUl2QmZuNlphdUtJeUs5bTFLZXdXNlFNc2FadUZybUFRd3dNY255?oc=5",
+   "publisher": "The Mt Kenya Times",
+   "via": "Google News Kenya",
+   "region": "africa",
+   "snippet": "",
+   "cats": [
+    "general"
+   ],
+   "published": "2026-11-09T11:02+09:00",
+   "first_seen": "2026-11-10T12:48+09:00",
+   "lang": "en",
+   "area": "africa"
+  },
+  {
+   "title": "Fewer herds, richer milk: Genetic gains help drive New Zealand dairy to record production",
+   "link": "https://www.agnavigator.com/Article/2026/11/09/fewer-herds-richer-milk-genetic-gains-help-drive-new-zealand-dairy-to-record-production/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+   "publisher": "FeedNavigator",
+   "via": "FeedNavigator",
+   "region": "world",
+   "snippet": "Long-term gains in genetics and reproduction have helped underpin New Zealand’s record dairy production as farmers embrace herd testing and artificial breeding to guide further improvements.",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-11-09T10:50+09:00",
+   "first_seen": "2026-11-10T12:48+09:00",
+   "lang": "en",
+   "area": "overseas",
+   "desc_checked": true
+  },
+  {
+   "title": "スマート農業の最前線とこれからの農業（ハイブリッド開催） 2026年11月14日(土) | 福岡おでかけ・イベント情報",
+   "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE82WjFBUm12VWI3MmtJUmFvZnlQc0Z1TE1FX0g0eGRGdlhTc2ZsaVNXZ3RDTnB4bUFRNDJZQ1JPeXp0UFdZYV82c1NGcmFwem9WTVlwWmtLa3hDeU5sSHc?oc=5",
+   "publisher": "西日本新聞me",
+   "via": "Google ニュース「スマート農業」",
+   "region": "jp",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-11-09T10:23+09:00",
+   "first_seen": "2026-11-10T12:48+09:00",
+   "lang": "ja",
+   "area": "japan"
+  },
   {
    "title": "スマート農業特集 特設サイトはこちら！",
    "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE52UHdrV25nTmRXUlFlQ0dkTnJ3b2pyekppYmV0ZG9sODVWcmk2cU5Tcl90R3gyZC1fWThUZjc1anVkWW4taGpsam5QWFVmOXpiM2NTTi1fSU1oWXlXQjA1OHdpaw?oc=5",
@@ -192,6 +1447,111 @@
    "first_seen": "2026-11-09T10:12+09:00",
    "lang": "ja",
    "area": "japan"
+  },
+  {
+   "title": "「あいちの農林水産フェア」及び「2026あいち畜産フェスタ」を開催します！",
+   "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9wSC1MWjdMVnRQTmVMU1pwYXdwdmpFMHk3dlFKaXg4ampCUEUzbmtWZnE1eGttem9NR2MtcEZBY3RCdTFVWFBURjdiLW9sNEtMTTVSaG8zS09qRlg4V1FkNG94UmF1b2RSeGc?oc=5",
+   "publisher": "PR TIMES",
+   "via": "Google ニュース「酪農」",
+   "region": "jp",
+   "snippet": "",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-11-09T10:00+09:00",
+   "first_seen": "2026-11-10T12:48+09:00",
+   "lang": "ja",
+   "area": "japan"
+  },
+  {
+   "title": "Aruasa Vows to End Development Inequality in Kitutu Chache South, Targets 2027 MP Seat",
+   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOSXRSX3phb1pkLVloVTZleThGZ3d2UjdlamszT0thMHczTUhOdzRwb1kwVndTb1pYcUV6b01MWFhQRkpnRHVQMFlvbWJ6TTB1X0dqby1NRlNsT1pHZmFSMzVXVVl0TTduQV9lTGxIQkFxSWtublpHNFZJWVJDMVBpVVhsdTZkX1FNMFhjekVUSFNXaDFtRzdnanRqc0trVnFfdWZCb29YeXhmUjhBemdCbUU3LXFNRms?oc=5",
+   "publisher": "The Mt Kenya Times",
+   "via": "Google News Kenya",
+   "region": "africa",
+   "snippet": "",
+   "cats": [
+    "general"
+   ],
+   "published": "2026-11-09T09:26+09:00",
+   "first_seen": "2026-11-10T12:48+09:00",
+   "lang": "en",
+   "area": "africa"
+  },
+  {
+   "title": "Absa exits Kenya’s insurance market as Mudavadi-linked investors take full control",
+   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPMjJNb3Q3Q2IxZXpsZEY2cE0ydExBeUozcEtTWUJGcHZtWHRjR0lJTU0wSkVERnpTaVVYSlFpTzVsTXpqYm04TTc1Ymg2Qlc1bTY1b0hWb1JKSjR4WTQwYlZfNmNmR1ZWUC13cVdlLUg1b2hVb2RlNUxTZGdwTEFtNWtla1pSN2VtbEJNUFhrVThOWk42OHlqem9BRG5kRG85Y0ZnQ0JQcW43bG8yakNXVlZR?oc=5",
+   "publisher": "The Mt Kenya Times",
+   "via": "Google News Kenya",
+   "region": "africa",
+   "snippet": "",
+   "cats": [
+    "general"
+   ],
+   "published": "2026-11-09T07:08+09:00",
+   "first_seen": "2026-11-10T12:48+09:00",
+   "lang": "en",
+   "area": "africa"
+  },
+  {
+   "title": "Governors step in where the state refused: Samburu families receive 435 cows",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQWmY4S3NBMm41YUZ5cW1WakJBM1k3YWN1QW9VZndDZ3A5WDR1RUU3cDZIOGRQMTdYV1RIZ2Y1TWJCZHVwX2kwelZLUTlCMWxKa25tb29oNDNsczN4U24xVjZnZnhldDRFNlF6eHIwN09kSnl6R3Rkd2s5YTBnVTVqamwyN2FtY0tUZlJMYmI5UmlLeGoyc0hyZTZibF9XTTVxYTQ5YWh3RWFsZw?oc=5",
+   "publisher": "The Mt Kenya Times",
+   "via": "Google News Kenya",
+   "region": "africa",
+   "snippet": "",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-11-09T06:20+09:00",
+   "first_seen": "2026-11-10T12:48+09:00",
+   "lang": "en",
+   "area": "africa"
+  },
+  {
+   "title": "Ruto maps the road west: Rironi highway to extend to Kisii and Malaba",
+   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNMTg3TFFDemcxa2dBR2lHLW9pUUNhUldVNTZDMVBlYjEzVXlfbkdTWGN3alFhMWNqS1Myc1dSOVAwOGFTdTFVcFhWSXdSdzVVdi1Bb200RFkyNzBlSHlxMnRLaVVyR3hXWHpGd003TVV1OV9zVVlkUnEzc3hvaXFwR2Y5YmFncDYxa3hQQ3pkUUdWa2dTcld1V2t2S2hvOG9Q?oc=5",
+   "publisher": "The Mt Kenya Times",
+   "via": "Google News Kenya",
+   "region": "africa",
+   "snippet": "",
+   "cats": [
+    "general"
+   ],
+   "published": "2026-11-09T05:53+09:00",
+   "first_seen": "2026-11-10T12:48+09:00",
+   "lang": "en",
+   "area": "africa"
+  },
+  {
+   "title": "Kenya at a turning point: Kitengela unites the opposition",
+   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNaFhmTGJfZFBMazM1UDZvUEcxRS1VaWZmdXZmSnZOc2I1cG5WTUhOYWh0YTFjZTJOamhBeWFXM2xPM1BiMy16QVNfeGhBWVQySElUQzl2aGVlUnRjejZnTHZ2bXJGc1E2VkZpNlJxTXJmSklCb29ld2VVWVdxZk8xMUlLc1dWN0NZeDExZGNWd3U?oc=5",
+   "publisher": "The Mt Kenya Times",
+   "via": "Google News Kenya",
+   "region": "africa",
+   "snippet": "",
+   "cats": [
+    "general"
+   ],
+   "published": "2026-11-09T05:22+09:00",
+   "first_seen": "2026-11-10T12:48+09:00",
+   "lang": "en",
+   "area": "africa"
+  },
+  {
+   "title": "Gachagua draws a line on Mt Kenya’s political support",
+   "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNNTAzVDM2NmtNZGZsWG5HbC1NR1lxR01VcHN1V1g5YXpKS0NWaUlUaXdsZjZzMnhDandXM3ZhREVQOFdkWDhaNFdFZ01hZHJpcmFDNUw0aXI5MUpydGpWLU1jUXBldzRTeVEtZzZiVEJXdnhSOVQ5WmloVnZyZjlHRDZNcjZ6NFpEYmx3?oc=5",
+   "publisher": "The Mt Kenya Times",
+   "via": "Google News Kenya",
+   "region": "africa",
+   "snippet": "",
+   "cats": [
+    "general"
+   ],
+   "published": "2026-11-09T04:43+09:00",
+   "first_seen": "2026-11-10T12:48+09:00",
+   "lang": "en",
+   "area": "africa"
   },
   {
    "title": "Ruto takes his 2027 campaign to Gusii: A region he cannot afford to ignore",
@@ -254,6 +1614,21 @@
    "area": "africa"
   },
   {
+   "title": "Kasananga are champions: KISOBA League Season 5 final at Kakyeka",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQODFiOHBQNU5iNXpUM2Zrd1RQcUVLcWpRaG9wLWdlOHVYMmkzTVAwWjJUbmNpM0ljdUhCQXZLM3JOY2Z1SzNKTG03ZmFaRU1wRmJMSk1BMXlzYmhzV1lHamh3azJBOWJKNFRyNkwwaURKaWhvY25lQnhPeDhZNzFNLXZqYmE0UkxIelYtNEkyc0VDdWtCa3FETHlB?oc=5",
+   "publisher": "The Mt Kenya Times",
+   "via": "Google News Kenya",
+   "region": "africa",
+   "snippet": "",
+   "cats": [
+    "general"
+   ],
+   "published": "2026-11-09T02:16+09:00",
+   "first_seen": "2026-11-10T12:48+09:00",
+   "lang": "en",
+   "area": "africa"
+  },
+  {
    "title": "Map: Number of suckler herds and average herd size by county for 2026",
    "link": "https://www.agriland.ie/farming-news/map-number-of-suckler-herds-and-average-herd-size-by-county-for-2026/",
    "publisher": "Agriland",
@@ -268,6 +1643,21 @@
    "first_seen": "2026-11-09T10:12+09:00",
    "lang": "en",
    "area": "overseas"
+  },
+  {
+   "title": "Nairobi belongs to all Kenyans, says PS Omollo",
+   "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOTG1NYTZRUHlweVlxR2U4VU5zSm5JYjlaN09HYVQ1TUxINEE3cE1CX0ZCRk5EeUh1andXWU51aFZDQ2E2a2syVWt4czRCc1NWblpaSklYOV9NNWRTaXZQN2xpazRPNnJ0THI2RVJnQkx3dUtFQ1FVSng5LW55TUZ5dGFR?oc=5",
+   "publisher": "The Mt Kenya Times",
+   "via": "Google News Kenya",
+   "region": "africa",
+   "snippet": "",
+   "cats": [
+    "general"
+   ],
+   "published": "2026-11-09T01:35+09:00",
+   "first_seen": "2026-11-10T12:48+09:00",
+   "lang": "en",
+   "area": "africa"
   },
   {
    "title": "Plant-based dairy alternatives risk nutrient deficiency, new study",
@@ -299,6 +1689,36 @@
    "first_seen": "2026-11-09T10:12+09:00",
    "lang": "en",
    "area": "overseas"
+  },
+  {
+   "title": "Kenya’s mineral wealth or community displacement: The battle for Mrima Hill",
+   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOQnhxREVEbzI1eXh0dlV6YjlHRGxfeXlQRTVUOXhyeWZUY0FKZ1FkZTFqTmhvODhaRENFYy1OR29qQUgxaW5SZ21GZklxZ0x2UnBUQVBtYXpnNDg1eEZtUlBWU1BPVDRPMFloN2QxRGVSZkNRQTltZVM2TE5feUpEenlENDFLampjRFppSjNXaXBpbDdmZHYtWWJfUUVQMVhfdlpLa082TQ?oc=5",
+   "publisher": "The Mt Kenya Times",
+   "via": "Google News Kenya",
+   "region": "africa",
+   "snippet": "",
+   "cats": [
+    "general"
+   ],
+   "published": "2026-11-08T23:39+09:00",
+   "first_seen": "2026-11-10T12:48+09:00",
+   "lang": "en",
+   "area": "africa"
+  },
+  {
+   "title": "Arsenal shine as Manchester City suffer another Premier League blow",
+   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNWUxXY2RnbEIxeXhNOTJtTVd0aUd6aXd1OVJZUUtVT2hPR0VIcTRJSURmZHFLXzBsM1EyU1N5eGQ2TXBKZjJ3cElJYlpBelpQNXU2RFRGWEkxM0xRR2cxenJjYUFCS1JHeTBlWWVVeVliOEtONzAzUmhLNFlJMlNpYlFFZmtJbG9JUlhDZmFOc0VsVnYzYnpIaHlQMHd2NEE?oc=5",
+   "publisher": "The Mt Kenya Times",
+   "via": "Google News Kenya",
+   "region": "africa",
+   "snippet": "",
+   "cats": [
+    "general"
+   ],
+   "published": "2026-11-08T23:01+09:00",
+   "first_seen": "2026-11-10T12:48+09:00",
+   "lang": "en",
+   "area": "africa"
   },
   {
    "title": "Listen: How one Co. Westmeath share farm is pushing profits",
@@ -767,6 +2187,21 @@
    ],
    "published": "2026-11-07T17:00+09:00",
    "first_seen": "2026-11-08T09:54+09:00",
+   "lang": "en",
+   "area": "africa"
+  },
+  {
+   "title": "Kenya - Climate, Rainfall, Temperature",
+   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE96T2hFdnFrZ05UMklldDUxN25kZk9MNTZWSkhfNWVVNHR0X1RMQnlpbmRySHdFTFo2QkRhQTNhaHBlUElJSUpYYURqcGVRQ0pkaHU0WnloalNlUQ?oc=5",
+   "publisher": "Britannica",
+   "via": "Google News Kenya",
+   "region": "africa",
+   "snippet": "",
+   "cats": [
+    "general"
+   ],
+   "published": "2026-11-07T17:00+09:00",
+   "first_seen": "2026-11-10T12:48+09:00",
    "lang": "en",
    "area": "africa"
   },
@@ -12811,102 +14246,6 @@
    "lang": "ja",
    "area": "japan",
    "summary": "野球一筋だった人が酪農の道に進み、脱脂粉乳を使った衣料づくりに挑戦する様子を伝える。",
-   "summary_v": 2
-  },
-  {
-   "title": "North Dakota AgTech Engine launches $50K startup seed fund",
-   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQLUFUbk83bEhRNDNFMl82Tlg3bS1RYU5UWEF6YUtrWk1uUWdQekd6ZUpWcVJQdnVFUXI4cVc2VTFZNXVNVGwzTjA3QUNaYTNuaVktUDFaSkxuQVpyUkhrdW1kV04yWEtxbUxhQUxfMFlYckstdlRxN3l1alZzNnBQWGwzcURsS05XY1ctN2lES2h3dnRiQUpvclN3Y0I3SDg?oc=5",
-   "publisher": "Technical.ly",
-   "via": "Google News \"smart farming\"",
-   "region": "world",
-   "snippet": "",
-   "cats": [
-    "smart"
-   ],
-   "published": "2026-10-10T16:00+09:00",
-   "first_seen": "2026-11-03T22:29+09:00",
-   "lang": "en",
-   "area": "overseas",
-   "summary_tries": 2
-  },
-  {
-   "title": "Second Meeting of Global Initiative on AI for Agri-Food Systems (GI-AI4FS) held at IMC 2026 in New Delhi",
-   "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBnVVozSUFhX25ER0dhczNKZTdUcVF1NDU1R1R1MTlPZlZGRnhrN2NwaXBCM043OWNnUGZ5MDQtbkh1bmI4NFVOUm5PY0hDNmxZbWRSdFBmLS01SVRqa3FrZjdfNHNLM1JROEtIODVfT3lXb2tWWEJVVG1B?oc=5",
-   "publisher": "Press Information Bureau",
-   "via": "Google News \"farm IoT\"",
-   "region": "world",
-   "snippet": "",
-   "cats": [
-    "smart",
-    "iot"
-   ],
-   "published": "2026-10-10T16:00+09:00",
-   "first_seen": "2026-11-04T10:38+09:00",
-   "lang": "en",
-   "area": "overseas",
-   "summary_tries": 1
-  },
-  {
-   "title": "Tanzania to showcase SACCOS strength at SACCA Congress",
-   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPXzRVQXdVVUp4X0szbHVYaUxnMEwweUZOejJYUUQ4SUt3QURLNUs3RkFBM0M1QlBMSHJhWGJ2dUp2YTBOUnF4LVZFYkt4dDg1bmtQb0trVUJvbDRlcmstUm96Z3NtbFI2RzVnOXFhdXFhZkx6ckNuYjl4dWI1Ylc5Mm1lWnJxZw?oc=5",
-   "publisher": "Daily News",
-   "via": "Google News Tanzania",
-   "region": "africa",
-   "snippet": "",
-   "cats": [
-    "general"
-   ],
-   "published": "2026-10-10T16:00+09:00",
-   "first_seen": "2026-11-04T21:08+09:00",
-   "lang": "en",
-   "area": "africa"
-  },
-  {
-   "title": "Government shifts focus from producing more food to making farming pay",
-   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQZzVZRnB3S21NeFZ5N0JoSUhON214RDdPNHJNOC1TczYweS1UdmhMTEJyT3pHLXlOTDNJOHlkbW1hOXJxY0ZjUlRRT0liTHZ2LTNqNGlOT1JZRjdUZ3pacm1iWlFjNTJUSXVJRVQ5ci04NEp3UC01M2M3ck9nWFA1VktxN04zVEN0cEJwNlVRc1BFcThJanNKZENSTUZOOExVcUl3Q29pNkZYV1Y4MEZfS213?oc=5",
-   "publisher": "Daily Nation",
-   "via": "Google News Kenya",
-   "region": "africa",
-   "snippet": "",
-   "cats": [
-    "policy",
-    "general"
-   ],
-   "published": "2026-10-10T16:00+09:00",
-   "first_seen": "2026-11-04T21:21+09:00",
-   "lang": "en",
-   "area": "africa"
-  },
-  {
-   "title": "Ruto’s milk politics: Buffalo proposal raises questions as Kenya faces shortages",
-   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOaFRieDJzbTdTUFFzWFNfeDVlYUh4VDloWFN4c3NzbE1kRnczSERaRDdBdGY4aEZkc0MzQ3p1SmZwTFNvQkRNdFAwYWJ5ZzFqdXhWcE85OHlKVWpyMWVNbFlaY1hFR1dRUGEtSFY1LW41VER6QlNRTHhoNWV1NERKckE0SUdSb05jSVBnX3l0ODJvdDFtN2FCVTczTWxxWktORkRUWjZoNFdoN3ZFY1dmT01uYXl1QQ?oc=5",
-   "publisher": "People Daily",
-   "via": "Google News Kenya",
-   "region": "africa",
-   "snippet": "",
-   "cats": [
-    "dairy"
-   ],
-   "published": "2026-10-10T16:00+09:00",
-   "first_seen": "2026-11-04T21:21+09:00",
-   "lang": "en",
-   "area": "africa"
-  },
-  {
-   "title": "中国開発の農業AIエージェントがケニアで実用化 小規模農家の収入増を後押し",
-   "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5GOUJNM3h4dk5USHNoUjI2OERheVh6VEE5aE5tVldwZ2liTkx0SThHWmNoWk4xb3BPaFZDWnI0cVVMM09HU05uZlJYdjhhaFNZTUHSAVRBVV95cUxNeUlFUms0S2QwZEx4UmYwcm1LZjdSQ0d3SDJPcVZXTi1WaE03TTVQWm1VdW5yZURkYTM1bUd3M1FuSl9URTNKOXdZN1E2dkN3NXVsNUY?oc=5",
-   "publisher": "AFPBB News",
-   "via": "Google ニュース「農業 AI」",
-   "snippet": "",
-   "cats": [
-    "smart"
-   ],
-   "published": "2026-10-10T14:34+09:00",
-   "first_seen": "2026-11-03T22:00+09:00",
-   "region": "jp",
-   "lang": "ja",
-   "area": "africa",
-   "summary": "中国で開発された農業AIエージェントがケニアで実用化され、小規模農家の収入増を後押しする。",
    "summary_v": 2
   }
  ]
