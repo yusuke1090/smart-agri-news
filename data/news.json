@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T11:30+09:00",
+ "updated": "2026-11-12T12:28+09:00",
  "sources": [
   {
    "name": "日本農業新聞",
@@ -13,8 +13,8 @@
   },
   {
    "name": "AGRI JOURNAL",
-   "ok": false,
-   "count": 0
+   "ok": true,
+   "count": 4
   },
   {
    "name": "農林水産省 報道発表",
@@ -54,7 +54,7 @@
   {
    "name": "Google ニュース「スマート畜産」",
    "ok": true,
-   "count": 39
+   "count": 38
   },
   {
    "name": "Google ニュース「酪農」",
@@ -64,17 +64,17 @@
   {
    "name": "Google ニュース「畜産 IoT」",
    "ok": true,
-   "count": 14
+   "count": 15
   },
   {
    "name": "Google ニュース「農業 IoT」",
    "ok": true,
-   "count": 38
+   "count": 37
   },
   {
    "name": "Google ニュース「農業 AI」",
    "ok": true,
-   "count": 57
+   "count": 56
   },
   {
    "name": "AgFunderNews",
@@ -109,12 +109,12 @@
   {
    "name": "FeedNavigator",
    "ok": true,
-   "count": 9
+   "count": 10
   },
   {
    "name": "Google News \"smart farming\"",
    "ok": true,
-   "count": 59
+   "count": 58
   },
   {
    "name": "Google News \"dairy tech\"",
@@ -133,8 +133,8 @@
   },
   {
    "name": "Kilimo News（ケニア）",
-   "ok": true,
-   "count": 30
+   "ok": false,
+   "count": 0
   },
   {
    "name": "Smart Farmer Kenya",
@@ -174,10 +174,26 @@
   {
    "name": "Google News Africa agritech",
    "ok": true,
-   "count": 16
+   "count": 15
   }
  ],
  "items": [
+  {
+   "title": "Chasing data: Qarbotech’s biggest challenge is no longer validation, but optimisation – CEO",
+   "link": "https://www.agnavigator.com/Article/2026/11/12/chasing-data-qarbotechs-biggest-challenge-is-no-longer-validation-but-optimisation-ceo/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+   "publisher": "FeedNavigator",
+   "via": "FeedNavigator",
+   "region": "world",
+   "snippet": "After proving its technology works, Qarbotech is focused on understanding what is driving the performance of its photosynthesis-enhancing technology",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-11-12T12:21+09:00",
+   "first_seen": "2026-11-12T12:28+09:00",
+   "lang": "en",
+   "area": "overseas",
+   "desc_checked": true
+  },
   {
    "title": "PH, S. Korea advance smart farming through Aklan greenhouse facility",
    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQLU10b3lieUhpdXBOOVN5elBId25IdU5majFacVpka2hUdW5JeVYxU1U3YkRfUy1jOUVuS2ZyVFdTNlZjUUZzNEZMQjdSNm9rejB3UVQ5WlV6YW9fQ0haeGFndXFDSjhWNEFabmE5ZkJLa3NYMmdVUHJ1Vy1GLUU2a0w5NFBJbVprZjBMTER3N3h0Yy1IOTU1aEkwaS1lUQ?oc=5",
@@ -205,6 +221,21 @@
    ],
    "published": "2026-11-12T10:00+09:00",
    "first_seen": "2026-11-12T11:30+09:00",
+   "lang": "ja",
+   "area": "japan"
+  },
+  {
+   "title": "野菜需給情報等交換会（旧 野菜需給協議会）資料",
+   "link": "http://www.alic.go.jp/y-suishin/yajukyu01_000251.html",
+   "publisher": "農畜産業振興機構（ALIC）",
+   "via": "農畜産業振興機構（ALIC）",
+   "region": "jp",
+   "snippet": "野菜需給情報等交換会（旧 野菜需給協議会）資料",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-11-12T10:00+09:00",
+   "first_seen": "2026-11-12T12:28+09:00",
    "lang": "ja",
    "area": "japan"
   },
@@ -1398,6 +1429,21 @@
    ],
    "published": "2026-11-11T12:00+09:00",
    "first_seen": "2026-11-12T11:30+09:00",
+   "lang": "ja",
+   "area": "japan"
+  },
+  {
+   "title": "AI×ゲノム編集で品種開発を加速！ 次世代育種が切り拓く施設園芸の未来",
+   "link": "https://agrijournal.jp/technology/94067/",
+   "publisher": "AGRI JOURNAL",
+   "via": "AGRI JOURNAL",
+   "region": "jp",
+   "snippet": "アメリカの企業Pairwiseは、CRISPRゲノム編集技術とAIを組み合わせ、短期間での品種開発を実現。収量向上や耐病性強化、投入資材の削減を目指し、持続可能な施設園芸への貢献が期待されている。 The post AI×ゲノム編集で品種開発を加速！ 次世代育種が切り拓く施設園芸の未来 first appeared on AGRI JOURNAL .",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-11-11T12:00+09:00",
+   "first_seen": "2026-11-12T12:28+09:00",
    "lang": "ja",
    "area": "japan"
   },
