@@ -697,6 +697,7 @@ def main():
     (OUT / ".nojekyll").write_text("")
     for name in ("board.html", "translate.js"):   # そのまま公開するファイル
         (OUT / name).write_text((ROOT / "site" / name).read_text(encoding="utf-8"), encoding="utf-8")
+    shutil.copytree(ROOT / "site" / "dict", OUT / "dict", dirs_exist_ok=True)   # 「🔤 訳す」の英和辞書
     print(f"記事 {len(kept)}件で docs/ を作りました（{now:%Y-%m-%d %H:%M} JST）")
 
 

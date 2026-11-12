@@ -75,11 +75,21 @@
 
 ## 訳す（🔤）
 
-- `site/translate.js` に全部ある。`build.py` がそのまま `docs/` にコピーし、ニュースのページと伝言板の両方で読み込む
-- Chrome では、Chrome の翻訳機能（[Translator API](https://developer.chrome.com/docs/ai/translator-api)）で訳す。PC の中で訳すので、文章は外に送られない。最初の1回は英語・日本語のデータを Chrome がダウンロードするので、その間は下の MyMemory で訳す
-- Chrome の翻訳機能が使えないブラウザ（iPhone の Safari など）では、無料の翻訳サービス [MyMemory](https://mymemory.translated.net/doc/spec.php) に文章を送って訳す。1回 500 バイトまでなので、文の区切りで分けて送る。1日に訳せる量に上限がある（使い切ったら「Google 翻訳」のリンクから訳せる）
-- 短い言葉には Weblio 辞書、どれにも Google 翻訳のリンクを出す。英語は「🔊 英語を聞く」で読み上げられる
-- 履歴は、見ているブラウザの `localStorage`（`agri-news-translate-history`）に新しい順で 50 件まで。同じ言葉をもう一度訳すと、1つにまとめて一番上に来る
+- `site/translate.js` に全部ある。`build.py` が `docs/` にコピーし（英和辞書の `site/dict/` も）、ニュースのページと伝言板の両方で読み込む
+- 右下の「🔤 訳す」か、ページの英文を選ぶと出る「🔤 訳す」で使う。Enter で訳す（Shift + Enter で改行）
+- **単語**は単語帳のように、意味と例文を出す
+  - 意味: 英和辞書 [EJDict](https://github.com/kujirahand/EJDict)（パブリックドメイン）。`aimed → aim`・`went → go` のように元の形で引く。画面では補足〈…〉を消し、1行に訳語を3つまで、5行まで（残りは「ほか N 件」）
+  - 例文: [Tatoeba](https://tatoeba.org/)（人が訳した英文と和文、CC BY 2.0 FR）から、同じ単語（活用した形も）を含むものを2つ。なければページの記事の英文から1つ選んで機械翻訳する
+  - 発音記号: [Free Dictionary API](https://dictionaryapi.dev/)（取れないときは出さない）。🔊 で読み上げ
+  - 辞書にない単語（sustainable など）は、意味を機械翻訳で出す
+- **文章**は訳だけを出す。Chrome では Chrome の翻訳機能（[Translator API](https://developer.chrome.com/docs/ai/translator-api)。PC の中で訳す）、使えないとき（iPhone の Safari など）や初回の準備中は無料の [MyMemory](https://mymemory.translated.net/doc/spec.php)（1回 500 バイトまでなので文の区切りで分けて送る。1日の上限あり）。日本語を入れると英語に訳す
+- 履歴は、見ているブラウザの `localStorage`（`agri-news-translate-history`）に新しい順で 50 件まで。意味と例文ごと残すので、押すと問い合わせずに出る
+- 英和辞書のデータ（`site/dict/a.json`〜`z.json`、約 4MB）は `tools/make_dict.py` で作る:
+
+```sh
+git clone --depth 1 https://github.com/kujirahand/EJDict.git /tmp/EJDict
+python3 tools/make_dict.py /tmp/EJDict
+```
 
 ## 伝言板
 
