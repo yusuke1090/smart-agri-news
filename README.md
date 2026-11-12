@@ -15,6 +15,7 @@
 - 過去30日分を表示する。サイト自身の [RSS](https://yusuke1090.github.io/smart-agri-news/feed.xml) もある
 - スマホでも見やすい。ダークモード対応
 - [📝 伝言板](https://yusuke1090.github.io/smart-agri-news/board.html) で、将来やりたいこと・アイデア・相談を書き込める
+- 右下の「🔤 訳す」で、英単語や英文を日本語に訳せる（日本語を入れると英語に）。ページの英文を選ぶと出る「🔤 訳す」からも訳せる。調べたものは履歴に 50 件まで残る
 
 ## しくみ
 
@@ -71,6 +72,14 @@
 | `OLLAMA_HOST` | `http://127.0.0.1:11434` | Ollama の場所 |
 | `SUMMARY_MAX_PER_RUN` | `300` | 1回の実行でまとめる記事の上限 |
 | `SUMMARY_MODEL` | `haiku` | Claude Code を使うときのモデル |
+
+## 訳す（🔤）
+
+- `site/translate.js` に全部ある。`build.py` がそのまま `docs/` にコピーし、ニュースのページと伝言板の両方で読み込む
+- Chrome では、Chrome の翻訳機能（[Translator API](https://developer.chrome.com/docs/ai/translator-api)）で訳す。PC の中で訳すので、文章は外に送られない。最初の1回は英語・日本語のデータを Chrome がダウンロードするので、その間は下の MyMemory で訳す
+- Chrome の翻訳機能が使えないブラウザ（iPhone の Safari など）では、無料の翻訳サービス [MyMemory](https://mymemory.translated.net/doc/spec.php) に文章を送って訳す。1回 500 バイトまでなので、文の区切りで分けて送る。1日に訳せる量に上限がある（使い切ったら「Google 翻訳」のリンクから訳せる）
+- 短い言葉には Weblio 辞書、どれにも Google 翻訳のリンクを出す。英語は「🔊 英語を聞く」で読み上げられる
+- 履歴は、見ているブラウザの `localStorage`（`agri-news-translate-history`）に新しい順で 50 件まで。同じ言葉をもう一度訳すと、1つにまとめて一番上に来る
 
 ## 伝言板
 
