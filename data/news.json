@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T12:28+09:00",
+ "updated": "2026-11-12T12:43+09:00",
  "sources": [
   {
    "name": "日本農業新聞",
@@ -49,7 +49,7 @@
   {
    "name": "Google ニュース「スマート農業」",
    "ok": true,
-   "count": 33
+   "count": 32
   },
   {
    "name": "Google ニュース「スマート畜産」",
@@ -64,17 +64,17 @@
   {
    "name": "Google ニュース「畜産 IoT」",
    "ok": true,
-   "count": 15
+   "count": 14
   },
   {
    "name": "Google ニュース「農業 IoT」",
    "ok": true,
-   "count": 37
+   "count": 38
   },
   {
    "name": "Google ニュース「農業 AI」",
    "ok": true,
-   "count": 56
+   "count": 58
   },
   {
    "name": "AgFunderNews",
@@ -133,8 +133,8 @@
   },
   {
    "name": "Kilimo News（ケニア）",
-   "ok": false,
-   "count": 0
+   "ok": true,
+   "count": 30
   },
   {
    "name": "Smart Farmer Kenya",
@@ -193,6 +193,22 @@
    "lang": "en",
    "area": "overseas",
    "desc_checked": true
+  },
+  {
+   "title": "酪農現場のAI活用を、牧場の実践から「フィジカルAI」まで",
+   "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE80aVJQczh0Y25GVC1qalAxS0cyNEptcnlYRzR1VElpWjR2NFpKYmtveXNaNDJWZmN6c0xZdE83ZVJ5enRXNkxTWTdwY2NGdF9tNlI0cEhBeDA2Ynd0N3o2dTByaDJ5WVRXa3c?oc=5",
+   "publisher": "PR TIMES",
+   "via": "Google ニュース「酪農」",
+   "region": "jp",
+   "snippet": "",
+   "cats": [
+    "dairy",
+    "smart"
+   ],
+   "published": "2026-11-12T11:10+09:00",
+   "first_seen": "2026-11-12T12:43+09:00",
+   "lang": "ja",
+   "area": "japan"
   },
   {
    "title": "PH, S. Korea advance smart farming through Aklan greenhouse facility",
