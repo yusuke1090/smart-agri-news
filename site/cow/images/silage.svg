@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 270" font-family="system-ui, 'Noto Sans JP', 'Hiragino Sans', sans-serif" font-size="12">
+<defs><marker id="ah-g" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#555c66"/></marker></defs>
+<rect width="820" height="270" rx="10" fill="#ffffff"/>
+<text x="410" y="30" font-size="16" text-anchor="middle" font-weight="700" fill="#2b2f36">サイレージができるまで / How silage is made</text>
+<g stroke-width="2">
+<rect x="22" y="56" width="112" height="120" rx="8" fill="#e7f4ec" stroke="#1f7a3d"/>
+<rect x="155" y="56" width="112" height="120" rx="8" fill="#e7f4ec" stroke="#1f7a3d"/>
+<rect x="288" y="56" width="112" height="120" rx="8" fill="#e7f4ec" stroke="#1f7a3d"/>
+<rect x="421" y="56" width="112" height="120" rx="8" fill="#fff6e0" stroke="#c28a00"/>
+<rect x="554" y="56" width="112" height="120" rx="8" fill="#fff6e0" stroke="#c28a00"/>
+<rect x="687" y="56" width="112" height="120" rx="8" fill="#e8f0fd" stroke="#2f6fde"/>
+</g>
+<g text-anchor="middle" fill="#555c66">
+<text x="78" y="82" font-size="13" font-weight="700" fill="#1f7a3d">① 刈る・切る</text><text x="78" y="100" fill="#1f7a3d">Harvest, chop</text>
+<text x="78" y="128">1〜2 cm に</text><text x="78" y="146" font-size="11">chop to 1–2 cm</text>
+<text x="211" y="82" font-size="13" font-weight="700" fill="#1f7a3d">② 詰めて踏む</text><text x="211" y="100" fill="#1f7a3d">Pack down</text>
+<text x="211" y="128">空気を抜く</text><text x="211" y="146" font-size="11">push the air out</text>
+<text x="344" y="82" font-size="13" font-weight="700" fill="#1f7a3d">③ 密封する</text><text x="344" y="100" fill="#1f7a3d">Seal</text>
+<text x="344" y="128">シートと重し</text><text x="344" y="146" font-size="11">sheet + weights</text>
+<text x="477" y="82" font-size="13" font-weight="700" fill="#c28a00">④ 発酵</text><text x="477" y="100" fill="#c28a00">Ferment</text>
+<text x="477" y="128">乳酸菌が乳酸に</text><text x="477" y="146" font-size="11">LAB make lactic acid</text>
+<text x="610" y="82" font-size="13" font-weight="700" fill="#c28a00">⑤ 安定</text><text x="610" y="100" fill="#c28a00">Stable</text>
+<text x="610" y="128">pH 4 前後</text><text x="610" y="146" font-size="11">3〜6週 / 3–6 weeks</text>
+<text x="743" y="82" font-size="13" font-weight="700" fill="#2f6fde">⑥ 開けて与える</text><text x="743" y="100" fill="#2f6fde">Open and feed</text>
+<text x="743" y="128">毎日切り口から</text><text x="743" y="146" font-size="11">take some every day</text>
+</g>
+<g stroke="#555c66" stroke-width="2" marker-end="url(#ah-g)">
+<path d="M134 116 L153 116"/><path d="M267 116 L286 116"/><path d="M400 116 L419 116"/><path d="M533 116 L552 116"/><path d="M666 116 L685 116"/>
+</g>
+<rect x="22" y="196" width="777" height="58" rx="8" fill="#fdecea" stroke="#c0392b" stroke-width="1.5"/>
+<text x="410" y="219" text-anchor="middle" font-weight="700" fill="#c0392b">失敗: 空気が入る → カビ・二次発酵 ／ 水分が多い・糖が少ない → 酪酸発酵（ひどいにおい）</text>
+<text x="410" y="241" text-anchor="middle" fill="#c0392b">Problems: air gets in → mold, aerobic spoilage / too wet, too little sugar → butyric fermentation (bad smell)</text>
+</svg>

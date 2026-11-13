@@ -16,6 +16,7 @@
 - スマホでも見やすい。ダークモード対応
 - [📝 伝言板](https://yusuke1090.github.io/smart-agri-news/board.html) で、将来やりたいこと・アイデア・相談を書き込める
 - 右下の「🔤 訳す」で、英単語や英文を日本語に訳せる（日本語を入れると英語に）。ページの英文を選ぶと出る「🔤 訳す」からも訳せる。調べたものは履歴に 50 件まで残る
+- 見出しの 🐄 を押すと、[🐄 牛の教科書](https://yusuke1090.github.io/smart-agri-news/cow.html)（乳牛のからだ・繁殖・エサ・乳房炎・血乳・スマート酪農など 13章と付録）が開く。日本語と英語を切り替えられる
 
 ## しくみ
 
@@ -91,6 +92,16 @@ git clone --depth 1 https://github.com/kujirahand/EJDict.git /tmp/EJDict
 python3 tools/make_dict.py /tmp/EJDict
 ```
 
+## 牛の教科書（🐄）
+
+- ニュースの見出しの 🐄（伝言板のページの 🐄・ページの一番下のリンクからも）で開く `cow.html`
+- 第1部 牛のからだ／第2部 繁殖と子牛／第3部 エサ／第4部 乳と病気／第5部 牧場とスマート酪農／付録（用語集・数字の目安）
+- 上の「日本語 / English」で切り替えると、同じ章の同じ見出しの所が出る。英文は「🔤 訳す」で引ける
+- 目次（部ごと・今の章の見出し）、◀ ▶、前に読んでいた章と場所から開く（見ているブラウザの `localStorage` の `cow-book-pos`）。`cow.html#ch=9`・`cow.html#ch=9&lang=en` で章を直接開ける
+- 本文は `site/cow/ja/*.md` と `site/cow/en/*.md`（同じファイル名で、**見出しの数と順番をそろえる**。切り替えのときに見出しの番号で場所を合わせるため）。章の順番・部・題名は `site/cow/chapters.json`、図は `site/cow/images/`（日本語と英語を並べて書いた SVG）
+- `build.py` が全部の章を `docs/cow.html` に埋め込む（ページを開いたら、ほかに読み込まずに表示できる）。`site/` の中の `.md` を直して push しても、サイトが作り直される
+- 書ける書式: 見出し（`#`〜`####`）、段落、箇条書き（2文字下げで入れ子）、番号付きの手順、表、引用（`>`、注意書き）、画像、**太字**、リンク、`コード`
+
 ## 伝言板
 
 - 書き込みは GitHub の Issues に保存する。ラベル「伝言板」が付いた、開いている Issue が [board.html](https://yusuke1090.github.io/smart-agri-news/board.html) に出る
@@ -126,6 +137,8 @@ gh workflow run update-news
 build.py                       ニュースを集めてサイトを作るスクリプト
 site/template.html             ページのひな形（デザインはここ）
 site/board.html                伝言板のページ（そのまま docs/ にコピーされる）
+site/cow.html                  牛の教科書のページ（build.py が章を埋め込んで docs/ に出す）
+site/cow/                      牛の教科書の章（chapters.json、ja/・en/ の Markdown、images/ の図）
 data/news.json                 集めた記事（過去30日分）
 docs/                          公開されるサイト（build.py が作る。手で編集しない）
 .github/workflows/update.yml   毎朝の自動更新

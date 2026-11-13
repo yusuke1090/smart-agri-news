@@ -1,0 +1,17 @@
+[
+  {"file": "00-guide.md", "part": {"ja": "第1部 牛のからだ", "en": "Part 1: The cow's body"}, "title": {"ja": "0. この教科書の使い方", "en": "0. How to use this book"}},
+  {"file": "01-dairy-cow.md", "part": {"ja": "第1部 牛のからだ", "en": "Part 1: The cow's body"}, "title": {"ja": "1. 乳牛とは", "en": "1. What is a dairy cow?"}},
+  {"file": "02-stomach.md", "part": {"ja": "第1部 牛のからだ", "en": "Part 1: The cow's body"}, "title": {"ja": "2. 4つの胃と反芻", "en": "2. Four stomachs and rumination"}},
+  {"file": "03-breeding.md", "part": {"ja": "第2部 繁殖と子牛", "en": "Part 2: Breeding and calves"}, "title": {"ja": "3. 繁殖と1年1産", "en": "3. Breeding: one calf a year"}},
+  {"file": "04-calf.md", "part": {"ja": "第2部 繁殖と子牛", "en": "Part 2: Breeding and calves"}, "title": {"ja": "4. 子牛を育てる", "en": "4. Raising calves"}},
+  {"file": "05-feed.md", "part": {"ja": "第3部 エサ", "en": "Part 3: Feed"}, "title": {"ja": "5. エサの基本（粗飼料・濃厚飼料・配合飼料）", "en": "5. Feed basics: roughage, concentrate, compound feed"}},
+  {"file": "06-hay.md", "part": {"ja": "第3部 エサ", "en": "Part 3: Feed"}, "title": {"ja": "6. 乾草と牧草（チモシー・アルファルファ）", "en": "6. Hay and grasses: timothy and alfalfa"}},
+  {"file": "07-silage.md", "part": {"ja": "第3部 エサ", "en": "Part 3: Feed"}, "title": {"ja": "7. サイレージ", "en": "7. Silage"}},
+  {"file": "08-milk.md", "part": {"ja": "第4部 乳と病気", "en": "Part 4: Milk and health"}, "title": {"ja": "8. 乳ができるしくみと搾乳", "en": "8. How milk is made, and milking"}},
+  {"file": "09-mastitis.md", "part": {"ja": "第4部 乳と病気", "en": "Part 4: Milk and health"}, "title": {"ja": "9. 乳房炎（大腸菌による乳房炎）", "en": "9. Mastitis (and E. coli mastitis)"}},
+  {"file": "10-blood-milk.md", "part": {"ja": "第4部 乳と病気", "en": "Part 4: Milk and health"}, "title": {"ja": "10. 血乳", "en": "10. Blood in milk"}},
+  {"file": "11-diseases.md", "part": {"ja": "第4部 乳と病気", "en": "Part 4: Milk and health"}, "title": {"ja": "11. お産の前後の病気・蹄・暑さ", "en": "11. Transition diseases, feet and heat"}},
+  {"file": "12-smart.md", "part": {"ja": "第5部 牧場とスマート酪農", "en": "Part 5: The farm and smart dairy"}, "title": {"ja": "12. 牛の暮らしとスマート酪農", "en": "12. Cow life and smart dairy farming"}},
+  {"file": "a-words.md", "part": {"ja": "付録", "en": "Appendix"}, "title": {"ja": "付録A. 用語集（日本語・英語）", "en": "Appendix A. Glossary (English and Japanese)"}},
+  {"file": "b-numbers.md", "part": {"ja": "付録", "en": "Appendix"}, "title": {"ja": "付録B. 数字の目安", "en": "Appendix B. Key numbers"}}
+]

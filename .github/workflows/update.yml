@@ -7,9 +7,14 @@ on:
     # 混雑で実行が数分〜数十分遅れることがあるので、7時に間に合うよう少し早めにしている
     - cron: "40 21 * * *"
   workflow_dispatch:      # GitHub の画面（Actions → update-news → Run workflow）から手動でも実行できる
-  push:                   # build.py やデザインを変えて push したら、すぐサイトに反映する
+  push:                   # build.py やデザイン、牛の教科書を変えて push したら、すぐサイトに反映する
     branches: [main]
-    paths-ignore: ["data/**", "docs/**", "**.md"]
+    paths:                # 下の行ほど優先。data・docs・README などの .md は除き、site/ の中の .md（牛の教科書）は含める
+      - "**"
+      - "!data/**"
+      - "!docs/**"
+      - "!**.md"
+      - "site/**"
 
 permissions:
   contents: write         # data/news.json をコミットするため

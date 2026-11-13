@@ -29,6 +29,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent
 DATA = ROOT / "data" / "news.json"
 TEMPLATE = ROOT / "site" / "template.html"
+COW = ROOT / "site" / "cow"                 # 牛の教科書（章の Markdown・図）
 OUT = ROOT / "docs"
 JST = timezone(timedelta(hours=9))
 KEEP_DAYS = 30
@@ -640,6 +641,18 @@ def build_rss(items, now):
             + "".join(entries) + "</channel></rss>\n")
 
 
+def build_cow_book():
+    """牛の教科書（site/cow/）の日本語・英語の章を、1つの cow.html に埋め込む。
+    章の順番・部・題名は site/cow/chapters.json、本文は site/cow/ja・en/*.md"""
+    chapters = json.loads((COW / "chapters.json").read_text(encoding="utf-8"))
+    for ch in chapters:
+        ch["md"] = {lang: (COW / lang / ch["file"]).read_text(encoding="utf-8") for lang in ("ja", "en")}
+    book = json.dumps({"chapters": chapters}, ensure_ascii=False).replace("</", "<\\/")
+    page = (ROOT / "site" / "cow.html").read_text(encoding="utf-8").replace("{{BOOK}}", book)
+    (OUT / "cow.html").write_text(page, encoding="utf-8")
+    shutil.copytree(COW / "images", OUT / "cow" / "images", dirs_exist_ok=True)
+
+
 # ---------------------------------------------------------------------------
 def main():
     ap = argparse.ArgumentParser()
@@ -698,6 +711,7 @@ def main():
     for name in ("board.html", "translate.js"):   # そのまま公開するファイル
         (OUT / name).write_text((ROOT / "site" / name).read_text(encoding="utf-8"), encoding="utf-8")
     shutil.copytree(ROOT / "site" / "dict", OUT / "dict", dirs_exist_ok=True)   # 「🔤 訳す」の英和辞書
+    build_cow_book()                                                              # 🐄 牛の教科書
     print(f"記事 {len(kept)}件で docs/ を作りました（{now:%Y-%m-%d %H:%M} JST）")
 
 

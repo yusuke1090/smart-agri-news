@@ -31,7 +31,8 @@ body { margin: 0; background: var(--bg); color: var(--text);
 header { background: var(--panel); border-bottom: 1px solid var(--border); }
 header .wrap { padding-top: 22px; padding-bottom: 0; }
 h1 { font-size: 22px; margin: 0 0 4px; letter-spacing: .02em; }
-h1 span { margin-right: 6px; }
+h1 .cow { display: inline-block; margin-right: 6px; text-decoration: none; border-radius: 8px; transition: transform .15s; }
+h1 .cow:hover, h1 .cow:focus-visible { transform: scale(1.25) rotate(-8deg); }
 .lead { color: var(--muted); margin: 0; font-size: 13.5px; }
 .stats { display: flex; gap: 16px; flex-wrap: wrap; margin-top: 10px; font-size: 13px; color: var(--muted); }
 .stats b { color: var(--text); font-size: 15px; }
@@ -114,7 +115,7 @@ footer p { margin: 4px 0; }
 <body>
 <header>
   <div class="wrap">
-    <h1><span>🐄</span>スマート農業News</h1>
+    <h1><a class="cow" href="cow.html" title="牛の教科書（日本語・English）" aria-label="牛の教科書">🐄</a>スマート農業News</h1>
     <p class="lead">国内外のスマート農業・酪農・畜産・IoT のニュースを、毎朝7時にまとめています。英語の記事には、日本語訳とやさしい英語のまとめが付いています。</p>
     <div class="stats">
       <span>最終更新 <b><time datetime="{{UPDATED_ISO}}">{{UPDATED}}</time></b></span>
@@ -155,7 +156,7 @@ footer p { margin: 4px 0; }
     <p>各記事のタイトル・説明文の著作権は、それぞれの配信元に帰属します。記事の全文は、リンク先の配信元のサイトでお読みください。</p>
     <p>一部の記事のまとめ・日本語タイトル・やさしい英語のまとめは、以前に AI がタイトルと配信元の説明文から自動で作成したものです。日本／海外の分類はキーワードで自動的に判定しています。誤りを含むことがあるため、正確な内容はリンク先の記事でご確認ください。</p>
     <p>カテゴリはキーワードで自動的に分類しているため、内容と合わないことがあります。</p>
-    <p><a href="board.html">伝言板</a> ・ <a href="feed.xml">RSS</a> ・ <a href="https://github.com/yusuke1090/smart-agri-news" target="_blank" rel="noopener">GitHub</a></p>
+    <p><a href="cow.html">🐄 牛の教科書</a> ・ <a href="board.html">伝言板</a> ・ <a href="feed.xml">RSS</a> ・ <a href="https://github.com/yusuke1090/smart-agri-news" target="_blank" rel="noopener">GitHub</a></p>
   </div>
 </footer>
 
