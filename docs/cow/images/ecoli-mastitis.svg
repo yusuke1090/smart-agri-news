@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 420" font-family="system-ui, 'Noto Sans JP', 'Hiragino Sans', sans-serif" font-size="12">
+<defs><marker id="ah-r" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#c0392b"/></marker></defs>
+<rect width="820" height="420" rx="10" fill="#ffffff"/>
+<text x="410" y="30" font-size="16" text-anchor="middle" font-weight="700" fill="#2b2f36">大腸菌で乳房炎になるまで / How E. coli causes mastitis</text>
+<g stroke-width="2">
+<rect x="21" y="55" width="175" height="110" rx="8" fill="#f3f4f6" stroke="#555c66"/>
+<rect x="222" y="55" width="175" height="110" rx="8" fill="#f3f4f6" stroke="#555c66"/>
+<rect x="423" y="55" width="175" height="110" rx="8" fill="#fff6e0" stroke="#c28a00"/>
+<rect x="624" y="55" width="175" height="110" rx="8" fill="#fff6e0" stroke="#c28a00"/>
+<rect x="624" y="225" width="175" height="125" rx="8" fill="#e8f0fd" stroke="#2f6fde"/>
+<rect x="423" y="225" width="175" height="125" rx="8" fill="#fdecea" stroke="#c0392b"/>
+<rect x="21" y="225" width="376" height="125" rx="8" fill="#fdecea" stroke="#c0392b"/>
+</g>
+<g text-anchor="middle" fill="#555c66">
+<text x="108" y="80" font-size="13" font-weight="700" fill="#2b2f36">① ふんと敷料に大腸菌</text>
+<text x="108" y="98" font-size="11" fill="#2b2f36">E. coli in manure, bedding</text>
+<text x="108" y="124">湿って暑いと増える</text>
+<text x="108" y="140" font-size="11">grows when wet and hot</text>
+<text x="309" y="80" font-size="13" font-weight="700" fill="#2b2f36">② 寝ると乳頭が触れる</text>
+<text x="309" y="98" font-size="11" fill="#2b2f36">Teat ends touch bedding</text>
+<text x="309" y="124">1日10〜14時間 横になる</text>
+<text x="309" y="140" font-size="11">cows lie 10–14 h a day</text>
+<text x="510" y="80" font-size="13" font-weight="700" fill="#c28a00">③ 乳頭口から入る</text>
+<text x="510" y="98" font-size="11" fill="#c28a00">Enters the teat canal</text>
+<text x="510" y="124">搾乳直後は開いている</text>
+<text x="510" y="140" font-size="11">open right after milking</text>
+<text x="711" y="80" font-size="13" font-weight="700" fill="#c28a00">④ 乳の中で増える</text>
+<text x="711" y="98" font-size="11" fill="#c28a00">Multiplies in the milk</text>
+<text x="711" y="124">38℃・栄養たっぷり</text>
+<text x="711" y="140" font-size="11">warm, full of nutrients</text>
+<text x="711" y="250" font-size="13" font-weight="700" fill="#2f6fde">⑤ 白血球が集まる</text>
+<text x="711" y="268" font-size="11" fill="#2f6fde">White blood cells rush in</text>
+<text x="711" y="296">体細胞数が急に増える</text>
+<text x="711" y="312" font-size="11">SCC rises sharply</text>
+<text x="510" y="250" font-size="13" font-weight="700" fill="#c0392b">⑥ 壊れた菌から毒素</text>
+<text x="510" y="268" font-size="11" fill="#c0392b">Dead bacteria release toxin</text>
+<text x="510" y="296">エンドトキシン（内毒素）</text>
+<text x="510" y="312" font-size="11">endotoxin → inflammation</text>
+<text x="209" y="250" font-size="13" font-weight="700" fill="#c0392b">⑦ 乳房と全身の症状 / Udder and whole-body signs</text>
+<text x="209" y="272" font-size="11">乳房: 腫れ・熱い・固い ／ 乳: 水っぽい・黄色・ブツ・激減</text>
+<text x="209" y="288" font-size="11">Udder: swollen, hot, hard / Milk: watery, yellowish, clots, big drop</text>
+<text x="209" y="308" font-size="11">全身: 40℃以上の熱・食べない・反芻が止まる・脱水</text>
+<text x="209" y="324" font-size="11">Body: fever 40 °C+, off feed, no rumination, dehydration</text>
+<text x="209" y="342" font-size="11" font-weight="700" fill="#c0392b">重いと立てない・ショック → 獣医師へ ／ severe → call a vet</text>
+</g>
+<g stroke="#c0392b" stroke-width="2.5" fill="none" marker-end="url(#ah-r)">
+<path d="M196 110 L220 110"/><path d="M397 110 L421 110"/><path d="M598 110 L622 110"/>
+<path d="M711 165 L711 223"/><path d="M624 288 L600 288"/><path d="M423 288 L399 288"/>
+</g>
+<rect x="21" y="364" width="778" height="46" rx="8" fill="#f3f4f6" stroke="#555c66" stroke-width="1.5"/>
+<text x="410" y="383" text-anchor="middle" font-weight="700" fill="#2b2f36">かかりやすい時: 搾乳の直後（乳頭口が閉じるまで30分〜1時間）・お産の前後・暑くて湿った時期</text>
+<text x="410" y="400" text-anchor="middle" font-size="11" fill="#555c66">High risk: right after milking (the teat canal takes 30–60 min to close), around calving, hot and wet weather</text>
+</svg>

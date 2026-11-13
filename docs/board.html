@@ -28,6 +28,8 @@ body { margin: 0; background: var(--bg); color: var(--text);
 header { background: var(--panel); border-bottom: 1px solid var(--border); }
 header .wrap { padding-top: 18px; padding-bottom: 0; }
 .brand { font-size: 18px; font-weight: 700; }
+.brand .cow { display: inline-block; text-decoration: none; transition: transform .15s; }
+.brand .cow:hover, .brand .cow:focus-visible { transform: scale(1.25) rotate(-8deg); }
 .tabs { display: flex; gap: 4px; margin-top: 12px; overflow-x: auto; scrollbar-width: none; }
 .tab { font-size: 15px; font-weight: 700; padding: 8px 22px; white-space: nowrap; flex-shrink: 0; text-decoration: none;
   border: 1px solid var(--border); border-bottom: 0; border-radius: 10px 10px 0 0; background: var(--bg); color: var(--muted); }
@@ -89,7 +91,7 @@ footer a { color: var(--link); }
 <body>
 <header>
   <div class="wrap">
-    <div class="brand">🐄 スマート農業News</div>
+    <div class="brand"><a class="cow" href="cow.html" title="牛の教科書（日本語・English）" aria-label="牛の教科書">🐄</a> スマート農業News</div>
     <nav class="tabs">
       <a class="tab" href="./#japan">🗾 日本</a>
       <a class="tab" href="./#overseas">🌏 海外</a>

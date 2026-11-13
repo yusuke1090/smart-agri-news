@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 400" font-family="system-ui, 'Noto Sans JP', 'Hiragino Sans', sans-serif" font-size="12">
+<defs><marker id="ah-g" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#555c66"/></marker><marker id="ah-r" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#c0392b"/></marker></defs>
+<rect width="820" height="400" rx="10" fill="#ffffff"/>
+<text x="410" y="30" font-size="16" text-anchor="middle" font-weight="700" fill="#2b2f36">牛の4つの胃とエサの流れ / The four stomachs</text>
+<rect x="20" y="60" width="130" height="80" rx="8" fill="#f3f4f6" stroke="#555c66" stroke-width="2"/>
+<text x="85" y="86" font-size="14" text-anchor="middle" font-weight="700" fill="#555c66">口</text>
+<text x="85" y="104" text-anchor="middle" fill="#555c66">Mouth</text>
+<text x="85" y="124" font-size="11" text-anchor="middle" fill="#555c66">かむ chew</text>
+<rect x="200" y="60" width="290" height="175" rx="12" fill="#e7f4ec" stroke="#1f7a3d" stroke-width="2"/>
+<text x="345" y="88" font-size="15" text-anchor="middle" font-weight="700" fill="#1f7a3d">① 第一胃（ミノ）</text>
+<text x="345" y="108" font-size="13" text-anchor="middle" fill="#1f7a3d">Rumen ・ 150〜200 L</text>
+<text x="345" y="136" text-anchor="middle" fill="#555c66">微生物がエサを発酵させる</text>
+<text x="345" y="152" font-size="11" text-anchor="middle" fill="#555c66">microbes ferment the feed</text>
+<text x="345" y="178" text-anchor="middle" fill="#555c66">→ VFA（エネルギー）・メタン</text>
+<text x="345" y="194" font-size="11" text-anchor="middle" fill="#555c66">→ VFAs (energy) and methane</text>
+<text x="345" y="218" font-size="11" text-anchor="middle" fill="#1f7a3d">VFA は胃の壁から血液へ / absorbed through the wall</text>
+<path d="M150 95 L198 95" fill="none" stroke="#555c66" stroke-width="2" marker-end="url(#ah-g)"/>
+<text x="174" y="87" font-size="10" text-anchor="middle" fill="#555c66">飲み込む</text>
+<text x="174" y="112" font-size="10" text-anchor="middle" fill="#555c66">swallow</text>
+<rect x="200" y="265" width="180" height="85" rx="8" fill="#fff6e0" stroke="#c28a00" stroke-width="2"/>
+<text x="290" y="288" font-size="14" text-anchor="middle" font-weight="700" fill="#c28a00">② 第二胃（ハチノス）</text>
+<text x="290" y="306" text-anchor="middle" fill="#c28a00">Reticulum</text>
+<text x="290" y="324" font-size="11" text-anchor="middle" fill="#555c66">かき混ぜる・口へ戻す</text>
+<text x="290" y="340" font-size="11" text-anchor="middle" fill="#555c66">mixes, sends food back up</text>
+<path d="M290 237 L290 263" fill="none" stroke="#555c66" stroke-width="2" marker-start="url(#ah-g)" marker-end="url(#ah-g)"/>
+<path d="M200 308 L85 308 L85 144" fill="none" stroke="#c0392b" stroke-width="2.5" stroke-dasharray="7 4" marker-end="url(#ah-r)"/>
+<text x="95" y="196" font-size="13" font-weight="700" fill="#c0392b">反芻</text>
+<text x="95" y="214" font-size="11" fill="#c0392b">Rumination</text>
+<text x="95" y="232" font-size="11" fill="#c0392b">7〜10時間/日</text>
+<text x="95" y="248" font-size="11" fill="#c0392b">7–10 h a day</text>
+<rect x="420" y="265" width="170" height="85" rx="8" fill="#e8f0fd" stroke="#2f6fde" stroke-width="2"/>
+<text x="505" y="288" font-size="14" text-anchor="middle" font-weight="700" fill="#2f6fde">③ 第三胃（センマイ）</text>
+<text x="505" y="306" text-anchor="middle" fill="#2f6fde">Omasum</text>
+<text x="505" y="324" font-size="11" text-anchor="middle" fill="#555c66">水分を吸う</text>
+<text x="505" y="340" font-size="11" text-anchor="middle" fill="#555c66">absorbs water</text>
+<path d="M380 308 L418 308" fill="none" stroke="#555c66" stroke-width="2" marker-end="url(#ah-g)"/>
+<rect x="630" y="265" width="170" height="85" rx="8" fill="#f1ebf8" stroke="#6b3fa0" stroke-width="2"/>
+<text x="715" y="288" font-size="14" text-anchor="middle" font-weight="700" fill="#6b3fa0">④ 第四胃（ギアラ）</text>
+<text x="715" y="306" text-anchor="middle" fill="#6b3fa0">Abomasum</text>
+<text x="715" y="324" font-size="11" text-anchor="middle" fill="#555c66">胃酸で消化（人の胃と同じ）</text>
+<text x="715" y="340" font-size="11" text-anchor="middle" fill="#555c66">digests with acid</text>
+<path d="M590 308 L628 308" fill="none" stroke="#555c66" stroke-width="2" marker-end="url(#ah-g)"/>
+<rect x="630" y="110" width="170" height="80" rx="8" fill="#f3f4f6" stroke="#555c66" stroke-width="2"/>
+<text x="715" y="134" font-size="14" text-anchor="middle" font-weight="700" fill="#555c66">小腸</text>
+<text x="715" y="152" text-anchor="middle" fill="#555c66">Small intestine</text>
+<text x="715" y="172" font-size="11" text-anchor="middle" fill="#555c66">吸収 → 血液 → 乳房</text>
+<text x="715" y="186" font-size="11" text-anchor="middle" fill="#555c66">blood → udder → milk</text>
+<path d="M715 265 L715 192" fill="none" stroke="#555c66" stroke-width="2" marker-end="url(#ah-g)"/>
+<text x="410" y="382" text-anchor="middle" fill="#555c66">第一胃が全体の約8割。子牛はミルクが第四胃へ直接入る / The rumen is ~80% of the total. In calves, milk goes straight to the abomasum</text>
+</svg>
