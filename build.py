@@ -587,7 +587,6 @@ def render(items, statuses, now):
                    for k, v in AREAS.items())
     tabs += '<button class="tab tab-fav" data-area="fav">★ お気に入り<span></span></button>'
     tabs += '<a class="tab tab-board" href="board.html">📝 伝言板</a>'
-    tabs += '<a class="tab tab-board" href="https://yusuke1090.github.io/textbooks/?b=cow" title="牛の教科書（日本語・English）">🐄 教科書</a>'
     subs = "".join(f'<button class="chip{" on" if k == "all" else ""}" data-sub="{k}">{v}<span></span></button>'
                    for k, v in SUBAREAS.items())
     langs = '<button class="chip on" data-lang="all">すべての言語<span></span></button>'
