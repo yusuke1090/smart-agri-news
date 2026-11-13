@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 352" font-family="system-ui, 'Noto Sans JP', 'Hiragino Sans', sans-serif" font-size="12">
+<defs><marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#52514e"/></marker></defs>
+<rect width="820" height="352" rx="10" fill="#ffffff"/>
+<text x="40.0" y="34.0" font-size="13" text-anchor="start" fill="#1f1f1d" font-weight="700">牛乳 100 g の中身（1マス = 1 g）/ what is in 100 g of milk (1 square = 1 g)</text>
+<rect x="40" y="52" width="26" height="26" rx="4" fill="#2a78d6"/>
+<rect x="69" y="52" width="26" height="26" rx="4" fill="#2a78d6"/>
+<rect x="98" y="52" width="26" height="26" rx="4" fill="#2a78d6"/>
+<rect x="127" y="52" width="26" height="26" rx="4" fill="#2a78d6"/>
+<rect x="156" y="52" width="26" height="26" rx="4" fill="#2a78d6"/>
+<rect x="185" y="52" width="26" height="26" rx="4" fill="#eb6834"/>
+<rect x="214" y="52" width="26" height="26" rx="4" fill="#eb6834"/>
+<rect x="243" y="52" width="26" height="26" rx="4" fill="#eb6834"/>
+<rect x="272" y="52" width="26" height="26" rx="4" fill="#eb6834"/>
+<rect x="301" y="52" width="26" height="26" rx="4" fill="#1baf7a"/>
+<rect x="40" y="81" width="26" height="26" rx="4" fill="#1baf7a"/>
+<rect x="69" y="81" width="26" height="26" rx="4" fill="#1baf7a"/>
+<rect x="98" y="81" width="26" height="26" rx="4" fill="#eda100"/>
+<rect x="127" y="81" width="26" height="26" rx="4" fill="#d9d8d3"/>
+<rect x="156" y="81" width="26" height="26" rx="4" fill="#d9d8d3"/>
+<rect x="185" y="81" width="26" height="26" rx="4" fill="#d9d8d3"/>
+<rect x="214" y="81" width="26" height="26" rx="4" fill="#d9d8d3"/>
+<rect x="243" y="81" width="26" height="26" rx="4" fill="#d9d8d3"/>
+<rect x="272" y="81" width="26" height="26" rx="4" fill="#d9d8d3"/>
+<rect x="301" y="81" width="26" height="26" rx="4" fill="#d9d8d3"/>
+<rect x="40" y="110" width="26" height="26" rx="4" fill="#d9d8d3"/>
+<rect x="69" y="110" width="26" height="26" rx="4" fill="#d9d8d3"/>
+<rect x="98" y="110" width="26" height="26" rx="4" fill="#d9d8d3"/>
+<rect x="127" y="110" width="26" height="26" rx="4" fill="#d9d8d3"/>
+<rect x="156" y="110" width="26" height="26" rx="4" fill="#d9d8d3"/>
+<rect x="185" y="110" width="26" height="26" rx="4" fill="#d9d8d3"/>
+<rect x="214" y="110" width="26" height="26" rx="4" fill="#d9d8d3"/>
+<rect x="243" y="110" width="26" height="26" rx="4" fill="#d9d8d3"/>
+<rect x="272" y="110" width="26" height="26" rx="4" fill="#d9d8d3"/>
+<rect x="301" y="110" width="26" height="26" rx="4" fill="#d9d8d3"/>
+<rect x="40" y="139" width="26" height="26" rx="4" fill="#d9d8d3"/>
+<rect x="69" y="139" width="26" height="26" rx="4" fill="#d9d8d3"/>
+<rect x="98" y="139" width="26" height="26" rx="4" fill="#d9d8d3"/>
+<rect x="127" y="139" width="26" height="26" rx="4" fill="#d9d8d3"/>
+<rect x="156" y="139" width="26" height="26" rx="4" fill="#d9d8d3"/>
+<rect x="185" y="139" width="26" height="26" rx="4" fill="#d9d8d3"/>
+<rect x="214" y="139" width="26" height="26" rx="4" fill="#d9d8d3"/>
+<rect x="243" y="139" width="26" height="26" rx="4" fill="#d9d8d3"/>
+<rect x="272" y="139" width="26" height="26" rx="4" fill="#d9d8d3"/>
+<rect x="301" y="139" width="26" height="26" rx="4" fill="#d9d8d3"/>
+<rect x="40" y="168" width="26" height="26" rx="4" fill="#d9d8d3"/>
+<rect x="69" y="168" width="26" height="26" rx="4" fill="#d9d8d3"/>
+<rect x="98" y="168" width="26" height="26" rx="4" fill="#d9d8d3"/>
+<rect x="127" y="168" width="26" height="26" rx="4" fill="#d9d8d3"/>
+<rect x="156" y="168" width="26" height="26" rx="4" fill="#d9d8d3"/>
+<rect x="185" y="168" width="26" height="26" rx="4" fill="#d9d8d3"/>
+<rect x="214" y="168" width="26" height="26" rx="4" fill="#d9d8d3"/>
+<rect x="243" y="168" width="26" height="26" rx="4" fill="#d9d8d3"/>
+<rect x="272" y="168" width="26" height="26" rx="4" fill="#d9d8d3"/>
+<rect x="301" y="168" width="26" height="26" rx="4" fill="#d9d8d3"/>
+<rect x="40" y="197" width="26" height="26" rx="4" fill="#d9d8d3"/>
+<rect x="69" y="197" width="26" height="26" rx="4" fill="#d9d8d3"/>
+<rect x="98" y="197" width="26" height="26" rx="4" fill="#d9d8d3"/>
+<rect x="127" y="197" width="26" height="26" rx="4" fill="#d9d8d3"/>
+<rect x="156" y="197" width="26" height="26" rx="4" fill="#d9d8d3"/>
+<rect x="185" y="197" width="26" height="26" rx="4" fill="#d9d8d3"/>
+<rect x="214" y="197" width="26" height="26" rx="4" fill="#d9d8d3"/>
+<rect x="243" y="197" width="26" height="26" rx="4" fill="#d9d8d3"/>
+<rect x="272" y="197" width="26" height="26" rx="4" fill="#d9d8d3"/>
+<rect x="301" y="197" width="26" height="26" rx="4" fill="#d9d8d3"/>
+<rect x="40" y="226" width="26" height="26" rx="4" fill="#d9d8d3"/>
+<rect x="69" y="226" width="26" height="26" rx="4" fill="#d9d8d3"/>
+<rect x="98" y="226" width="26" height="26" rx="4" fill="#d9d8d3"/>
+<rect x="127" y="226" width="26" height="26" rx="4" fill="#d9d8d3"/>
+<rect x="156" y="226" width="26" height="26" rx="4" fill="#d9d8d3"/>
+<rect x="185" y="226" width="26" height="26" rx="4" fill="#d9d8d3"/>
+<rect x="214" y="226" width="26" height="26" rx="4" fill="#d9d8d3"/>
+<rect x="243" y="226" width="26" height="26" rx="4" fill="#d9d8d3"/>
+<rect x="272" y="226" width="26" height="26" rx="4" fill="#d9d8d3"/>
+<rect x="301" y="226" width="26" height="26" rx="4" fill="#d9d8d3"/>
+<rect x="40" y="255" width="26" height="26" rx="4" fill="#d9d8d3"/>
+<rect x="69" y="255" width="26" height="26" rx="4" fill="#d9d8d3"/>
+<rect x="98" y="255" width="26" height="26" rx="4" fill="#d9d8d3"/>
+<rect x="127" y="255" width="26" height="26" rx="4" fill="#d9d8d3"/>
+<rect x="156" y="255" width="26" height="26" rx="4" fill="#d9d8d3"/>
+<rect x="185" y="255" width="26" height="26" rx="4" fill="#d9d8d3"/>
+<rect x="214" y="255" width="26" height="26" rx="4" fill="#d9d8d3"/>
+<rect x="243" y="255" width="26" height="26" rx="4" fill="#d9d8d3"/>
+<rect x="272" y="255" width="26" height="26" rx="4" fill="#d9d8d3"/>
+<rect x="301" y="255" width="26" height="26" rx="4" fill="#d9d8d3"/>
+<rect x="40" y="284" width="26" height="26" rx="4" fill="#d9d8d3"/>
+<rect x="69" y="284" width="26" height="26" rx="4" fill="#d9d8d3"/>
+<rect x="98" y="284" width="26" height="26" rx="4" fill="#d9d8d3"/>
+<rect x="127" y="284" width="26" height="26" rx="4" fill="#d9d8d3"/>
+<rect x="156" y="284" width="26" height="26" rx="4" fill="#d9d8d3"/>
+<rect x="185" y="284" width="26" height="26" rx="4" fill="#d9d8d3"/>
+<rect x="214" y="284" width="26" height="26" rx="4" fill="#d9d8d3"/>
+<rect x="243" y="284" width="26" height="26" rx="4" fill="#d9d8d3"/>
+<rect x="272" y="284" width="26" height="26" rx="4" fill="#d9d8d3"/>
+<rect x="301" y="284" width="26" height="26" rx="4" fill="#d9d8d3"/>
+<rect x="40" y="313" width="26" height="26" rx="4" fill="#d9d8d3"/>
+<rect x="69" y="313" width="26" height="26" rx="4" fill="#d9d8d3"/>
+<rect x="98" y="313" width="26" height="26" rx="4" fill="#d9d8d3"/>
+<rect x="127" y="313" width="26" height="26" rx="4" fill="#d9d8d3"/>
+<rect x="156" y="313" width="26" height="26" rx="4" fill="#d9d8d3"/>
+<rect x="185" y="313" width="26" height="26" rx="4" fill="#d9d8d3"/>
+<rect x="214" y="313" width="26" height="26" rx="4" fill="#d9d8d3"/>
+<rect x="243" y="313" width="26" height="26" rx="4" fill="#d9d8d3"/>
+<rect x="272" y="313" width="26" height="26" rx="4" fill="#d9d8d3"/>
+<rect x="301" y="313" width="26" height="26" rx="4" fill="#d9d8d3"/>
+<rect x="370" y="58" width="16" height="16" rx="4" fill="#2a78d6"/>
+<text x="396.0" y="71.0" font-size="13" text-anchor="start" fill="#1f1f1d" font-weight="700">乳糖  約4.6%</text><text x="396.0" y="86.0" font-size="11" text-anchor="start" fill="#52514e">lactose</text>
+<rect x="370" y="98" width="16" height="16" rx="4" fill="#eb6834"/>
+<text x="396.0" y="111.0" font-size="13" text-anchor="start" fill="#1f1f1d" font-weight="700">乳脂肪  約3.9%</text><text x="396.0" y="126.0" font-size="11" text-anchor="start" fill="#52514e">milk fat</text>
+<rect x="370" y="138" width="16" height="16" rx="4" fill="#1baf7a"/>
+<text x="396.0" y="151.0" font-size="13" text-anchor="start" fill="#1f1f1d" font-weight="700">たんぱく質  約3.3%</text><text x="396.0" y="166.0" font-size="11" text-anchor="start" fill="#52514e">protein</text>
+<rect x="370" y="178" width="16" height="16" rx="4" fill="#eda100"/>
+<text x="396.0" y="191.0" font-size="13" text-anchor="start" fill="#1f1f1d" font-weight="700">ミネラル  約0.7%</text><text x="396.0" y="206.0" font-size="11" text-anchor="start" fill="#52514e">minerals</text>
+<rect x="370" y="218" width="16" height="16" rx="4" fill="#d9d8d3"/>
+<text x="396.0" y="231.0" font-size="13" text-anchor="start" fill="#1f1f1d" font-weight="700">水分  約87%</text><text x="396.0" y="246.0" font-size="11" text-anchor="start" fill="#52514e">water</text>
+<text x="370.0" y="276.0" font-size="12" text-anchor="start" fill="#52514e">水分以外（約13%）を乳固形分、そこから乳脂肪を</text>
+<text x="370.0" y="292.0" font-size="12" text-anchor="start" fill="#52514e">除いたもの（約8.7%）を無脂乳固形分（SNF）という</text>
+<text x="370.0" y="312.0" font-size="11" text-anchor="start" fill="#8a8984">Solids ≈ 13%. Solids minus fat ≈ 8.7% = SNF</text>
+</svg>

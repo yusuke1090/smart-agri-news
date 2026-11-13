@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T22:14+09:00",
+ "updated": "2026-11-13T22:32+09:00",
  "sources": [
   {
    "name": "日本農業新聞",
@@ -64,12 +64,12 @@
   {
    "name": "Google ニュース「畜産 IoT」",
    "ok": true,
-   "count": 14
+   "count": 15
   },
   {
    "name": "Google ニュース「農業 IoT」",
    "ok": true,
-   "count": 37
+   "count": 38
   },
   {
    "name": "Google ニュース「農業 AI」",
@@ -124,7 +124,7 @@
   {
    "name": "Google News \"farm IoT\"",
    "ok": true,
-   "count": 49
+   "count": 48
   },
   {
    "name": "AllAfrica Agriculture",
@@ -164,7 +164,7 @@
   {
    "name": "Google News Kenya",
    "ok": true,
-   "count": 62
+   "count": 63
   },
   {
    "name": "Google News Tanzania",
@@ -1691,6 +1691,22 @@
    ],
    "published": "2026-11-12T17:18+09:00",
    "first_seen": "2026-11-13T11:07+09:00",
+   "lang": "en",
+   "area": "africa"
+  },
+  {
+   "title": "Kenya: government steps in to create jobs across the leather supply chain",
+   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQ183R0s1bHdGX2ZEa0NCaGJ0cU5lN2FKWkhmN0FhS09lU2pYZFAxNmpQS1hQNTkzQjBWZ2gwM05zZ1VIRTA5d2xBcF81RV82S3pxeW9ZYktPeW9zenVpSXhXQkpleXNqcElLYXZNXzYweDRJU1RoNXBMZW8wckFNOUlfRnJQaHlaeFVzM2FVQ0ZQMEY2UmV4VXE5VU5kOThLY2pkVVdualg2VVRWOWU5SQ?oc=5",
+   "publisher": "La conceria.it",
+   "via": "Google News Kenya",
+   "region": "africa",
+   "snippet": "",
+   "cats": [
+    "policy",
+    "general"
+   ],
+   "published": "2026-11-12T17:13+09:00",
+   "first_seen": "2026-11-13T22:32+09:00",
    "lang": "en",
    "area": "africa"
   },
