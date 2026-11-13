@@ -29,7 +29,6 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent
 DATA = ROOT / "data" / "news.json"
 TEMPLATE = ROOT / "site" / "template.html"
-COW = ROOT / "site" / "cow"                 # 牛の教科書（章の Markdown・図）
 OUT = ROOT / "docs"
 JST = timezone(timedelta(hours=9))
 KEEP_DAYS = 30
@@ -588,7 +587,7 @@ def render(items, statuses, now):
                    for k, v in AREAS.items())
     tabs += '<button class="tab tab-fav" data-area="fav">★ お気に入り<span></span></button>'
     tabs += '<a class="tab tab-board" href="board.html">📝 伝言板</a>'
-    tabs += '<a class="tab tab-board" href="cow.html" title="牛の教科書（日本語・English）">🐄 教科書</a>'
+    tabs += '<a class="tab tab-board" href="https://yusuke1090.github.io/textbooks/?b=cow" title="牛の教科書（日本語・English）">🐄 教科書</a>'
     subs = "".join(f'<button class="chip{" on" if k == "all" else ""}" data-sub="{k}">{v}<span></span></button>'
                    for k, v in SUBAREAS.items())
     langs = '<button class="chip on" data-lang="all">すべての言語<span></span></button>'
@@ -640,18 +639,6 @@ def build_rss(items, now):
             "<language>ja</language>"
             f"<lastBuildDate>{email.utils.format_datetime(now)}</lastBuildDate>"
             + "".join(entries) + "</channel></rss>\n")
-
-
-def build_cow_book():
-    """牛の教科書（site/cow/）の日本語・英語の章を、1つの cow.html に埋め込む。
-    章の順番・部・題名は site/cow/chapters.json、本文は site/cow/ja・en/*.md"""
-    chapters = json.loads((COW / "chapters.json").read_text(encoding="utf-8"))
-    for ch in chapters:
-        ch["md"] = {lang: (COW / lang / ch["file"]).read_text(encoding="utf-8") for lang in ("ja", "en")}
-    book = json.dumps({"chapters": chapters}, ensure_ascii=False).replace("</", "<\\/")
-    page = (ROOT / "site" / "cow.html").read_text(encoding="utf-8").replace("{{BOOK}}", book)
-    (OUT / "cow.html").write_text(page, encoding="utf-8")
-    shutil.copytree(COW / "images", OUT / "cow" / "images", dirs_exist_ok=True)
 
 
 # ---------------------------------------------------------------------------
@@ -709,10 +696,9 @@ def main():
     (OUT / "index.html").write_text(render(kept, statuses, now), encoding="utf-8")
     (OUT / "feed.xml").write_text(build_rss(kept, now), encoding="utf-8")
     (OUT / ".nojekyll").write_text("")
-    for name in ("board.html", "translate.js", "board-research.json"):   # そのまま公開するファイル
+    for name in ("board.html", "translate.js", "board-research.json", "cow.html"):   # そのまま公開するファイル（cow.html は教科書への移動の案内）
         (OUT / name).write_text((ROOT / "site" / name).read_text(encoding="utf-8"), encoding="utf-8")
     shutil.copytree(ROOT / "site" / "dict", OUT / "dict", dirs_exist_ok=True)   # 「🔤 訳す」の英和辞書
-    build_cow_book()                                                              # 🐄 牛の教科書
     print(f"記事 {len(kept)}件で docs/ を作りました（{now:%Y-%m-%d %H:%M} JST）")
 
 
