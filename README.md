@@ -14,9 +14,9 @@
 - カテゴリ・キーワード・24時間以内の新着で絞り込める
 - 過去30日分を表示する。サイト自身の [RSS](https://yusuke1090.github.io/smart-agri-news/feed.xml) もある
 - スマホでも見やすい。ダークモード対応
-- [📝 伝言板](https://yusuke1090.github.io/smart-agri-news/board.html) で、将来やりたいこと・アイデア・相談を書き込める
+- [📝 伝言板](https://yusuke1090.github.io/smart-agri-news/board.html) で、将来やりたいこと・アイデア・相談を書き込める（合言葉でアカウントなしでも書ける）。「やりたいこと」「アイデア」には、似たことをしている会社・製品を調べた「🔎 関連する事業」を付ける
 - 右下の「🔤 訳す」で、英単語や英文を日本語に訳せる（日本語を入れると英語に）。ページの英文を選ぶと出る「🔤 訳す」からも訳せる。調べたものは履歴に 50 件まで残る
-- 見出しの 🐄 を押すと、[🐄 牛の教科書](https://yusuke1090.github.io/smart-agri-news/cow.html)（乳牛のからだ・繁殖・エサ・乳房炎・血乳・スマート酪農など 13章と付録）が開く。日本語と英語を切り替えられる
+- 見出しの 🐄 か、タブの「🐄 教科書」を押すと、[🐄 牛の教科書](https://yusuke1090.github.io/smart-agri-news/cow.html)（乳牛のからだ・繁殖・エサ・乳房炎・血乳・スマート酪農など 13章と付録）が開く。日本語と英語を切り替えられる
 
 ## しくみ
 
@@ -94,7 +94,7 @@ python3 tools/make_dict.py /tmp/EJDict
 
 ## 牛の教科書（🐄）
 
-- ニュースの見出しの 🐄（伝言板のページの 🐄・ページの一番下のリンクからも）で開く `cow.html`
+- タブの「🐄 教科書」か、ニュースの見出しの 🐄（伝言板のページからも・ページの一番下のリンクからも）で開く `cow.html`
 - 第1部 牛のからだ／第2部 繁殖と子牛／第3部 エサ／第4部 乳と病気／第5部 牧場とスマート酪農／付録（用語集・数字の目安）
 - 上の「日本語 / English」で切り替えると、同じ章の同じ見出しの所が出る。英文は「🔤 訳す」で引ける
 - 目次（部ごと・今の章の見出し）、◀ ▶、前に読んでいた章と場所から開く（見ているブラウザの `localStorage` の `cow-book-pos`）。`cow.html#ch=9`・`cow.html#ch=9&lang=en` で章を直接開ける
@@ -106,9 +106,44 @@ python3 tools/make_dict.py /tmp/EJDict
 
 - 書き込みは GitHub の Issues に保存する。ラベル「伝言板」が付いた、開いている Issue が [board.html](https://yusuke1090.github.io/smart-agri-news/board.html) に出る
 - ページは開くたびに GitHub の API から読み込むので、書き込みはすぐに反映される（サイトの作り直しは不要）
-- 書き込むには GitHub のアカウントが必要。「＋ 書き込む」から専用のフォーム（`.github/ISSUE_TEMPLATE/board.yml`）が開き、ラベルは自動で付く
-- 編集は GitHub の Issue の画面で行う。自分の書き込みは本人が直せる。リポジトリの持ち主はすべての書き込みを直せる・消せる
+- 書き込み方は2つ。**合言葉を知っていればアカウントなし**でページの中から書ける（下の「アカウントなしの書き込み」。中継の準備ができるまでは出ない）。GitHub のアカウントがあれば「＋ 書き込む」から専用のフォーム（`.github/ISSUE_TEMPLATE/board.yml`）でも書け、ラベルは自動で付く
+- 編集は GitHub の Issue の画面で行う。GitHub で書いたものは本人が直せる。リポジトリの持ち主はすべての書き込みを直せる・消せる
 - Issue を Close すると伝言板から消える。Issues は公開なので、書き込みは誰でも読める
+
+### 🔎 関連する事業（伝言板の調べもの）
+
+- 「やりたいこと」「アイデア」の書き込みには、似たことをしている会社・製品を調べた結果を付ける。`site/board-research.json`（キーは Issue 番号）を board.html が読み、書き込みの下に「🔎 関連する事業」として折りたたんで出す（まだのものは「まだ調べていません」と出る）
+- 調べるのは、頼まれたときに Claude Code で行う（費用なし）。Claude Code に「伝言板を調べて」と頼むと、次の手順で行う
+  1. `python3 tools/board_unresearched.py` で、まだ調べていない書き込みを出す（`--all` で全部）
+  2. ウェブで調べ、**出典のページを開いて確かめられたことだけ**を書く（料金・年・数字は特に）
+  3. `site/board-research.json` に足して push する（Actions がサイトを作り直す）
+- JSON の形: `checked`（調べた日）、`summary`（全体のまとめ）、`companies`（`product`・`company`・`country`・`what`・`model`（売り方・料金）・`url`（出典））、`points`（わかったこと・差をつけられそうな所）
+
+### アカウントなしの書き込み
+
+ページのフォーム → **Google Apps Script の中継**（`tools/board-relay.gs`）→ GitHub の Issue・コメント、という流れ。中継が持ち主の GitHub のトークンで書くので、書く人はアカウントが要らない。トークンと合言葉は中継の中だけにあり、ページには出ない。
+
+- フォームからの書き込みは持ち主のアカウントで作られ、本文の「### 書いた人」（コメントは最後の「書いた人: 〜」）に名前が入る。伝言板では「名前（フォーム）」と出る
+- 荒らし対策: 合言葉（中継で確かめる）、人には見えない入力欄（ロボットよけ）、全体で 1時間に 20件まで、合言葉のまちがいが 1時間に 30回で止める。コメントは伝言板の開いている書き込みにだけ付けられる
+- 名前と合言葉は、書いた人のブラウザに覚えておく（`localStorage` の `board-name`・`board-pass`）
+
+準備（最初の1回。持ち主が行う）:
+
+1. **GitHub でトークンを作る**: Settings → Developer settings → Personal access tokens → **Fine-grained tokens** → Generate new token
+   - Repository access: **Only select repositories** → `smart-agri-news`
+   - Permissions: **Issues** を **Read and write**（ほかは要らない）
+   - 期限（Expiration）は 1年など。切れたら作り直して、下の `GITHUB_TOKEN` を差し替える
+2. **Apps Script を作る**: [script.google.com](https://script.google.com) → 新しいプロジェクト → `tools/board-relay.gs` の中身を全部貼り付けて保存（名前は「伝言板の中継」など）
+3. **秘密の値を入れる**: 左の ⚙「プロジェクトの設定」→ 一番下の「スクリプト プロパティ」に2つ足す
+   - `GITHUB_TOKEN`: 1. のトークン
+   - `PASSPHRASE`: 合言葉（書いてほしい人に伝える）
+4. **つながるか確かめる**: エディタで関数 `testGitHub` を選んで「実行」→ 初回は Google アカウントの承認 → 実行ログに「つながりました」
+5. **公開する**: 「デプロイ」→「新しいデプロイ」→ 種類 **ウェブアプリ** → 次のユーザーとして実行: **自分**、アクセスできるユーザー: **全員** → デプロイ → 出てきた URL（`https://script.google.com/macros/s/…/exec`）をコピー
+6. **ページにつなぐ**: `site/board.html` の `var RELAY_URL = "";` に 5. の URL を入れて push（Claude Code に URL を伝えてもよい）
+
+- 合言葉を変えるときは、スクリプト プロパティの `PASSPHRASE` を変えるだけ（デプロイし直さなくてよい）
+- `board-relay.gs` を直したときは「デプロイを管理」→ 鉛筆 → バージョン「新しいバージョン」→ デプロイ（URL は変わらない）
+- やめるときは「デプロイを管理」でアーカイブし、GitHub のトークンを削除する
 
 ## 手元で動かす
 
@@ -139,6 +174,9 @@ site/template.html             ページのひな形（デザインはここ）
 site/board.html                伝言板のページ（そのまま docs/ にコピーされる）
 site/cow.html                  牛の教科書のページ（build.py が章を埋め込んで docs/ に出す）
 site/cow/                      牛の教科書の章（chapters.json、ja/・en/ の Markdown、images/ の図）
+site/board-research.json       伝言板の「🔎 関連する事業」（Issue 番号ごとの調べた結果）
+tools/board-relay.gs           アカウントなしの書き込みの中継（Google Apps Script に貼って使う）
+tools/board_unresearched.py    まだ「関連する事業」を調べていない伝言板の書き込みを出す
 data/news.json                 集めた記事（過去30日分）
 docs/                          公開されるサイト（build.py が作る。手で編集しない）
 .github/workflows/update.yml   毎朝の自動更新

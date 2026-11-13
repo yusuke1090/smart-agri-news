@@ -588,6 +588,7 @@ def render(items, statuses, now):
                    for k, v in AREAS.items())
     tabs += '<button class="tab tab-fav" data-area="fav">★ お気に入り<span></span></button>'
     tabs += '<a class="tab tab-board" href="board.html">📝 伝言板</a>'
+    tabs += '<a class="tab tab-board" href="cow.html" title="牛の教科書（日本語・English）">🐄 教科書</a>'
     subs = "".join(f'<button class="chip{" on" if k == "all" else ""}" data-sub="{k}">{v}<span></span></button>'
                    for k, v in SUBAREAS.items())
     langs = '<button class="chip on" data-lang="all">すべての言語<span></span></button>'
@@ -708,7 +709,7 @@ def main():
     (OUT / "index.html").write_text(render(kept, statuses, now), encoding="utf-8")
     (OUT / "feed.xml").write_text(build_rss(kept, now), encoding="utf-8")
     (OUT / ".nojekyll").write_text("")
-    for name in ("board.html", "translate.js"):   # そのまま公開するファイル
+    for name in ("board.html", "translate.js", "board-research.json"):   # そのまま公開するファイル
         (OUT / name).write_text((ROOT / "site" / name).read_text(encoding="utf-8"), encoding="utf-8")
     shutil.copytree(ROOT / "site" / "dict", OUT / "dict", dirs_exist_ok=True)   # 「🔤 訳す」の英和辞書
     build_cow_book()                                                              # 🐄 牛の教科書

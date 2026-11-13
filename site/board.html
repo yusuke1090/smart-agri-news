@@ -76,6 +76,30 @@ main { padding-bottom: 40px; }
 .comment .who b { color: var(--text); }
 .comments .msg { padding: 8px 0; text-align: left; font-size: 13px; }
 .comments .add { display: inline-block; margin-top: 6px; font-size: 13px; color: var(--link); }
+.research { margin-top: 10px; border: 1px solid var(--border); border-radius: 10px; background: var(--bg); font-size: 13.5px; }
+.research summary { cursor: pointer; padding: 8px 12px; color: var(--link); font-weight: 700; }
+.research .rin { padding: 0 14px 10px; }
+.research ul { margin: 6px 0; padding-left: 1.3em; }
+.research li { margin: 6px 0; }
+.research .co small { display: block; color: var(--muted); font-size: 12.5px; }
+.research h4 { font-size: 13.5px; margin: 10px 0 2px; }
+.research .note2 { color: var(--muted); font-size: 12px; margin: 8px 0 0; }
+.research.none { padding: 6px 12px; color: var(--muted); font-size: 12.5px; background: none; border-style: dashed; }
+.form { background: var(--panel); border: 1px solid var(--border); border-radius: 12px; padding: 12px 14px; margin-top: 12px; }
+.form label { display: block; font-size: 13px; color: var(--muted); margin: 8px 0 2px; }
+.form input, .form select, .form textarea { width: 100%; font: inherit; font-size: 15px; padding: 6px 10px; border-radius: 8px;
+  border: 1px solid var(--border); background: var(--bg); color: var(--text); }
+.form textarea { min-height: 8em; resize: vertical; }
+.form .row { display: flex; gap: 10px; flex-wrap: wrap; }
+.form .row > div { flex: 1; min-width: 150px; }
+.form .btns { display: flex; gap: 10px; align-items: center; margin-top: 10px; flex-wrap: wrap; }
+.form button { font: inherit; font-size: 14px; font-weight: 700; padding: 7px 18px; border-radius: 999px; cursor: pointer; border: 0; background: var(--accent); color: #fff; }
+.form button.cancel { background: none; color: var(--link); font-weight: normal; border: 1px solid var(--border); }
+.form button:disabled { opacity: .6; cursor: default; }
+.form .st { font-size: 13px; }
+.form .st.err { color: var(--warn); }
+.form .hint { font-size: 12px; color: var(--muted); margin: 6px 0 0; }
+.hp { position: absolute; left: -9999px; width: 1px; height: 1px; overflow: hidden; }
 .msg { color: var(--muted); text-align: center; padding: 40px 0; }
 .msg.err { color: var(--warn); }
 .howto { font-size: 13px; color: var(--muted); }
@@ -85,7 +109,7 @@ footer { border-top: 1px solid var(--border); background: var(--panel); font-siz
 footer .wrap { padding-top: 16px; padding-bottom: 24px; }
 footer a { color: var(--link); }
 [hidden] { display: none !important; }
-@media (max-width: 380px) { .tab { padding: 7px 6px; font-size: 12.5px; } }
+@media (max-width: 430px) { .tabs { gap: 2px; } .tab { padding: 7px 4px; font-size: 12.5px; } }
 </style>
 </head>
 <body>
@@ -97,25 +121,41 @@ footer a { color: var(--link); }
       <a class="tab" href="./#overseas">🌏 海外</a>
       <a class="tab" href="./#fav">★ お気に入り</a>
       <a class="tab on" href="board.html" aria-current="page">📝 伝言板</a>
+      <a class="tab" href="cow.html" title="牛の教科書（日本語・English）">🐄 教科書</a>
     </nav>
   </div>
 </header>
 <section class="intro">
   <div class="wrap">
     <h1>📝 伝言板</h1>
-    <p class="lead">将来やりたいこと・アイデア・相談を書き込む場所です。誰でも読めます。書き込みと編集には GitHub のアカウント（無料）が必要です。</p>
+    <p class="lead" id="lead">将来やりたいこと・アイデア・相談を書き込む場所です。誰でも読めます。書き込みと編集には GitHub のアカウント（無料）が必要です。</p>
+    <p class="lead">「やりたいこと」「アイデア」には、似たことをしている会社や製品を調べた結果（🔎 関連する事業）を付けています。</p>
     <div class="actions">
+      <button class="btn" id="openForm" type="button" hidden>＋ 書き込む（アカウント不要）</button>
       <a class="btn" id="post" href="https://github.com/yusuke1090/smart-agri-news/issues/new?template=board.yml" target="_blank" rel="noopener">＋ 書き込む</a>
       <a class="btn sub" href="https://github.com/yusuke1090/smart-agri-news/issues?q=label%3A%E4%BC%9D%E8%A8%80%E6%9D%BF" target="_blank" rel="noopener">GitHub で一覧を見る</a>
     </div>
+    <form class="form" id="postForm" hidden autocomplete="off">
+      <div class="row">
+        <div><label for="fKind">種類</label>
+          <select id="fKind"><option>やりたいこと</option><option>アイデア</option><option>質問・相談</option><option>その他</option></select></div>
+        <div><label for="fName">名前（ニックネーム。空でもよい）</label><input id="fName" maxlength="30"></div>
+      </div>
+      <label for="fTitle">題名</label><input id="fTitle" maxlength="100" required>
+      <label for="fBody">内容（- で始めると箇条書き、**太字** も使えます）</label><textarea id="fBody" maxlength="5000" required></textarea>
+      <label for="fPass">合言葉</label><input id="fPass" maxlength="100" required>
+      <div class="hp" aria-hidden="true"><label>website <input id="fWeb" tabindex="-1"></label></div>
+      <p class="hint">書いた内容は誰でも見られます。個人情報は書かないでください。フォームから書いたものは自分では直せないので、直したいときはコメントで書き足してください。</p>
+      <div class="btns"><button type="submit">送る</button><button type="button" class="cancel" id="closeForm">やめる</button><span class="st" id="fSt"></span></div>
+    </form>
     <details class="howto">
       <summary>書き込み方・編集のしかた</summary>
       <ol>
-        <li>「＋ 書き込む」を押すと GitHub の書き込み画面が開きます（初めてのときはログイン・アカウント作成）</li>
-        <li>題名・種類・内容を書いて「Create」を押すと、この伝言板に出ます</li>
-        <li>直したいときは、各書き込みの「編集・コメント」から GitHub を開き、本文右上の「…」→「Edit」で直せます。自分の書き込みは自分で直せます</li>
-        <li>コメントは、各書き込みの「💬 コメントを見る」でこのページの中で読めます。コメントを書くときは「＋ コメントを書く」から GitHub を開きます</li>
-        <li>終わった・取り下げたいときは「Close」を押すと、伝言板から消えます</li>
+        <li id="howtoForm" hidden>「＋ 書き込む（アカウント不要）」を押すと、このページの中に書き込み欄が出ます。合言葉（サイトの持ち主から聞いてください）を入れて「送る」と、少しして伝言板に出ます</li>
+        <li>GitHub のアカウントがあれば「＋ 書き込む」から GitHub の書き込み画面でも書けます。題名・種類・内容を書いて「Create」を押すと、この伝言板に出ます</li>
+        <li>GitHub で書いたものは、各書き込みの「編集・コメントする」から GitHub を開き、本文右上の「…」→「Edit」で直せます</li>
+        <li>コメントは、各書き込みの「💬 コメント」でこのページの中で読めます。合言葉があれば、ここからコメントも書けます</li>
+        <li>終わった・取り下げたいときは、GitHub で「Close」を押すと、伝言板から消えます</li>
       </ol>
     </details>
   </div>
@@ -128,21 +168,32 @@ footer a { color: var(--link); }
 
 <footer>
   <div class="wrap">
-    <p>書き込みは GitHub の Issues（ラベル「伝言板」）に保存され、このページはそれを表示しています。書き込んだ内容は誰でも見られるので、個人情報は書かないでください。</p>
+    <p>書き込みは GitHub の Issues（ラベル「伝言板」）に保存され、このページはそれを表示しています。アカウントなしのフォームから書いたものは、サイトの持ち主のアカウントで保存され、書いた人の名前は本文に入ります。書き込んだ内容は誰でも見られるので、個人情報は書かないでください。</p>
+    <p>「🔎 関連する事業」は、Claude（AI）がウェブで調べてまとめたものです。調べた日の時点の内容で、まちがいや古い情報を含むことがあります。出典のページで確かめてください。</p>
     <p><a href="./">スマート農業News</a> ・ <a href="https://github.com/yusuke1090/smart-agri-news" target="_blank" rel="noopener">GitHub</a></p>
   </div>
 </footer>
 
 <script>
 (function () {
-  var API = "https://api.github.com/repos/yusuke1090/smart-agri-news/issues?state=open&per_page=100&labels="
-    + encodeURIComponent("伝言板");
+  // アカウントなしで書き込むための中継（Google Apps Script のウェブアプリの URL）。空のときはフォームを出さない
+  // 作り方は README の「アカウントなしの書き込み」。プログラムは tools/board-relay.gs
+  var RELAY_URL = "";
+  var REPO = "yusuke1090/smart-agri-news";
+  var API = "https://api.github.com/repos/" + REPO + "/issues?state=open&per_page=100&labels=" + encodeURIComponent("伝言板");
+  var FORM_NOTE = "（伝言板のフォームから）";
+  var RESEARCH_KINDS = ["やりたいこと", "アイデア"];
   var list = document.getElementById("list");
   var chipsEl = document.getElementById("chips");
-  var notes = [], current = "all";
+  var notes = [], current = "all", research = {};
+  var $ = function (id) { return document.getElementById(id); };
+  var store = {
+    get: function (k) { try { return localStorage.getItem(k) || ""; } catch (e) { return ""; } },
+    set: function (k, v) { try { localStorage.setItem(k, v); } catch (e) {} }
+  };
 
   function esc(s) {
-    return s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+    return String(s == null ? "" : s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
   }
   function inline(s) {
     s = esc(s);
@@ -174,38 +225,74 @@ footer a { color: var(--link); }
     flushPara(); closeList();
     return out.join("");
   }
-  // 書き込みフォームの形（### 種類 / ### 内容）から、種類と本文を取り出す
+  // 書き込みの形（### 種類 / ### 内容 / ### 書いた人）から、種類・本文・書いた人を取り出す
+  function section(body, name) {
+    var m = body.match(new RegExp("^###\\s*" + name + "\\s*\\n+([\\s\\S]*?)(?=\\n###\\s*(?:種類|内容|書いた人)\\s*\\n|(?![\\s\\S]))", "m"));
+    return m ? m[1].trim() : null;
+  }
   function parse(body) {
-    body = body || "";
-    var kind = "その他", content = body;
-    var mk = body.match(/^###\s*種類\s*\n+([^\n]+)/m);
-    if (mk) kind = mk[1].trim();
-    var mc = body.match(/^###\s*内容\s*\n+([\s\S]*)$/m);
-    if (mc) content = mc[1];
-    else if (mk) content = body.replace(/^###\s*種類\s*\n+[^\n]+\n*/m, "");
-    return { kind: kind, content: content.trim() };
+    body = (body || "").replace(/\r/g, "");
+    var kind = section(body, "種類"), content = section(body, "内容"), author = section(body, "書いた人");
+    if (content === null) content = kind !== null ? body.replace(/^###\s*種類\s*\n+[^\n]+\n*/m, "") : body;
+    return { kind: kind ? kind.split("\n")[0].trim() : "その他", content: content.trim(),
+             author: author ? author.replace(FORM_NOTE, "").trim() : null };
+  }
+  // フォームから書いたコメントは、最後の「書いた人: 〇〇（伝言板のフォームから）」から名前を取り出す
+  function parseComment(body) {
+    body = (body || "").replace(/\r/g, "");
+    var m = body.match(/\n*-{3,}\n書いた人: ([^\n]*)（伝言板のフォームから）\s*$/);
+    return m ? { body: body.slice(0, m.index), author: m[1].trim() } : { body: body, author: null };
   }
   function fmt(iso) {
     var d = new Date(iso);
     return d.getFullYear() + "/" + (d.getMonth() + 1) + "/" + d.getDate();
+  }
+  function fmtDay(s) {
+    var m = /^(\d{4})-(\d{2})-(\d{2})/.exec(s || "");
+    return m ? m[1] + "/" + (+m[2]) + "/" + (+m[3]) : esc(s);
+  }
+  function who(name, login) { return name ? esc(name) + "（フォーム）" : esc(login); }
+
+  // ---------- 🔎 関連する事業（board-research.json） ----------
+  function researchHtml(n) {
+    var r = research[n.num];
+    if (!r) return RESEARCH_KINDS.indexOf(n.kind) >= 0 ? '<p class="research none">🔎 関連する事業は、まだ調べていません</p>' : "";
+    var cos = (r.companies || []).map(function (c) {
+      var link = /^https?:\/\//.test(c.url || "") ? '<a href="' + esc(c.url) + '" target="_blank" rel="noopener">出典</a>' : "";
+      return '<li class="co"><b>' + esc(c.product) + "</b>（" + esc(c.company) + (c.country ? "・" + esc(c.country) : "") + "）<br>"
+        + esc(c.what) + "<small>" + (c.model ? "売り方・料金: " + esc(c.model) + (link ? " ・ " : "") : "") + link + "</small></li>";
+    }).join("");
+    var pts = (r.points || []).map(function (p) { return "<li>" + esc(p) + "</li>"; }).join("");
+    return '<details class="research"><summary>🔎 関連する事業（' + (r.companies || []).length + "件・" + fmtDay(r.checked) + " 調べ）</summary>"
+      + '<div class="rin">' + (r.summary ? "<p>" + esc(r.summary) + "</p>" : "")
+      + (cos ? "<h4>似たことをしている会社・製品</h4><ul>" + cos + "</ul>" : "")
+      + (pts ? "<h4>わかったこと・差をつけられそうな所</h4><ul>" + pts + "</ul>" : "")
+      + '<p class="note2">Claude（AI）がウェブで調べた結果です。料金や内容は変わることがあるので、出典で確かめてください。</p></div></details>';
+  }
+
+  // ---------- 一覧 ----------
+  function cLabel(n, open) {
+    return open ? "💬 コメントを閉じる ▲" : n.comments ? "💬 コメント " + n.comments + "件を見る ▼" : "💬 コメントを書く ▼";
   }
   function render() {
     var shown = notes.filter(function (n) { return current === "all" || n.kind === current; });
     if (!notes.length) { list.innerHTML = '<p class="msg">まだ書き込みはありません。「＋ 書き込む」から最初の書き込みをどうぞ。</p>'; return; }
     list.innerHTML = shown.map(function (n) {
       var edited = n.updated.slice(0, 10) !== n.created.slice(0, 10) ? " ・ " + fmt(n.updated) + " 更新" : "";
+      var i = notes.indexOf(n);
       return '<article class="note">'
         + '<span class="kind k-' + esc(n.kind) + '">' + esc(n.kind) + '</span>'
         + '<h2>' + esc(n.title) + '</h2>'
         + '<div class="body">' + md(n.content) + '</div>'
-        + '<div class="meta"><span>' + esc(n.user) + ' ・ ' + fmt(n.created) + edited + '</span>'
-        + (n.comments ? '<button class="cbtn" type="button" data-i="' + notes.indexOf(n) + '">💬 コメント ' + n.comments + '件を見る ▼</button>' : '<span>💬 コメントなし</span>')
-        + '<a href="' + esc(n.url) + '" target="_blank" rel="noopener">編集・コメントする →</a></div>'
+        + researchHtml(n)
+        + '<div class="meta"><span>' + who(n.author, n.user) + ' ・ ' + fmt(n.created) + edited + '</span>'
+        + (n.comments || RELAY_URL ? '<button class="cbtn" type="button" data-i="' + i + '">' + cLabel(n, false) + '</button>' : '<span>💬 コメントなし</span>')
+        + '<a href="' + esc(n.url) + '" target="_blank" rel="noopener">GitHub で開く →</a></div>'
         + '<div class="comments" hidden></div>'
         + '</article>';
     }).join("");
     // 長い書き込みは折りたたむ
-    list.querySelectorAll(".body").forEach(function (b) {
+    list.querySelectorAll(".note > .body").forEach(function (b) {
       if (b.scrollHeight > 330) {
         b.classList.add("fold");
         var btn = document.createElement("button");
@@ -215,17 +302,32 @@ footer a { color: var(--link); }
       }
     });
   }
-  // コメントは、ボタンを押したときだけ GitHub から読み込む（読み込みの回数制限を節約するため）
+
+  // ---------- コメント（ボタンを押したときだけ GitHub から読み込む。読み込みの回数制限を節約するため） ----------
+  function commentTail(n) {
+    var form = !RELAY_URL ? "" : '<form class="form cform" data-num="' + n.num + '" autocomplete="off">'
+      + '<label>コメント</label><textarea class="cBody" maxlength="3000" required></textarea>'
+      + '<div class="row"><div><label>名前（空でもよい）</label><input class="cName" maxlength="30"></div>'
+      + '<div><label>合言葉</label><input class="cPass" maxlength="100" required></div></div>'
+      + '<div class="hp" aria-hidden="true"><input class="cWeb" tabindex="-1"></div>'
+      + '<div class="btns"><button type="submit">コメントを送る</button><span class="st"></span></div></form>';
+    return form + '<a class="add" href="' + esc(n.url) + '#new_comment_field" target="_blank" rel="noopener">＋ GitHub でコメントを書く</a>';
+  }
+  function fillSaved(root) {
+    root.querySelectorAll("#fName, .cName").forEach(function (el) { if (!el.value) el.value = store.get("board-name"); });
+    root.querySelectorAll("#fPass, .cPass").forEach(function (el) { if (!el.value) el.value = store.get("board-pass"); });
+  }
   list.addEventListener("click", function (e) {
     var btn = e.target.closest(".cbtn"); if (!btn) return;
     var n = notes[+btn.dataset.i];
     var box = btn.closest(".note").querySelector(".comments");
-    if (!box.hidden) { box.hidden = true; btn.textContent = "💬 コメント " + n.comments + "件を見る ▼"; return; }
+    if (!box.hidden) { box.hidden = true; btn.textContent = cLabel(n, false); return; }
     box.hidden = false;
-    btn.textContent = "💬 コメントを閉じる ▲";
+    btn.textContent = cLabel(n, true);
     if (box.dataset.loaded) return;
+    if (!n.comments) { box.dataset.loaded = "1"; box.innerHTML = commentTail(n); fillSaved(box); return; }
     box.innerHTML = '<p class="msg">読み込み中…</p>';
-    fetch(n.curl + "?per_page=100", { headers: { Accept: "application/vnd.github+json" } })
+    fetch(n.curl + "?per_page=100", { headers: { Accept: "application/vnd.github+json" }, cache: "no-cache" })
       .then(function (r) {
         if (!r.ok) throw new Error(r.status === 403 ? "読み込みの回数制限にかかりました。しばらくしてから開き直してください。" : "読み込めませんでした（" + r.status + "）");
         return r.json();
@@ -233,23 +335,83 @@ footer a { color: var(--link); }
       .then(function (cs) {
         box.dataset.loaded = "1";
         box.innerHTML = cs.map(function (c) {
+          var p = parseComment(c.body);
           var edited = c.updated_at.slice(0, 10) !== c.created_at.slice(0, 10) ? " ・ " + fmt(c.updated_at) + " 更新" : "";
-          return '<div class="comment"><div class="who"><b>' + esc(c.user.login) + '</b> ・ ' + fmt(c.created_at) + edited + '</div>'
-            + '<div class="body">' + md(c.body || "") + '</div></div>';
-        }).join("") + '<a class="add" href="' + esc(n.url) + '#new_comment_field" target="_blank" rel="noopener">＋ コメントを書く（GitHub）</a>';
+          return '<div class="comment"><div class="who"><b>' + who(p.author, c.user.login) + '</b> ・ ' + fmt(c.created_at) + edited + '</div>'
+            + '<div class="body">' + md(p.body) + '</div></div>';
+        }).join("") + commentTail(n);
+        fillSaved(box);
       })
       .catch(function (err) {
         box.innerHTML = '<p class="msg err">' + esc(err.message) + '</p>';
       });
   });
 
+  // ---------- アカウントなしの書き込み（中継に送ると、GitHub の Issue・コメントになる） ----------
+  function send(payload, st, btn) {
+    st.className = "st"; st.textContent = "送っています…"; btn.disabled = true;
+    return fetch(RELAY_URL, { method: "POST", headers: { "Content-Type": "text/plain;charset=utf-8" }, body: JSON.stringify(payload) })
+      .then(function (r) { return r.json(); })
+      .then(function (res) {
+        btn.disabled = false;
+        if (!res || !res.ok) throw new Error((res && res.error) || "送れませんでした");
+        store.set("board-name", payload.name);
+        store.set("board-pass", payload.passphrase);
+        return res;
+      })
+      .catch(function (err) {
+        btn.disabled = false;
+        st.className = "st err";
+        st.textContent = /fetch|network|load failed|json/i.test(err.message) ? "送れませんでした。通信を確かめて、もう一度お試しください" : err.message;
+        throw err;
+      });
+  }
+  if (RELAY_URL) {
+    var postForm = $("postForm");
+    $("openForm").hidden = false;
+    $("howtoForm").hidden = false;
+    $("post").classList.add("sub");
+    $("post").textContent = "GitHub で書き込む";
+    $("lead").textContent = "将来やりたいこと・アイデア・相談を書き込む場所です。誰でも読めます。合言葉を知っていれば、アカウントなしで書き込めます（GitHub のアカウントでも書けます）。";
+    $("openForm").onclick = function () {
+      postForm.hidden = !postForm.hidden;
+      if (!postForm.hidden) { fillSaved(postForm); $("fTitle").focus(); }
+    };
+    $("closeForm").onclick = function () { postForm.hidden = true; };
+    postForm.addEventListener("submit", function (e) {
+      e.preventDefault();
+      var btn = postForm.querySelector("button[type=submit]"), st = $("fSt");
+      send({ action: "issue", kind: $("fKind").value, name: $("fName").value.trim(), title: $("fTitle").value.trim(),
+             content: $("fBody").value.trim(), passphrase: $("fPass").value.trim(), website: $("fWeb").value }, st, btn)
+        .then(function () {
+          st.textContent = "書き込みました。伝言板に出るまで少しかかることがあります";
+          $("fTitle").value = ""; $("fBody").value = "";
+          setTimeout(function () { postForm.hidden = true; st.textContent = ""; load(); }, 2500);
+        }, function () {});
+    });
+    list.addEventListener("submit", function (e) {
+      var f = e.target.closest(".cform"); if (!f) return;
+      e.preventDefault();
+      var btn = f.querySelector("button[type=submit]"), st = f.querySelector(".st");
+      send({ action: "comment", number: +f.dataset.num, name: f.querySelector(".cName").value.trim(),
+             content: f.querySelector(".cBody").value.trim(), passphrase: f.querySelector(".cPass").value.trim(),
+             website: f.querySelector(".cWeb").value }, st, btn)
+        .then(function () {
+          st.textContent = "コメントしました。出るまで少しかかることがあります";
+          f.querySelector(".cBody").value = "";
+          setTimeout(load, 2500);
+        }, function () {});
+    });
+  }
+
   function renderChips() {
     var counts = {};
     notes.forEach(function (n) { counts[n.kind] = (counts[n.kind] || 0) + 1; });
     var kinds = Object.keys(counts);
     if (kinds.length < 2) return;
-    chipsEl.innerHTML = ['<button class="chip on" data-k="all">すべて<span>' + notes.length + '</span></button>']
-      .concat(kinds.map(function (k) { return '<button class="chip" data-k="' + esc(k) + '">' + esc(k) + '<span>' + counts[k] + '</span></button>'; }))
+    if (current !== "all" && !counts[current]) current = "all";
+    chipsEl.innerHTML = ['<button class="chip' + (current === "all" ? " on" : "") + '" data-k="all">すべて<span>' + notes.length + '</span></button>']
+      .concat(kinds.map(function (k) { return '<button class="chip' + (current === k ? " on" : "") + '" data-k="' + esc(k) + '">' + esc(k) + '<span>' + counts[k] + '</span></button>'; }))
       .join("");
     chipsEl.hidden = false;
     chipsEl.onclick = function (e) {
@@ -260,23 +422,30 @@ footer a { color: var(--link); }
     };
   }
 
-  fetch(API, { headers: { Accept: "application/vnd.github+json" } })
-    .then(function (r) {
-      if (!r.ok) throw new Error(r.status === 403 ? "読み込みの回数制限にかかりました。しばらくしてから開き直してください。" : "読み込めませんでした（" + r.status + "）");
-      return r.json();
-    })
-    .then(function (data) {
-      notes = data.filter(function (i) { return !i.pull_request; }).map(function (i) {
-        var p = parse(i.body);
-        return { title: i.title, kind: p.kind, content: p.content, user: i.user.login,
-                 created: i.created_at, updated: i.updated_at, comments: i.comments, url: i.html_url, curl: i.comments_url };
+  function load() {
+    return fetch(API, { headers: { Accept: "application/vnd.github+json" }, cache: "no-cache" })
+      .then(function (r) {
+        if (!r.ok) throw new Error(r.status === 403 ? "読み込みの回数制限にかかりました。しばらくしてから開き直してください。" : "読み込めませんでした（" + r.status + "）");
+        return r.json();
+      })
+      .then(function (data) {
+        notes = data.filter(function (i) { return !i.pull_request; }).map(function (i) {
+          var p = parse(i.body);
+          return { num: i.number, title: i.title, kind: p.kind, content: p.content, author: p.author, user: i.user.login,
+                   created: i.created_at, updated: i.updated_at, comments: i.comments, url: i.html_url, curl: i.comments_url };
+        });
+        renderChips();
+        render();
+      })
+      .catch(function (e) {
+        list.innerHTML = '<p class="msg err">' + esc(e.message) + '<br><a href="https://github.com/' + REPO + '/issues?q=label%3A%E4%BC%9D%E8%A8%80%E6%9D%BF" target="_blank" rel="noopener">GitHub で直接見る</a></p>';
       });
-      renderChips();
-      render();
-    })
-    .catch(function (e) {
-      list.innerHTML = '<p class="msg err">' + esc(e.message) + '<br><a href="https://github.com/yusuke1090/smart-agri-news/issues?q=label%3A%E4%BC%9D%E8%A8%80%E6%9D%BF" target="_blank" rel="noopener">GitHub で直接見る</a></p>';
-    });
+  }
+  fetch("board-research.json", { cache: "no-cache" })
+    .then(function (r) { return r.ok ? r.json() : {}; })
+    .then(function (j) { research = (j && j.items) || {}; })
+    .catch(function () {})
+    .then(load);
 })();
 </script>
 <script src="translate.js" defer></script>
