@@ -14,6 +14,8 @@
 - To start making milk, the cow suddenly needs a lot of **energy** and **calcium**. But around calving she eats less, so she runs short
 - Many diseases happen at this time, and one disease often leads to another (for example: milk fever → retained placenta → metritis, or ketosis → displaced abomasum)
 
+![The energy gap around calving](images/transition.svg)
+
 ## Main transition diseases
 
 | Disease | Japanese | What happens | Signs |
@@ -51,6 +53,8 @@
 
 - Cows are weak in hot weather, because rumen fermentation and milk production make a lot of heat inside the body
 - When the **THI** (temperature-humidity index, 温湿度指数), calculated from temperature and humidity, goes above 68–72, cows start to be affected
+
+![THI from temperature and humidity (heat stress guide)](images/thi.svg)
 
 | Sign | Description |
 | --- | --- |

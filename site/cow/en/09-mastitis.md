@@ -26,11 +26,15 @@
 
 ### CMT (California Mastitis Test)
 
+![How to read the CMT](images/cmt.svg)
+
 - Squeeze a little milk from each quarter into a paddle with four cups and mix it with the test liquid
 - If there are many somatic cells, the mixture becomes a thick gel. How thick it gets shows how bad it is
 - It is a quick test you can do on the farm. In Japan it is called the PL test (PL テスト)
 
 ## The bacteria that cause it
+
+![How contagious and environmental mastitis spread](images/mastitis-routes.svg)
 
 | Group | Example bacteria | Where they live | How they spread |
 | --- | --- | --- | --- |

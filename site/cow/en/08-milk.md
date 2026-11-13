@@ -10,6 +10,8 @@
 
 ## The structure of the udder
 
+![The udder: four quarters, and inside one quarter](images/udder.svg)
+
 - The **udder** (乳房) is divided into **four quarters** (分房): front left, front right, rear left and rear right
 - Each quarter is separate, and their milk does not mix. Mastitis also happens quarter by quarter (Chapter 9)
 - The rear quarters are bigger and give about 60% of the milk
@@ -30,6 +32,8 @@
 
 ## How milk comes out
 
+![Oxytocin after the teats are stimulated](images/letdown.svg)
+
 - When the teats are stimulated, the brain releases a hormone called **oxytocin** (オキシトシン). It makes the muscles around the alveoli squeeze, pushing the milk out (**milk let-down**, 射乳)
 - Oxytocin takes about a minute to start working and lasts only a few minutes. So attach the milking unit **60–90 seconds after** stimulating the teats for the best milking
 - If a cow is scared or in pain, adrenaline blocks oxytocin and milk does not come out well. Milking **quietly, with the same routine every time**, is important
@@ -48,6 +52,8 @@
 - Milk is cooled right away in a bulk tank (to about 4 °C)
 
 ## Milk components
+
+![What is in 100 g of milk](images/milk-composition.svg)
 
 | Component | Japanese | Typical for Holsteins | What changes it |
 | --- | --- | --- | --- |

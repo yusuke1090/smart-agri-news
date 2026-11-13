@@ -41,6 +41,8 @@
 - Ovulation happens about 10–12 hours after heat ends
 - Heat often starts at night, so it is easy to miss
 
+![Daily steps from a collar: heat comes every 21 days](images/heat-activity.svg)
+
 ### Signs of heat
 
 | Sign | Japanese | Description |

@@ -66,6 +66,8 @@
 - If a cow eats a lot of grain (concentrate) suddenly → starch ferments fast and makes a lot of acid → the rumen pH falls
 - Normal rumen pH is 6–7. When it stays below 5.8 for long periods, it is **subacute rumen acidosis** (SARA). Below 5.0 it is acute and can kill the cow
 
+![Rumen pH over a day, by feeding method](images/rumen-ph.svg)
+
 | Sign | Reason |
 | --- | --- |
 | Eats unevenly, ruminates less | The rumen is not working well |

@@ -101,6 +101,9 @@ python3 tools/make_dict.py /tmp/EJDict
 - 本文は `site/cow/ja/*.md` と `site/cow/en/*.md`（同じファイル名で、**見出しの数と順番をそろえる**。切り替えのときに見出しの番号で場所を合わせるため）。章の順番・部・題名は `site/cow/chapters.json`、図は `site/cow/images/`（日本語と英語を並べて書いた SVG）
 - `build.py` が全部の章を `docs/cow.html` に埋め込む（ページを開いたら、ほかに読み込まずに表示できる）。`site/` の中の `.md` を直して push しても、サイトが作り直される
 - 書ける書式: 見出し（`#`〜`####`）、段落、箇条書き（2文字下げで入れ子）、番号付きの手順、表、引用（`>`、注意書き）、画像、**太字**、リンク、`コード`
+- 1行だけの画像（`![説明](images/名前.svg)`）は図になり、下に「図 9-1 説明」（英語版は「Fig. 9-1」）が自動で付く。日本語と英語で、同じ図を同じ順番に入れる。図を押すと大きく表示する（スマホでは横にずらしたり、指で拡大したりできる）
+- 図は24枚。グラフと絵の19枚は `python3 tools/make_cow_figures.py` で作る（数値は本文の目安から作ったイメージ）。直すときはこのスクリプトを直して作り直す。残りの5枚（胃・1年1産・エサの種類・サイレージの作り方・大腸菌の乳房炎）は SVG を直接書いている
+- 目次は、章の ▶ で小見出しが開き、押すとその見出しの所へ移る（今の章は最初から開いている）
 
 ## 伝言板
 
@@ -177,6 +180,7 @@ site/cow/                      牛の教科書の章（chapters.json、ja/・en/
 site/board-research.json       伝言板の「🔎 関連する事業」（Issue 番号ごとの調べた結果）
 tools/board-relay.gs           アカウントなしの書き込みの中継（Google Apps Script に貼って使う）
 tools/board_unresearched.py    まだ「関連する事業」を調べていない伝言板の書き込みを出す
+tools/make_cow_figures.py      牛の教科書のグラフと絵（SVG）を作る
 data/news.json                 集めた記事（過去30日分）
 docs/                          公開されるサイト（build.py が作る。手で編集しない）
 .github/workflows/update.yml   毎朝の自動更新

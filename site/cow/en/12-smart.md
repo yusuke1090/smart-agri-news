@@ -10,6 +10,8 @@
 
 ## A cow's day
 
+![How a cow spends 24 hours](images/cow-day.svg)
+
 | Activity | Typical time per day |
 | --- | --- |
 | Lying down and resting | 10–14 hours |
@@ -46,6 +48,8 @@
 - The shortage of workers is a big reason smart dairy farming is spreading
 
 ## Sensors and robots
+
+![Where sensors and cameras go](images/sensors.svg)
 
 | Technology | Japanese | What it measures or does | What it tells us |
 | --- | --- | --- | --- |

@@ -15,6 +15,8 @@
 
 ## Why blood gets into milk
 
+![How blood gets into milk, and the main causes](images/blood-milk.svg)
+
 Milk is made from blood (Chapter 8). Many very thin blood vessels (capillaries) run around the milk-making tissue. **When these vessels break, blood gets into the milk.** There are five main reasons they break.
 
 ### 1. Right after calving (the most common)

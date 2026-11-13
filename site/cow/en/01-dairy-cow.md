@@ -32,6 +32,8 @@ The numbers in this book are for Holsteins.
 
 ## Holsteins in numbers
 
+![The body of a dairy cow (Holstein)](images/cow-parts.svg)
+
 | Item | Typical value |
 | --- | --- |
 | Body weight (adult female) | 600–700 kg |
@@ -47,6 +49,8 @@ The numbers in this book are for Holsteins.
 Milk yield is often counted over 305 days after one calving (the "305-day yield").
 
 ## The life of a dairy cow
+
+![The life of a dairy cow: calving, milking and dry periods](images/cow-life.svg)
 
 | Stage | Typical age | What happens |
 | --- | --- | --- |

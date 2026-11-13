@@ -42,6 +42,8 @@
 
 ## Timothy and alfalfa compared
 
+![Protein and calcium in timothy and alfalfa](images/timothy-alfalfa.svg)
+
 | | Timothy | Alfalfa |
 | --- | --- | --- |
 | Japanese | チモシー | アルファルファ |
@@ -74,6 +76,8 @@
 - Rain washes out nutrients and makes mold more likely. Japan has a lot of rain, so making hay is hard. Farmers often dry grass only a little and make silage instead (wrapped bale silage, Chapter 7)
 
 ## When to cut
+
+![Cutting time, yield and quality](images/cutting-time.svg)
 
 | Cutting time | Nutrients | Amount |
 | --- | --- | --- |

@@ -22,6 +22,8 @@
 - Calves are born with no antibodies (in cattle, antibodies cannot pass from the mother through the placenta). **A calf gets its first protection against disease from colostrum**
 - The gut can absorb antibodies whole for only about 24 hours after birth. Absorption gets worse every hour
 
+![Time after birth and the ability to absorb antibodies](images/colostrum.svg)
+
 | Key point | Guide |
 | --- | --- |
 | Quickly | Within 2 hours after birth (6 hours at the latest) |

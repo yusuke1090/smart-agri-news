@@ -40,14 +40,19 @@ header .wrap { display: flex; align-items: center; gap: 10px; padding-top: 10px;
 #tocBtn .t { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 #tocBtn .caret { color: var(--muted); font-size: 12px; }
 .toc { position: absolute; left: 0; right: 0; top: 100%; z-index: 11; }
-.toc .wrap { padding-top: 0; }
+.toc .wrap { display: block; padding-top: 0; }
 .toc-in { background: var(--panel); border: 1px solid var(--border); border-radius: 0 0 12px 12px; box-shadow: 0 10px 30px rgba(0,0,0,.18);
   max-height: min(70vh, 640px); overflow: auto; padding: 6px 0 10px; }
 .toc h3 { font-size: 12px; color: var(--muted); margin: 10px 16px 2px; font-weight: 700; letter-spacing: .03em; }
-.toc .ch { display: block; width: 100%; text-align: left; font: inherit; font-size: 14.5px; padding: 6px 16px; border: 0; background: none; color: var(--text); cursor: pointer; }
-.toc .ch:hover { background: var(--bg); }
-.toc .ch.on { color: var(--accent); font-weight: 700; }
-.toc .sub { display: block; width: 100%; text-align: left; font: inherit; font-size: 13px; padding: 3px 16px 3px 34px; border: 0; background: none; color: var(--muted); cursor: pointer; }
+.toc .row { display: flex; align-items: center; }
+.toc .row:hover { background: var(--bg); }
+.toc .tg { flex: none; width: 34px; height: 34px; margin-left: 6px; border: 0; border-radius: 6px; background: none;
+  color: var(--muted); font-size: 11px; cursor: pointer; }
+.toc .tg:hover { color: var(--text); background: var(--th); }
+.toc .ch { flex: 1; min-width: 0; text-align: left; font: inherit; font-size: 14.5px; padding: 6px 16px 6px 2px; border: 0; background: none; color: var(--text); cursor: pointer; }
+.toc .row.on .ch { color: var(--accent); font-weight: 700; }
+.toc .subs { padding: 0 0 6px; }
+.toc .sub { display: block; width: 100%; text-align: left; font: inherit; font-size: 13.5px; padding: 4px 16px 4px 48px; border: 0; background: none; color: var(--muted); cursor: pointer; }
 .toc .sub:hover { color: var(--text); background: var(--bg); }
 main { padding-bottom: 30px; }
 #body h1 { font-size: 24px; line-height: 1.5; margin: 26px 0 10px; }
@@ -61,6 +66,18 @@ main { padding-bottom: 30px; }
 #body a { color: var(--link); }
 #body code { font-family: ui-monospace, Menlo, Consolas, monospace; font-size: .9em; background: var(--th); padding: 1px 5px; border-radius: 4px; }
 #body img { display: block; max-width: 100%; height: auto; margin: 14px auto; border-radius: 10px; border: 1px solid var(--border); }
+#body figure { margin: 20px 0 22px; }
+#body figure img { margin: 0 auto; }
+#body figcaption { margin-top: 7px; font-size: 13px; line-height: 1.6; color: var(--muted); text-align: center; }
+#body figcaption b { color: var(--text); margin-right: 6px; }
+#body figure img { cursor: zoom-in; }
+@media (max-width: 600px) { #body figcaption::after { content: attr(data-zoom); color: var(--link); white-space: nowrap; } }
+.zoom { position: fixed; inset: 0; z-index: 30; background: rgba(0, 0, 0, .93); overflow: auto; -webkit-overflow-scrolling: touch; }
+.zoom img { display: block; width: 820px; max-width: none; margin: 60px auto 14px; border-radius: 10px; background: #fff; }
+@media (min-width: 900px) { .zoom img { width: min(1200px, 94vw); } }
+.zoom p { margin: 0 16px 28px; color: #eee; font-size: 13px; text-align: center; }
+.zoom .x { position: fixed; top: 10px; right: 12px; z-index: 31; font: inherit; font-size: 14px; font-weight: 700; padding: 7px 16px;
+  border: 0; border-radius: 999px; background: #fff; color: #111; cursor: pointer; }
 .tbl { overflow-x: auto; margin: 10px 0 14px; -webkit-overflow-scrolling: touch; }
 #body table { border-collapse: collapse; font-size: 14px; line-height: 1.6; min-width: 100%; }
 #body th, #body td { border: 1px solid var(--border); padding: 6px 10px; vertical-align: top; text-align: left; }
@@ -151,8 +168,13 @@ footer a { color: var(--link); }
     text = text.replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>");
     return text.replace(/\u0000(\d+)\u0000/g, function (_, i) { return "<code>" + esc(codes[i]) + "</code>"; });
   }
-  function render(src) {
-    var lines = src.replace(/\r\n/g, "\n").split("\n"), out = [], i = 0, m;
+  // 図の番号の頭（「図 9-1」の 9、付録なら A）
+  function figPrefix(ch) {
+    var m = ch.title.ja.match(/^(\d+)\./) || ch.title.ja.match(/^付録([A-Z])/);
+    return m ? m[1] : "";
+  }
+  function render(src, prefix, lang) {
+    var lines = src.replace(/\r\n/g, "\n").split("\n"), out = [], i = 0, m, fig = 0;
     var isSep = function (l) { return /^\s*\|?\s*:?-{3,}:?\s*(\|\s*:?-{3,}:?\s*)*\|?\s*$/.test(l); };
     var cells = function (l) {
       return l.trim().replace(/^\|/, "").replace(/(?<!\\)\|$/, "").split(/(?<!\\)\|/)
@@ -162,7 +184,13 @@ footer a { color: var(--link); }
       var line = lines[i];
       if (!line.trim()) { i++; continue; }
       if ((m = line.match(/^(#{1,4})\s+(.*)$/))) { out.push("<h" + m[1].length + ">" + inline(m[2]) + "</h" + m[1].length + ">"); i++; continue; }
-      if ((m = line.match(/^\s*!\[([^\]]*)\]\(([^)\s]+)\)\s*$/))) { out.push(inline(line.trim())); i++; continue; }
+      if ((m = line.match(/^\s*!\[([^\]]*)\]\(([^)\s]+)\)\s*$/))) {   // 1行だけの画像は、番号と説明の付いた図にする
+        fig++;
+        var label = (lang === "en" ? "Fig. " : "図 ") + (prefix ? prefix + "-" : "") + fig;
+        out.push('<figure><img src="' + esc(url(m[2])) + '" alt="' + esc(m[1]) + '" loading="lazy">'
+          + '<figcaption data-zoom="' + (lang === "en" ? "  🔍 tap to zoom" : "　🔍 押すと拡大") + '"><b>' + label + "</b>" + inline(m[1]) + "</figcaption></figure>");
+        i++; continue;
+      }
       if (line.trim().charAt(0) === "|" && i + 1 < lines.length && isSep(lines[i + 1])) {
         var head = cells(line), rows = [];
         i += 2;
@@ -252,7 +280,7 @@ footer a { color: var(--link); }
     $("chTitle").textContent = ch.title[state.lang];
     $("prev").disabled = state.idx === 0;
     $("next").disabled = state.idx === chapters.length - 1;
-    body.innerHTML = render(ch.md[state.lang]);
+    body.innerHTML = render(ch.md[state.lang], figPrefix(ch), state.lang);
     var prev = chapters[state.idx - 1], next = chapters[state.idx + 1];
     $("pager").innerHTML =
       (prev ? '<button type="button" data-go="' + (state.idx - 1) + '"><small>◀ ' + esc(t("prev")) + "</small>" + esc(prev.title[state.lang]) + "</button>" : "") +
@@ -280,25 +308,40 @@ footer a { color: var(--link); }
   }
 
   // ---------- 目次 ----------
+  // 目次: 章ごとに ▶ で開くと、その章の見出し（##）が並ぶ。今の章は最初から開いておく
+  var openSet = {};
+  function outline(ch) {
+    var res = [], n = 0;   // n は、ページの見出し（h1〜h4）の中での番号。goAnchor にそのまま渡せる
+    ch.md[state.lang].split("\n").forEach(function (l) {
+      var m = l.match(/^(#{1,4})\s+(.*)$/);
+      if (!m) return;
+      if (m[1].length === 2) res.push({ h: n, text: m[2].replace(/\*\*/g, "") });
+      n++;
+    });
+    return res;
+  }
   function buildToc() {
-    var html = "", part = "";
+    var html = "", part = "", open = state.lang === "en" ? "Open" : "開く", shut = state.lang === "en" ? "Close" : "閉じる";
     chapters.forEach(function (c, i) {
       if (c.part[state.lang] !== part) { part = c.part[state.lang]; html += "<h3>" + esc(part) + "</h3>"; }
-      html += '<button type="button" class="ch' + (i === state.idx ? " on" : "") + '" data-go="' + i + '">' + esc(c.title[state.lang]) + "</button>";
-      if (i === state.idx) {
-        body.querySelectorAll("h2").forEach(function (h) {
-          var n = headings().indexOf(h);
-          html += '<button type="button" class="sub" data-h="' + n + '">' + esc(h.textContent) + "</button>";
-        });
+      var on = !!openSet[i];
+      html += '<div class="row' + (i === state.idx ? " on" : "") + '">'
+        + '<button type="button" class="tg" data-tg="' + i + '" aria-expanded="' + on + '" aria-label="' + (on ? shut : open) + '">' + (on ? "▼" : "▶") + "</button>"
+        + '<button type="button" class="ch" data-go="' + i + '">' + esc(c.title[state.lang]) + "</button></div>";
+      if (on) {
+        html += '<div class="subs">' + outline(c).map(function (o) {
+          return '<button type="button" class="sub" data-go="' + i + '" data-h="' + o.h + '">' + esc(o.text) + "</button>";
+        }).join("") + "</div>";
       }
     });
     $("tocIn").innerHTML = html;
   }
   function openToc() {
+    openSet[state.idx] = true;
     buildToc();
     $("toc").hidden = false;
     $("tocBtn").setAttribute("aria-expanded", "true");
-    var on = $("tocIn").querySelector(".ch.on");
+    var on = $("tocIn").querySelector(".row.on");
     if (on) $("tocIn").scrollTop = Math.max(0, on.offsetTop - 60);
   }
   function closeToc() { $("toc").hidden = true; $("tocBtn").setAttribute("aria-expanded", "false"); }
@@ -307,15 +350,43 @@ footer a { color: var(--link); }
   $("tocIn").addEventListener("click", function (e) {
     var b = e.target.closest("button");
     if (!b) return;
-    if (b.dataset.go) show(+b.dataset.go, state.lang, null);
-    else if (b.dataset.h) { closeToc(); goAnchor({ h: +b.dataset.h, r: 0 }); savePos(); }
+    if (b.dataset.tg) {                               // ▶ ▼ で開く・閉じる（目次は開いたまま）
+      var k = +b.dataset.tg, top = $("tocIn").scrollTop;
+      openSet[k] = !openSet[k];
+      buildToc();
+      $("tocIn").scrollTop = top;
+      return;
+    }
+    var go = +b.dataset.go, pos = b.dataset.h ? { h: +b.dataset.h, r: 0 } : null;
+    if (go === state.idx && pos) { closeToc(); goAnchor(pos); savePos(); }
+    else show(go, state.lang, pos);
   });
   document.addEventListener("click", function (e) {
-    if (!$("toc").hidden && !e.target.closest(".bar")) closeToc();
+    // 目次の外を押したら閉じる（▶ で目次を作り直したときは、押したボタンがもうページにないので除く）
+    if (!$("toc").hidden && e.target.isConnected && !e.target.closest(".bar")) closeToc();
     var g = e.target.closest("#pager [data-go]");
     if (g) show(+g.dataset.go, state.lang, null);
   });
-  document.addEventListener("keydown", function (e) { if (e.key === "Escape") closeToc(); });
+  document.addEventListener("keydown", function (e) { if (e.key === "Escape") { closeToc(); closeZoom(); } });
+
+  // 図を押すと、大きく表示する（スマホでは横にずらしたり、2本の指で拡大したりできる）
+  var zoomEl = null;
+  function closeZoom() { if (zoomEl) { zoomEl.remove(); zoomEl = null; document.body.style.overflow = ""; } }
+  body.addEventListener("click", function (e) {
+    var img = e.target.closest("figure img");
+    if (!img) return;
+    var cap = img.parentNode.querySelector("figcaption");
+    zoomEl = document.createElement("div");
+    zoomEl.className = "zoom";
+    zoomEl.innerHTML = '<button type="button" class="x">✕ ' + (state.lang === "en" ? "Close" : "閉じる") + "</button>"
+      + '<img src="' + esc(img.getAttribute("src")) + '" alt="' + esc(img.alt) + '">'
+      + "<p>" + (cap ? "<b>" + esc(cap.querySelector("b").textContent) + "</b>　" + esc(cap.textContent.slice(cap.querySelector("b").textContent.length)) : "") + "<br>"
+      + (state.lang === "en" ? "Scroll sideways, or pinch with two fingers to zoom." : "横にずらしたり、2本の指で広げて拡大したりできます。") + "</p>";
+    zoomEl.addEventListener("click", function (ev) { if (ev.target === zoomEl || ev.target.closest(".x")) closeZoom(); });
+    document.body.appendChild(zoomEl);
+    document.body.style.overflow = "hidden";
+    zoomEl.scrollLeft = 0;
+  });
   $("prev").addEventListener("click", function () { show(state.idx - 1, state.lang, null); });
   $("next").addEventListener("click", function () { show(state.idx + 1, state.lang, null); });
   document.querySelectorAll(".langs button").forEach(function (b) {

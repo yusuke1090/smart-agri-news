@@ -24,6 +24,8 @@
 3. When the lactic acid brings the pH down to **about 4**, spoilage bacteria can no longer grow, and the silage becomes stable (3–6 weeks)
 4. As long as no air gets in, it keeps for many months
 
+![How pH falls after the silo is sealed](images/silage-ph.svg)
+
 There are three keys to good silage:
 
 - **Keep air out**: chop finely, pack it down hard, and seal it quickly

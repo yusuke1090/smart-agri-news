@@ -76,6 +76,8 @@
 | NDF (neutral detergent fiber) | NDF | The amount of fiber. Too much makes feed bulky so cows eat less. Too little causes acidosis |
 | Forage-to-concentrate ratio | 粗濃比 | The share of roughage and concentrate (on a dry matter basis). About 50:50 for high-yielding cows. Concentrate should not go above about 60% |
 
+![Dry matter and water in 10 kg of feed](images/dry-matter.svg)
+
 Typical moisture: hay 10–15%, silage 60–70%, compound feed 12–13%. For example, 10 kg of silage with 65% moisture is 3.5 kg of dry matter.
 
 ## Summary
