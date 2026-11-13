@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T21:55+09:00",
+ "updated": "2026-11-13T22:14+09:00",
  "sources": [
   {
    "name": "日本農業新聞",
@@ -114,7 +114,7 @@
   {
    "name": "Google News \"smart farming\"",
    "ok": true,
-   "count": 56
+   "count": 55
   },
   {
    "name": "Google News \"dairy tech\"",
@@ -133,8 +133,8 @@
   },
   {
    "name": "Kilimo News（ケニア）",
-   "ok": false,
-   "count": 0
+   "ok": true,
+   "count": 30
   },
   {
    "name": "Smart Farmer Kenya",
@@ -164,12 +164,12 @@
   {
    "name": "Google News Kenya",
    "ok": true,
-   "count": 63
+   "count": 62
   },
   {
    "name": "Google News Tanzania",
    "ok": true,
-   "count": 41
+   "count": 40
   },
   {
    "name": "Google News Africa agritech",
@@ -662,6 +662,21 @@
    "area": "japan"
   },
   {
+   "title": "価値高めた新しい製品製造に意欲・明治HD",
+   "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1BWXZfVzZDclR1OVQyaktteWZUSnJEaDBYMzlEa011Q0FqTDRnR0RZdlBIaE9Gakc0cW50RzY3V05fdHJvaHlublpYUXM?oc=5",
+   "publisher": "酪農乳業速報",
+   "via": "Google ニュース「酪農」",
+   "region": "jp",
+   "snippet": "",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-11-13T16:00+09:00",
+   "first_seen": "2026-11-13T22:14+09:00",
+   "lang": "ja",
+   "area": "japan"
+  },
+  {
    "title": "𝐊𝐀𝐋𝐑𝐎, 𝐊𝐢𝐚𝐦𝐛𝐮 𝐞𝐱𝐩𝐚𝐧𝐝 𝐩𝐥𝐚𝐧𝐭 𝐡𝐞𝐚𝐥𝐭𝐡 𝐚𝐜𝐜𝐞𝐬𝐬 𝐟𝐨𝐫 𝐟𝐚𝐫𝐦𝐞𝐫𝐬 Smallholder farmers in Kiambu County have received hands-on agricultural advisory and crop diagnostic support during a specialized Plant Clinic held at Limuru Market. The outrea",
    "link": "https://news.google.com/rss/articles/CBMi4wZBVV95cUxOLV90a1IwdUtmNFE1QTNWZWhmelluSDVEZlNEejRZLW1UUU1PeGZlVDhWYlZsbkpibXJQSVg3NU1MUXFSdDlZSVNxZGYyUXNQdEQ4aFJIaFd4NjZWbGdnbzNQOUs4VHlaZEtFX1UyY2RVQkh4V1JNQms3cFpGZUpuOWFSSjVES1JyN1h3RC1fV0NTTWoteU04ZDJBWGZKMHBTY1BHZXVGZFFhbC1rVExJRjJ4T0Roa0JpYzhXNTN5THRaaWhTNXN4ekx3Sm9yaHUxYThieUk3OE5wRzFOTUdsSUVJTEtGNXc3VkNjeGQ4Wk1IZGtRSi1IaWlHUE5XWHRDb1RoMWxDdDBOVjR0azJIa1BmSF9WN0FQZUo1dG5LTU1HVHpXd2RHSGZCQjU0TEFVU1R1STFhdFp2a3J3Rnk2eFlFd0RKZ3JsdWlUOWxkZDRRX2x6T3Rqdk5hSG9xRE01RkRrMFVkRE92ZlhMbmUzbTRuR2lPS19yQThybHVSX3ZiZE9uc092QVlwTl9NX09IX1NDX3JIX0ZBSmk2ZXk0U0lyd29wNVJxcGtWWFdidmxKWGMyWGtnb19rRG9oVkVYTm5sUmVKUUdUOVcxNVpJZEk4SXVBai14OU81NlZVOWw1UTRPTmxqczdTd3liSU9sOHZBdzFUejc1MDhLVEdrYXBPNFdKQ1BSTVU0UXZ4RU5VVDdOc21pY0VHeG80ekc4cTRwX21KS2lvSG1xQXByc1IyUmZ1QS1VSzI0ZXhhdmRUX2FWamR4NDR3MVp2NWdUYVlFN184bHRkQTNSNlVpODBPUW1hUEEteXBKUjR4dWRFb05NOXZKdzE3WlR6RF83Y19NUjJEVnE3VU5GNlRMQjNGSlhWMUZaOG1UclFyUk9YVVdBTnFqUzFuOEZRckduekcxZTBOdTJWM3VNRlNPVkJfZUlqTzdHT01nY3d5ZGRBNEVkZjlSQlNmYWNtT3VWNExzU0tHT05iNm1GTFRCUDVSVHdGMmJLUDZRZURIb09YNXhVYkRTSFVYM1RYdGQtY3Yxa0NWcUpCdmVpZ1dmMkdPUGJBM2FUakpTNjY3VzIweElab0UyNlhqNUtPcmo2V2hyaDgzMk5WR0FXYUc3X1FJTzFGUmZhcjEwU0ZVOWFrX1U?oc=5",
    "publisher": "Facebook",
@@ -1013,6 +1028,21 @@
    "area": "japan"
   },
   {
+   "title": "Agrifood Signals: Applied Carbon nabs $72m for biochar, redalpine & Just Climate close funds",
+   "link": "https://agfundernews.com/agrifood-signals-applied-carbon-nabs-72m-for-biochar-redalpine-just-carbon-close-funds",
+   "publisher": "AgFunderNews",
+   "via": "AgFunderNews",
+   "region": "world",
+   "snippet": "Plus: Layoffs at the Good Food Institute",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-11-13T03:53+09:00",
+   "first_seen": "2026-11-13T22:14+09:00",
+   "lang": "en",
+   "area": "overseas"
+  },
+  {
    "title": "Heydon talks robots and artificial intelligence in farming",
    "link": "https://www.agriland.ie/farming-news/heydon-talks-robots-and-artificial-intelligence-in-farming/",
    "publisher": "Agriland",
@@ -1025,6 +1055,21 @@
    ],
    "published": "2026-11-13T03:15+09:00",
    "first_seen": "2026-11-13T11:07+09:00",
+   "lang": "en",
+   "area": "overseas"
+  },
+  {
+   "title": "Amyris bets on sweet proteins with Oobli acquisition",
+   "link": "https://agfundernews.com/amyris-bets-on-sweet-proteins-with-oobli-acquisition",
+   "publisher": "AgFunderNews",
+   "via": "AgFunderNews",
+   "region": "world",
+   "snippet": "The deal will combine Oobli’s protein production platform and portfolio with Amyris’ strain engineering and biomanufacturing capabilities.",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-11-13T03:00+09:00",
+   "first_seen": "2026-11-13T22:14+09:00",
    "lang": "en",
    "area": "overseas"
   },
@@ -1070,6 +1115,21 @@
    ],
    "published": "2026-11-13T01:28+09:00",
    "first_seen": "2026-11-13T11:07+09:00",
+   "lang": "en",
+   "area": "africa"
+  },
+  {
+   "title": "African Agricultural Institutions Seek to Sustain Gains of CAADP-XP4 Programme",
+   "link": "https://kilimonews.co.ke/general-news/african-agricultural-institutions-seek-to-sustain-gains-of-caadp-xp4-programme/",
+   "publisher": "Kilimo News（ケニア）",
+   "via": "Kilimo News（ケニア）",
+   "region": "africa",
+   "snippet": "By Kimuri Mwangi African agricultural research and extension organisations are seeking to sustain and expand technologies introduced under a seven-year continental programme that has reached more than 12,000 farmers, improved access to agricultural innovations and strengthened research and extension…",
+   "cats": [
+    "general"
+   ],
+   "published": "2026-11-13T01:16+09:00",
+   "first_seen": "2026-11-13T22:14+09:00",
    "lang": "en",
    "area": "africa"
   },
@@ -2331,6 +2391,21 @@
    ],
    "published": "2026-11-12T04:55+09:00",
    "first_seen": "2026-11-13T11:07+09:00",
+   "lang": "en",
+   "area": "overseas"
+  },
+  {
+   "title": "Informed employees are one of the ‘most powerful defenses’ against cyber attacks, says Cargill CISO",
+   "link": "https://agfundernews.com/informed-employees-one-of-the-most-powerful-defenses-against-cyber-attacks-says-cargill-ciso",
+   "publisher": "AgFunderNews",
+   "via": "AgFunderNews",
+   "region": "world",
+   "snippet": "\"We don't assume every attempt can be prevented, so our focus is on building the readiness to identify threats early and act decisively,\" says Brian Cincera.",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-11-12T04:55+09:00",
+   "first_seen": "2026-11-13T22:14+09:00",
    "lang": "en",
    "area": "overseas"
   },
