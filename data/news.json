@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T22:50+09:00",
+ "updated": "2026-11-14T07:39+09:00",
  "sources": [
   {
    "name": "日本農業新聞",
@@ -49,22 +49,22 @@
   {
    "name": "Google ニュース「スマート農業」",
    "ok": true,
-   "count": 31
+   "count": 28
   },
   {
    "name": "Google ニュース「スマート畜産」",
    "ok": true,
-   "count": 37
+   "count": 36
   },
   {
    "name": "Google ニュース「酪農」",
    "ok": true,
-   "count": 88
+   "count": 72
   },
   {
    "name": "Google ニュース「畜産 IoT」",
    "ok": true,
-   "count": 14
+   "count": 15
   },
   {
    "name": "Google ニュース「農業 IoT」",
@@ -104,12 +104,12 @@
   {
    "name": "Agriland",
    "ok": true,
-   "count": 33
+   "count": 34
   },
   {
    "name": "FeedNavigator",
-   "ok": false,
-   "count": 0
+   "ok": true,
+   "count": 11
   },
   {
    "name": "Google News \"smart farming\"",
@@ -119,7 +119,7 @@
   {
    "name": "Google News \"dairy tech\"",
    "ok": true,
-   "count": 38
+   "count": 36
   },
   {
    "name": "Google News \"farm IoT\"",
@@ -133,8 +133,8 @@
   },
   {
    "name": "Kilimo News（ケニア）",
-   "ok": false,
-   "count": 0
+   "ok": true,
+   "count": 30
   },
   {
    "name": "Smart Farmer Kenya",
@@ -164,20 +164,249 @@
   {
    "name": "Google News Kenya",
    "ok": true,
-   "count": 65
+   "count": 66
   },
   {
    "name": "Google News Tanzania",
    "ok": true,
-   "count": 40
+   "count": 41
   },
   {
    "name": "Google News Africa agritech",
    "ok": true,
-   "count": 15
+   "count": 16
   }
  ],
  "items": [
+  {
+   "title": "Kenya El Niño: How maize shortages and flood risks are driving inflation and business risks",
+   "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOVEpoeWQzSVlOQ2s1Q2FzS3loTVNXTHNiaXlDUVVGVFg5U0FScEdTR3Q3SmlOb2x3SEpHdnM4T0VkRjh0YkxSNDJVcVEwR3FYSHpMakY0eUZZWWdGaHBwZjA4LW1QczZpS3YzelBQNGlJTFVUWnFDY1Z1UE5IOEotLV8yNkFWMHg0ejFIVG1lN25XeHdqdWY4bHFLcFh0LUVJYXBrV1pPZjBWbTM1cUFDMnktRjNYdUIxdGQxZm9Fd0xOczNvWlE?oc=5",
+   "publisher": "People Daily",
+   "via": "Google News Kenya",
+   "region": "africa",
+   "snippet": "",
+   "cats": [
+    "general"
+   ],
+   "published": "2026-11-14T04:06+09:00",
+   "first_seen": "2026-11-14T07:39+09:00",
+   "lang": "en",
+   "area": "africa"
+  },
+  {
+   "title": "Organic Grower Summit 2026 expands offsite programming with exclusive AGTech Reception & Field Demos at Reservoir Farms",
+   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPbXRLaUlCTkhkSEJfdnRFQlkwUmYwMkZuUHdITDNEckowaHBtei13aHFKUi1LSmlvMEdiWm4za04zTDFqTmR0MjN5ZWNOellMdC1yUWFrdXVVdTlQck5YenBOVU4zcElBaUZHWWhnVGpHem5YZ0hwU1g5cGJYSnpqektYbWJwRnRNekhoc1BlS3F1QUVUSmhPLXV3bkpTMXl4bFNsanllSHkydFpzUmwxTlIzTDF0ekU?oc=5",
+   "publisher": "Carroll County Mirror-Democrat",
+   "via": "Google News \"smart farming\"",
+   "region": "world",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-11-14T03:59+09:00",
+   "first_seen": "2026-11-14T07:39+09:00",
+   "lang": "en",
+   "area": "overseas"
+  },
+  {
+   "title": "Regulations and case studies: 600,000 drones already at work in the fields",
+   "link": "https://farmersreviewafrica.com/regulations-and-case-studies-600000-drones-already-at-work-in-the-fields/",
+   "publisher": "Farmers Review Africa",
+   "via": "Farmers Review Africa",
+   "region": "africa",
+   "snippet": "They are fast, flexible and sustainable. More than 600,000 drones, operated by as many pilots, are used in fields worldwide. Deployed in over 100 countries, they are estimated to have saved 410 million tonnes of water and reduced carbon dioxide emissions by 51 million tonnes in 2025 alone. But what…",
+   "cats": [
+    "smart",
+    "policy"
+   ],
+   "published": "2026-11-14T03:40+09:00",
+   "first_seen": "2026-11-14T07:39+09:00",
+   "lang": "en",
+   "area": "africa"
+  },
+  {
+   "title": "MEPs at EIMA 2026: agricultural machinery as a strategic asset for European industry",
+   "link": "https://farmersreviewafrica.com/meps-at-eima-2026-agricultural-machinery-as-a-strategic-asset-for-european-industry/",
+   "publisher": "Farmers Review Africa",
+   "via": "Farmers Review Africa",
+   "region": "africa",
+   "snippet": "Safeguarding European industrial competitiveness, reciprocity in international trade, more effective import controls, and investment in innovation and digitalisation. These were the key themes of the meeting organised by FederUnacoma on the fourth day of EIMA International, the global exhibition of…",
+   "cats": [
+    "general"
+   ],
+   "published": "2026-11-14T03:38+09:00",
+   "first_seen": "2026-11-14T07:39+09:00",
+   "lang": "en",
+   "area": "africa"
+  },
+  {
+   "title": "Skilled and mechanised: EIMA presents a survey of Italy’s female agricultural entrepreneurs",
+   "link": "https://farmersreviewafrica.com/skilled-and-mechanised-eima-presents-a-survey-of-italys-female-agricultural-entrepreneurs/",
+   "publisher": "Farmers Review Africa",
+   "via": "Farmers Review Africa",
+   "region": "africa",
+   "snippet": "They are knowledgeable, the vast majority use agricultural machinery, and they almost always decide independently which investments to make in mechanisation. They use digital technologies and keep themselves informed. These are Italy’s female agricultural entrepreneurs, as portrayed in a survey cond…",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-11-14T03:34+09:00",
+   "first_seen": "2026-11-14T07:39+09:00",
+   "lang": "en",
+   "area": "africa"
+  },
+  {
+   "title": "Water for Life: How a New WASA Reservoir Is Transforming Farming in Zambia",
+   "link": "https://farmersreviewafrica.com/water-for-life-how-a-new-wasa-reservoir-is-transforming-farming-in-zambia/",
+   "publisher": "Farmers Review Africa",
+   "via": "Farmers Review Africa",
+   "region": "africa",
+   "snippet": "A communal reservoir with the potential to provide an estimated 1.62 million litres of water (every five to six weeks with the current pump installation) is creating new possibilities for smallholder farmers in Chief Mulendema’s area, where erratic rainfall, dry conditions and wildlife pressures mak…",
+   "cats": [
+    "general"
+   ],
+   "published": "2026-11-14T03:31+09:00",
+   "first_seen": "2026-11-14T07:39+09:00",
+   "lang": "en",
+   "area": "africa"
+  },
+  {
+   "title": "Kinisla announces milk price for October supplies",
+   "link": "https://www.agriland.ie/farming-news/kinisla-announces-milk-price-for-october-supplies/",
+   "publisher": "Agriland",
+   "via": "Agriland",
+   "region": "world",
+   "snippet": "Kinisla has today (Friday, November 13) confirmed the price it will pay for milk supplied during October. The processor said the milk price for October has been set at 40.35c/L, including VAT, quality and sustainability bonuses. This price is unchanged from that paid by Kinisla for September supplie…",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-11-14T01:51+09:00",
+   "first_seen": "2026-11-14T07:39+09:00",
+   "lang": "en",
+   "area": "overseas"
+  },
+  {
+   "title": "Kenya warns invasive plant species threaten livelihoods in arid regions",
+   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQZW00ZUZCUzVtQlFIcWNHOVFMTE41N1BHMVdLNElMeVZVVy1NQmFVdTBkZWlicFN1dFNWS0xaZk9CdmFqdC0tVGM0bl9ybGFoaW11OHVxX0FZYVdpZDBBRWlFRU5jcU53eGJOWDFFM2k2dGgtbFFWeExlRHUtNTZUMWNYM0xBODYyaHhUQ3J2ai1SQTQtQ1BfNzVfSm9MRXdxSUZsczVkbFpLVF9PSk1yZA?oc=5",
+   "publisher": "Citizen Digital",
+   "via": "Google News Kenya",
+   "region": "africa",
+   "snippet": "",
+   "cats": [
+    "general"
+   ],
+   "published": "2026-11-14T01:50+09:00",
+   "first_seen": "2026-11-14T07:39+09:00",
+   "lang": "en",
+   "area": "africa"
+  },
+  {
+   "title": "Boost for Livestock farmers as government seeks to streamline the sector",
+   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNWl90NjJOOVpFd2VGQTBNcnJoeHk1VWdsZHJHQm8xRGE4TDItdnQ3c2NzY2ZPdFJxWU9Od3hENExwaDJTSll2ZTBkSmhxbmdUYXBsS0NzUXQ2UkNFN2ZfWUREbm9ERFJ2NnJQbVdWRVhNelJ0b2NRRmE5UDBuZHE3NlE1UEJ5TEduQXZ4S1RwR1VOTmJWX3lFcEJWQjRvNVNVekw4?oc=5",
+   "publisher": "Kenya News Agency",
+   "via": "Google News Kenya",
+   "region": "africa",
+   "snippet": "",
+   "cats": [
+    "dairy",
+    "policy"
+   ],
+   "published": "2026-11-14T01:35+09:00",
+   "first_seen": "2026-11-14T07:39+09:00",
+   "lang": "en",
+   "area": "africa"
+  },
+  {
+   "title": "KALRO, Kiambu expand plant health access for farmers",
+   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPUk9FOVlJaFdsbUQ4bk9pX2VacTdUUkJWRVRYS0tMUmtTbEtUTTNRWG9FamJnZEduOHdZZDZ0aW5MSV94YXk1WTk0NlJuY3N2NlM4cGoxVFVsUVBncTNrZEFvUzBBWTAwNVBVb2xnMHB1RUQtdGw0SEpRU2pOT0Z0T3RBejdIaGM?oc=5",
+   "publisher": "Kenya News Agency",
+   "via": "Google News Kenya",
+   "region": "africa",
+   "snippet": "",
+   "cats": [
+    "general"
+   ],
+   "published": "2026-11-14T00:42+09:00",
+   "first_seen": "2026-11-14T07:39+09:00",
+   "lang": "en",
+   "area": "africa"
+  },
+  {
+   "title": "Hexagon targets satellite blind spots with vision-based vineyard steering",
+   "link": "https://www.agnavigator.com/Article/2026/11/13/hexagon-targets-satellite-blind-spots-with-vision-based-vineyard-steering/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+   "publisher": "FeedNavigator",
+   "via": "FeedNavigator",
+   "region": "world",
+   "snippet": "Hexagon has introduced Senvisio, a vision-based steering system for vineyards, orchards, and citrus groves that uses onboard cameras and image processing to guide machinery between crop rows without relying on satellite signals. This technology addresses the limitations of satellite guidance in envi…",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-11-14T00:39+09:00",
+   "first_seen": "2026-11-14T07:39+09:00",
+   "lang": "en",
+   "area": "overseas"
+  },
+  {
+   "title": "State ag leaders push USDA for dairy vaccine option",
+   "link": "https://www.farmprogress.com/tv-and-radio/state-ag-leaders-push-usda-for-dairy-vaccine-option",
+   "publisher": "Farm Progress",
+   "via": "Farm Progress",
+   "region": "world",
+   "snippet": "Farm Progress America: State agriculture officials urge USDA to approve voluntary H5N1 vaccination plan for dairy cattle as outbreak spreads to 21 states.",
+   "cats": [
+    "dairy",
+    "policy"
+   ],
+   "published": "2026-11-13T23:08+09:00",
+   "first_seen": "2026-11-14T07:39+09:00",
+   "lang": "en",
+   "area": "overseas"
+  },
+  {
+   "title": "Northern Kenya pastoralists back review of livestock policies",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNLXZ2MGFMS2tDT2Q3dmhuR0IweUd4b3ROT0dXeVl0aVYxRVdZdC03cVZqTndHNE9YMUFUQjRxc295MFlKQjFGaVZrV1JFT0t1WnlIMzgyMVlwbV9rME1WTFRWZWlOTlVsZEtER0xHUjRVVzhmcVZkTTRuRTVhY08wd1h4cEVrc0ZLdzNVWmFuZ2NWWjg0bFNtV25wQQ?oc=5",
+   "publisher": "https://streamlinefeed.co.ke/",
+   "via": "Google News Kenya",
+   "region": "africa",
+   "snippet": "",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-11-13T23:04+09:00",
+   "first_seen": "2026-11-14T07:39+09:00",
+   "lang": "en",
+   "area": "africa"
+  },
+  {
+   "title": "「自分のところの牛乳で何か作りたい」酪農家の娘がチーズ職人になった理由",
+   "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBtV0tmd1ZaeE9Ga1ZjY1l1b19mYl9GQzNhUVh5OFNXWURYb3ZxbTBLX3V3ckxSYXRXSm55N0ZhVWQtNzdqMGdzRXVOVFFrYjBhYUFIUXVBNmdrSEVtV1h3?oc=5",
+   "publisher": "ライブドアニュース",
+   "via": "Google ニュース「酪農」",
+   "region": "jp",
+   "snippet": "",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-11-13T23:00+09:00",
+   "first_seen": "2026-11-14T07:39+09:00",
+   "lang": "ja",
+   "area": "japan"
+  },
+  {
+   "title": "Wicklow Wagyu beef stars in Taoiseach’s dinner for EU leaders",
+   "link": "https://www.agriland.ie/farming-news/wicklow-wagyu-beef-stars-in-taoiseachs-dinner-for-eu-leaders/",
+   "publisher": "Agriland",
+   "via": "Agriland",
+   "region": "world",
+   "snippet": "Wagyu beef produced in Co. Wicklow was among the highlights on the menu when 50 European leaders dined at the National Gallery of Ireland last night (Thursday, November 12). The state dinner, hosted by Taoiseach Micheál Martin, took place as part of the 9th European Political Community (EPC) Summit…",
+   "cats": [
+    "dairy",
+    "policy"
+   ],
+   "published": "2026-11-13T23:00+09:00",
+   "first_seen": "2026-11-14T07:39+09:00",
+   "lang": "en",
+   "area": "overseas"
+  },
   {
    "title": "Kenya Red Cross: Over 300 households affected as floods hit Tana River, road cut off",
    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOcGRtdXNlODYtNmNTejNnVlRCbzJqS1hIUXJLWnMtdU1BVkloXy1zYnh4ZUhwbjNXMlJNZGZDa2QzaFRMTDlrYXkyUDUtdEZzN2hqY2tsWm1saGZodzNsSUVxbDNhLV8zX1RWQ0Y1V0hvaTVKNUpBZG5aVmFVVm1IdnFpX0NjQzBaWUZWZjRLd2ZJYUZhd25iRUk4M3BfZjBCRXlOR09CT09zbFJwVTNGZnNUOXB1UQ?oc=5",
@@ -297,6 +526,37 @@
    "first_seen": "2026-11-13T21:55+09:00",
    "lang": "ja",
    "area": "japan"
+  },
+  {
+   "title": "Kenya reviews livestock policies to boost production",
+   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQSmd5WjRYOGR2MnVIVHhmR19mSG9sOEdoLVNHeTFlY1U1cDdjekthdEVVdm1ia2xoWVFzVzFtQVZ3aXkyX3BoZDVTTDY2VXY5OVByeHJwX0tSSkNyS0ZnaWlQbGtzaHdpNVlTUE81SlNTZUczTFNhMlQ2NHl4VE5BOEZGcy1rUThj?oc=5",
+   "publisher": "Kenya News Agency",
+   "via": "Google News Kenya",
+   "region": "africa",
+   "snippet": "",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-11-13T20:53+09:00",
+   "first_seen": "2026-11-14T07:39+09:00",
+   "lang": "en",
+   "area": "africa"
+  },
+  {
+   "title": "Government, ‘Save the Children’ USA, partner to advance child/mother Health",
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxObTE0TkhoaV9wcGtQYXpsc1g3TUxLNi02SkNiX3JRbEE5QjluLUhYa2c5VXQ2dGFVSE9TTkxtbVgzVVEtOHZYZEd2Slc0Y0xrdm5FUHc4YXhlZTBnZmtZOTAxOHlVMVZNR2JVMzdaX1Y1ZXBrc1d2Ylp4MHkzYzRTdkRiWkxIcElXUS1jYkJ5TzVUeDJCZjJpMHFyLVI2X3VuOUE?oc=5",
+   "publisher": "Kenya News Agency",
+   "via": "Google News Kenya",
+   "region": "africa",
+   "snippet": "",
+   "cats": [
+    "policy",
+    "general"
+   ],
+   "published": "2026-11-13T20:53+09:00",
+   "first_seen": "2026-11-14T07:39+09:00",
+   "lang": "en",
+   "area": "africa"
   },
   {
    "title": "𝗕𝗼𝗼𝘀𝘁 𝗳𝗼𝗿 𝗹𝗶𝘃𝗲𝘀𝘁𝗼𝗰𝗸 𝗳𝗮𝗿𝗺𝗲𝗿𝘀 𝗮𝘀 𝗴𝗼𝘃𝗲𝗿𝗻𝗺𝗲𝗻𝘁 𝘀𝗲𝗲𝗸𝘀 𝘁𝗼 𝘀𝘁𝗿𝗲𝗮𝗺𝗹𝗶𝗻𝗲 𝘁𝗵𝗲 𝘀𝗲𝗰𝘁𝗼𝗿 Livestock farmers across the country are set for a major boost as the government moves in to address the challenges in the sector, such as inadequat",
@@ -506,6 +766,21 @@
    ],
    "published": "2026-11-13T17:12+09:00",
    "first_seen": "2026-11-13T21:55+09:00",
+   "lang": "ja",
+   "area": "japan"
+  },
+  {
+   "title": "六甲バターQ3、チーズやナッツの販売好調",
+   "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9QanhVMUNrUE9hNzhtWjdPbC16c09oTzNaNlpCZ1NvajJWUWtSeHhwcGR2aTdnYnFzY0ZYOC1IeTFFbzJTVjlHRTk0RXM?oc=5",
+   "publisher": "酪農乳業速報",
+   "via": "Google ニュース「酪農」",
+   "region": "jp",
+   "snippet": "",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-11-13T17:09+09:00",
+   "first_seen": "2026-11-14T07:39+09:00",
    "lang": "ja",
    "area": "japan"
   },
@@ -3847,6 +4122,21 @@
    "first_seen": "2026-11-11T10:28+09:00",
    "lang": "en",
    "area": "overseas"
+  },
+  {
+   "title": "Oman and Tanzania boost economic ties in Zanzibar",
+   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNYmwzWmxHZzgxU2JaNEZ3NzlFdlhzMEpFeXZoS1BQLUZtQk9WUlRpSzVxcGQ4RjZfSm1vSmh3T2J4d2NZV01pY01GQmVDZTVPZEFJamNhem5wc2NrZ0lIVzg0S2gtOS16RTlHdzVhRGQ1dFhJOXh1UlEtOHFHODRFSmYwNDZQa0NSbzVPZUo4T1pqUVVkVUZUOUxFUm5HUnPSAVpBVV95cUxPbUlrSExjc3JWQWlXcko3YzhNb1U1V3ktV3hvZGJfSEV0bEZBaWppY2ZEYVhZNTVxcW9tRXdHZGtDMEl5TXplZEI3UjE4NnJlbkJTNU1JN1JxQ1E?oc=5",
+   "publisher": "Oman Observer",
+   "via": "Google News Tanzania",
+   "region": "africa",
+   "snippet": "",
+   "cats": [
+    "general"
+   ],
+   "published": "2026-11-11T00:18+09:00",
+   "first_seen": "2026-11-14T07:39+09:00",
+   "lang": "en",
+   "area": "africa"
   },
   {
    "title": "Mapping soybean, corn disease pressures: What farmers faced in 2026, what to watch for in 2027",
@@ -18134,61 +18424,6 @@
    "summary": "簡易な円盤式の施肥機が、施肥ロボットの基礎になりうることを伝える記事。",
    "title_ja": "簡易ディスク式施肥機が施肥ロボットの基礎に",
    "summary_en": "A simple disc fertiliser could be the base for a fertiliser robot.",
-   "summary_v": 2
-  },
-  {
-   "title": "京都橘大生、京野菜収穫ロボ開発めざす ＪＡ京都市の支部長がアドバイス",
-   "link": "https://www.agrinews.co.jp/society/index/412380",
-   "publisher": "日本農業新聞",
-   "via": "日本農業新聞",
-   "snippet": "【京都市】形状や実の付き方に固有の特徴があることから、人の経験に基づく判断や手作業に依存する京野菜の収穫を省力化しようと、京都橘大学工学部ロボティクス学科の学生が野菜の収穫ロボットの企画と試作を進める。ＪＡ京都市山科南部…",
-   "cats": [
-    "smart"
-   ],
-   "published": "2026-10-15T05:00+09:00",
-   "first_seen": "2026-11-03T22:00+09:00",
-   "region": "jp",
-   "lang": "ja",
-   "area": "japan",
-   "summary": "京都橘大学工学部の学生が、人の経験や手作業に頼る京野菜の収穫を省力化するため、収穫ロボットの企画と試作を進めている。JA京都市の支部長が助言する。",
-   "summary_v": 2
-  },
-  {
-   "title": "Molagri raises $5.8m to build ‘updatable’ biopesticides",
-   "link": "https://agfundernews.com/molagri-raises-5-8m-to-build-updatable-biopesticides",
-   "publisher": "AgFunderNews",
-   "via": "AgFunderNews",
-   "region": "world",
-   "snippet": "“Farmers shouldn’t have to worry about resistance, the same way you don’t think about which flu strain is going around when you get a flu shot,\" says Molagri cofounder Zaky Hassan.",
-   "cats": [
-    "smart"
-   ],
-   "published": "2026-10-15T01:00+09:00",
-   "first_seen": "2026-11-03T22:13+09:00",
-   "lang": "en",
-   "area": "overseas",
-   "summary": "生物農薬の開発を手がけるMolagriが580万ドルを調達し、「アップデート可能」な生物農薬を開発する。農家が耐性を心配せずに済むことを目指す。",
-   "title_ja": "Molagri、580万ドルを調達し「アップデート可能」な生物農薬を開発",
-   "summary_en": "Molagri raised $5.8m to make biopesticides that can be updated over time, so farmers need not worry about resistance.",
-   "summary_v": 2
-  },
-  {
-   "title": "Zema Global and SatYield Bring Satellite-Based Crop Intelligence to Agricultural Commodity Markets",
-   "link": "https://www.globalagtechinitiative.com/digital-farming/analytics/zema-global-and-satyield-bring-satellite-based-crop-intelligence-to-agricultural-commodity-markets/",
-   "publisher": "PrecisionAg",
-   "via": "PrecisionAg",
-   "region": "world",
-   "snippet": "Zema Global, a leading provider of data and analytics solutions for companies engaged in the energy, commodities, and […]",
-   "cats": [
-    "smart"
-   ],
-   "published": "2026-10-14T23:26+09:00",
-   "first_seen": "2026-11-03T22:13+09:00",
-   "lang": "en",
-   "area": "overseas",
-   "summary": "エネルギーや商品市場向けのデータ分析を手がけるZema Globalと、SatYieldが連携し、衛星データによる作物情報を農産物市場に届ける。",
-   "title_ja": "Zema GlobalとSatYield、衛星ベースの作物情報を農産物市場へ",
-   "summary_en": "Zema Global and SatYield bring satellite crop data to farm commodity markets.",
    "summary_v": 2
   }
  ]
