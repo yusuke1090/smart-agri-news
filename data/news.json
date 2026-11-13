@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T22:32+09:00",
+ "updated": "2026-11-13T22:50+09:00",
  "sources": [
   {
    "name": "日本農業新聞",
@@ -49,7 +49,7 @@
   {
    "name": "Google ニュース「スマート農業」",
    "ok": true,
-   "count": 30
+   "count": 31
   },
   {
    "name": "Google ニュース「スマート畜産」",
@@ -64,7 +64,7 @@
   {
    "name": "Google ニュース「畜産 IoT」",
    "ok": true,
-   "count": 15
+   "count": 14
   },
   {
    "name": "Google ニュース「農業 IoT」",
@@ -133,8 +133,8 @@
   },
   {
    "name": "Kilimo News（ケニア）",
-   "ok": true,
-   "count": 30
+   "ok": false,
+   "count": 0
   },
   {
    "name": "Smart Farmer Kenya",
@@ -164,7 +164,7 @@
   {
    "name": "Google News Kenya",
    "ok": true,
-   "count": 63
+   "count": 65
   },
   {
    "name": "Google News Tanzania",
@@ -174,10 +174,25 @@
   {
    "name": "Google News Africa agritech",
    "ok": true,
-   "count": 14
+   "count": 15
   }
  ],
  "items": [
+  {
+   "title": "Kenya Red Cross: Over 300 households affected as floods hit Tana River, road cut off",
+   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOcGRtdXNlODYtNmNTejNnVlRCbzJqS1hIUXJLWnMtdU1BVkloXy1zYnh4ZUhwbjNXMlJNZGZDa2QzaFRMTDlrYXkyUDUtdEZzN2hqY2tsWm1saGZodzNsSUVxbDNhLV8zX1RWQ0Y1V0hvaTVKNUpBZG5aVmFVVm1IdnFpX0NjQzBaWUZWZjRLd2ZJYUZhd25iRUk4M3BfZjBCRXlOR09CT09zbFJwVTNGZnNUOXB1UQ?oc=5",
+   "publisher": "People Daily",
+   "via": "Google News Kenya",
+   "region": "africa",
+   "snippet": "",
+   "cats": [
+    "general"
+   ],
+   "published": "2026-11-13T22:46+09:00",
+   "first_seen": "2026-11-13T22:50+09:00",
+   "lang": "en",
+   "area": "africa"
+  },
   {
    "title": "Garden clippings suspected in fatal sheep poisoning case",
    "link": "https://www.agriland.ie/farming-news/garden-clippings-suspected-in-fatal-sheep-poisoning-case/",
@@ -250,6 +265,21 @@
    ],
    "published": "2026-11-13T21:17+09:00",
    "first_seen": "2026-11-13T21:55+09:00",
+   "lang": "en",
+   "area": "africa"
+  },
+  {
+   "title": "Oscar Sudi's Properties Including Nairobi Villa, Timba XO and Massive Kapseret Farm",
+   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPcGVGWmFHdUFGLVBkbUtzNEF6NkhVa1VzWDlOSFRJQktMdllKYXpwM1o3emhTeG9WTXMzeE9jdG5nVUctZmZpc2VISjF3ZTV6RUVyWVMwSlJuM1RvMjZHOU5jRERERDM3bk0wVWNjSzlGVk1JbExiZDV0QkdibThUMDF2RF9wV2JabzMtek1sSVctRm1mVHBEU2x6RmFFYnUwSWwyZHNVTWFVeXFJNDlwaFRiemtTemp0cFlrcHlYRWI?oc=5",
+   "publisher": "Tuko News",
+   "via": "Google News Kenya",
+   "region": "africa",
+   "snippet": "",
+   "cats": [
+    "general"
+   ],
+   "published": "2026-11-13T21:03+09:00",
+   "first_seen": "2026-11-13T22:50+09:00",
    "lang": "en",
    "area": "africa"
   },
@@ -18159,26 +18189,6 @@
    "summary": "エネルギーや商品市場向けのデータ分析を手がけるZema Globalと、SatYieldが連携し、衛星データによる作物情報を農産物市場に届ける。",
    "title_ja": "Zema GlobalとSatYield、衛星ベースの作物情報を農産物市場へ",
    "summary_en": "Zema Global and SatYield bring satellite crop data to farm commodity markets.",
-   "summary_v": 2
-  },
-  {
-   "title": "PerPlant lands Valtra deal to put its AI crop sensor on tractors straight from the factory",
-   "link": "https://agfundernews.com/perplant-lands-valtra-deal-to-put-its-ai-crop-sensor-on-tractors-straight-from-the-factory",
-   "publisher": "AgFunderNews",
-   "via": "AgFunderNews",
-   "region": "world",
-   "snippet": "PerPlant's crop intelligence sensors have mapped more than 250,000 hectares across 12 countries to date.",
-   "cats": [
-    "smart",
-    "iot"
-   ],
-   "published": "2026-10-14T22:41+09:00",
-   "first_seen": "2026-11-03T22:13+09:00",
-   "lang": "en",
-   "area": "overseas",
-   "summary": "PerPlantの作物センサーはこれまで12か国で25万ヘクタール超を測定した。Valtraとの契約により、AIセンサーをトラクターに工場出荷時から搭載する。",
-   "title_ja": "PerPlant、AI作物センサーをValtraの工場出荷トラクターに搭載へ",
-   "summary_en": "PerPlant signed a deal with Valtra to put its AI crop sensor on tractors at the factory.",
    "summary_v": 2
   }
  ]

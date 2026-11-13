@@ -514,6 +514,8 @@
     return { text: text, rect: sel.getRangeAt(0).getBoundingClientRect() };
   }
   function placeChip() {
+    // ページが自分で「🔤 訳す」を出すとき（教科書のページなど、<html data-no-tr-chip>）は出さない
+    if (document.documentElement.hasAttribute("data-no-tr-chip")) { chip.hidden = true; return; }
     var s = selectedText();
     if (!s || (!s.rect.width && !s.rect.height)) { chip.hidden = true; return; }
     chip.hidden = false;
@@ -540,4 +542,13 @@
     fitInput();
     run(s.text);
   });
+
+  // ほかのページ（教科書など）から、文字を渡して訳す: window.agriTranslate("rumination")
+  window.agriTranslate = function (text) {
+    if (!text) return;
+    openPanel();
+    input.value = text;
+    fitInput();
+    run(text);
+  };
 })();
