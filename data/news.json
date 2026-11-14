@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-14T07:39+09:00",
+ "updated": "2026-11-14T10:45+09:00",
  "sources": [
   {
    "name": "日本農業新聞",
    "ok": true,
-   "count": 47
+   "count": 48
   },
   {
    "name": "マイナビ農業",
@@ -49,7 +49,7 @@
   {
    "name": "Google ニュース「スマート農業」",
    "ok": true,
-   "count": 28
+   "count": 0
   },
   {
    "name": "Google ニュース「スマート畜産」",
@@ -59,7 +59,7 @@
   {
    "name": "Google ニュース「酪農」",
    "ok": true,
-   "count": 72
+   "count": 77
   },
   {
    "name": "Google ニュース「畜産 IoT」",
@@ -108,23 +108,23 @@
   },
   {
    "name": "FeedNavigator",
-   "ok": true,
-   "count": 11
+   "ok": false,
+   "count": 0
   },
   {
    "name": "Google News \"smart farming\"",
    "ok": true,
-   "count": 55
+   "count": 52
   },
   {
    "name": "Google News \"dairy tech\"",
    "ok": true,
-   "count": 36
+   "count": 38
   },
   {
    "name": "Google News \"farm IoT\"",
    "ok": true,
-   "count": 48
+   "count": 49
   },
   {
    "name": "AllAfrica Agriculture",
@@ -164,20 +164,95 @@
   {
    "name": "Google News Kenya",
    "ok": true,
-   "count": 66
+   "count": 65
   },
   {
    "name": "Google News Tanzania",
    "ok": true,
-   "count": 41
+   "count": 42
   },
   {
    "name": "Google News Africa agritech",
    "ok": true,
-   "count": 16
+   "count": 15
   }
  ],
  "items": [
+  {
+   "title": "The Best AgTech Company Directories Worldwide in 2026, Compared",
+   "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFB0YjJPYkJsd3g0TVVyYkRvclFtR2FRV3NPLVBFNGRIemtTcVJIYTNRaG0yMUxkRkJFeXAta2tVY28zLVdtQnljZHRaUWt2aGFBLV9KOFoyX1E2YnZOZ3RiREhEa2o?oc=5",
+   "publisher": "iGrow News",
+   "via": "Google News \"smart farming\"",
+   "region": "world",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-11-14T09:30+09:00",
+   "first_seen": "2026-11-14T10:45+09:00",
+   "lang": "en",
+   "area": "overseas"
+  },
+  {
+   "title": "酪農の現場と企業をつなぎ、次世代の学びとDXの普及を支える。「第2回 酪農DXサミット」スポンサー募集開始",
+   "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB5cTZvckZhZnhGZ1l4LXIzLWhteG1iWlFSODJwMUhPbV9hQkJSU0VYaW5DQXFqNmtySkF6emctSFJmalZKbVF1cUo3T0VHOV8yNjdBY0Q2Q2ZjSWtjNW9vQVluWVczTkhQNVE?oc=5",
+   "publisher": "PR TIMES",
+   "via": "Google ニュース「酪農」",
+   "region": "jp",
+   "snippet": "",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-11-14T08:48+09:00",
+   "first_seen": "2026-11-14T10:45+09:00",
+   "lang": "ja",
+   "area": "japan"
+  },
+  {
+   "title": "Ithaca's CryoBio lands $500K in Grow-NY's $3M agtech contest",
+   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNRzdfaERQSFNKSk1Ld2w3R0FrZERvQVN4WVBzWnd3RmZSN21oc3B2b1A5QmtNMFVyUkF0SjRscTNTTGo2LTVVUExYTU5ZZU1Gc0NUSUpzRmREX1pqaHB2dUktOGJJNHdnT1NfY0lJY09vMG51Vmh4QldqajJIbDJNVXdRWjlfM29sSl9HVmxBUHlBcmtTaWdZ?oc=5",
+   "publisher": "Dealroom",
+   "via": "Google News \"smart farming\"",
+   "region": "world",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-11-14T08:09+09:00",
+   "first_seen": "2026-11-14T10:45+09:00",
+   "lang": "en",
+   "area": "overseas"
+  },
+  {
+   "title": "リーフ茶 パウダーに 県立静岡商業高校ビジネス探究部 食材にも活用 新たな魅力創造につなげる",
+   "link": "https://www.agrinews.co.jp/society/index/418743",
+   "publisher": "日本農業新聞",
+   "via": "日本農業新聞",
+   "region": "jp",
+   "snippet": "【静岡】県立静岡商業高校ビジネス探究部のメンバーは、もまずに茶葉を細かくする抹茶とは異なり、もんで作る煎茶やほうじ茶を細かくするパウダー茶に着目し、リーフ茶の新たな魅力を探る。 同部はリーフ茶の消費が低迷する中で需要拡大策を考え、茶葉の機能性を生かして丸ごと吸収できるパウダーに加工し、飲むだけでなく食材としての活用を企画した。 沼津市の影山製茶店が協力し、昨年度、同部発のブランド茶「そうこなっく茶」の名前で、煎茶・ほうじ茶・玄米茶の３種類を作り、一袋（６０グラム入り）２５０円でイベント会場などで販売した。 静岡市葵区のカフェヴライの大村真樹さんは、ほうじ茶と煎茶のパウダーを使って「バスクチーズ…",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-11-14T05:00+09:00",
+   "first_seen": "2026-11-14T10:45+09:00",
+   "lang": "ja",
+   "area": "japan"
+  },
+  {
+   "title": "Trade tensions, El Niño and other forces could make or break agtech adoption in 2027",
+   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOZjB1dmc3cnVEdmd1NHhZeTZXT0RrWUdGb0hSZmxndUYwOUlQVVBzdzlVUVJRWEVBUDQxZzJWQ3VqbUxIaDhWN0piSFdwSEJWbElBVzM5V2QxR2pJNXhNS0JORTZRbnR4cjNXNkRITmR5TElCeGVVUXhkRmhjcVlzZ1FhZjg3N0JOMXFSZHJRWUZUdjVtSlFiN2lSUmVJU2lYbC1mU3dxeE9oeDNf?oc=5",
+   "publisher": "AgFunderNews",
+   "via": "Google News \"smart farming\"",
+   "region": "world",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-11-14T04:21+09:00",
+   "first_seen": "2026-11-14T10:45+09:00",
+   "lang": "en",
+   "area": "overseas"
+  },
   {
    "title": "Kenya El Niño: How maize shortages and flood risks are driving inflation and business risks",
    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOVEpoeWQzSVlOQ2s1Q2FzS3loTVNXTHNiaXlDUVVGVFg5U0FScEdTR3Q3SmlOb2x3SEpHdnM4T0VkRjh0YkxSNDJVcVEwR3FYSHpMakY0eUZZWWdGaHBwZjA4LW1QczZpS3YzelBQNGlJTFVUWnFDY1Z1UE5IOEotLV8yNkFWMHg0ejFIVG1lN25XeHdqdWY4bHFLcFh0LUVJYXBrV1pPZjBWbTM1cUFDMnktRjNYdUIxdGQxZm9Fd0xOczNvWlE?oc=5",
@@ -190,6 +265,21 @@
    ],
    "published": "2026-11-14T04:06+09:00",
    "first_seen": "2026-11-14T07:39+09:00",
+   "lang": "en",
+   "area": "africa"
+  },
+  {
+   "title": "Kenya El Niño: How maize shortages and floods are driving inflation and business risks",
+   "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOVEpoeWQzSVlOQ2s1Q2FzS3loTVNXTHNiaXlDUVVGVFg5U0FScEdTR3Q3SmlOb2x3SEpHdnM4T0VkRjh0YkxSNDJVcVEwR3FYSHpMakY0eUZZWWdGaHBwZjA4LW1QczZpS3YzelBQNGlJTFVUWnFDY1Z1UE5IOEotLV8yNkFWMHg0ejFIVG1lN25XeHdqdWY4bHFLcFh0LUVJYXBrV1pPZjBWbTM1cUFDMnktRjNYdUIxdGQxZm9Fd0xOczNvWlE?oc=5",
+   "publisher": "People Daily",
+   "via": "Google News Kenya",
+   "region": "africa",
+   "snippet": "",
+   "cats": [
+    "general"
+   ],
+   "published": "2026-11-14T04:06+09:00",
+   "first_seen": "2026-11-14T10:45+09:00",
    "lang": "en",
    "area": "africa"
   },
@@ -2761,6 +2851,21 @@
    "area": "japan"
   },
   {
+   "title": "酪農女性 牧場の感染症予防学ぶ 市内でプチサミット 芽室の福中さん講演",
+   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE44ZUZUNWhTMEEteXY3aGlydy1HdEdGbXFSS25Qc3JyWGVEdnlFdjZQaklURUZvWE1VeWdUSHVwWDdTM19Ubk4yZmoyc1llcE95c3JnTnY5c0Ytdw?oc=5",
+   "publisher": "北海道新聞デジタル",
+   "via": "Google ニュース「酪農」",
+   "region": "jp",
+   "snippet": "",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-11-12T04:00+09:00",
+   "first_seen": "2026-11-14T10:45+09:00",
+   "lang": "ja",
+   "area": "japan"
+  },
+  {
    "title": "Mart report: Strong demand from northern buyers in Ballina",
    "link": "https://www.agriland.ie/farming-news/mart-report-strong-demand-from-northern-buyers-in-ballina/",
    "publisher": "Agriland",
@@ -3124,6 +3229,21 @@
    "first_seen": "2026-11-12T11:30+09:00",
    "lang": "en",
    "area": "overseas"
+  },
+  {
+   "title": "In October 2026, Kenya launched a $160 million conservation initiative to protect 17.3 million hectares,",
+   "link": "https://news.google.com/rss/articles/CBMi7gJBVV95cUxNTk53X3k5bU51WFZNa0dCS0w3X1RyenVmQ2RLdTRnNlkweEYycHViSUFGc3NWWUFCVG55R2REc29TM1VidGF2MnhpMGNvWXpITUxRb1NIV2EwaXRkdl9lZDFtZXF3SzJ1VTVFQXdWYy1hNjdnVTJLd2EwNGlXd3hMYW9Ec3FLeGZKbnVGaHlnYlJza05TXzlFSWcyR196UUJZT0g5bW9Jc0h2NW9VRE9rbG53UUhOVVZ3bS1DdWZHa2RNNWFLWHNnT1ZaUDBsYXR1eVdxWmUzZ3BaTmRlOFYyZkJidm1aMUpmUEs1X3JxT1gzV3U4S3pVS0xLQmQ0al9zZW85R0Rlbi1raWctNjE1M2U4WFpMZTF5OFVQbldzYmJoX0NhY0pITTlwYnROXzRLaEQyeG1XMm55dUZuOVNhUm1ONEpzUU1vdWhNUUc4MkgyS3BXTDFjbHpTLTVhRFZNcU5aNUhwYTJ4U3BPQUHSAfMCQVVfeXFMTm9oNGE0R3IwczFsNElscVQ5UktxVEZQa0gzSFlTZHdBS0pmdy1IWFFPWEpmNXBvcms1ajJ3NXNESlZkam5qaV9tSXc5N0VZZzBPMjU4dkcxcE8wZDljMkNTeFIxNUE1WEtLMkg0XzJJeml4UzE1b1lVUzRoUHNfRjVkaGZIR1JTeERvOEl4MGhoUEtaMzZqOEw4ZDY3cEk2aXZTOGVFTTVGT1g0ZklTa2RMa2xaQ2prVGI0aWlvQXc4N0I0SGkxbGFrWDNOX2pXY1dQbXNMVG5LQk13cFliZjFQbEdKSzdseGY4VUxtOFVCa0dXbDlObHN0YXZySFUzOGg2Y1B6T0JVdFlXMUJBMDV1aGJ0Uk5ZODBkWHMyVm9IaENRMnFyWldDMEQzSjltMnI1TmZsS25KcEhYbnJTTmprdmJsM3l6dHMyTktkdWQ5Q3VvSU14UjFsdnpCN1VZd3VZNDAzaWt1X1lMZWxBX254SkU?oc=5",
+   "publisher": "The Times of India",
+   "via": "Google News Kenya",
+   "region": "africa",
+   "snippet": "",
+   "cats": [
+    "general"
+   ],
+   "published": "2026-11-11T19:45+09:00",
+   "first_seen": "2026-11-14T10:45+09:00",
+   "lang": "en",
+   "area": "africa"
   },
   {
    "title": "農業農村整備の予算確保を 県土地改良団体連合会が要望",
