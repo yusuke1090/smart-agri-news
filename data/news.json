@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T12:07+09:00",
+ "updated": "2026-11-18T20:51+09:00",
  "sources": [
   {
    "name": "日本農業新聞",
@@ -9,7 +9,7 @@
   {
    "name": "マイナビ農業",
    "ok": true,
-   "count": 3
+   "count": 4
   },
   {
    "name": "AGRI JOURNAL",
@@ -19,7 +19,7 @@
   {
    "name": "農林水産省 報道発表",
    "ok": true,
-   "count": 8
+   "count": 10
   },
   {
    "name": "農畜産業振興機構（ALIC）",
@@ -39,7 +39,7 @@
   {
    "name": "ITmedia",
    "ok": true,
-   "count": 0
+   "count": 1
   },
   {
    "name": "日刊工業新聞",
@@ -49,7 +49,7 @@
   {
    "name": "Google ニュース「スマート農業」",
    "ok": true,
-   "count": 29
+   "count": 30
   },
   {
    "name": "Google ニュース「スマート畜産」",
@@ -59,7 +59,7 @@
   {
    "name": "Google ニュース「酪農」",
    "ok": true,
-   "count": 77
+   "count": 75
   },
   {
    "name": "Google ニュース「畜産 IoT」",
@@ -69,12 +69,12 @@
   {
    "name": "Google ニュース「農業 IoT」",
    "ok": true,
-   "count": 39
+   "count": 40
   },
   {
    "name": "Google ニュース「農業 AI」",
    "ok": true,
-   "count": 59
+   "count": 55
   },
   {
    "name": "AgFunderNews",
@@ -99,22 +99,22 @@
   {
    "name": "Farm Progress",
    "ok": true,
-   "count": 14
+   "count": 10
   },
   {
    "name": "Agriland",
    "ok": true,
-   "count": 35
+   "count": 36
   },
   {
    "name": "FeedNavigator",
-   "ok": false,
-   "count": 0
+   "ok": true,
+   "count": 8
   },
   {
    "name": "Google News \"smart farming\"",
    "ok": true,
-   "count": 48
+   "count": 51
   },
   {
    "name": "Google News \"dairy tech\"",
@@ -133,8 +133,8 @@
   },
   {
    "name": "Kilimo News（ケニア）",
-   "ok": false,
-   "count": 0
+   "ok": true,
+   "count": 30
   },
   {
    "name": "Smart Farmer Kenya",
@@ -164,12 +164,12 @@
   {
    "name": "Google News Kenya",
    "ok": true,
-   "count": 57
+   "count": 59
   },
   {
    "name": "Google News Tanzania",
    "ok": true,
-   "count": 43
+   "count": 40
   },
   {
    "name": "Google News Africa agritech",
@@ -178,6 +178,526 @@
   }
  ],
  "items": [
+  {
+   "title": "スマート農業世界シェアランキング",
+   "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5aOGdPNmZMVkxWcmhGRUFCSUlpTUQ4aTdqV3lhcllscDB4R2dJWk1FeEhPeUNQTkR5QkQzUWh1S1phVnNwQlEzZFFB?oc=5",
+   "publisher": "pando.life",
+   "via": "Google ニュース「スマート農業」",
+   "region": "jp",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-11-18T20:35+09:00",
+   "first_seen": "2026-11-18T20:51+09:00",
+   "lang": "ja",
+   "area": "overseas"
+  },
+  {
+   "title": "How Kenya is turning its red-meat potential into better returns for pastoralists",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOMENQNjJFaUozd2hzSGhFdzF3M1ctMzBpaU1UcnVWeFp1STBHSjVfOEZwbXFld2IwLXNydUpOa2FGQnFoSnZyZnpmZzRma01WdUtyNHJvZjVDcXJ3bGJTcGlWUUkwNlVjWWJCeHFrcjlBbnY4WjUwTmVSTmFDNDh1UHA0MGZTNlFXVlFiTmlvYWpJR0RHYlFxcU1MdGtRdjRwTkhQZDNIcWlWQQ?oc=5",
+   "publisher": "Business Daily",
+   "via": "Google News Kenya",
+   "region": "africa",
+   "snippet": "",
+   "cats": [
+    "general"
+   ],
+   "published": "2026-11-18T20:29+09:00",
+   "first_seen": "2026-11-18T20:51+09:00",
+   "lang": "en",
+   "area": "africa"
+  },
+  {
+   "title": "Kenya’s female-led venture capital firm closes $26m fund to support African fintech startups",
+   "link": "https://farmersreviewafrica.com/kenyas-female-led-venture-capital-firm-closes-26m-fund-to-support-african-fintech-startups/",
+   "publisher": "Farmers Review Africa",
+   "via": "Farmers Review Africa",
+   "region": "africa",
+   "snippet": "Kenya-based, pan-African female-led venture capital firm First Circle Capital has closed its Africa Fund I at $26 million, securing capital to invest in early-stage fintech startups developing the next generation of financial products, services and technology infrastructure across the continent. The…",
+   "cats": [
+    "general"
+   ],
+   "published": "2026-11-18T20:28+09:00",
+   "first_seen": "2026-11-18T20:51+09:00",
+   "lang": "en",
+   "area": "africa"
+  },
+  {
+   "title": "Namibia: Communal Farmer Fear Economy At Brink of Collapse",
+   "link": "https://allafrica.com/stories/202611180263.html",
+   "publisher": "AllAfrica Agriculture",
+   "via": "AllAfrica Agriculture",
+   "region": "africa",
+   "snippet": "[New Era] Communal farmers are facing mounting economic pressure following prolonged livestock marketing restrictions imposed in the wake of Namibia's Foot-and-Mouth Disease (FMD) outbreak, with the Namibia National Farmers' Union (NNFU) warning that thousands of households risk losing their livelih…",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-11-18T20:23+09:00",
+   "first_seen": "2026-11-18T20:51+09:00",
+   "lang": "en",
+   "area": "africa"
+  },
+  {
+   "title": "Nigeria: Niger Foods Achieves Full International Iso Certification",
+   "link": "https://allafrica.com/stories/202611180241.html",
+   "publisher": "AllAfrica Agriculture",
+   "via": "AllAfrica Agriculture",
+   "region": "africa",
+   "snippet": "[Daily Trust] Niger Food Security Systems and Logistics Ltd (Niger Foods) has said it has officially achieved full international ISO certification across four distinct food standards: ISO 14001:2015; ISO 45001:2018; ISO 9001:2015, and ISO 22000:2018.",
+   "cats": [
+    "general"
+   ],
+   "published": "2026-11-18T20:03+09:00",
+   "first_seen": "2026-11-18T20:51+09:00",
+   "lang": "en",
+   "area": "africa"
+  },
+  {
+   "title": "Heydon urged to put full housing order in place over bird flu fears",
+   "link": "https://www.agriland.ie/farming-news/heydon-urged-to-put-full-housing-order-in-place-over-bird-flu-fears/",
+   "publisher": "Agriland",
+   "via": "Agriland",
+   "region": "world",
+   "snippet": "Minister for Agriculture, Food and the Marine Martin Heydon has been urged to put a full housing order in place for poultry and captive birds due to concerns over bird flu. The Irish Farmers’ Association (IFA) has said that a housing order is “urgently needed” to safeguard the poultry sector. IFA po…",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-11-18T19:24+09:00",
+   "first_seen": "2026-11-18T20:51+09:00",
+   "lang": "en",
+   "area": "overseas"
+  },
+  {
+   "title": "Africa: How Biofertilisers Help African Farmers Adapt to Climate Change",
+   "link": "https://allafrica.com/stories/202611180190.html",
+   "publisher": "AllAfrica Agriculture",
+   "via": "AllAfrica Agriculture",
+   "region": "africa",
+   "snippet": "[IPS] Antalya, Türkiye -- When unpredictable rainfall, rising temperatures and declining soil fertility threatened agricultural production across Nigeria four years ago, Baliqees Salaudeen-Ibrahim turned to biofertilisers to keep soil healthy, sustain her horticultural production and build resilienc…",
+   "cats": [
+    "general"
+   ],
+   "published": "2026-11-18T19:23+09:00",
+   "first_seen": "2026-11-18T20:51+09:00",
+   "lang": "en",
+   "area": "africa"
+  },
+  {
+   "title": "Closer To Home, Bigger Opportunity: Rooibos Finds New Growth In Africa",
+   "link": "https://farmersreviewafrica.com/closer-to-home-bigger-opportunity-rooibos-finds-new-growth-in-africa/",
+   "publisher": "Farmers Review Africa",
+   "via": "Farmers Review Africa",
+   "region": "africa",
+   "snippet": "While Europe, North America and Asia remain important export markets, the African continent is emerging as an increasingly significant part of Rooibos’ international growth story, offering opportunities for regional trade, distribution and product innovation. According to Joe Swart, Research Directo…",
+   "cats": [
+    "general"
+   ],
+   "published": "2026-11-18T19:20+09:00",
+   "first_seen": "2026-11-18T20:51+09:00",
+   "lang": "en",
+   "area": "africa"
+  },
+  {
+   "title": "乳脂肪分4.0％の牛乳を生む酪農経営 社員が辞めて気づいた酪農経営の本質【岩佐と紐解く戦略農業 #33】",
+   "link": "https://agri.mynavi.jp/2026_11_18_612449/",
+   "publisher": "マイナビ農業",
+   "via": "マイナビ農業",
+   "region": "jp",
+   "snippet": "私、株式会社GRAの岩佐大輝（いわさ・ひろき）が、いま注目している農業経営者に突撃し、戦略を紐解いていく連載企画。今回は、北海道十勝の中野牧場を訪問しました。代表の中野大樹（なかの・だいき）さんは、乳脂肪分4.0％以上の生乳を生産し、「特選よつ葉4.0牛乳」の原料を供給しています。土壌分析に基づく飼料生産や牛の健康を重視した飼養管理など、希少な生乳づくりの根幹に迫ります。",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-11-18T19:00+09:00",
+   "first_seen": "2026-11-18T20:51+09:00",
+   "lang": "ja",
+   "area": "japan"
+  },
+  {
+   "title": "温暖化で北海道・十勝地方も米どころに？ 帯広畜産大が水田で試行",
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOTklwdFNGOHd3SFZ1cDNRYnhCbzBZTFpvMmhmc2ZjcTBpUEpIMEIxQ25zS1ZZUkxfMGdlbnlJTDU2ZHRJT0tlNm5fQVhBQTNhVml6NjBxUWRCaXdVM1VRMFR2djY4WXRSaUJxbE9HTGVjVDdCaEFsQlR3QUhGMUJCS09ySXd3QVRqZVRfUUdhdEhWc0VGOUIyWtIBngFBVV95cUxQZm1Vb0d3ckFETy1Gd0FPczBnTGNmRnB0RWZsbm80WUVRMmJSbWJvVXlIekJOeHZiRWtLSE5CTnlHQXRQVmtlVGoxR1NHY3lwYzU3Zk1lUzVjdVZ0YXBiUjRYbEdiVHdXcTNpbDZyNEpVaXpLOFhkekVOSXEyZVpXY2JqZG9taWlGMTBEUDhWbFhFSUcxSnZxUXRVSVBBZw?oc=5",
+   "publisher": "ｄメニューニュース",
+   "via": "Google ニュース「酪農」",
+   "region": "jp",
+   "snippet": "",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-11-18T19:00+09:00",
+   "first_seen": "2026-11-18T20:51+09:00",
+   "lang": "ja",
+   "area": "japan"
+  },
+  {
+   "title": "Fonterra and Nestlé extend Net Zero Dairy Farm project as emissions fall 26%",
+   "link": "https://www.dairyreporter.com/Article/2026/11/18/fonterra-and-nestle-extend-net-zero-dairy-farm-project-as-emissions-fall-26/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+   "publisher": "DairyReporter",
+   "via": "DairyReporter",
+   "region": "world",
+   "snippet": "Nestlé has renewed its funding for the New Zealand Net Zero Pilot Dairy Farm project through to 2030, extending a partnership with dairy cooperative Fonterra.",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-11-18T18:16+09:00",
+   "first_seen": "2026-11-18T20:51+09:00",
+   "lang": "en",
+   "area": "overseas",
+   "desc_checked": true
+  },
+  {
+   "title": "帯広畜産大のチーズ工房 本年度整備が困難に 資材高騰で27年度以降に延期も検討",
+   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE53Q2RCa2p0VnhOOU9VQmhiWS1leVJQLVlDc3dKTnRZdkxtbEZkMDlQRURtM05SdnZYRzdSbU5ib201ZVhmVDQtMHB0S1M3cmdGcm5Yd3dyN0xIUQ?oc=5",
+   "publisher": "北海道新聞デジタル",
+   "via": "Google ニュース「酪農」",
+   "region": "jp",
+   "snippet": "",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-11-18T18:15+09:00",
+   "first_seen": "2026-11-18T20:51+09:00",
+   "lang": "ja",
+   "area": "japan"
+  },
+  {
+   "title": "京都府で確認された高病原性鳥インフルエンザ （国内1例目）の遺伝子解析結果並びに患畜及びNA亜型の確定について",
+   "link": "https://www.maff.go.jp/j/press/syouan/douei/261118.html",
+   "publisher": "農林水産省 報道発表",
+   "via": "農林水産省 報道発表",
+   "region": "jp",
+   "snippet": "",
+   "cats": [
+    "dairy",
+    "policy"
+   ],
+   "published": "2026-11-18T18:00+09:00",
+   "first_seen": "2026-11-18T20:51+09:00",
+   "lang": "ja",
+   "area": "japan",
+   "desc_checked": true
+  },
+  {
+   "title": "千葉県で確認された高病原性鳥インフルエンザ（国内2例目）の遺伝子解析結果並びに患畜及びNA亜型の確定について",
+   "link": "https://www.maff.go.jp/j/press/syouan/douei/261118_1.html",
+   "publisher": "農林水産省 報道発表",
+   "via": "農林水産省 報道発表",
+   "region": "jp",
+   "snippet": "",
+   "cats": [
+    "dairy",
+    "policy"
+   ],
+   "published": "2026-11-18T18:00+09:00",
+   "first_seen": "2026-11-18T20:51+09:00",
+   "lang": "ja",
+   "area": "japan",
+   "desc_checked": true
+  },
+  {
+   "title": "酪農学園大と雪印種苗が12月に酪農セミナー",
+   "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFAxeVpQTXBPbUJ5bGJBcElmRm04UmhKLVpiVUp6dWV1WjRIbzh5UEtBYlhZTVgtTDdaNURfMEtuVmxZLW5LTnlWUndLU3I?oc=5",
+   "publisher": "酪農乳業速報",
+   "via": "Google ニュース「酪農」",
+   "region": "jp",
+   "snippet": "",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-11-18T17:53+09:00",
+   "first_seen": "2026-11-18T20:51+09:00",
+   "lang": "ja",
+   "area": "japan"
+  },
+  {
+   "title": "暑熱対策など題材に北海道酪農技術セミナー",
+   "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9teGN1OVVCMUhNS1dWQUZub0xQYnB1Vmd4a0pfR0Flc1BwaHNNVWZFNG9fZkFmY1ZOb2pjSHdTeUgyS0ZRZHQ5ZlZlOUg?oc=5",
+   "publisher": "酪農乳業速報",
+   "via": "Google ニュース「酪農」",
+   "region": "jp",
+   "snippet": "",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-11-18T17:49+09:00",
+   "first_seen": "2026-11-18T20:51+09:00",
+   "lang": "ja",
+   "area": "japan"
+  },
+  {
+   "title": "ホクレン生乳道外移出、9カ月連続前年割れ",
+   "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5JbnB1WTBPdEdVeWg2aDNaQTV4UEFCUER0akYxcFkwR3M4bWtLSTRnYUkxdG05OGtuX2xRU2dWaDJxZlJyTDliRUNmY1k?oc=5",
+   "publisher": "酪農乳業速報",
+   "via": "Google ニュース「酪農」",
+   "region": "jp",
+   "snippet": "",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-11-18T17:46+09:00",
+   "first_seen": "2026-11-18T20:51+09:00",
+   "lang": "ja",
+   "area": "japan"
+  },
+  {
+   "title": "農事功績者に酪農家7組を表彰・大日本農会",
+   "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBJMWRVYjRqMXBKUm13dG1aT3A5N3VQRzY4dE1rWnQtYzJub2Zfb1I5ZWYyYlE3NVlweWNLREpWQzJ4UEY2Z1ZScEpQUm8?oc=5",
+   "publisher": "酪農乳業速報",
+   "via": "Google ニュース「酪農」",
+   "region": "jp",
+   "snippet": "",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-11-18T17:36+09:00",
+   "first_seen": "2026-11-18T20:51+09:00",
+   "lang": "ja",
+   "area": "japan"
+  },
+  {
+   "title": "道南初の「酪農プチサミット」、関係者多数",
+   "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBZWU5lUUh4QjhiQkRpcTZ6czY0NG9Kci1Vd3RaWXlzWWc4SzZqbXNnWlBMTGdpb1FHQllMSUF3dFVvTTBOSG5KVVV0OC0?oc=5",
+   "publisher": "酪農乳業速報",
+   "via": "Google ニュース「酪農」",
+   "region": "jp",
+   "snippet": "",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-11-18T17:34+09:00",
+   "first_seen": "2026-11-18T20:51+09:00",
+   "lang": "ja",
+   "area": "japan"
+  },
+  {
+   "title": "黒澤賞に埼玉の松本陽一さん・日本酪農研究会",
+   "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1TV042X19BdHBmdko5LTFvYzRVbTJRZEVwdmgwX3A0WlFudExVbUI2RnRibXpIa0N1aXlpUl90SWZaRFZvNTlqSjF2Zzc?oc=5",
+   "publisher": "酪農乳業速報",
+   "via": "Google ニュース「酪農」",
+   "region": "jp",
+   "snippet": "",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-11-18T17:17+09:00",
+   "first_seen": "2026-11-18T20:51+09:00",
+   "lang": "ja",
+   "area": "japan"
+  },
+  {
+   "title": "神田潤一畜酪委員長「飼料の生産基盤強化が課題」",
+   "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9Lb1BUUVc5WEJ3NWlDQkp1ZGJJZXU0dXAtdDlMX0dBbU43NUhfTnA2R2tCbmRqMHozalhzeTAwZEJkZDNBNjliXzFYTEY?oc=5",
+   "publisher": "酪農乳業速報",
+   "via": "Google ニュース「酪農」",
+   "region": "jp",
+   "snippet": "",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-11-18T17:07+09:00",
+   "first_seen": "2026-11-18T20:51+09:00",
+   "lang": "ja",
+   "area": "japan"
+  },
+  {
+   "title": "Baladna stays profitable amid turmoil, pushes Algeria and Syria growth",
+   "link": "https://www.foodnavigator.com/Article/2026/11/18/baladna-stays-profitable-amid-turmoil-pushes-algeria-and-syria-growth/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+   "publisher": "DairyReporter",
+   "via": "DairyReporter",
+   "region": "world",
+   "snippet": "Qatari giant Baladna has maintained profitability despite Middle East instability, and is accelerating its regional ambitions with large-scale projects in Algeria and Syria",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-11-18T16:47+09:00",
+   "first_seen": "2026-11-18T20:51+09:00",
+   "lang": "en",
+   "area": "africa",
+   "desc_checked": true
+  },
+  {
+   "title": "3代目酪農家の父とカフェを営む20歳の娘が北海道内初の酒米陸稲栽培に成功 牛の堆肥で酸性土壌を改良 湖底熟成と掛け合わせる新酒造りへ 北海道弟子屈町",
+   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFByQVRxS2pVS3lBa1U2NlZUNGlWVWR0Z05TbWVmZk5jN3p5MDlPUElnSldjclRMWDBwRUJoVVZJSHktUXdkMnNDYmp2eHF0dk8xUFhzZW50My1ZTXJLMG5RUW42NmM0S3R3ZmpFSTlVT2Y1aFNxUC11anNvYWVhR0U?oc=5",
+   "publisher": "Yahoo!ニュース",
+   "via": "Google ニュース「酪農」",
+   "region": "jp",
+   "snippet": "",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-11-18T16:00+09:00",
+   "first_seen": "2026-11-18T20:51+09:00",
+   "lang": "ja",
+   "area": "japan"
+  },
+  {
+   "title": "SA’s Water Crisis Requires More Than Infrastructure Investment",
+   "link": "https://farmersreviewafrica.com/sas-water-crisis-requires-more-than-infrastructure-investment/",
+   "publisher": "Farmers Review Africa",
+   "via": "Farmers Review Africa",
+   "region": "africa",
+   "snippet": "WISA warns that professional competence, effective institutional management and accountability are essential to delivering reliable water services. South Africa’s escalating water challenges require more than infrastructure investment. Mounting municipal debt, significant water losses and growing pr…",
+   "cats": [
+    "general"
+   ],
+   "published": "2026-11-18T15:41+09:00",
+   "first_seen": "2026-11-18T20:51+09:00",
+   "lang": "en",
+   "area": "africa"
+  },
+  {
+   "title": "Red genes lead the way in autumn dairy sale",
+   "link": "https://www.agriland.ie/farming-news/red-genes-lead-the-way-in-autumn-dairy-sale/",
+   "publisher": "Agriland",
+   "via": "Agriland",
+   "region": "world",
+   "snippet": "The autumn dairy classic sale recently took place online, with demand for quality red genes leading the way. The sale, which was facilitated by Denis Barrett Auctions, saw a selection of in-calf heifers and maiden heifers go up for grabs. All stock was pedigree registered and backed by years of top…",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-11-18T15:15+09:00",
+   "first_seen": "2026-11-18T20:51+09:00",
+   "lang": "en",
+   "area": "overseas"
+  },
+  {
+   "title": "Malawi: Ben Phiri Calls for Food Self-Sufficiency in New WFP Partnership",
+   "link": "https://allafrica.com/stories/202611180077.html",
+   "publisher": "AllAfrica Agriculture",
+   "via": "AllAfrica Agriculture",
+   "region": "africa",
+   "snippet": "[Nyasa Times] Malawi must stop relying on donor support and focus on producing enough food to feed its own people, Local Government and Rural Development Minister Ben Phiri has said, as the government signed a new partnership with the United Nations World Food Programme (WFP) aimed at tackling hunge…",
+   "cats": [
+    "dairy",
+    "policy"
+   ],
+   "published": "2026-11-18T15:10+09:00",
+   "first_seen": "2026-11-18T20:51+09:00",
+   "lang": "en",
+   "area": "africa"
+  },
+  {
+   "title": "How ‘the Warrendale Wagyu service’ works on this Tipp dairy farm",
+   "link": "https://www.agriland.ie/farming-news/how-the-warrendale-wagyu-service-works-on-this-tipp-dairy-farm/",
+   "publisher": "Agriland",
+   "via": "Agriland",
+   "region": "world",
+   "snippet": "John Murray is milking over 120 cows on his family-run farm in Co. Tipperary. Over the past two years, the Warrendale Wagyu programme, supported by Munster Bovine, has played an increasingly important role in Murray’s dairy breeding plan, delivering greater certainty around calf value, calving ease…",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-11-18T15:00+09:00",
+   "first_seen": "2026-11-18T20:51+09:00",
+   "lang": "en",
+   "area": "overseas"
+  },
+  {
+   "title": "Table: How many cattle have 4 or more movements?",
+   "link": "https://www.agriland.ie/farming-news/table-how-many-cattle-have-4-or-more-movements/",
+   "publisher": "Agriland",
+   "via": "Agriland",
+   "region": "world",
+   "snippet": "Figures on Irish cattle movements have recently been made available by the Minister for Agriculture, Food and the Marine, Martin Heydon. The data was provided in response to a query from Fianna Fáil TD for Tipperary North, Ryan O’Meara. The TD asked Minister Heydon for information on the number of b…",
+   "cats": [
+    "dairy",
+    "smart"
+   ],
+   "published": "2026-11-18T15:00+09:00",
+   "first_seen": "2026-11-18T20:51+09:00",
+   "lang": "en",
+   "area": "overseas"
+  },
+  {
+   "title": "Kenya Moves to Deregister Non-Compliant Cooperatives as Government Pushes Sector Reforms",
+   "link": "https://kilimonews.co.ke/general-news/11495/",
+   "publisher": "Kilimo News（ケニア）",
+   "via": "Kilimo News（ケニア）",
+   "region": "africa",
+   "snippet": "By Kimuri Mwangi The government plans to deregister thousands of non-compliant cooperative societies from January 2027 in a major push to clean up the sector, strengthen governance and protect members from mismanagement. The acting Commissioner for Cooperative Development Symon Mburia said only abou…",
+   "cats": [
+    "policy",
+    "general"
+   ],
+   "published": "2026-11-18T15:00+09:00",
+   "first_seen": "2026-11-18T20:51+09:00",
+   "lang": "en",
+   "area": "africa"
+  },
+  {
+   "title": "生乳冷却タンク市場2035年予測：酪農近代化とコールドチェーン拡大が成長を牽引",
+   "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNck9YR2phY2dTS1phUU53aDdabjRhY3lKcGlXenhfQW1JbnVZeWJmSTlwQi1lU1J2VXNoWGxRQ19Zdm9rYnNjQWxBNDVqTWZvSF91NDlrcnJGNURsUmhWSzJ3MGhuVkVlNU83UFloakp4UnFqLXpONjNPeXZtenJ0VkcxX1NUNVZ3NWtCVl92aE90cjJsZjdtUjZqN3Z2QlRSUVlLRkk0VXhrRG9Tb0MwY0I2cVJGRV9oNW01NUI1TXNfZjBCb1pWUng5YnFwZzdTYWZpbU5UY1prQQ?oc=5",
+   "publisher": "IndexBox",
+   "via": "Google ニュース「酪農」",
+   "region": "jp",
+   "snippet": "",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-11-18T14:41+09:00",
+   "first_seen": "2026-11-18T20:51+09:00",
+   "lang": "ja",
+   "area": "japan"
+  },
+  {
+   "title": "Kenya: 'Hunger Should Not Be a Concern' - WFP Steps in for Families in Kenya Who Fled Ethiopia Violence",
+   "link": "https://allafrica.com/stories/202611180010.html",
+   "publisher": "AllAfrica Agriculture",
+   "via": "AllAfrica Agriculture",
+   "region": "africa",
+   "snippet": "[UN News] The World Food Programme (WFP) is assisting thousands of families who fled recent violence in Ethiopia for the Moyale area in neighbouring Kenya, the UN agency reported on Tuesday.",
+   "cats": [
+    "general"
+   ],
+   "published": "2026-11-18T13:45+09:00",
+   "first_seen": "2026-11-18T20:51+09:00",
+   "lang": "en",
+   "area": "africa"
+  },
+  {
+   "title": "ぐしちゃんピーマン スマート農業実証 沖縄（沖縄ニュースQAB）",
+   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1taUlLU1FmYWhQZDlpaDVUV2JaLWUyay1KWGM4N1poRnFHSWZPNHRfOWZwOExYa3daTl9USkRzTGstM0VKYkN6N2JrOXU5d1NtTndVaWVUMlNkWDE1WnlnRlRUOVhFY3V2XzhvYVlkRVZ1QWpIeFZDQktkOThBa3M?oc=5",
+   "publisher": "Yahoo!ニュース",
+   "via": "Google ニュース「スマート農業」",
+   "region": "jp",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-11-18T12:44+09:00",
+   "first_seen": "2026-11-18T20:51+09:00",
+   "lang": "ja",
+   "area": "japan"
+  },
+  {
+   "title": "[ITmedia News] 未成年の電動モビリティー事故、3カ月ごとに15?33％増 脳損傷は普通の自転車の2倍 米スタンフォード大が1.3万人分析",
+   "link": "https://www.itmedia.co.jp/news/article/2611/18/2000003265/",
+   "publisher": "ITmedia",
+   "via": "ITmedia",
+   "region": "jp",
+   "snippet": "米スタンフォード大学などに所属する研究者らが医学誌「JAMA」で発表した論文「Injuries From Electric Bicycles and Scooters Managed in Pediatric Health Systems」は、子どもや10代の若者における電動自転車および電動キックボードの事故による負傷率の推移や重症度を調査した研究報告だ。",
+   "cats": [
+    "iot"
+   ],
+   "published": "2026-11-18T12:00+09:00",
+   "first_seen": "2026-11-18T20:51+09:00",
+   "lang": "ja",
+   "area": "japan"
+  },
+  {
+   "title": "The hidden gap in digital ag: What’s keeping ASEAN’s women farmers from adopting tech",
+   "link": "https://www.agnavigator.com/Article/2026/11/18/the-hidden-gap-in-digital-ag-whats-keeping-aseans-women-farmers-from-adopting-tech/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+   "publisher": "FeedNavigator",
+   "via": "FeedNavigator",
+   "region": "world",
+   "snippet": "A lack of smartphone access, digital skills and gender-responsive training is creating a hidden barrier to digital adoption among women farmers across ASEAN",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-11-18T11:49+09:00",
+   "first_seen": "2026-11-18T20:51+09:00",
+   "lang": "en",
+   "area": "overseas",
+   "desc_checked": true
+  },
   {
    "title": "適切な畜産慣行とバイオセキュリティの推進。",
    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPcHlSNDFlZGwtUXI3VzloQTVHbGo1eGxKV292aTFtdk4tcllQdXRyZjc2U25RaEFOZW1LTHFiZFVxV1pkeGhsT0NQdmlTQl9yOWRUV05Kdl9TT2NTSUFmY2RYazFXeTI1bklLUG1xaTh5VlB5Zmc2VFdjdTJFcG9HUkhIWnA?oc=5",
@@ -269,6 +789,21 @@
    "first_seen": "2026-11-18T12:07+09:00",
    "lang": "en",
    "area": "overseas"
+  },
+  {
+   "title": "「生乳流通」と「肥料」の事実を社会に伝える ファクトブックを解説 ＪＡ全農",
+   "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1XaE1QcEtyX0U5U3MyMTJpeFJFdDFDX3ZzbUhMQkN5dkV0UlNCbmFTU0UxOXYtS1JhUy1BeGRITnR4VHE2R1dZS0E0VEt5alJMNnlRc0YteUJ2UjhrYkJNQ1VRbGE?oc=5",
+   "publisher": "JAcom 農業協同組合新聞",
+   "via": "Google ニュース「酪農」",
+   "region": "jp",
+   "snippet": "",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-11-18T06:00+09:00",
+   "first_seen": "2026-11-18T20:51+09:00",
+   "lang": "ja",
+   "area": "japan"
   },
   {
    "title": "南野産業、中国で鋳物部品増産 建機・農機向け",
@@ -411,6 +946,21 @@
    "area": "africa"
   },
   {
+   "title": "Super Eagles’ AFCON 2027 hopes in doubt after Tanzania draw",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPd1pFT3VRNWlwTklBczBrczloQVRJZUlXbWRHaERibFpRQ2JXZ2V4MldLNXhzQUQ0Y2ZyejVIN0gtbWlGN2w5cVYyM19CbEczSXBXTFFjeHl6R3NMSm9JRWM5RVpXQVBPcGQtdElSOVdrQnloUGx0NDBtaXl5bEtWRWZKNnUtRWJaUUhOU0NfYnVRLXRYTmFsZU53?oc=5",
+   "publisher": "The Guardian Nigeria News",
+   "via": "Google News Tanzania",
+   "region": "africa",
+   "snippet": "",
+   "cats": [
+    "general"
+   ],
+   "published": "2026-11-18T01:15+09:00",
+   "first_seen": "2026-11-18T20:51+09:00",
+   "lang": "en",
+   "area": "africa"
+  },
+  {
    "title": "Carlsberg spinout Traitomic lands $22m to speed up trait discovery and development",
    "link": "https://agfundernews.com/carlsberg-spinout-traitomic-lands-22m-to-speed-up-trait-discovery-and-development",
    "publisher": "AgFunderNews",
@@ -422,6 +972,22 @@
    ],
    "published": "2026-11-18T00:34+09:00",
    "first_seen": "2026-11-18T12:07+09:00",
+   "lang": "en",
+   "area": "overseas"
+  },
+  {
+   "title": "BASF’s Nemasphere trait highlights Europe’s biotech divide despite EU import approval",
+   "link": "https://www.agnavigator.com/Article/2026/11/17/basfs-nemasphere-trait-highlights-europes-biotech-divide-despite-eu-import-approval/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+   "publisher": "FeedNavigator",
+   "via": "FeedNavigator",
+   "region": "world",
+   "snippet": "BASF’s Nemasphere soybean trait, which protects against nematodes and boosts yields, has been approved for import into the EU but faces no near-term prospects for cultivation there due to regulatory barriers. While Europe will benefit from imported products containing the trait, its own farmers rema…",
+   "cats": [
+    "smart",
+    "policy"
+   ],
+   "published": "2026-11-18T00:33+09:00",
+   "first_seen": "2026-11-18T20:51+09:00",
    "lang": "en",
    "area": "overseas"
   },
@@ -484,6 +1050,22 @@
    "first_seen": "2026-11-18T12:07+09:00",
    "lang": "en",
    "area": "overseas"
+  },
+  {
+   "title": "New Culture lands California approval for precision fermentation-derived mozzarella",
+   "link": "https://www.foodnavigator.com/Article/2026/11/17/california-approves-new-cultures-animal-free-mozzarella/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+   "publisher": "DairyReporter",
+   "via": "DairyReporter",
+   "region": "world",
+   "snippet": "With California approval in hand, New Culture prepares animal-free mozzarella rollout in foodservice channel",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-11-17T23:42+09:00",
+   "first_seen": "2026-11-18T20:51+09:00",
+   "lang": "en",
+   "area": "overseas",
+   "desc_checked": true
   },
   {
    "title": "‘A massive step closer to commercialization…’ New Culture gets OK to make animal-free dairy cheese in California",
@@ -716,6 +1298,36 @@
    "area": "overseas"
   },
   {
+   "title": "Traitomic bets on ‘gene-editing outcomes without gene editing’ after €20m Series A",
+   "link": "https://www.agnavigator.com/Article/2026/11/17/traitomic-bets-on-gene-editing-outcomes-without-gene-editing-after-20m-series-a/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+   "publisher": "FeedNavigator",
+   "via": "FeedNavigator",
+   "region": "world",
+   "snippet": "Danish biotech start-up Traitomic has secured €20 million in Series A funding to expand its FIND-IT platform, which identifies useful genetic variants in conventionally bred crops and microorganisms without gene editing. The technology offers food and agriculture companies a route to develop improve…",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-11-17T19:30+09:00",
+   "first_seen": "2026-11-18T20:51+09:00",
+   "lang": "en",
+   "area": "overseas"
+  },
+  {
+   "title": "Kenya News Agency - KNA. . Kenya Red Cross Society Tana River County Coordinator Abubakar Rhoba says at least 300 households in Madogo Ward have received emergency shelter materials and assorted household items following heavy rains and flood",
+   "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQeFdIZzREbjNRNDdyQ2Q1bE45djJUMTVGVHo1a0U0Y1hhWkEwUmNQU2g3OVV4WXUwd0NpY08yQmpGeHpyN3hpTUlkaGlDMUpZWEpCd1YxaHluaFlfSlB1UTlXaW5ubENyY2RidVpHMC1nMDFwcG12d1NaaGxSRUhBMnN2MGFlWkppNEQ4UlA4RUR4empFR19jbWR3RldYUUJGQjlQeUxhRUk5TXBtZ28tX3d4VmhLMzhiYlpDLXczdzd3dEJFMUJYM21FYlJpaHRZQ2NuMmFmeEp4OV9FUW1saw?oc=5",
+   "publisher": "Facebook",
+   "via": "Google News Kenya",
+   "region": "africa",
+   "snippet": "",
+   "cats": [
+    "general"
+   ],
+   "published": "2026-11-17T19:29+09:00",
+   "first_seen": "2026-11-18T20:51+09:00",
+   "lang": "en",
+   "area": "africa"
+  },
+  {
    "title": "Tanzania Mining and Investment Conference 2026 Confirms 1,715 Participants Ahead of 19 November Opening",
    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQUWVGVGNpMFM5VXZKN1dOU1BJTEtmNG5QU0FFZjRkNVo0OTV0cWdFa1NUQThMdjJsY2VCVE1QZ1pnX29kckJFc1ZNUng4OGpLUFE1WFluVWJmUDNaUG1SSG5LTmpjY0hPREY1LUs0Y0tmZjktZEFOWFlJYnNfUTZIbURsTEx4b1N3aFF6elNCTVZ4bTQ?oc=5",
    "publisher": "TanzaniaInvest",
@@ -759,6 +1371,21 @@
    "first_seen": "2026-11-18T12:07+09:00",
    "lang": "en",
    "area": "overseas"
+  },
+  {
+   "title": "釧根の酪農・漁業、スキマバイトが支える 登録58倍、長期雇用の「お試し」にも",
+   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFAtXzZ4SDBwUnhGU0J2Q0hGS1VjV1JLR3dPSEhiMFBQeldpbXNUbTB4bDFuNEJEUzd6czlMVjE5ZW0xQlJNWklEZXZVLWJzVzM4c0tFblcyNTMtZw?oc=5",
+   "publisher": "北海道新聞デジタル",
+   "via": "Google ニュース「酪農」",
+   "region": "jp",
+   "snippet": "",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-11-17T18:57+09:00",
+   "first_seen": "2026-11-18T20:51+09:00",
+   "lang": "ja",
+   "area": "japan"
   },
   {
    "title": "CAK warns of jail for supermarkets on unfair buying, lifting small suppliers’ hopes",
@@ -21328,250 +21955,6 @@
     "general"
    ],
    "published": "2026-10-19T21:44+09:00",
-   "first_seen": "2026-11-04T21:08+09:00",
-   "lang": "en",
-   "area": "africa"
-  },
-  {
-   "title": "Fragmented FMD vaccination subsidy reaches fewer than 4% of Kenya’s cattle",
-   "link": "https://farmbizafrica.com/fragmented-fmd-vaccination-subsidy-reaches-fewer-than-4-of-kenyas-cattle/",
-   "publisher": "FarmBiz Africa",
-   "via": "FarmBiz Africa",
-   "region": "africa",
-   "snippet": "Kenya’s subsidised National Vaccination Livestock Campaign has delivered less than half the…",
-   "cats": [
-    "dairy",
-    "policy"
-   ],
-   "published": "2026-10-19T20:18+09:00",
-   "first_seen": "2026-11-04T21:08+09:00",
-   "lang": "en",
-   "area": "africa"
-  },
-  {
-   "title": "KAAA Champions Youth-Led Agricultural Innovation at World Food Day Event",
-   "link": "https://kilimonews.co.ke/general-news/kaaa-champions-youth-led-agricultural-innovation-at-world-food-day-event/",
-   "publisher": "Kilimo News（ケニア）",
-   "via": "Kilimo News（ケニア）",
-   "region": "africa",
-   "snippet": "By Kimuri Mwangi More than 400 students showcased agricultural innovations at the Kenya Agricultural and Livestock Research Organisation (KALRO) headquarters during a World Food Day event organised by the Kenya Australia Alumni Association (KAAA). Held under the theme“Innovate Today. Nourish Tomorro…",
-   "cats": [
-    "dairy"
-   ],
-   "published": "2026-10-19T19:29+09:00",
-   "first_seen": "2026-11-04T21:17+09:00",
-   "lang": "en",
-   "area": "africa"
-  },
-  {
-   "title": "電子指示書システムの利用申請をお考えの皆様へ（対象：畜産分野）",
-   "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9PcjY3Zi1aVFZrRllwSHlFNFo5TUJWaUV5Ylk0Z1RfUk5QdEl6WlRTMEsxS2kwLUZ0SktTbllqMEQ3dUJTREtzNW1yNTRmTnZuNmJicVMxTGNMLUlNUlQ1RldHZm51REF6M3pFZlVKM2Q?oc=5",
-   "publisher": "農林水産省",
-   "via": "Google ニュース「酪農」",
-   "snippet": "",
-   "cats": [
-    "dairy"
-   ],
-   "published": "2026-10-19T16:00+09:00",
-   "first_seen": "2026-11-03T22:00+09:00",
-   "region": "jp",
-   "lang": "ja",
-   "area": "japan",
-   "summary": "農林水産省が、畜産分野の電子指示書システムの利用申請について案内している。",
-   "summary_v": 2
-  },
-  {
-   "title": "「酪農始まりの地」千葉県南房総 ミルクツアーで学ぶ牧場経営の現実",
-   "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9JeFNNQlBDbUNMUjh5SW1qdnk3WUt4OEE2NUJYQkN2Wklhb3daVW0wX3U4V2REQk1wMkhtQU9wQ21hcGVzQmhNQjRPVFhfWkF0by1KT1J5SXZINDZ6V0l0RGoxdWtTUEVaQ1ZtbA?oc=5",
-   "publisher": "日本経済新聞",
-   "via": "Google ニュース「酪農」",
-   "snippet": "",
-   "cats": [
-    "dairy"
-   ],
-   "published": "2026-10-19T16:00+09:00",
-   "first_seen": "2026-11-03T22:00+09:00",
-   "region": "jp",
-   "lang": "ja",
-   "area": "japan",
-   "summary": "「酪農始まりの地」とされる千葉県南房総で、ミルクツアーを通して牧場経営の現実を伝える記事。",
-   "summary_v": 2
-  },
-  {
-   "title": "▽茨城・守谷で酪農の仕事を調査▽究極の2択",
-   "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE45ZTl1VVE1aFZqajFlTFlIT2xXaTRRb2VsY1EwSGEyQTVibVJmUWNQU0JYVDU4X293TjBYUl9ueTBfdUpzTEMxWXlvWC1HaGRSMVFwamc0dUxiblU0QzZOMllWSnZmaW1teElPYTQ4NFhxWHdULURJ?oc=5",
-   "publisher": "NHK ONE",
-   "via": "Google ニュース「酪農」",
-   "snippet": "",
-   "cats": [
-    "dairy"
-   ],
-   "published": "2026-10-19T16:00+09:00",
-   "first_seen": "2026-11-03T22:00+09:00",
-   "region": "jp",
-   "lang": "ja",
-   "area": "japan",
-   "summary": "NHKが茨城県守谷市で酪農の仕事を調査し、「究極の2択」をテーマに紹介している。",
-   "summary_v": 2
-  },
-  {
-   "title": "高校生も時給1,200円から参加可能！「農業×AI」で未来の仕事に挑戦する学生インターンを募集",
-   "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE52X0FlZ3FnX21YZUE3bXJjRl82VVg1U0t6aHlpQUR6X0NxWkc2anFLckI4a2dBWHdORkNzbDNBSEVDSkQ3YTNoS1oyQk5LWjVNUDR5NDhCTFQxUHVPdmtsYkNNOWRkb2ZqV1JlSmF3?oc=5",
-   "publisher": "株式会社ワカモノリサーチ",
-   "via": "Google ニュース「農業 AI」",
-   "snippet": "",
-   "cats": [
-    "smart"
-   ],
-   "published": "2026-10-19T16:00+09:00",
-   "first_seen": "2026-11-03T22:00+09:00",
-   "region": "jp",
-   "lang": "ja",
-   "area": "japan",
-   "summary": "高校生も時給1,200円から参加できる、「農業×AI」の学生インターン募集。",
-   "summary_v": 2
-  },
-  {
-   "title": "Is smart farming really smart business?",
-   "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBiY01PeFVla05feWtpWEYyOWRJOTNvU1J1RHRSM0Vtc2Joa0FTTTRlcVFJc2tTVGlqS3J2MHo3TmV3NTRYZk5jY3VNaHRSRVEzT1pWNHpkbDJDT0VDVGN1ZWIyc1RvbjExY2s2aXpNVHU?oc=5",
-   "publisher": "Financial Times",
-   "via": "Google News \"smart farming\"",
-   "region": "world",
-   "snippet": "",
-   "cats": [
-    "smart"
-   ],
-   "published": "2026-10-19T16:00+09:00",
-   "first_seen": "2026-11-03T22:13+09:00",
-   "lang": "en",
-   "area": "overseas",
-   "summary": "スマート農業が事業として本当に成り立つのかを問う記事。",
-   "title_ja": "スマート農業は本当にスマートなビジネスなのか？",
-   "summary_en": "Financial Times asks whether smart farming is really a good business.",
-   "summary_v": 2
-  },
-  {
-   "title": "Smart farming is already proving profitable in some regions, global analysis finds",
-   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBBa2xZaUlFX2FaUzFXTzRCV3QxX1FTT21Dam8wbEJabTFmZTVCU2RrRG4td3JIY1FyMXl6ZVpkT0xIQ1ZjcGx4TlhqUEVURGtXZnRIYUZ1NDU5dHBvaTgzS0ZMZkRieTRhUFdRbk5pQzUtM003dGhoejZ3OXV5MEk?oc=5",
-   "publisher": "Phys.org",
-   "via": "Google News \"smart farming\"",
-   "region": "world",
-   "snippet": "",
-   "cats": [
-    "smart"
-   ],
-   "published": "2026-10-19T16:00+09:00",
-   "first_seen": "2026-11-03T22:29+09:00",
-   "lang": "en",
-   "area": "overseas",
-   "summary_tries": 2
-  },
-  {
-   "title": "Robots and AI could make smart farming profitable on 75% of global cropland: Study",
-   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPV2hPUVN2WWY2Ui1HZWRQc09XMVJTSGx4a2piTjZ2MFpIVzNZZG53b2RuX3ZVLTlmOHJQSW9HWGVTa3lPTzlxQTBhbmpqN0phTXlzM1BLZS04V240SlNvWTJaNC1tc3dVTVY0MzZDTEN4OFhGRFZPX25GTXFKbUVENUdjNXB3VTZ3bmNTUzJlQm1jSFNwV2RLQVozQUxJU1R2TGEtcjZZR0V0NGVRMUtMV0lhdEhFRWpybGNN?oc=5",
-   "publisher": "Daily News Egypt",
-   "via": "Google News \"smart farming\"",
-   "region": "world",
-   "snippet": "",
-   "cats": [
-    "smart"
-   ],
-   "published": "2026-10-19T16:00+09:00",
-   "first_seen": "2026-11-03T22:29+09:00",
-   "lang": "en",
-   "area": "overseas",
-   "summary_tries": 2
-  },
-  {
-   "title": "Kenya secures Ksh 7B to boost livestock commercialization",
-   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOSU5xQ29jQ1F0ZXFkazNscVROYjRLdG9tQmJtR2pTeUN1RzdOd3hfc1V4RFdyUV8tei1aOS1iODBLY2d1bmYzQS1vbFZ0cDhXX0xsNzZKYUFDU196MDJOOGpNZTNYM3ppMWoydV9paGM0NGNBU0tNN0hpd0lYMWRjUDJOV25hclU?oc=5",
-   "publisher": "KBC Digital",
-   "via": "Google News Kenya",
-   "region": "africa",
-   "snippet": "",
-   "cats": [
-    "dairy"
-   ],
-   "published": "2026-10-19T16:00+09:00",
-   "first_seen": "2026-11-04T21:08+09:00",
-   "lang": "en",
-   "area": "africa"
-  },
-  {
-   "title": "Agroforestry emerges as a green investment path for Tanzania’s youth",
-   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNVEdudWF6R1pwdkF4T0FiV0Q0WHNoM3RQaFNVQ0dlc1NNRmtZYlo1bzQ4ck9MWjE4TnlMVU9sLUN4Y0lZQllLc3JkSVdGLVREYXV5VUJaNldCNnhGR1BjMVVwLVM0T1JUSWMxdk9aclAyTXFOZ081ckJWZG5VV1gtMW1EbGNDNDhrdHhDc3RFU0s4YXJMdGFr?oc=5",
-   "publisher": "Daily News",
-   "via": "Google News Tanzania",
-   "region": "africa",
-   "snippet": "",
-   "cats": [
-    "general"
-   ],
-   "published": "2026-10-19T16:00+09:00",
-   "first_seen": "2026-11-04T21:08+09:00",
-   "lang": "en",
-   "area": "africa"
-  },
-  {
-   "title": "TADB named leading financial institution in supporting poultry projects in Tanzania",
-   "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOaFRqU1BFa2lKQVJjRkZpM056MElOdDJPcEhFbU9ib2MtTXd2VHFYWnZvTHZIRnFtV0RaY1A1TUZTYWMwNjlVZks1azFybS1EeFhuZFZId3F4am5BbE51dTRfdHU0WTM5Y0tQUWZjd01BZ3Vua3hjQmlibmVFdnZBa0VWcGJ2bXFodklwdmFUR1ItQlY1bFpZejBHaXd3YmZmQ08wMnZzQV9ETGpMU1pwY0Ryd1ZkZGp6aEZtUzNzS2Vwcm9ZdUxZanRndGlKbUNpcDZZYkc0bVoyNU9NdnBIRTRWUkVEdw?oc=5",
-   "publisher": "ippmedia.co.tz",
-   "via": "Google News Tanzania",
-   "region": "africa",
-   "snippet": "",
-   "cats": [
-    "dairy"
-   ],
-   "published": "2026-10-19T16:00+09:00",
-   "first_seen": "2026-11-04T21:08+09:00",
-   "lang": "en",
-   "area": "africa"
-  },
-  {
-   "title": "Tanzania, Netherlands to boost poultry industry",
-   "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFA2aVFoVGN0aEZucV9pTUZCcmVadC0zVkdEVEZqbXhleUJNajZQbUk4MG9RTjdpOHpBcXZJenRmSE9LX29IYmxqY1FNN2UzeUJmMUt0ZVV0ZFcxa0VyWUQ4QjRmM050bWZmaGRETE82VHpOb2d2dzFQU2pKZw?oc=5",
-   "publisher": "Daily News",
-   "via": "Google News Tanzania",
-   "region": "africa",
-   "snippet": "",
-   "cats": [
-    "dairy"
-   ],
-   "published": "2026-10-19T15:47+09:00",
-   "first_seen": "2026-11-04T21:08+09:00",
-   "lang": "en",
-   "area": "africa"
-  },
-  {
-   "title": "New hoeing robot benefits from growers’ critical eye",
-   "link": "https://www.futurefarming.com/smart-farming/new-hoeing-robot-benefits-from-growers-critical-eye/",
-   "publisher": "Future Farming",
-   "via": "Future Farming",
-   "region": "world",
-   "snippet": "New hoeing robot benefits from growers’ critical eye The Farming GT hoeing robot cannot be accused",
-   "cats": [
-    "smart"
-   ],
-   "published": "2026-10-19T15:00+09:00",
-   "first_seen": "2026-11-03T22:13+09:00",
-   "lang": "en",
-   "area": "overseas",
-   "summary": "生産者の率直な意見を取り入れて改良された除草ロボット「Farming GT」を紹介する記事。",
-   "title_ja": "生産者の厳しい目が役立つ新しい除草ロボット",
-   "summary_en": "A new weeding robot, Farming GT, improves with input from growers.",
-   "summary_v": 2
-  },
-  {
-   "title": "Oil price rises hit hardest in fruit, and by farm location",
-   "link": "https://farmbizafrica.com/oil-price-rises-hit-hardest-in-fruit-and-by-farm-location/",
-   "publisher": "FarmBiz Africa",
-   "via": "FarmBiz Africa",
-   "region": "africa",
-   "snippet": "The 11 per cent rise in Kenyan petrol prices last week is…",
-   "cats": [
-    "general"
-   ],
-   "published": "2026-10-19T14:28+09:00",
    "first_seen": "2026-11-04T21:08+09:00",
    "lang": "en",
    "area": "africa"
