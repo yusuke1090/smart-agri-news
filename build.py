@@ -695,7 +695,7 @@ def main():
     (OUT / "index.html").write_text(render(kept, statuses, now), encoding="utf-8")
     (OUT / "feed.xml").write_text(build_rss(kept, now), encoding="utf-8")
     (OUT / ".nojekyll").write_text("")
-    for name in ("board.html", "translate.js", "board-research.json", "cow.html"):   # そのまま公開するファイル（cow.html は教科書への移動の案内）
+    for name in ("board.html", "translate.js", "sync.js", "firebase-config.js", "board-research.json", "cow.html"):   # そのまま公開するファイル（cow.html は教科書への移動の案内、sync.js はスマホと PC でお気に入りを合わせる）
         (OUT / name).write_text((ROOT / "site" / name).read_text(encoding="utf-8"), encoding="utf-8")
     shutil.copytree(ROOT / "site" / "dict", OUT / "dict", dirs_exist_ok=True)   # 「🔤 訳す」の英和辞書
     print(f"記事 {len(kept)}件で docs/ を作りました（{now:%Y-%m-%d %H:%M} JST）")

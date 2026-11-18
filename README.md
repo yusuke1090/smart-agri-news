@@ -10,7 +10,8 @@
 - 「🗾 日本」「🌏 海外」のタブで分かれている（記事の舞台をキーワードで判定）。その中で「日本語の記事」「英語の記事」に分けられる
 - 海外のタブは「🌍 アフリカ」「アフリカ以外」にも分けられる。アフリカはスマート農業に限らず農業全般の記事を載せる（カテゴリ「農業全般」）
 - 英語の記事は英語の練習にも使えるように、英語のタイトル・英語の説明文・やさしい英語のまとめ（In short）と、日本語訳のタイトル・日本語のまとめを並べて表示する
-- ☆ でお気に入りに追加でき、「★ お気に入り」タブで後から見られる（見ているブラウザに保存。30日を過ぎて一覧から消えた記事も残る）
+- ☆ でお気に入りに追加でき、「★ お気に入り」タブで後から見られる（30日を過ぎて一覧から消えた記事も残る）
+- 右上の「☁ ログイン」で、教科書と同じ ID（または Google）でログインすると、☆ お気に入りと 🔤 の履歴がスマホと PC でそろう（下の「スマホと PC で合わせる」）
 - カテゴリ・キーワード・24時間以内の新着で絞り込める
 - 過去30日分を表示する。サイト自身の [RSS](https://yusuke1090.github.io/smart-agri-news/feed.xml) もある
 - スマホでも見やすい。ダークモード対応
@@ -84,13 +85,23 @@
   - 発音記号: [Free Dictionary API](https://dictionaryapi.dev/)（取れないときは出さない）。🔊 で読み上げ
   - 辞書にない単語（sustainable など）は、意味を機械翻訳で出す
 - **文章**は訳だけを出す。Chrome では Chrome の翻訳機能（[Translator API](https://developer.chrome.com/docs/ai/translator-api)。PC の中で訳す）、使えないとき（iPhone の Safari など）や初回の準備中は無料の [MyMemory](https://mymemory.translated.net/doc/spec.php)（1回 500 バイトまでなので文の区切りで分けて送る。1日の上限あり）。日本語を入れると英語に訳す
-- 履歴は、見ているブラウザの `localStorage`（`agri-news-translate-history`）に新しい順で 50 件まで。意味と例文ごと残すので、押すと問い合わせずに出る
+- 履歴は、見ているブラウザの `localStorage`（`agri-news-translate-history`）に新しい順で 50 件まで（ログインしていればスマホと PC で合わせる）。意味と例文ごと残すので、押すと問い合わせずに出る
 - 英和辞書のデータ（`site/dict/a.json`〜`z.json`、約 4MB）は `tools/make_dict.py` で作る:
 
 ```sh
 git clone --depth 1 https://github.com/kujirahand/EJDict.git /tmp/EJDict
 python3 tools/make_dict.py /tmp/EJDict
 ```
+
+## スマホと PC で合わせる（☁ ログイン）
+
+- `site/sync.js`。[教科書](https://github.com/yusuke1090/textbooks)と同じ Firebase（プロジェクト `textbooks-d3862`。設定は `site/firebase-config.js`）の Authentication と Firestore を使う。ログインのしかた（ID とパスワード、または Google）も同じ
+- 教科書とこのサイトは同じ `yusuke1090.github.io` なので、どちらかでログインすれば両方でログインしている（ログアウトも両方）
+- 合わせるのは ☆ お気に入り（`agri-news-favs`）と 🔤 の履歴（`agri-news-translate-history`）だけ。タブや絞り込みは端末ごと
+- 記録は教科書と同じ `users/{ログインした人}/kv/{キー}` に置く（キーの名前で分かれる。Firestore のルールは教科書の `firestore.rules` のままでよい）
+- 1秒ごとに中身が変わったかを見て、変わっていれば送る。ほかの端末の変更はすぐ届き、あとで変えたほうを使う（☆ を外したのも伝わる）
+- ログインする前からその端末にあったお気に入りと履歴は、最初のログインのときに足し合わせる
+- `site/firebase-config.js` を `null` にすると、ログインの欄を出さず、記録は端末の中だけ
 
 ## 牛の教科書（🐄）
 
@@ -169,6 +180,7 @@ gh workflow run update-news
 build.py                       ニュースを集めてサイトを作るスクリプト
 site/template.html             ページのひな形（デザインはここ）
 site/board.html                伝言板のページ（そのまま docs/ にコピーされる）
+site/sync.js                   ☆ お気に入りと 🔤 の履歴をスマホと PC で合わせる（site/firebase-config.js は Firebase の設定）
 site/cow.html                  牛の教科書への移動の案内（教科書は textbooks のリポジトリに移った）
 site/board-research.json       伝言板の「🔎 関連する事業」（Issue 番号ごとの調べた結果）
 tools/board-relay.gs           アカウントなしの書き込みの中継（Google Apps Script に貼って使う）

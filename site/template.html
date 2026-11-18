@@ -29,7 +29,7 @@ body { margin: 0; background: var(--bg); color: var(--text);
   font: 15px/1.7 system-ui, -apple-system, "Hiragino Sans", "Noto Sans JP", "Yu Gothic", sans-serif; }
 .wrap { max-width: 860px; margin: 0 auto; padding: 0 16px; }
 header { background: var(--panel); border-bottom: 1px solid var(--border); }
-header .wrap { padding-top: 22px; padding-bottom: 0; }
+header .wrap { padding-top: 22px; padding-bottom: 0; position: relative; }
 h1 { font-size: 22px; margin: 0 0 4px; letter-spacing: .02em; }
 h1 .cow { display: inline-block; margin-right: 6px; text-decoration: none; border-radius: 8px; transition: transform .15s; }
 h1 .cow:hover, h1 .cow:focus-visible { transform: scale(1.25) rotate(-8deg); }
@@ -107,14 +107,33 @@ footer li.ng { color: var(--new); }
 footer a { color: var(--link); }
 footer p { margin: 4px 0; }
 .tab-board { text-decoration: none; }
+/* ログイン（見出しの右上。sync.js が中身を作る） */
+.acct { position: absolute; top: 18px; right: 16px; z-index: 20; }
+.acct-btn { display: inline-flex; align-items: center; gap: 4px; padding: 5px 12px; font: inherit; font-size: 13px; color: var(--text); background: var(--panel); border: 1px solid var(--border); border-radius: 999px; cursor: pointer; }
+.acct-btn.on { color: var(--accent); border-color: var(--accent); }
+.acct-btn.err { color: var(--new); border-color: var(--new); }
+.acct-menu { position: absolute; right: 0; top: calc(100% + 6px); min-width: 220px; padding: 10px 12px; background: var(--panel); border: 1px solid var(--border); border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,.18); }
+.acct-menu p { margin: 0 0 4px; font-size: 13px; word-break: break-all; }
+.acct-menu p.m { color: var(--muted); font-size: 12px; }
+.acct-form { display: flex; flex-direction: column; gap: 8px; width: min(300px, 86vw); }
+.acct-form label { display: flex; flex-direction: column; gap: 3px; font-size: 12.5px; color: var(--muted); }
+.acct-form input { padding: 7px 10px; font: inherit; font-size: 16px; color: var(--text); background: var(--bg); border: 1px solid var(--border); border-radius: 8px; }
+.acct-err { color: var(--new) !important; font-size: 12.5px !important; }
+.acct-or { margin: 2px 0 0 !important; font-size: 12px !important; color: var(--muted); text-align: center; }
+.acct-row { display: flex; flex-wrap: wrap; gap: 6px; }
+.acct-menu button { margin-top: 6px; padding: 5px 12px; font: inherit; font-size: 13px; color: var(--text); background: var(--bg); border: 1px solid var(--border); border-radius: 8px; cursor: pointer; }
+.acct-menu button.pri { color: #fff; background: var(--accent); border-color: var(--accent); font-weight: 700; }
+.acct-menu button.acct-google { width: 100%; margin-top: 0; padding: 7px 12px; font-weight: 700; }
+.acct-menu button:disabled { opacity: .5; }
 [hidden] { display: none !important; }
-@media (max-width: 480px) { .tabs { gap: 3px; } .tab { padding: 7px 10px; font-size: 13.5px; } .tab span { display: none; } .chips .label { display: none; } }
+@media (max-width: 480px) { .acct { top: 20px; } .acct-btn { padding: 4px 9px; } .acct-btn span { display: none; } .tabs { gap: 3px; } .tab { padding: 7px 10px; font-size: 13.5px; } .tab span { display: none; } .chips .label { display: none; } }
 @media (max-width: 380px) { .tab { padding: 7px 6px; font-size: 12.5px; } }
 </style>
 </head>
 <body>
 <header>
   <div class="wrap">
+    <div class="acct" id="acct"></div>
     <h1><a class="cow" href="https://yusuke1090.github.io/textbooks/?b=cow" title="牛の教科書（日本語・English）" aria-label="牛の教科書">🐄</a>スマート農業News</h1>
     <p class="lead">国内外のスマート農業・酪農・畜産・IoT のニュースを、毎朝7時にまとめています。英語の記事には、日本語訳とやさしい英語のまとめが付いています。</p>
     <div class="stats">
@@ -143,7 +162,7 @@ footer p { margin: 4px 0; }
 {{ITEMS}}
 </div>
 <section id="favs" hidden>
-  <div class="fav-head"><h2>★ お気に入り</h2><p>このブラウザに保存されています（30日を過ぎて一覧から消えた記事も残ります）</p></div>
+  <div class="fav-head"><h2>★ お気に入り</h2><p>30日を過ぎて一覧から消えた記事も残ります</p></div>
   <div id="favList"></div>
 </section>
 <p class="noresult" id="noresult" hidden>条件に合うニュースはありません</p>
@@ -219,6 +238,13 @@ footer p { margin: 4px 0; }
     if (btn) toggleFav(btn.closest(".item"));
   });
   newsItems.forEach(function (it) { setStar(it.querySelector(".fav"), !!favs[it.dataset.id]); });
+  // sync.js（ログインしていればスマホと PC で合わせる）が、ほかの端末のお気に入りを受け取ったときによぶ
+  window.agriNewsRefresh = function () {
+    try { favs = JSON.parse(store.get(FAV_KEY) || "{}") || {}; } catch (e) { favs = {}; }
+    newsItems.forEach(function (it) { setStar(it.querySelector(".fav"), !!favs[it.dataset.id]); });
+    if (state.area === "fav") renderFavs();
+    apply();
+  };
 
   // ---------- 絞り込み ----------
   function hasCat(it, c) { return c === "all" || (" " + it.dataset.cats + " ").indexOf(" " + c + " ") >= 0; }
@@ -335,5 +361,6 @@ footer p { margin: 4px 0; }
 })();
 </script>
 <script src="translate.js" defer></script>
+<script type="module" src="sync.js"></script>
 </body>
 </html>
