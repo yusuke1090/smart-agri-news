@@ -187,6 +187,7 @@ site/board-research.json       伝言板の「🔎 関連する事業」（Issue
 tools/board-relay.gs           アカウントなしの書き込みの中継（Google Apps Script に貼って使う）
 tools/board_unresearched.py    まだ「関連する事業」を調べていない伝言板の書き込みを出す
 tools/make_board_figures.py    伝言板の書き込みに貼る図（site/board-img/）を作る
+tools/roadmap7.py              伝言板 #7（会社のロードマップ）の項目。図・コメント・GitHub の Project の元
 data/news.json                 集めた記事（過去30日分）
 docs/                          公開されるサイト（build.py が作る。手で編集しない）
 .github/workflows/update.yml   毎朝の自動更新
