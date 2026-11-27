@@ -112,7 +112,7 @@ def timeline():
 
     out = [f'<rect x="1" y="1" width="{W - 2:.0f}" height="{H - 2}" rx="14" fill="#ffffff" stroke="#dde3d6" stroke-width="2"/>',
            f'<text x="20" y="38" font-size="22" font-weight="700" fill="#1e2a1c">ロードマップ'
-           f'<tspan dx="14" font-size="15" font-weight="400" fill="#66735f">2026年12月 → 2029年11月　横に送って見る →</tspan></text>']
+           f'<tspan dx="14" font-size="15" font-weight="400" fill="#66735f">横に送って見る →</tspan></text>']
     # 年と月の見出し、月の区切りの線
     top, bottom = 112, H - 14
     for i in range(MONTHS):
