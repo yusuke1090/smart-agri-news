@@ -90,6 +90,21 @@ CATEGORIES = {
         "en": ["USDA", "policy", "regulation", "regulations", "subsidy", "subsidies", "ministry",
                "government", "EU", "tariff", "tariffs", "legislation"],
     },
+    "event": {
+        # 展示会・セミナー・品評会など。not の言い回しは、外してから探す（記者会見はイベントにしない）
+        "name": "イベント",
+        "ja": ["展示会", "見本市", "博覧会", "農機展", "機械展", "展示・実演", "実演会", "フェア", "フェスタ",
+               "フェス", "マルシェ", "収穫祭", "まつり", "祭り", "品評会", "共進会", "セミナー", "シンポジウム",
+               "シンポ", "フォーラム", "講演会", "講習会", "研修会", "勉強会", "説明会", "見学会", "体験会",
+               "交流会", "意見交換会", "サミット", "コンテスト", "ハッカソン", "EXPO", "エキスポ", "出展", "来場", "開幕"],
+        "en": ["expo", "exhibition", "trade show", "farm show", "ag show", "agricultural show", "dairy show",
+               "field day", "field days", "trade fair", "county fair", "state fair", "farm conference",
+               "farming conference", "dairy conference", "agriculture conference", "agricultural conference",
+               "agritech conference", "agritech summit", "dairy summit", "farm summit", "agriculture summit",
+               "symposium", "webinar", "workshop", "hackathon", "exhibitor", "exhibitors", "Agritechnica",
+               "EIMA", "EuroTier", "SIMA", "Nane Nane"],
+        "not": ["press conference", "news conference"],
+    },
     "general": {
         # キーワードでは付けない。アフリカのニュース元など、どれにも当てはまらない記事に付ける
         "name": "農業全般", "ja": [], "en": [],
@@ -164,6 +179,8 @@ SOURCES = [
     {"name": "Google ニュース「畜産 IoT」", "url": gnews("畜産 IoT OR 牛 センサー"), "kind": "all", "cat": "iot"},
     {"name": "Google ニュース「農業 IoT」", "url": gnews("農業 IoT OR 農業 センサー"), "kind": "all", "cat": "iot"},
     {"name": "Google ニュース「農業 AI」", "url": gnews("農業 AI OR 農業DX"), "kind": "all", "cat": "smart"},
+    {"name": "Google ニュース「農機の展示会」", "url": gnews("農業機械展 OR 農機展 OR 農業展示会 OR 農業ワールド OR アグリビジネス創出フェア"), "kind": "all", "cat": "event"},
+    {"name": "Google ニュース「農業のセミナー」", "url": gnews("スマート農業 セミナー OR スマート農業 実演会 OR 酪農 セミナー OR 畜産 共進会"), "kind": "all", "cat": "event"},
     # ---- 海外（英語） ----
     {"name": "AgFunderNews", "url": "https://agfundernews.com/feed", "kind": "all", "cat": "smart", "region": "world"},
     {"name": "Future Farming", "url": "https://www.futurefarming.com/feed/", "kind": "all", "cat": "smart", "region": "world"},
@@ -174,6 +191,7 @@ SOURCES = [
     {"name": "FeedNavigator", "url": "https://www.feednavigator.com/arc/outboundfeeds/rss/", "kind": "filter", "region": "world"},
     {"name": "Google News \"smart farming\"", "url": gnews('"smart farming" OR agtech', "en"), "kind": "all", "cat": "smart", "region": "world"},
     {"name": "Google News \"dairy tech\"", "url": gnews('"dairy technology" OR "precision livestock" OR "dairy farm" robot', "en"), "kind": "all", "cat": "dairy", "region": "world"},
+    {"name": "Google News \"ag events\"", "url": gnews('agriculture expo OR "farm show" OR "dairy expo" OR agritech conference', "en"), "kind": "all", "cat": "event", "region": "world"},
     {"name": "Google News \"farm IoT\"", "url": gnews('agriculture IoT OR "farm sensors" OR "livestock sensors"', "en"), "kind": "all", "cat": "iot", "region": "world"},
     # ---- アフリカ（英語）。スマート農業に限らず、農業全般を載せる ----
     {"name": "AllAfrica Agriculture", "url": "https://allafrica.com/tools/headlines/rdf/agriculture/headlines.rdf", "kind": "all", "cat": "general", "region": "africa"},
@@ -185,6 +203,7 @@ SOURCES = [
     {"name": "Disrupt Africa", "url": "https://disrupt-africa.com/feed/", "kind": "tech", "region": "africa"},
     {"name": "Google News Kenya", "url": gnews("Kenya agriculture OR Kenya dairy OR Kenya farmers OR Kenya livestock", "ke"), "kind": "all", "cat": "general", "region": "africa"},
     {"name": "Google News Tanzania", "url": gnews("Tanzania agriculture OR Tanzania dairy OR Tanzania farmers OR Tanzania livestock", "tz"), "kind": "all", "cat": "general", "region": "africa"},
+    {"name": "Google News Africa ag events", "url": gnews('Africa agriculture expo OR "agricultural show" Kenya OR "Nane Nane" Tanzania OR agritech summit Africa', "en"), "kind": "all", "cat": "event", "region": "africa"},
     {"name": "Google News Africa agritech", "url": gnews('Africa agritech OR "smart farming" Africa OR Africa dairy technology', "en"), "kind": "all", "cat": "smart", "region": "africa"},
 ]
 
@@ -269,8 +288,14 @@ def parse_feed(raw):
 
 
 def categorize(text):
-    return [key for key, c in CATEGORIES.items()
-            if any(w in text for w in c["ja"]) or c["en_re"].search(text)]
+    found = []
+    for key, c in CATEGORIES.items():
+        t = text
+        for phrase in c.get("not", []):
+            t = re.sub(re.escape(phrase), " ", t, flags=re.IGNORECASE)
+        if any(w in t for w in c["ja"]) or c["en_re"].search(t):
+            found.append(key)
+    return found
 
 
 def dedup_key(title):
@@ -324,7 +349,7 @@ def collect(source, now):
         cats = categorize(text)
         main = set(cats) & {"dairy", "smart", "iot"}
         kind = source["kind"]
-        if kind == "filter" and not main:
+        if kind == "filter" and not main and "event" not in cats:   # 農業のニュース元のイベントは載せる
             continue
         if kind == "gov":
             if not main:
@@ -678,6 +703,8 @@ def main():
     kept.sort(key=lambda it: it["published"], reverse=True)
     for it in kept:
         it["lang"] = "en" if needs_translation(it["title"]) else "ja"
+        if "event" not in it["cats"] and "event" in categorize(it["title"] + " " + it.get("snippet", "")):
+            it["cats"] = sorted(it["cats"] + ["event"], key=list(CATEGORIES).index)   # 前に集めた記事にも付ける
         if it.get("summary_v") != SUMMARY_VERSION or not it.get("area"):
             it["area"] = guess_area(it)
         elif it["area"] == "overseas" and is_africa(it):

@@ -6,7 +6,7 @@
 
 - 国内外の農業専門メディア・行政・テック系メディア・Google ニュースの RSS から記事を集める
 - 新しい記事には、配信元の説明文を表示する。AI のまとめは自動では作らない（手元で作ることはできる。下の「AI のまとめ」を参照）
-- 「酪農・畜産」「スマート農業」「IoT・センサー」「行政・政策」に自動で分類する
+- 「酪農・畜産」「スマート農業」「IoT・センサー」「行政・政策」「イベント」（展示会・セミナー・品評会など）に自動で分類する
 - 「🗾 日本」「🌏 海外」のタブで分かれている（記事の舞台をキーワードで判定）。その中で「日本語の記事」「英語の記事」に分けられる
 - 海外のタブは「🌍 アフリカ」「アフリカ以外」にも分けられる。アフリカはスマート農業に限らず農業全般の記事を載せる（カテゴリ「農業全般」）
 - 英語の記事は英語の練習にも使えるように、英語のタイトル・英語の説明文・やさしい英語のまとめ（In short）と、日本語訳のタイトル・日本語のまとめを並べて表示する
@@ -42,17 +42,17 @@
 
 | 名前 | 種類 | 載せる記事 |
 | --- | --- | --- |
-| 日本農業新聞・マイナビ農業・AGRI JOURNAL | 農業専門 | 酪農・スマート農業・IoT のキーワードを含むもの |
+| 日本農業新聞・マイナビ農業・AGRI JOURNAL | 農業専門 | 酪農・スマート農業・IoT・イベントのキーワードを含むもの |
 | 農林水産省 報道発表 | 行政 | 同上（「行政・政策」も付ける） |
 | 農畜産業振興機構（ALIC） | 畜産・酪農 | すべて |
 | IoT NEWS・MONOist・ITmedia・日刊工業新聞 | テック | 農業・畜産に関係する言葉を含むもの |
-| Google ニュース | キーワード検索 | スマート農業、スマート畜産、酪農、畜産 IoT、農業 IoT、農業 AI |
+| Google ニュース | キーワード検索 | スマート農業、スマート畜産、酪農、畜産 IoT、農業 IoT、農業 AI、農機の展示会、農業のセミナー |
 | AgFunderNews・Future Farming・PrecisionAg・DairyReporter（海外） | 専門 | すべて |
 | Farm Progress・Agriland・FeedNavigator（海外） | 農業全般 | 酪農・スマート農業・IoT のキーワードを含むもの |
-| Google News（英語） | キーワード検索 | smart farming / agtech、dairy technology / precision livestock、agriculture IoT / farm sensors |
+| Google News（英語） | キーワード検索 | smart farming / agtech、dairy technology / precision livestock、agriculture IoT / farm sensors、agriculture expo / farm show |
 | AllAfrica・Kilimo News・Smart Farmer Kenya・FarmBiz Africa・Farmers Review Africa（アフリカ） | 農業 | すべて |
 | TechCabal・Disrupt Africa（アフリカ） | テック | 農業に関係する言葉を含むもの |
-| Google News（ケニア・タンザニア・アフリカ） | キーワード検索 | 農業・酪農・畜産・アグリテック |
+| Google News（ケニア・タンザニア・アフリカ） | キーワード検索 | 農業・酪農・畜産・アグリテック・農業の展示会（Nane Nane など） |
 
 ニュース元やキーワードは `build.py` の `SOURCES`・`CATEGORIES`・`AGRI_WORDS` で変えられる。
 
