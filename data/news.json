@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T23:09+09:00",
+ "updated": "2026-11-27T23:25+09:00",
  "sources": [
   {
    "name": "日本農業新聞",
@@ -59,22 +59,22 @@
   {
    "name": "Google ニュース「酪農」",
    "ok": true,
-   "count": 100
+   "count": 84
   },
   {
    "name": "Google ニュース「畜産 IoT」",
    "ok": true,
-   "count": 54
+   "count": 53
   },
   {
    "name": "Google ニュース「農業 IoT」",
    "ok": true,
-   "count": 37
+   "count": 100
   },
   {
    "name": "Google ニュース「農業 AI」",
    "ok": true,
-   "count": 100
+   "count": 49
   },
   {
    "name": "AgFunderNews",
@@ -119,12 +119,12 @@
   {
    "name": "Google News \"dairy tech\"",
    "ok": true,
-   "count": 73
+   "count": 70
   },
   {
    "name": "Google News \"farm IoT\"",
    "ok": true,
-   "count": 100
+   "count": 48
   },
   {
    "name": "AllAfrica Agriculture",
@@ -133,8 +133,8 @@
   },
   {
    "name": "Kilimo News（ケニア）",
-   "ok": false,
-   "count": 0
+   "ok": true,
+   "count": 30
   },
   {
    "name": "Smart Farmer Kenya",
@@ -164,7 +164,7 @@
   {
    "name": "Google News Kenya",
    "ok": true,
-   "count": 66
+   "count": 100
   },
   {
    "name": "Google News Tanzania",
@@ -174,7 +174,7 @@
   {
    "name": "Google News Africa agritech",
    "ok": true,
-   "count": 46
+   "count": 15
   }
  ],
  "items": [
