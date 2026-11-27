@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-27T23:38+09:00",
+ "updated": "2026-11-27T23:54+09:00",
  "sources": [
   {
    "name": "日本農業新聞",
    "ok": true,
-   "count": 51
+   "count": 75
   },
   {
    "name": "マイナビ農業",
@@ -14,7 +14,7 @@
   {
    "name": "AGRI JOURNAL",
    "ok": true,
-   "count": 4
+   "count": 6
   },
   {
    "name": "農林水産省 報道発表",
@@ -54,7 +54,7 @@
   {
    "name": "Google ニュース「スマート畜産」",
    "ok": true,
-   "count": 42
+   "count": 38
   },
   {
    "name": "Google ニュース「酪農」",
@@ -75,6 +75,16 @@
    "name": "Google ニュース「農業 AI」",
    "ok": true,
    "count": 50
+  },
+  {
+   "name": "Google ニュース「農機の展示会」",
+   "ok": true,
+   "count": 100
+  },
+  {
+   "name": "Google ニュース「農業のセミナー」",
+   "ok": true,
+   "count": 9
   },
   {
    "name": "AgFunderNews",
@@ -109,22 +119,27 @@
   {
    "name": "FeedNavigator",
    "ok": true,
-   "count": 5
+   "count": 6
   },
   {
    "name": "Google News \"smart farming\"",
    "ok": true,
-   "count": 61
+   "count": 100
   },
   {
    "name": "Google News \"dairy tech\"",
    "ok": true,
-   "count": 70
+   "count": 37
+  },
+  {
+   "name": "Google News \"ag events\"",
+   "ok": true,
+   "count": 32
   },
   {
    "name": "Google News \"farm IoT\"",
    "ok": true,
-   "count": 100
+   "count": 47
   },
   {
    "name": "AllAfrica Agriculture",
@@ -133,8 +148,8 @@
   },
   {
    "name": "Kilimo News（ケニア）",
-   "ok": true,
-   "count": 30
+   "ok": false,
+   "count": 0
   },
   {
    "name": "Smart Farmer Kenya",
@@ -164,7 +179,7 @@
   {
    "name": "Google News Kenya",
    "ok": true,
-   "count": 66
+   "count": 100
   },
   {
    "name": "Google News Tanzania",
@@ -172,9 +187,14 @@
    "count": 100
   },
   {
+   "name": "Google News Africa ag events",
+   "ok": true,
+   "count": 29
+  },
+  {
    "name": "Google News Africa agritech",
    "ok": true,
-   "count": 46
+   "count": 15
   }
  ],
  "items": [
@@ -222,6 +242,21 @@
    "first_seen": "2026-11-27T22:36+09:00",
    "lang": "en",
    "area": "overseas"
+  },
+  {
+   "title": "DRC signs US$41M contract for Ngandajika agro-industrial park",
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOYUNRX0ZNRDlpWFQ4WVFkUlMtNW9iYllGZE5GZWthQkZocXdNdy0xLWVEZnlCRW9talJOUE5lVnFUM1N6OHB4UVl1YjhOQjNZekNQRTMwRVRKUEFRSjkxTzNVNHRXN2pyRGE4dXpDMUZCZEFOTEtSSWltWFRDdTNzeWxkT2FJRktpSVZvU1hCTXJPbThrUi1uTA?oc=5",
+   "publisher": "Food Business Middle East & Africa",
+   "via": "Google News Africa ag events",
+   "region": "africa",
+   "snippet": "",
+   "cats": [
+    "event"
+   ],
+   "published": "2026-11-27T22:07+09:00",
+   "first_seen": "2026-11-27T23:54+09:00",
+   "lang": "en",
+   "area": "africa"
   },
   {
    "title": "From cherry to opportunity, the defining lesson from EACMC 2026",
@@ -282,6 +317,36 @@
    "first_seen": "2026-11-27T22:17+09:00",
    "lang": "en",
    "area": "overseas"
+  },
+  {
+   "title": "Oceana Group FY26 revenue falls 4.2%",
+   "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5UaDd1TldYMDhLNEhsVmtON0ROLXcyQnlGcUwtMHdoYW02NHVFYjZmemhZYTFoNVV6clo2VE5EUk1wc0IxTjlBRUZGU0pMTlRQZXczdE0ySXBvaF9zVy1uSzBuQ0JfdFNoX1ZJTkkwMFU1Wm1neElj?oc=5",
+   "publisher": "Food Business Middle East & Africa",
+   "via": "Google News Africa ag events",
+   "region": "africa",
+   "snippet": "",
+   "cats": [
+    "event"
+   ],
+   "published": "2026-11-27T21:08+09:00",
+   "first_seen": "2026-11-27T23:54+09:00",
+   "lang": "en",
+   "area": "africa"
+  },
+  {
+   "title": "Bralirwa plans 250 million-litre beverage factory in Rwanda",
+   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOT3ZlNEpIQ3J4MW1DQjdZRVFkYkNUTDRjQzd2cTBDUEJKQldKSVFUaWEyaHRVcVE2VHR5dG85Q3FTVDV6YUZFZThNODZPQVpLLXRWU1lmWmpqZ3RkWnZ1STJadzV4R3Vab1RycWJsaE51MTd6TGNPbHdfOGRQZnJYWWw2cWJ2RjVCVXAxemNUeS1zd0UtdmQ0?oc=5",
+   "publisher": "Food Business Middle East & Africa",
+   "via": "Google News Africa ag events",
+   "region": "africa",
+   "snippet": "",
+   "cats": [
+    "event"
+   ],
+   "published": "2026-11-27T21:08+09:00",
+   "first_seen": "2026-11-27T23:54+09:00",
+   "lang": "en",
+   "area": "africa"
   },
   {
    "title": "USDA cyberattack knocks out farm loan systems for a week",
@@ -382,7 +447,8 @@
    "region": "jp",
    "snippet": "",
    "cats": [
-    "dairy"
+    "dairy",
+    "event"
    ],
    "published": "2026-11-27T19:18+09:00",
    "first_seen": "2026-11-27T22:17+09:00",
@@ -641,7 +707,8 @@
    "region": "jp",
    "snippet": "",
    "cats": [
-    "smart"
+    "smart",
+    "event"
    ],
    "published": "2026-11-27T16:56+09:00",
    "first_seen": "2026-11-27T22:36+09:00",
@@ -656,7 +723,8 @@
    "region": "jp",
    "snippet": "",
    "cats": [
-    "smart"
+    "smart",
+    "event"
    ],
    "published": "2026-11-27T16:56+09:00",
    "first_seen": "2026-11-27T22:36+09:00",
@@ -777,7 +845,8 @@
    "region": "jp",
    "snippet": "",
    "cats": [
-    "dairy"
+    "dairy",
+    "event"
    ],
    "published": "2026-11-27T16:00+09:00",
    "first_seen": "2026-11-27T22:17+09:00",
@@ -843,6 +912,21 @@
    "first_seen": "2026-11-27T22:17+09:00",
    "lang": "en",
    "area": "overseas"
+  },
+  {
+   "title": "「アグリビジネス創出フェア2026」に理工学部機械工学科の横田 祥教授と理工学部応用化学科の峯岸 宏明准教授が出展しました。",
+   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5sZDZoV1RKRl9fOFA2VkxQVWZnUkhVSTFUdm9BRTl5NHBkTjBiak1idmdYdW5MeVFfLXFsM21aLVdGbDNJMGFrV3gzTFByd1VocHd4b2dHSzlpdk0?oc=5",
+   "publisher": "東洋大学",
+   "via": "Google ニュース「農機の展示会」",
+   "region": "jp",
+   "snippet": "",
+   "cats": [
+    "event"
+   ],
+   "published": "2026-11-27T15:03+09:00",
+   "first_seen": "2026-11-27T23:54+09:00",
+   "lang": "ja",
+   "area": "japan"
   },
   {
    "title": "Record price of €5,100 paid for heavy bullock at Kanturk Mart",
@@ -1258,6 +1342,21 @@
    "desc_checked": true
   },
   {
+   "title": "欧州で静岡茶ＰＲ 漫画、ゲーム見本市へ 県と茶業会議所",
+   "link": "https://www.agrinews.co.jp/society/index/421475",
+   "publisher": "日本農業新聞",
+   "via": "日本農業新聞",
+   "region": "jp",
+   "snippet": "イタリア出向き 【静岡】県と県茶業会議所は１０月下旬から５日間にわたってイタリア・ルッカで開かれた欧州最大のコミックとゲームの見本市「ルッカコミックス＆ゲームズ２０２６」のジャパンコーナーで、静岡茶をＰＲした。リーフ茶の試飲では約３０００杯を提供、予想を上回る人気を呼んだ。 国の「重要市場流通維持・拡大緊急対策事業」の一環として展開。県内ＪＡグループと県、静岡第一テレビが連携協定を結び、茶業振興に取り組む「しぞ～か茶魅力発信プロジェクト」が協力した。 輸出に適合した茶の栽培、生産の指導にも力を入れるＪＡ静岡経済連は今回、海外展開用の茶「プレミアムセレクト」を用意。急須で提供した。 来場者の関心…",
+   "cats": [
+    "event"
+   ],
+   "published": "2026-11-27T05:00+09:00",
+   "first_seen": "2026-11-27T23:54+09:00",
+   "lang": "ja",
+   "area": "overseas"
+  },
+  {
    "title": "DOWNS Launches CropXpress for In-Field Potato Cleaning and Sorting",
    "link": "https://farmersreviewafrica.com/downs-launches-cropxpress-for-in-field-potato-cleaning-and-sorting/",
    "publisher": "Farmers Review Africa",
@@ -1431,7 +1530,8 @@
    "region": "jp",
    "snippet": "",
    "cats": [
-    "dairy"
+    "dairy",
+    "event"
    ],
    "published": "2026-11-27T00:10+09:00",
    "first_seen": "2026-11-27T12:47+09:00",
@@ -1557,6 +1657,21 @@
    "first_seen": "2026-11-27T12:47+09:00",
    "lang": "en",
    "area": "overseas"
+  },
+  {
+   "title": "Libstar opens US$4.5M mega sauce factory in South Africa",
+   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQQnNndnlwbWVrbnB3LXVHZ21kNlB4WUhKYkVELUdvWkZmLWJ1YTJLZmVNSVJGUU1wQld5NTQ1cUE1R1F4ZjJ2aDl5blluZU9CU3pzX2pTZnlKcUZGZ1k4eWlZdVBIYmRjOUowVlBmN0VCWnc2Y1dzMUU4dXF5bVJxZWpHZFowckQtMC10SFhCNjZQQQ?oc=5",
+   "publisher": "Food Business Middle East & Africa",
+   "via": "Google News Africa ag events",
+   "region": "africa",
+   "snippet": "",
+   "cats": [
+    "event"
+   ],
+   "published": "2026-11-26T21:30+09:00",
+   "first_seen": "2026-11-27T23:54+09:00",
+   "lang": "en",
+   "area": "africa"
   },
   {
    "title": "Pentair Hypro Cleanload Nexus: fast, but very difficult to dose",
@@ -1878,6 +1993,22 @@
    "area": "japan"
   },
   {
+   "title": "レタスを20日余りで収穫 中国の農業博覧会で見るAI農業",
+   "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE53ZzZsWklSYTlYY0JyT2QxU3BDUzhPTTV6dkg5TUhzN3RKbWt5Ymt6VnlIRGl5Uml0d05vZks2U01OMm9yVlZ4ZVFFSG1xbVlfRUlOSEpnaUNsbkdMR2liVTk3TkFoM1U?oc=5",
+   "publisher": "Science Portal Asia Pacific",
+   "via": "Google ニュース「農機の展示会」",
+   "region": "jp",
+   "snippet": "",
+   "cats": [
+    "smart",
+    "event"
+   ],
+   "published": "2026-11-26T16:37+09:00",
+   "first_seen": "2026-11-27T23:54+09:00",
+   "lang": "ja",
+   "area": "overseas"
+  },
+  {
    "title": "27年度加工補給金の議論スタート・畜産部会",
    "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE90dzdZMURYVkl5ZWNKeW9XM0NOTU54TjNwVDJvNU5Qa3B2UWNYVTVsYnRkMVNsUmVZX2g5azFCZlNSQ3VOMGlyZFczNGs?oc=5",
    "publisher": "酪農乳業速報",
@@ -2022,7 +2153,8 @@
    "region": "jp",
    "snippet": "",
    "cats": [
-    "smart"
+    "smart",
+    "event"
    ],
    "published": "2026-11-26T15:25+09:00",
    "first_seen": "2026-11-27T22:36+09:00",
@@ -2196,6 +2328,21 @@
    "area": "overseas"
   },
   {
+   "title": "Agrovision to focus on drought management, crop planning",
+   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQczRCY0FEdHpjWXRDVjZWZlc2OC04Wm9jUWI5U2YzMUJVbjJiR3dLeXVIOTNxWnMtTFNxM2ZQQ1NTX2dYcVdoZUlBUmNtUTJrWlROakZyVVprQnpQZnRaU1BpajFIQXVjU3hhaVZiNXNvQ0Fha05GZFpiNEJDdjZuR0ExZ19OX25lZGhZYjM5M3RyU2VSQW9Cb2tWVjNpQlJLUDlkUy04V0d1dGswRUZDSGJtcURMVXVfQ3BsQmtnemUxU3FHbi0wRtIBzgFBVV95cUxQQlgtalIxaUpLZzlKME81amwwdWZ0RHNiSzZZSDRNbTN5b1NxSVlOVldOVWdkLVhDZlFxNVd1NXpsVnZmVkFHVmx5OGpPY08xMFVrRkRPNWwtMXJGSHItbzRMWFFPU3oycm9PRklyZ05Ddk9qbTJXdzhPb202U3I4UW1KOFlsQ0gzUlBicEdRa3E4dmROTGJObTgzR1M5aVJkNWVSM3BlY1o2S244ZnFzazVRME1hWVFwZUFubjVhNXM1UWlfUWF5NmNJQVVhZw?oc=5",
+   "publisher": "The Times of India",
+   "via": "Google News \"ag events\"",
+   "region": "world",
+   "snippet": "",
+   "cats": [
+    "event"
+   ],
+   "published": "2026-11-26T13:23+09:00",
+   "first_seen": "2026-11-27T23:54+09:00",
+   "lang": "en",
+   "area": "overseas"
+  },
+  {
    "title": "South Africa: Ceres Schools Try to Block Liquor Store",
    "link": "https://allafrica.com/stories/202611260043.html",
    "publisher": "AllAfrica Agriculture",
@@ -2236,7 +2383,8 @@
    "snippet": "",
    "cats": [
     "dairy",
-    "smart"
+    "smart",
+    "event"
    ],
    "published": "2026-11-26T12:21+09:00",
    "first_seen": "2026-11-26T12:45+09:00",
@@ -2251,7 +2399,8 @@
    "region": "jp",
    "snippet": "検索から予約、決済まで自律的にこなす「AIエージェント」の普及で、旅行会社の存在意義が問われている。日本旅行業協会（JATA）主催のシンポジウムに旅行・食・IT・大手旅行会社のプロ4人が登壇。「おいしい」を味わう感覚や、顧客の言葉の裏にある本音までは読み取れないAIの限界を指摘し、AIによる業務効率化で生み出した時間を「信頼関係」や現場の感動体験に振り向ける共創の生存戦略を議論した。",
    "cats": [
-    "smart"
+    "smart",
+    "event"
    ],
    "published": "2026-11-26T12:00+09:00",
    "first_seen": "2026-11-26T12:45+09:00",
@@ -2266,7 +2415,8 @@
    "region": "jp",
    "snippet": "",
    "cats": [
-    "dairy"
+    "dairy",
+    "event"
    ],
    "published": "2026-11-26T11:00+09:00",
    "first_seen": "2026-11-26T12:45+09:00",
@@ -2311,7 +2461,8 @@
    "region": "jp",
    "snippet": "",
    "cats": [
-    "smart"
+    "smart",
+    "event"
    ],
    "published": "2026-11-26T09:40+09:00",
    "first_seen": "2026-11-26T12:45+09:00",
@@ -2487,6 +2638,21 @@
    "area": "japan"
   },
   {
+   "title": "２年連続１１１万円で落札の高級柿 地域住民にお披露目 ＪＡぎふ",
+   "link": "https://www.agrinews.co.jp/society/index/421186",
+   "publisher": "日本農業新聞",
+   "via": "日本農業新聞",
+   "region": "jp",
+   "snippet": "「天下富舞まつり」で 【ぎふ】ＪＡぎふとＪＡ全農岐阜は１１月上旬、「天下富舞まつり」を本巣市にあるＪＡぎふ糸貫農産物販売所で開いた。１０月に名古屋市中央卸売市場北部市場で行われたブランド柿「天下富舞（てんかふぶ）」の初せりで、２年連続で１１１万円の高値で落札された最高級品「天下人（てんかびと）」を地域住民に披露するのが目的だ。 全国屈指の柿産地で知られる同市を中心に栽培される「天下富舞」は強い甘味とさくさくした食感が特徴。糖度２０以上や外観などでランク分けされ、上位から「天下人（糖度２５以上）」「大将」「武士（もののふ）」となる。この日は、２年連続で１１１万円の高値が付いた「天下人」と同等の柿…",
+   "cats": [
+    "event"
+   ],
+   "published": "2026-11-26T05:00+09:00",
+   "first_seen": "2026-11-27T23:54+09:00",
+   "lang": "ja",
+   "area": "japan"
+  },
+  {
    "title": "Dairy farming: The daily income goldmine for Kenya’s small farmers",
    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE92VkxJMnE1VW50ZVVlcV9WT3dNdHVuWHBMWURiaWgwUHM4SFpzNTNKcDBYT0pUcXRtMWZRTDg2RHE0WkVlbU1HZ25RU29uSGk0b3k2Qm9hVHREN3pJSTMwMXJHdHZ1Y1dhOWlicnp3TnFyTnB6eTZRRQ?oc=5",
    "publisher": "The Mt Kenya Times",
@@ -2509,7 +2675,8 @@
    "region": "world",
    "snippet": "The cost of producing a kilo of milk solids in Ireland has surpassed the costs of production in both the US and New Zealand. This is according to latest research from Red Sky Agriculture, which was presented at the 2026 Teagasc National Dairy Conference in Little Island, Co. Cork today, (Wednesday,…",
    "cats": [
-    "dairy"
+    "dairy",
+    "event"
    ],
    "published": "2026-11-26T03:30+09:00",
    "first_seen": "2026-11-26T12:45+09:00",
@@ -2971,6 +3138,21 @@
    "area": "africa"
   },
   {
+   "title": "South Africa citrus, table grape exports face port and weather risks into 2027",
+   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOSXo5ckx1VHdfRTVPUnVtVnhlM1ZTSW96VDZfbkdiUnp4S3dpNFRaOE1GVGU2TnFtdjZGME4xWkZyeE15UXdHU3A5b25hRGpCeXNUdjBfWDRSWjE2VFJXQ3pxbGpSWGRMUlV4WlZWc0pHUkM3RU9oTjJfUlJhbmxENk1wLUh1Mk1FQnNvSjh5a2wzODdxZnRfOXkycm0yQjF3ZmVDVE5nZGkwZndHVUk4?oc=5",
+   "publisher": "Food Business Middle East & Africa",
+   "via": "Google News Africa ag events",
+   "region": "africa",
+   "snippet": "",
+   "cats": [
+    "event"
+   ],
+   "published": "2026-11-25T19:47+09:00",
+   "first_seen": "2026-11-27T23:54+09:00",
+   "lang": "en",
+   "area": "africa"
+  },
+  {
    "title": "Sugar farmers seize board seats as reform battle shifts to Kenya Sugar Board",
    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPSzdhVEF6TVFJRmJUdlpVUWhHSTd5U2tteHA0WUs3RkhrcTQtTW9aazdPMmoyVjBGTno2SE9HaU5XZkZiNTZlYzBDQTlYWW5aaHg4QmVOOW02N0lWZHhYQ3VQY0cwZmxYVEtibjM2cFBCLVBuM1FJUWFuUVFkQmd1ck0zQlh4SXR1emJmVWtRVGlzZEZUeG5JS1pXN2I3LXJhV05hV3F3TVZCVDdGbHhzWHU2OA?oc=5",
    "publisher": "People Daily",
@@ -3339,7 +3521,8 @@
    "region": "jp",
    "snippet": "",
    "cats": [
-    "dairy"
+    "dairy",
+    "event"
    ],
    "published": "2026-11-25T16:37+09:00",
    "first_seen": "2026-11-26T12:45+09:00",
@@ -3369,7 +3552,8 @@
    "region": "jp",
    "snippet": "",
    "cats": [
-    "dairy"
+    "dairy",
+    "event"
    ],
    "published": "2026-11-25T16:00+09:00",
    "first_seen": "2026-11-26T12:45+09:00",
@@ -3730,7 +3914,8 @@
    "region": "jp",
    "snippet": "",
    "cats": [
-    "dairy"
+    "dairy",
+    "event"
    ],
    "published": "2026-11-25T09:54+09:00",
    "first_seen": "2026-11-25T13:34+09:00",
@@ -4172,7 +4357,8 @@
    "region": "jp",
    "snippet": "",
    "cats": [
-    "smart"
+    "smart",
+    "event"
    ],
    "published": "2026-11-24T19:30+09:00",
    "first_seen": "2026-11-25T13:34+09:00",
@@ -4525,7 +4711,8 @@
    "region": "jp",
    "snippet": "",
    "cats": [
-    "dairy"
+    "dairy",
+    "event"
    ],
    "published": "2026-11-24T16:00+09:00",
    "first_seen": "2026-11-25T13:34+09:00",
@@ -4773,6 +4960,21 @@
    "area": "overseas"
   },
   {
+   "title": "Indiana Horticulture and Small Farm Conference Combines Two Major Agricultural Events for 2027",
+   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNV2xuTm1idl9XX2hScm54czU3NVRRS3Z6dnFhZGlIRXprUWhJMDdQaVIwUVhuU1dHdUh6ZzFZNjgtMU9ObGlBejY2VVV0M09xY0V6QnVjRUFDV1lKOERmLWJvbDNQVTNvRElZbHBjczRsMEZvbVB3ZHpsdjhhYVg3Wnp2NFlqY0tuVmNCR1BSMFh2SW1jSkVKWWRENHA0dw?oc=5",
+   "publisher": "Hoosier Ag Today",
+   "via": "Google News \"ag events\"",
+   "region": "world",
+   "snippet": "",
+   "cats": [
+    "event"
+   ],
+   "published": "2026-11-24T11:05+09:00",
+   "first_seen": "2026-11-27T23:54+09:00",
+   "lang": "en",
+   "area": "overseas"
+  },
+  {
    "title": "産学官の連携による研究成果を紹介 ～アグリビジネス創出フェア2026に出展～",
    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1FQnJVRkdSVmk5cDMzRkYzU0hheDZaZXJMRm41dkZDSWpvSko5VlNfQjJ2UEFRaHRwdWdvMkxLWjRZZFlfM1U3RmlEdVQzLV9sd1NKYlduSHdaRGJxU0ViYWxPbTJNcjJURmVsMTdSYUhvUQ?oc=5",
    "publisher": "宮崎大学",
@@ -4780,7 +4982,8 @@
    "region": "jp",
    "snippet": "",
    "cats": [
-    "smart"
+    "smart",
+    "event"
    ],
    "published": "2026-11-24T11:04+09:00",
    "first_seen": "2026-11-24T14:29+09:00",
@@ -4993,7 +5196,8 @@
    "region": "jp",
    "snippet": "",
    "cats": [
-    "dairy"
+    "dairy",
+    "event"
    ],
    "published": "2026-11-24T06:00+09:00",
    "first_seen": "2026-11-25T13:34+09:00",
@@ -5183,6 +5387,21 @@
    "area": "overseas"
   },
   {
+   "title": "Coca-Cola named official AFCON sponsor for 2027, 2028 tournaments",
+   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNYkgyMVA1SDVqT3VTbHJ4VWdKZk5zRTJfTW5nYkFLNWpfR2MzVGtBdklOcXZzekJIVENySDFWeTJTU0FBZFZrYTNZaXN1MEJEOHhDVGJlcnpqa0FlRmNBNHZXaVl3UmxGY2RfZnRFLWIzeE9UUU9UOTByNFdzY2ZrM2hmREVaejJLcEVkck9SbUhaMVZiMlZ0WVBLTVpUZw?oc=5",
+   "publisher": "Food Business Middle East & Africa",
+   "via": "Google News Africa ag events",
+   "region": "africa",
+   "snippet": "",
+   "cats": [
+    "event"
+   ],
+   "published": "2026-11-23T23:36+09:00",
+   "first_seen": "2026-11-27T23:54+09:00",
+   "lang": "en",
+   "area": "africa"
+  },
+  {
    "title": "Maasai demand ban on trophy hunting in Tanzania",
    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPdlBZZThYakZRNUJNQkh0OTZSUENhcFlFc3A0a0Vsd0RtOG5aeTRPS0VYQkNyVDhzaUMxTVVOdjVtbzB2b2Q5c3dRU2hCXzdtQlZWaWE5b2tRWEUxYVJ3Tnl2R3FxSEhIRS1RRWlkVFhQMnlXZzdSVGNER1lWd2JaektLTDVXa0o1?oc=5",
    "publisher": "Wild beim Wild",
@@ -5209,6 +5428,21 @@
    ],
    "published": "2026-11-23T22:59+09:00",
    "first_seen": "2026-11-24T14:29+09:00",
+   "lang": "en",
+   "area": "africa"
+  },
+  {
+   "title": "Global air cargo demand accelerates to 7.7% in September",
+   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPR0tFT1VHelFabWZoSGpzSTZYRTFkUVkyNFhOaXUzMHZESHJ4aTBKQnhvZHg1T2lZd1dJUXFMNHcwQW0yQ0w3MGllLWlRRmt3ckFtTmU1dExyWFg2MEYwT1c5RmtLLThaQ3F0RUZCMVZsZHYta1ZIMWNrdV9HaHBjV3BjTFRHbGZuU2ZDSVBFb2dtQQ?oc=5",
+   "publisher": "Food Business Middle East & Africa",
+   "via": "Google News Africa ag events",
+   "region": "africa",
+   "snippet": "",
+   "cats": [
+    "event"
+   ],
+   "published": "2026-11-23T22:48+09:00",
+   "first_seen": "2026-11-27T23:54+09:00",
    "lang": "en",
    "area": "africa"
   },
@@ -5717,6 +5951,21 @@
    "desc_checked": true
   },
   {
+   "title": "NAFTA a major talking point at World Pork Expo",
+   "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQaGR5dlowYjgtbzZMdEdmUDQ1cG1TMlZsX1RraVRpWXg0dVgzTjdpOHhybS1FZ3FtMkI3NlJnSllteXRsQ1RJNTRlRDFlSWZDcEhKa3h5MFV5MXRYTjBGS3ZSSnU0T2NkQnlIamFsUzdFdlVva1lwVzRyOHgtcnNoWHVB?oc=5",
+   "publisher": "Brownfield Ag News",
+   "via": "Google News \"ag events\"",
+   "region": "world",
+   "snippet": "",
+   "cats": [
+    "event"
+   ],
+   "published": "2026-11-23T17:32+09:00",
+   "first_seen": "2026-11-27T23:54+09:00",
+   "lang": "en",
+   "area": "overseas"
+  },
+  {
    "title": "Global agricultural value added rises to $4.2 trillion as sector records 3.1% growth",
    "link": "https://farmersreviewafrica.com/global-agricultural-value-added-rises-to-4-2-trillion-as-sector-records-3-1-growth/",
    "publisher": "Farmers Review Africa",
@@ -5907,7 +6156,8 @@
    "region": "world",
    "snippet": "In October, Bord Bia hosted a group of beef, sheep, and dairy farmers on a market study visit to France. The group visited dairy, beef, and horticulture farms, and also attended the SIAL trade show where Bord Bia was hosting 14 Irish meat companies. Wicklow sheep farmer, Margaret Hoctor, was one of…",
    "cats": [
-    "dairy"
+    "dairy",
+    "event"
    ],
    "published": "2026-11-23T15:00+09:00",
    "first_seen": "2026-11-24T14:29+09:00",
@@ -5973,6 +6223,22 @@
    "first_seen": "2026-11-24T14:29+09:00",
    "lang": "en",
    "area": "africa"
+  },
+  {
+   "title": "ICYMI: Recap the Asia Pacific Agri-Food Summit 2026 with us in our free post-event webinar",
+   "link": "https://www.agnavigator.com/Article/2026/11/23/missed-asia-pacific-agri-food-summit-2026-join-our-free-post-event-webinar/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+   "publisher": "FeedNavigator",
+   "via": "FeedNavigator",
+   "region": "world",
+   "snippet": "Missed the Asia Pacific Agri-Food Summit? Join our free post-event webinar on 1 December for the highlights, exclusive leader insights, and a showcase of startups.",
+   "cats": [
+    "event"
+   ],
+   "published": "2026-11-23T11:13+09:00",
+   "first_seen": "2026-11-27T23:54+09:00",
+   "lang": "en",
+   "area": "overseas",
+   "desc_checked": true
   },
   {
    "title": "農業AIのOrchard RoboticsをJohn Deereが買収、生育データを農機の作業につなぐ",
@@ -6122,7 +6388,8 @@
    "region": "jp",
    "snippet": "",
    "cats": [
-    "dairy"
+    "dairy",
+    "event"
    ],
    "published": "2026-11-23T04:02+09:00",
    "first_seen": "2026-11-23T10:57+09:00",
@@ -6446,6 +6713,21 @@
    "area": "africa"
   },
   {
+   "title": "中国湖北省武漢で農業博覧会 2千社が出展",
+   "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBvcGFMUmdNX281ZlI1cE9Fd0tWSXpYZWlBZnU4VUF6ZUVMbWVtUFZ2aUt6NU9lWkl1VTNLYUh4REVncXN3LTRkT3V1VWdpSkxhMGVxYXdXWTc4cFZZXzZ2TXluS29TMjV3d2lVdk1B?oc=5",
+   "publisher": "au Webポータル",
+   "via": "Google ニュース「農機の展示会」",
+   "region": "jp",
+   "snippet": "",
+   "cats": [
+    "event"
+   ],
+   "published": "2026-11-22T10:44+09:00",
+   "first_seen": "2026-11-27T23:54+09:00",
+   "lang": "ja",
+   "area": "overseas"
+  },
+  {
    "title": "想い出の地、三浦半島唯一の牧場！よこすか関口牧場からプレゼントも！",
    "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE03VGJPS2hDa2JySFBtMEtXS1pQSFZJR1E2eWFWOHhtdUp3R0RvQzdNSWRUdHZlU1Q5UEp4MTg0eGljdmJEM2FiZ1oxUjFFdGNxZUE?oc=5",
    "publisher": "TBSラジオ",
@@ -6483,7 +6765,8 @@
    "region": "jp",
    "snippet": "",
    "cats": [
-    "dairy"
+    "dairy",
+    "event"
    ],
    "published": "2026-11-22T00:55+09:00",
    "first_seen": "2026-11-22T10:33+09:00",
@@ -7004,6 +7287,21 @@
    ],
    "published": "2026-11-21T02:15+09:00",
    "first_seen": "2026-11-21T11:49+09:00",
+   "lang": "en",
+   "area": "overseas"
+  },
+  {
+   "title": "Indoor Ag-Con releases 10-track 2027 conference program, including new greenhouse education",
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQME55Y3FtSTF5anFOb3FDTEc0TEZraFd2eXV0Q29NVjZ4cmtqQ2EtdlVvUTZ5QjFDOHZmdGNvWmZwUXM1NUtwRlZ6VEx3VzJld0Y4akVvVmFqTXBza1U2SjVyb3VXdk1rbzZIZk9jS3l6V3lzcEFndGpQWmh3djJocWpBWnRxX1BoWEI3VnBCbHk2X1FQcFp1dw?oc=5",
+   "publisher": "Produce Grower -",
+   "via": "Google News \"ag events\"",
+   "region": "world",
+   "snippet": "",
+   "cats": [
+    "event"
+   ],
+   "published": "2026-11-21T02:14+09:00",
+   "first_seen": "2026-11-27T23:54+09:00",
    "lang": "en",
    "area": "overseas"
   },
@@ -7576,7 +7874,8 @@
    "region": "jp",
    "snippet": "",
    "cats": [
-    "dairy"
+    "dairy",
+    "event"
    ],
    "published": "2026-11-20T16:03+09:00",
    "first_seen": "2026-11-21T11:49+09:00",
@@ -7591,7 +7890,8 @@
    "region": "jp",
    "snippet": "",
    "cats": [
-    "dairy"
+    "dairy",
+    "event"
    ],
    "published": "2026-11-20T16:00+09:00",
    "first_seen": "2026-11-21T11:49+09:00",
@@ -7621,7 +7921,8 @@
    "region": "jp",
    "snippet": "",
    "cats": [
-    "dairy"
+    "dairy",
+    "event"
    ],
    "published": "2026-11-20T16:00+09:00",
    "first_seen": "2026-11-21T11:49+09:00",
@@ -7878,7 +8179,8 @@
    "region": "jp",
    "snippet": "",
    "cats": [
-    "dairy"
+    "dairy",
+    "event"
    ],
    "published": "2026-11-20T10:48+09:00",
    "first_seen": "2026-11-20T11:35+09:00",
@@ -8017,7 +8319,8 @@
    "region": "jp",
    "snippet": "",
    "cats": [
-    "smart"
+    "smart",
+    "event"
    ],
    "published": "2026-11-20T05:30+09:00",
    "first_seen": "2026-11-20T11:35+09:00",
@@ -8096,7 +8399,8 @@
    "region": "jp",
    "snippet": "【全農おおいた】大分県とローソンは５日、「第１４回 次世代応援 地産地消商品開発コンテスト」の最終審査会を県庁で開いた。おにぎりの部では宇佐産業科学高校の「大分とり天むす～カボス香るねぎ塩仕立て」、ベーカリーの部は大分商業高校の「カボス風味チーズパン」が最優秀賞となった。 大分県とローソン 最終審査 コンテストは、県内の若い世代に県産食材に触れる機会を提供し、地元食材への関心を高めてもらうことが目的。２０２６年度は２部門に高校生、大学生から計２４６作品の応募があった。応募者は実際の商品化を想定し、製造コストなども考慮しながらメニューを考案した。 最終審査には各部門から５作品ずつ選び、考案者が商…",
    "cats": [
-    "dairy"
+    "dairy",
+    "event"
    ],
    "published": "2026-11-20T05:00+09:00",
    "first_seen": "2026-11-21T11:49+09:00",
@@ -8131,6 +8435,21 @@
    ],
    "published": "2026-11-20T05:00+09:00",
    "first_seen": "2026-11-23T10:57+09:00",
+   "lang": "ja",
+   "area": "japan"
+  },
+  {
+   "title": "沖縄県産パイナップルグミ ＡＫＢ４８がお薦め ニッポンエール全国ご当地グミ総選挙",
+   "link": "https://www.agrinews.co.jp/society/index/419989",
+   "publisher": "日本農業新聞",
+   "via": "日本農業新聞",
+   "region": "jp",
+   "snippet": "【沖縄】ＪＡ全農は１５日、豊見城市のＪＡおきなわファーマーズマーケット「とよさき菜々色畑」で「ニッポンエール全国ご当地グミ総選挙２０２６」の産地応援イベントを開いた。ニッポンエールのブランドアンバサダーを務めるアイドルグループＡＫＢ４８の千葉恵里さんと武藤小麟さんが、ご当地「沖縄県産パイナップルグミ」をＰＲした。 「ニッポンエール全国ご当地グミ総選挙２０２６」は、４７都道府県の特産果実などを使った「ニッポンエールグミ」の頂点を決める参加型のキャンペーン。 ２人は「パイナップルの爽やかな香りと甘酸っぱさをグミで楽しんでほしい」と投票を呼びかけた。 会場では、対象商品を持参した来場者に、ＡＫＢ４８…",
+   "cats": [
+    "event"
+   ],
+   "published": "2026-11-20T05:00+09:00",
+   "first_seen": "2026-11-27T23:54+09:00",
    "lang": "ja",
    "area": "japan"
   },
@@ -8582,7 +8901,8 @@
    "region": "world",
    "snippet": "After Agritechnica, Eima is Europe's second-largest agricultural machinery exhibition. For 5 days, the Italian city of Bologna is packed with machinery and innovations, with a strong focus on batteries, autonomy and robotics.",
    "cats": [
-    "smart"
+    "smart",
+    "event"
    ],
    "published": "2026-11-19T20:54+09:00",
    "first_seen": "2026-11-20T11:35+09:00",
@@ -8649,6 +8969,22 @@
    "first_seen": "2026-11-20T11:35+09:00",
    "lang": "en",
    "area": "africa"
+  },
+  {
+   "title": "AgriNext Awards & Conference Dubai 2027 – 5th Edition: Bringing Global Agriculture and AgriTech Leaders Together to Shape the Future of Farming",
+   "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNMHRPb2lteHpSLWtjUnlNcndxX1p2TEF6aXRnZVZ0eXc3MzRENU9ROFRkZVNfVWpOSkJLeFRoOU1HWF9WN0ZtZUROaTNfNHpCQlpfN21qWEFqVXQwLURUZXpDcG1fSHhvWUVKME5iaUJFdGNvREhTaTEtX0tiRVd5WUZFTW9OZnhhYkkzUDQ5R0JGTXl3WmhKb1FHUEhkcHUyaWk3VEpmU0FndENsd1ItS0pxRVh4d1pScC0yS09Nc29MVl9IeXlDUk1WSGVCYkJOWWVEOWUzdW5zaFdwbkM5ZmtGWXVJU3h3TkhTeEVSdV9oamRZVEh6cnRpdXg1NXlKX0xZ0gGHAkFVX3lxTE04aXdtUXFMejE5c1hUTEtFMWluLW9HTlA1VzAyNktpVktLdGMtcEVpVXdsbjh5UHJGa1lUSThrNDdHaEhHT3Z2U0tvSVZvWXl0Tld6Skc2ZGVBNjFNZEZUb01SSHdzRGo3VmwxY0cxLUxQUHZ6dm1HcVBFeGJVbDR4eHFRTDM0MnRmcDRFQ2lDZ0w0SDBtSWJzYzlIZEVLcVpQU2QyeURxdXQzT1R3OThVdDZoenZ6VkZCbjZkT1VqZFcxY1ExZjZDMXNHMVRMOS1ZRjJDQ20xRTFIeGFJR1dtNmNIc3ZTV0ExdHpnN0FOVHN0R0JHeWV6ZDdOT3o1RzA1T3Nrakhn?oc=5",
+   "publisher": "CryptoBrowser.io",
+   "via": "Google News \"ag events\"",
+   "region": "world",
+   "snippet": "",
+   "cats": [
+    "smart",
+    "event"
+   ],
+   "published": "2026-11-19T19:21+09:00",
+   "first_seen": "2026-11-27T23:54+09:00",
+   "lang": "en",
+   "area": "overseas"
   },
   {
    "title": "Kenya News Agency - KNA. . 𝟑𝟎,𝟎𝟎𝟎 𝐂𝐎𝐎𝐏𝐄𝐑𝐀𝐓𝐈𝐕𝐄𝐒 𝐅𝐀𝐂𝐄 𝐃𝐄𝐑𝐄𝐆𝐈𝐒𝐓𝐑𝐀𝐓𝐈𝐎𝐍 𝐈𝐍 𝐊𝐄𝐍𝐘𝐀 𝐎𝐕𝐄𝐑 𝐅𝐀𝐈𝐋𝐔𝐑𝐄 𝐓𝐎 𝐅𝐈𝐋𝐄 𝐀𝐍𝐍𝐔𝐀𝐋 𝐑𝐄𝐓𝐔𝐑𝐍𝐒 Nearly 30,000 cooperative societies in Kenya risk deregistration from January 2027 for failing to compl",
@@ -8930,7 +9266,8 @@
    "region": "jp",
    "snippet": "",
    "cats": [
-    "smart"
+    "smart",
+    "event"
    ],
    "published": "2026-11-19T16:02+09:00",
    "first_seen": "2026-11-23T10:57+09:00",
@@ -9098,7 +9435,8 @@
    "region": "world",
    "snippet": "This year has presented numerous challenges to dairy farming including reduced milk prices, summer drought conditions in many areas, and ongoing pressures of production costs and labour availability. Resilience to these challenges is essential for the future viability of dairy farm businesses. With…",
    "cats": [
-    "dairy"
+    "dairy",
+    "event"
    ],
    "published": "2026-11-19T15:00+09:00",
    "first_seen": "2026-11-20T11:35+09:00",
@@ -9427,6 +9765,22 @@
    "area": "japan"
   },
   {
+   "title": "静岡県が育成プロジェクト 自衛官を担い手に 退職予定者の就農支援",
+   "link": "https://www.agrinews.co.jp/society/index/419696",
+   "publisher": "日本農業新聞",
+   "via": "日本農業新聞",
+   "region": "jp",
+   "snippet": "【静岡】県は「地域の担い手育成プロジェクト」を展開し、社会人を対象にした担い手確保に取り組む。対象の一つが退職予定自衛官。自衛隊と連携し、農業経営体の求人情報を収集し、退職予定自衛官の就農へつなげる。農業法人など採用側にはちらしを作り、求人を呼びかける。自衛官には説明会や農園での研修を行い、農業への理解を深める。 県内の基幹的農業従事者は２０年間で５４％減少、６５歳以上が３分の２を占めるなど、高齢化も急速に進んでいる。 県は「がんばる新農業人支援事業」を展開。新規就農者対策に取り組んできたが、会社を退職して受講するため、参加者が少数で限定的という課題があった。 防衛省は２０２７年度予算の概算要…",
+   "cats": [
+    "policy",
+    "event"
+   ],
+   "published": "2026-11-19T05:00+09:00",
+   "first_seen": "2026-11-27T23:54+09:00",
+   "lang": "ja",
+   "area": "japan"
+  },
+  {
    "title": "酪農女性 思い語り合う 標茶で初のプチサミット、１４０人が交流と学び【標茶町】",
    "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5fd25ETGxPODQ4VWQ4eVdFbDVLdXlaUXdROVpFT1FTRlIxWjdVZ3B1Yk9OWUpuNEJud0NWTm8yNzRpX1BUVWFRc3dDTmd5YjRLVzN3?oc=5",
    "publisher": "釧路新聞電子版",
@@ -9434,7 +9788,8 @@
    "region": "jp",
    "snippet": "",
    "cats": [
-    "dairy"
+    "dairy",
+    "event"
    ],
    "published": "2026-11-19T04:06+09:00",
    "first_seen": "2026-11-19T11:47+09:00",
@@ -9592,6 +9947,21 @@
    "published": "2026-11-19T02:14+09:00",
    "first_seen": "2026-11-19T11:47+09:00",
    "lang": "ja",
+   "area": "overseas"
+  },
+  {
+   "title": "Ag Retailers at AgGateway Conference",
+   "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE0wR21VSkt5VWFHR3RFWkc5NXF3d08zTDFMd2V0UUROdkt0ckJJbk9kU01DRmlZSVFCaWM3VDVrbGl5bVYtNlN4Nm1IaWZpb0pMSzlQQ2V1VWhneE44bmM4OU1la0wzTkxWb3BlbEFZdXFUSU9aNXFV?oc=5",
+   "publisher": "AgWired",
+   "via": "Google News \"ag events\"",
+   "region": "world",
+   "snippet": "",
+   "cats": [
+    "event"
+   ],
+   "published": "2026-11-19T02:00+09:00",
+   "first_seen": "2026-11-27T23:54+09:00",
+   "lang": "en",
    "area": "overseas"
   },
   {
@@ -10226,7 +10596,8 @@
    "region": "jp",
    "snippet": "",
    "cats": [
-    "dairy"
+    "dairy",
+    "event"
    ],
    "published": "2026-11-18T17:53+09:00",
    "first_seen": "2026-11-18T20:51+09:00",
@@ -10241,7 +10612,8 @@
    "region": "jp",
    "snippet": "",
    "cats": [
-    "dairy"
+    "dairy",
+    "event"
    ],
    "published": "2026-11-18T17:49+09:00",
    "first_seen": "2026-11-18T20:51+09:00",
@@ -10286,7 +10658,8 @@
    "region": "jp",
    "snippet": "",
    "cats": [
-    "dairy"
+    "dairy",
+    "event"
    ],
    "published": "2026-11-18T17:34+09:00",
    "first_seen": "2026-11-18T20:51+09:00",
@@ -10974,7 +11347,8 @@
    "region": "world",
    "snippet": "Faresin unveils electric Eramix feeding robot at Eima Italian machinery manufacturer Faresin is",
    "cats": [
-    "smart"
+    "smart",
+    "event"
    ],
    "published": "2026-11-18T00:00+09:00",
    "first_seen": "2026-11-18T12:07+09:00",
@@ -11627,7 +12001,8 @@
    "region": "jp",
    "snippet": "",
    "cats": [
-    "dairy"
+    "dairy",
+    "event"
    ],
    "published": "2026-11-17T16:17+09:00",
    "first_seen": "2026-11-18T12:07+09:00",
@@ -11855,7 +12230,8 @@
    "region": "jp",
    "snippet": "",
    "cats": [
-    "smart"
+    "smart",
+    "event"
    ],
    "published": "2026-11-17T13:21+09:00",
    "first_seen": "2026-11-18T12:07+09:00",
@@ -11916,7 +12292,8 @@
    "region": "jp",
    "snippet": "",
    "cats": [
-    "smart"
+    "smart",
+    "event"
    ],
    "published": "2026-11-17T12:38+09:00",
    "first_seen": "2026-11-18T12:07+09:00",
@@ -12099,7 +12476,8 @@
    "region": "africa",
    "snippet": "[Nile Post] Wakiso District LC5 Chairperson Eng. Ian Kyeyune Ssengonzi has announced plans to establish an annual agricultural, livestock and trade exhibition, pledging to award a brand-new vehicle to the best-performing farmer or livestock keeper as part of efforts to promote agricultural productiv…",
    "cats": [
-    "dairy"
+    "dairy",
+    "event"
    ],
    "published": "2026-11-17T10:02+09:00",
    "first_seen": "2026-11-17T13:10+09:00",
@@ -12645,6 +13023,7 @@
    "region": "africa",
    "snippet": "",
    "cats": [
+    "event",
     "general"
    ],
    "published": "2026-11-16T20:23+09:00",
@@ -12660,7 +13039,8 @@
    "region": "jp",
    "snippet": "",
    "cats": [
-    "smart"
+    "smart",
+    "event"
    ],
    "published": "2026-11-16T20:02+09:00",
    "first_seen": "2026-11-16T20:48+09:00",
@@ -12874,7 +13254,8 @@
    "region": "jp",
    "snippet": "",
    "cats": [
-    "smart"
+    "smart",
+    "event"
    ],
    "published": "2026-11-16T17:00+09:00",
    "first_seen": "2026-11-16T20:48+09:00",
@@ -12925,6 +13306,21 @@
    "first_seen": "2026-11-16T20:48+09:00",
    "lang": "en",
    "area": "overseas"
+  },
+  {
+   "title": "【花き産地の最前線】地域のお母さんスタッフが活躍！高品質な切り花を周年計画出荷",
+   "link": "https://agrijournal.jp/production/96299/",
+   "publisher": "AGRI JOURNAL",
+   "via": "AGRI JOURNAL",
+   "region": "jp",
+   "snippet": "2027年国際園芸博覧会に向けて、花き産地の先進的な取り組みを紹介する。宮城県大崎市の「フローラ平山」は、地域のお母さんスタッフが活躍する和やかな雰囲気のもと、蒸気による土壌消毒や科学的施肥管理を積み重ね、高品質な切花を年間を通して計画出荷している。 The post 【花き産地の最前線】地域のお母さんスタッフが活躍！高品質な切り花を周年計画出荷 first appeared on AGRI JOURNAL .",
+   "cats": [
+    "event"
+   ],
+   "published": "2026-11-16T17:00+09:00",
+   "first_seen": "2026-11-27T23:54+09:00",
+   "lang": "ja",
+   "area": "japan"
   },
   {
    "title": "大手乳業3社中間決算、増収も利益面で明暗",
@@ -13025,7 +13421,8 @@
    "region": "world",
    "snippet": "A genuine debut at the trade fair is the Naio Sanka, a fully electric, multifunctional robot. It features a rear-mounted three-point linkage, hydraulics and a power take-off (PTO). Battery capacity is either 47 or 94 kWh.",
    "cats": [
-    "smart"
+    "smart",
+    "event"
    ],
    "published": "2026-11-16T16:00+09:00",
    "first_seen": "2026-11-16T20:48+09:00",
@@ -13116,7 +13513,8 @@
    "region": "jp",
    "snippet": "",
    "cats": [
-    "smart"
+    "smart",
+    "event"
    ],
    "published": "2026-11-16T14:31+09:00",
    "first_seen": "2026-11-16T20:48+09:00",
@@ -13146,7 +13544,8 @@
    "region": "jp",
    "snippet": "",
    "cats": [
-    "smart"
+    "smart",
+    "event"
    ],
    "published": "2026-11-16T13:28+09:00",
    "first_seen": "2026-11-16T20:48+09:00",
@@ -13449,6 +13848,7 @@
    "region": "africa",
    "snippet": "A new record for the international agricultural machinery exhibition. Attendance reaches 370,000, including almost 68,000 international attendances. Potential demand for agricultural machinery remains very high, says Mariateresa Maschio, but the current economic difficulties must be overcome to allo…",
    "cats": [
+    "event",
     "general"
    ],
    "published": "2026-11-15T17:47+09:00",
@@ -13784,7 +14184,8 @@
    "region": "jp",
    "snippet": "",
    "cats": [
-    "smart"
+    "smart",
+    "event"
    ],
    "published": "2026-11-14T21:48+09:00",
    "first_seen": "2026-11-15T10:18+09:00",
@@ -13829,7 +14230,8 @@
    "region": "jp",
    "snippet": "",
    "cats": [
-    "smart"
+    "smart",
+    "event"
    ],
    "published": "2026-11-14T20:30+09:00",
    "first_seen": "2026-11-15T10:18+09:00",
@@ -14009,7 +14411,8 @@
    "region": "jp",
    "snippet": "",
    "cats": [
-    "dairy"
+    "dairy",
+    "event"
    ],
    "published": "2026-11-14T12:52+09:00",
    "first_seen": "2026-11-15T10:18+09:00",
@@ -14101,7 +14504,8 @@
    "region": "jp",
    "snippet": "",
    "cats": [
-    "dairy"
+    "dairy",
+    "event"
    ],
    "published": "2026-11-14T08:48+09:00",
    "first_seen": "2026-11-14T10:45+09:00",
@@ -14150,6 +14554,21 @@
    ],
    "published": "2026-11-14T05:00+09:00",
    "first_seen": "2026-11-14T10:45+09:00",
+   "lang": "ja",
+   "area": "japan"
+  },
+  {
+   "title": "仙台せり鍋、芋煮に連勝 マルシェで対決 ＪＡ仙台青年部・女性部仙台の商店街組合主催",
+   "link": "https://www.agrinews.co.jp/society/index/418744",
+   "publisher": "日本農業新聞",
+   "via": "日本農業新聞",
+   "region": "jp",
+   "snippet": "【宮城・仙台】宮城の「仙台せり鍋」と山形の「芋煮」が頂上決戦――。仙台市の一番町四丁目商店街で１日、第６回Ｏｍｏｓｈｅ（おもしぇ）秋マルシェが行われ、目玉企画の山形と宮城の郷土料理対決が開かれた。「仙台せり鍋」が接戦を制し連覇を果たした。 ＪＡ仙台青年部・女性部と一番町四丁目商店街振興組合が主催。女性部がニンジンやダイコンなど地場産野菜と特産「仙台せり」をふんだんに使った「仙台せり鍋」を用意。ＪＡやまがたが県産のサトイモや牛肉、ネギなどが入ったしょうゆ味の芋煮を提供した。 来場者は、二つの料理を味わえる食べ比べセットを味わい、好みの方に割り箸を入れて投票する。投票された重量は、宮城３１２０グラ…",
+   "cats": [
+    "event"
+   ],
+   "published": "2026-11-14T05:00+09:00",
+   "first_seen": "2026-11-27T23:54+09:00",
    "lang": "ja",
    "area": "japan"
   },
@@ -14237,6 +14656,7 @@
    "region": "africa",
    "snippet": "Safeguarding European industrial competitiveness, reciprocity in international trade, more effective import controls, and investment in innovation and digitalisation. These were the key themes of the meeting organised by FederUnacoma on the fourth day of EIMA International, the global exhibition of…",
    "cats": [
+    "event",
     "general"
    ],
    "published": "2026-11-14T03:38+09:00",
@@ -14252,7 +14672,8 @@
    "region": "africa",
    "snippet": "They are knowledgeable, the vast majority use agricultural machinery, and they almost always decide independently which investments to make in mechanisation. They use digital technologies and keep themselves informed. These are Italy’s female agricultural entrepreneurs, as portrayed in a survey cond…",
    "cats": [
-    "smart"
+    "smart",
+    "event"
    ],
    "published": "2026-11-14T03:34+09:00",
    "first_seen": "2026-11-14T07:39+09:00",
@@ -14850,6 +15271,21 @@
    "area": "japan"
   },
   {
+   "title": "東京ビッグサイトのアグリビジネス創出フェアを視察しました",
+   "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1ycS15VTItOURIMVYtVENqNV9sZkVueWxhWklPQU9WaXl3ZmpENzJIZV9NOXNwUWdxMFZ5RlRXQmxCSFVrZF9VOUk3WDgxNnVMUHFtT2lpRHVwc1FEeldz?oc=5",
+   "publisher": "選挙ドットコム",
+   "via": "Google ニュース「農機の展示会」",
+   "region": "jp",
+   "snippet": "",
+   "cats": [
+    "event"
+   ],
+   "published": "2026-11-13T17:00+09:00",
+   "first_seen": "2026-11-27T23:54+09:00",
+   "lang": "ja",
+   "area": "japan"
+  },
+  {
    "title": "ヤクルト本社中間は増収減益、通期下方修正",
    "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE94NllQVkQ1YVJyWjF2NTA2b1NKMGFUWUxiYXNLVXJEdUZpcEM5WmFfY0hPWWpSUkRMbEFSVHh6QUVvQXpKbm1qalgtSlk?oc=5",
    "publisher": "酪農乳業速報",
@@ -15237,6 +15673,7 @@
    "region": "africa",
    "snippet": "The agricultural bioeconomy is once again taking centre stage at EIMA International through initiatives organised within the EIMA Energy showcase. On the second day of the global exhibition of machinery for agriculture and gardening, running in Bologna until Saturday 14 November, the focus was on in…",
    "cats": [
+    "event",
     "general"
    ],
    "published": "2026-11-13T09:55+09:00",
@@ -15360,7 +15797,8 @@
    "region": "jp",
    "snippet": "【本別町】十勝管内本別町の農家や商業者、公務員の若手でつくる「まめふぇす実行委員会」は１２月６日、ＪＡ本別町と初の共催で、食と音楽のフェスティバル「お豆音楽祭２０２６×ＪＡ本別町収穫祭」を開く。同町中央公民館を会場に、音楽イベントや地元の農産物、加工品の販売を通じ、豆の町・本別町を全国へ発信する。 畑作と酪農が盛んな同町だが、人口はピーク時の３分の１以下の約５７００人と減少が進む。「町を元気にしたい」という北海道本別高校の生徒の思いに応え、２０２４年に若者有志が「お豆音楽祭」を初開催。生徒の意見や発想を取り入れ、町内外から１０００人以上を集客した。 ３回目の今年は、音楽イベントに収穫祭を組み合…",
    "cats": [
-    "dairy"
+    "dairy",
+    "event"
    ],
    "published": "2026-11-13T05:00+09:00",
    "first_seen": "2026-11-13T11:07+09:00",
@@ -15632,7 +16070,8 @@
    "snippet": "",
    "cats": [
     "dairy",
-    "smart"
+    "smart",
+    "event"
    ],
    "published": "2026-11-12T23:11+09:00",
    "first_seen": "2026-11-13T11:07+09:00",
@@ -16133,7 +16572,8 @@
    "region": "jp",
    "snippet": "",
    "cats": [
-    "dairy"
+    "dairy",
+    "event"
    ],
    "published": "2026-11-12T17:25+09:00",
    "first_seen": "2026-11-13T11:07+09:00",
@@ -16148,7 +16588,8 @@
    "region": "jp",
    "snippet": "",
    "cats": [
-    "dairy"
+    "dairy",
+    "event"
    ],
    "published": "2026-11-12T17:25+09:00",
    "first_seen": "2026-11-13T11:07+09:00",
@@ -16337,6 +16778,21 @@
    "area": "japan"
   },
   {
+   "title": "アグリビジネス創出フェア開催 167機関が出展、フードテックに注目",
+   "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9PSXZONllaOWRmLXlua1pkWUpoUXhncFMxZHdxVHp3V3RvblpsalM3M2g4R1hlSWR4Szh2Z0tBTFduSk1OcS1XVlBnU09mVTgyQUtSV0l3?oc=5",
+   "publisher": "ウェルネスデイリーニュース",
+   "via": "Google ニュース「農機の展示会」",
+   "region": "jp",
+   "snippet": "",
+   "cats": [
+    "event"
+   ],
+   "published": "2026-11-12T17:00+09:00",
+   "first_seen": "2026-11-27T23:54+09:00",
+   "lang": "ja",
+   "area": "japan"
+  },
+  {
    "title": "【解説】牛乳消費量が少ない 年間処理量６万トン以上減か 加工用にも限界が…生乳減産へ 北海道",
    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9EbTF3ZVFEcG5TaWRFNzk3X2RsNUdXUlY2d016UlU5dUFIQkE0LUtaTlhqVG8zc2lyQm4xR3BVM0ROMzQ4a2JMdTltR1hOMjlkUmFzeTZ6amVUX3NxTjZiYkZibmJZM0Z1QjBCX2tzUjJuRXFHUHBPMzhIVjRUZ2M?oc=5",
    "publisher": "Yahoo!ニュース",
@@ -16389,7 +16845,8 @@
    "region": "jp",
    "snippet": "",
    "cats": [
-    "smart"
+    "smart",
+    "event"
    ],
    "published": "2026-11-12T16:21+09:00",
    "first_seen": "2026-11-13T11:07+09:00",
@@ -16404,7 +16861,8 @@
    "region": "jp",
    "snippet": "",
    "cats": [
-    "smart"
+    "smart",
+    "event"
    ],
    "published": "2026-11-12T16:21+09:00",
    "first_seen": "2026-11-15T10:18+09:00",
@@ -16862,7 +17320,8 @@
    "region": "world",
    "snippet": "",
    "cats": [
-    "smart"
+    "smart",
+    "event"
    ],
    "published": "2026-11-12T07:16+09:00",
    "first_seen": "2026-11-12T11:30+09:00",
@@ -16892,7 +17351,8 @@
    "region": "jp",
    "snippet": "",
    "cats": [
-    "smart"
+    "smart",
+    "event"
    ],
    "published": "2026-11-12T06:12+09:00",
    "first_seen": "2026-11-12T11:30+09:00",
@@ -16962,6 +17422,21 @@
    "desc_checked": true
   },
   {
+   "title": "手もみ茶師・住田恵朗さん 「食の至宝」に",
+   "link": "https://www.agrinews.co.jp/society/index/418159",
+   "publisher": "日本農業新聞",
+   "via": "日本農業新聞",
+   "region": "jp",
+   "snippet": "【静岡・大井川】文化庁は１０日、食文化の功績者を顕彰する「食の至宝」の第１回受賞者に、手もみ茶師で永世茶聖の住田恵朗さん（８６）＝静岡県藤枝市＝ら８人を選んだと発表した。食文化の各分野で当代一流と評価される「わざ」を持つ現役の個人が対象。同庁は今後、食分野の人間国宝認定につながる賞にしたい考えだ。 住田さんは、明治時代から続く茶農家に生まれ、幼いころから祖父が茶をもむ姿を見て育った。全国手もみ茶品評会では、最高位の一等一席、農水大臣賞を４回受賞するなど卓越した技術を持つ。 普及や後継者育成などにも取り組み、全国手もみ茶振興会などの要職を歴任。その功績から永世茶聖の称号を授与され、文化庁長官表彰…",
+   "cats": [
+    "event"
+   ],
+   "published": "2026-11-12T05:00+09:00",
+   "first_seen": "2026-11-27T23:54+09:00",
+   "lang": "ja",
+   "area": "japan"
+  },
+  {
    "title": "Informed employees one of the ‘most powerful defenses’ against cyber attacks, says Cargill CISO",
    "link": "https://agfundernews.com/informed-employees-one-of-the-most-powerful-defenses-against-cyber-attacks-says-cargill-ciso",
    "publisher": "AgFunderNews",
@@ -17029,7 +17504,8 @@
    "region": "jp",
    "snippet": "",
    "cats": [
-    "dairy"
+    "dairy",
+    "event"
    ],
    "published": "2026-11-12T04:00+09:00",
    "first_seen": "2026-11-14T10:45+09:00",
@@ -17256,7 +17732,8 @@
    "region": "world",
    "snippet": "Ecorobotix is officially introducing 3 new working widths for its Ara spot sprayer, along with matching tanks, at the Italian Eima trade fair from 10 to 14 November.",
    "cats": [
-    "smart"
+    "smart",
+    "event"
    ],
    "published": "2026-11-11T22:00+09:00",
    "first_seen": "2026-11-12T11:30+09:00",
@@ -17590,12 +18067,28 @@
    "region": "world",
    "snippet": "",
    "cats": [
-    "smart"
+    "smart",
+    "event"
    ],
    "published": "2026-11-11T17:00+09:00",
    "first_seen": "2026-11-27T22:36+09:00",
    "lang": "en",
    "area": "overseas"
+  },
+  {
+   "title": "11月11日 「アグリビジネス創出フェア2026」開会セレモニーへの出席",
+   "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5jQjZqSDVTWXl2VjRTbUZGcHN0ZmhjbW1rUjFWX1F6MjV1eUZEOFFiZHRLbGNYaE1WdXpUem1WQVE0SFFDTVExTncxOG9WaEpVbWFIMlYzczNFOUVj?oc=5",
+   "publisher": "農林水産省",
+   "via": "Google ニュース「農機の展示会」",
+   "region": "jp",
+   "snippet": "",
+   "cats": [
+    "event"
+   ],
+   "published": "2026-11-11T17:00+09:00",
+   "first_seen": "2026-11-27T23:54+09:00",
+   "lang": "ja",
+   "area": "japan"
   },
   {
    "title": "スマート農業技術を学ぶ「出前授業」を実施します！",
@@ -17620,7 +18113,8 @@
    "region": "jp",
    "snippet": "",
    "cats": [
-    "dairy"
+    "dairy",
+    "event"
    ],
    "published": "2026-11-11T16:45+09:00",
    "first_seen": "2026-11-12T11:30+09:00",
@@ -17635,7 +18129,8 @@
    "region": "jp",
    "snippet": "",
    "cats": [
-    "smart"
+    "smart",
+    "event"
    ],
    "published": "2026-11-11T16:39+09:00",
    "first_seen": "2026-11-12T11:30+09:00",
@@ -17895,7 +18390,8 @@
    "region": "jp",
    "snippet": "",
    "cats": [
-    "smart"
+    "smart",
+    "event"
    ],
    "published": "2026-11-11T14:36+09:00",
    "first_seen": "2026-11-13T11:07+09:00",
@@ -18004,7 +18500,8 @@
    "snippet": "Amid a wealth of new products, several manufacturers chose the opening day of EIMA International to unveil their latest innovations. Among them was Faresin, which, alongside its new FS 8.50 telehandler with an 8.5-metre boom, gave the Eramix its world premiere. This fully electric, autonomous feed m…",
    "cats": [
     "dairy",
-    "smart"
+    "smart",
+    "event"
    ],
    "published": "2026-11-11T13:38+09:00",
    "first_seen": "2026-11-12T11:30+09:00",
@@ -18144,7 +18641,8 @@
    "region": "jp",
    "snippet": "",
    "cats": [
-    "dairy"
+    "dairy",
+    "event"
    ],
    "published": "2026-11-11T10:00+09:00",
    "first_seen": "2026-11-18T12:07+09:00",
@@ -18174,7 +18672,8 @@
    "region": "jp",
    "snippet": "",
    "cats": [
-    "dairy"
+    "dairy",
+    "event"
    ],
    "published": "2026-11-11T09:00+09:00",
    "first_seen": "2026-11-11T10:28+09:00",
@@ -18205,7 +18704,8 @@
    "region": "jp",
    "snippet": "",
    "cats": [
-    "smart"
+    "smart",
+    "event"
    ],
    "published": "2026-11-11T08:20+09:00",
    "first_seen": "2026-11-11T10:28+09:00",
@@ -18236,7 +18736,8 @@
    "snippet": "農協の紹介で訪れた展示会で、最新の農業用ドローンにすっかり心を奪われた主人公・はじめ。作業の大幅な省力化に期待が膨らむ一方で、カタログの金額に思わずため息がこぼれるも、担当者から「補助金を使えば最大半額」と提案され、一気に導入へ気持ちが傾くが……。過去のある出来事が頭をよぎり、契約直前で踏みとどまるのだった。はじめの教訓に学ぶ「失敗しないスマート農業機械の導入」をお伝えしよう。",
    "cats": [
     "smart",
-    "policy"
+    "policy",
+    "event"
    ],
    "published": "2026-11-11T07:00+09:00",
    "first_seen": "2026-11-11T10:28+09:00",
@@ -18281,7 +18782,8 @@
    "region": "jp",
    "snippet": "",
    "cats": [
-    "iot"
+    "iot",
+    "event"
    ],
    "published": "2026-11-11T05:00+09:00",
    "first_seen": "2026-11-11T10:28+09:00",
@@ -18604,6 +19106,7 @@
    "region": "africa",
    "snippet": "Trade missions across several continents, with a focus on Europe, Central and South America and Africa President Neri: “International exhibitors already make up 40% of the total” Cesena, Italy, Europe, Central and South America and Africa. Macfrut is on the road across several continents for its 202…",
    "cats": [
+    "event",
     "general"
    ],
    "published": "2026-11-10T23:18+09:00",
@@ -18664,7 +19167,8 @@
    "region": "jp",
    "snippet": "",
    "cats": [
-    "smart"
+    "smart",
+    "event"
    ],
    "published": "2026-11-10T22:00+09:00",
    "first_seen": "2026-11-12T11:30+09:00",
@@ -18803,6 +19307,7 @@
    "region": "africa",
    "snippet": "[Daily Trust] The Minister of Agriculture and Food Security, Sen Abubakar Kyari and other key players are scheduled to open the 2026 edition of the National Agricultural Show at the outskirts of Abuja.",
    "cats": [
+    "event",
     "general"
    ],
    "published": "2026-11-10T20:39+09:00",
@@ -19025,6 +19530,21 @@
    "area": "japan"
   },
   {
+   "title": "未利用食材を未来の食資源へワタミファームが「アグリビジネス創出フェア2026」に登壇 COOLD FOOD の社会実装に向け、農業・食品・冷熱の実践者と議論",
+   "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5KU3RYSHRIazhYM094M3YxdFFjVWNheDdBbzBYM3h5M0o3WEV2cldhUG1jUlJBUHJoMmI2ZWg1SW1OaVZoZ3dWZzhlREtNeXhXWWFiVjFoU05xMTd6bUlFeWdXUzl0TDdMSFE?oc=5",
+   "publisher": "PR TIMES",
+   "via": "Google ニュース「農機の展示会」",
+   "region": "jp",
+   "snippet": "",
+   "cats": [
+    "event"
+   ],
+   "published": "2026-11-10T17:00+09:00",
+   "first_seen": "2026-11-27T23:54+09:00",
+   "lang": "ja",
+   "area": "japan"
+  },
+  {
    "title": "生乳処理に「最大限の準備」、雪メグ佐藤社長",
    "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBHUThBa3hNRlQxYzItZm1oLTRLTW1OdkNmQ3Jsb0Raamlybi0yang0MkdqOFktT1NWbGdCNEdsWkJzQm5IMDUtXzZwTzU?oc=5",
    "publisher": "酪農乳業速報",
@@ -19077,7 +19597,8 @@
    "region": "africa",
    "snippet": "Unified regional model aims to deepen customer relationships and create new business opportunities; showcase features award-winning Mega-PULSAR™ and recently launched GrowSphere™ FLEX Orbia Advance Corporation’s Precision Agriculture business, Netafim, will unveil its new Western Europe operating mo…",
    "cats": [
-    "smart"
+    "smart",
+    "event"
    ],
    "published": "2026-11-10T16:20+09:00",
    "first_seen": "2026-11-11T10:28+09:00",
@@ -19328,6 +19849,21 @@
    "area": "overseas"
   },
   {
+   "title": "【花き産地の最前線】生産効率と働きやすさを両立！ 新潟チューリップ産地の新機軸",
+   "link": "https://agrijournal.jp/production/96249/",
+   "publisher": "AGRI JOURNAL",
+   "via": "AGRI JOURNAL",
+   "region": "jp",
+   "snippet": "2027年国際園芸博覧会を前に、花き産地の先進的な取り組みを紹介する。チューリップ切花の出荷量が全国一の新潟県において、有限会社ヨシザワフラワーはオランダ方式のベンチシステムを導入し、高い生産効率と作業負担の軽減を両立させている。 The post 【花き産地の最前線】生産効率と働きやすさを両立！ 新潟チューリップ産地の新機軸 first appeared on AGRI JOURNAL .",
+   "cats": [
+    "event"
+   ],
+   "published": "2026-11-10T12:00+09:00",
+   "first_seen": "2026-11-27T23:54+09:00",
+   "lang": "ja",
+   "area": "japan"
+  },
+  {
    "title": "武部農相 11月10日記者会見「鶏卵価格が過去最高、鳥インフル対策の徹底を呼びかけ」",
    "link": "https://agrijournal.jp/aj-market/96446/",
    "publisher": "AGRI JOURNAL",
@@ -19351,7 +19887,8 @@
    "region": "world",
    "snippet": "",
    "cats": [
-    "smart"
+    "smart",
+    "event"
    ],
    "published": "2026-11-10T10:28+09:00",
    "first_seen": "2026-11-10T12:48+09:00",
@@ -19366,7 +19903,8 @@
    "region": "world",
    "snippet": "",
    "cats": [
-    "smart"
+    "smart",
+    "event"
    ],
    "published": "2026-11-10T10:28+09:00",
    "first_seen": "2026-11-11T10:28+09:00",
@@ -19426,7 +19964,8 @@
    "region": "jp",
    "snippet": "",
    "cats": [
-    "smart"
+    "smart",
+    "event"
    ],
    "published": "2026-11-10T08:23+09:00",
    "first_seen": "2026-11-10T12:48+09:00",
@@ -19486,7 +20025,8 @@
    "region": "jp",
    "snippet": "",
    "cats": [
-    "dairy"
+    "dairy",
+    "event"
    ],
    "published": "2026-11-10T06:00+09:00",
    "first_seen": "2026-11-10T12:48+09:00",
@@ -19531,7 +20071,8 @@
    "region": "jp",
    "snippet": "",
    "cats": [
-    "dairy"
+    "dairy",
+    "event"
    ],
    "published": "2026-11-10T06:00+09:00",
    "first_seen": "2026-11-13T21:55+09:00",
@@ -19638,7 +20179,8 @@
    "region": "jp",
    "snippet": "",
    "cats": [
-    "smart"
+    "smart",
+    "event"
    ],
    "published": "2026-11-10T02:04+09:00",
    "first_seen": "2026-11-10T12:48+09:00",
@@ -19699,6 +20241,7 @@
    "region": "africa",
    "snippet": "Brenntag Animal Nutrition will participate in EuroTier 2026, the world’s leading trade fair for animal production, taking place from 10-13 November 2026 in Hannover, Germany. At Booth 23B08, visitors will have the opportunity to meet Brenntag’s Animal Nutrition experts and learn more about the compa…",
    "cats": [
+    "event",
     "general"
    ],
    "published": "2026-11-10T00:03+09:00",
@@ -19729,7 +20272,8 @@
    "region": "jp",
    "snippet": "",
    "cats": [
-    "dairy"
+    "dairy",
+    "event"
    ],
    "published": "2026-11-10T00:00+09:00",
    "first_seen": "2026-11-10T12:48+09:00",
@@ -19744,7 +20288,8 @@
    "region": "jp",
    "snippet": "",
    "cats": [
-    "dairy"
+    "dairy",
+    "event"
    ],
    "published": "2026-11-10T00:00+09:00",
    "first_seen": "2026-11-11T10:28+09:00",
@@ -20035,7 +20580,8 @@
    "region": "jp",
    "snippet": "",
    "cats": [
-    "dairy"
+    "dairy",
+    "event"
    ],
    "published": "2026-11-09T19:21+09:00",
    "first_seen": "2026-11-10T12:48+09:00",
@@ -20095,7 +20641,8 @@
    "region": "jp",
    "snippet": "",
    "cats": [
-    "dairy"
+    "dairy",
+    "event"
    ],
    "published": "2026-11-09T18:21+09:00",
    "first_seen": "2026-11-10T12:48+09:00",
@@ -20219,6 +20766,21 @@
    ],
    "published": "2026-11-09T17:00+09:00",
    "first_seen": "2026-11-24T14:29+09:00",
+   "lang": "ja",
+   "area": "japan"
+  },
+  {
+   "title": "トゥンクトゥンクがやってくる！東京ビッグサイト等で横浜グリーンエクスポをPR",
+   "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE41dWpTQVpEX2RSc1J2aEVDek5hRDZyUHpraTA4MGJTamc4MVBRVkttRFBGRUhFN1FOblZ6R185a09NdkMzMGVMUEhvYVRYNGppb0ttSWhDUDg3S0Q1N09FUXRMeUY?oc=5",
+   "publisher": "農林水産省",
+   "via": "Google ニュース「農機の展示会」",
+   "region": "jp",
+   "snippet": "",
+   "cats": [
+    "event"
+   ],
+   "published": "2026-11-09T17:00+09:00",
+   "first_seen": "2026-11-27T23:54+09:00",
    "lang": "ja",
    "area": "japan"
   },
@@ -20472,7 +21034,8 @@
    "region": "jp",
    "snippet": "",
    "cats": [
-    "dairy"
+    "dairy",
+    "event"
    ],
    "published": "2026-11-09T15:18+09:00",
    "first_seen": "2026-11-10T12:48+09:00",
@@ -20758,7 +21321,8 @@
    "region": "jp",
    "snippet": "",
    "cats": [
-    "dairy"
+    "dairy",
+    "event"
    ],
    "published": "2026-11-09T10:00+09:00",
    "first_seen": "2026-11-10T12:48+09:00",
@@ -21286,7 +21850,8 @@
    "region": "jp",
    "snippet": "",
    "cats": [
-    "dairy"
+    "dairy",
+    "event"
    ],
    "published": "2026-11-08T06:32+09:00",
    "first_seen": "2026-11-08T09:54+09:00",
@@ -21835,7 +22400,8 @@
    "region": "world",
    "snippet": "Full shelves and steady profits are hiding how fast climate, nature and supply risks are becoming business risks, speakers from Levy, WWF-UK, Inside Track and AgFunder told the Future Food Movement members on a webinar yesterday.",
    "cats": [
-    "smart"
+    "smart",
+    "event"
    ],
    "published": "2026-11-07T00:16+09:00",
    "first_seen": "2026-11-08T09:54+09:00",
@@ -22009,6 +22575,21 @@
    "first_seen": "2026-11-07T10:11+09:00",
    "lang": "en",
    "area": "africa"
+  },
+  {
+   "title": "AGBIOTECHがアグリビジネス創出フェア2026に共同出展",
+   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5lREhkRnd3Z1hJSXNDSWJ5bUxMWnRHY2ZLSlNidklRZEhKR2F4d0Rvams4MlBza200S09LZHFacHdYZFM5RDQzV3dfQnI4b1NfUWNfdGV4WV9XZw?oc=5",
+   "publisher": "日本農業新聞",
+   "via": "Google ニュース「農機の展示会」",
+   "region": "jp",
+   "snippet": "",
+   "cats": [
+    "event"
+   ],
+   "published": "2026-11-06T19:01+09:00",
+   "first_seen": "2026-11-27T23:54+09:00",
+   "lang": "ja",
+   "area": "japan"
   },
   {
    "title": "Call for carbon tax cut on LPG to support poultry farmers",
@@ -22736,7 +23317,8 @@
    "region": "jp",
    "snippet": "",
    "cats": [
-    "smart"
+    "smart",
+    "event"
    ],
    "published": "2026-11-06T08:40+09:00",
    "first_seen": "2026-11-06T10:47+09:00",
@@ -23013,7 +23595,8 @@
    "region": "jp",
    "snippet": "",
    "cats": [
-    "dairy"
+    "dairy",
+    "event"
    ],
    "published": "2026-11-06T01:00+09:00",
    "first_seen": "2026-11-06T10:47+09:00",
@@ -23377,7 +23960,8 @@
    "region": "jp",
    "snippet": "",
    "cats": [
-    "dairy"
+    "dairy",
+    "event"
    ],
    "published": "2026-11-05T18:39+09:00",
    "first_seen": "2026-11-06T10:47+09:00",
@@ -23438,6 +24022,7 @@
    "snippet": "The International Crops Research Institute for the Semi-Arid Tropics (ICRISAT), in collaboration with Ethiopia’s Ministry of Agriculture and development partners, is conducting a series of farmer field days across Southern Ethiopia from November 4 to 6, 2026, to promote innovative and cost-effective…",
    "cats": [
     "policy",
+    "event",
     "general"
    ],
    "published": "2026-11-05T18:05+09:00",
@@ -23483,7 +24068,8 @@
    "region": "jp",
    "snippet": "",
    "cats": [
-    "dairy"
+    "dairy",
+    "event"
    ],
    "published": "2026-11-05T17:21+09:00",
    "first_seen": "2026-11-06T10:47+09:00",
@@ -23498,7 +24084,8 @@
    "region": "jp",
    "snippet": "",
    "cats": [
-    "dairy"
+    "dairy",
+    "event"
    ],
    "published": "2026-11-05T17:15+09:00",
    "first_seen": "2026-11-06T10:47+09:00",
@@ -23695,7 +24282,8 @@
    "region": "jp",
    "snippet": "",
    "cats": [
-    "dairy"
+    "dairy",
+    "event"
    ],
    "published": "2026-11-05T16:00+09:00",
    "first_seen": "2026-11-06T10:47+09:00",
@@ -23846,6 +24434,7 @@
    "region": "africa",
    "snippet": "The 2026 edition of this major agricultural machinery exhibition features a very large number of manufacturers specialising in components, spare parts and accessories. A total of 958 companies from the sector are exhibiting their product ranges, spread across EIMA’s three exhibition halls: ‘Componen…",
    "cats": [
+    "event",
     "general"
    ],
    "published": "2026-11-05T13:12+09:00",
@@ -23892,7 +24481,8 @@
    "region": "jp",
    "snippet": "",
    "cats": [
-    "smart"
+    "smart",
+    "event"
    ],
    "published": "2026-11-05T12:52+09:00",
    "first_seen": "2026-11-06T10:47+09:00",
@@ -23982,7 +24572,8 @@
    "region": "jp",
    "snippet": "",
    "cats": [
-    "smart"
+    "smart",
+    "event"
    ],
    "published": "2026-11-05T11:00+09:00",
    "first_seen": "2026-11-08T09:54+09:00",
@@ -24211,6 +24802,21 @@
    ],
    "published": "2026-11-05T05:04+09:00",
    "first_seen": "2026-11-05T10:47+09:00",
+   "lang": "ja",
+   "area": "japan"
+  },
+  {
+   "title": "江戸東京野菜で料理コン 赤羽北桜高に栄冠 ＪＡ東京中央会",
+   "link": "https://www.agrinews.co.jp/society/index/416749",
+   "publisher": "日本農業新聞",
+   "via": "日本農業新聞",
+   "region": "jp",
+   "snippet": "【東京】ＪＡ東京中央会は２４日、「～江戸東京野菜～都内高校生料理コンテスト２０２６」の表彰式を東京都内で開いた。「アシタバ」をテーマに、都内の高校や高等専門学校の生徒を対象としてオリジナルレシピを募集。２２校１６５チームの応募の中から、上位５作品を優秀作品として選び、表彰した。生徒らは伝統野菜への理解を深め、食を通じた地域農業の活性化に向け熱意を発信した。 レシピ審査を通過した８チームが１２日の実技審査に進み、調理とプレゼンテーションを通して腕前を競った。アシタバ特有の香りやほのかな苦味を生かした、高校生ならではの料理が並んだ。 辻調理師専門学校の山田研教育研究センター長が審査委員長を務め、料…",
+   "cats": [
+    "event"
+   ],
+   "published": "2026-11-05T05:00+09:00",
+   "first_seen": "2026-11-27T23:54+09:00",
    "lang": "ja",
    "area": "japan"
   },
@@ -24811,7 +25417,8 @@
    "region": "jp",
    "snippet": "",
    "cats": [
-    "dairy"
+    "dairy",
+    "event"
    ],
    "published": "2026-11-04T17:02+09:00",
    "first_seen": "2026-11-04T21:08+09:00",
@@ -25281,7 +25888,8 @@
    "region": "jp",
    "snippet": "",
    "cats": [
-    "dairy"
+    "dairy",
+    "event"
    ],
    "published": "2026-11-04T10:03+09:00",
    "first_seen": "2026-11-04T10:38+09:00",
@@ -25820,7 +26428,8 @@
    "snippet": "Many dairy farms face the challenge of further automating workflows in conventional milking parlors without having to replace existing installations. At the same time, the importance of a consistent milking routine, high milk quality, and excellent hygiene continues to grow. At this year’s EuroTier,…",
    "cats": [
     "dairy",
-    "smart"
+    "smart",
+    "event"
    ],
    "published": "2026-11-03T21:44+09:00",
    "first_seen": "2026-11-04T21:08+09:00",
@@ -26477,7 +27086,8 @@
    "via": "Google ニュース「酪農」",
    "snippet": "",
    "cats": [
-    "dairy"
+    "dairy",
+    "event"
    ],
    "published": "2026-11-03T06:15+09:00",
    "first_seen": "2026-11-03T22:00+09:00",
@@ -26648,7 +27258,8 @@
    "via": "Google ニュース「スマート農業」",
    "snippet": "",
    "cats": [
-    "smart"
+    "smart",
+    "event"
    ],
    "published": "2026-11-03T02:00+09:00",
    "first_seen": "2026-11-03T22:00+09:00",
@@ -27506,7 +28117,8 @@
    "via": "Google ニュース「スマート農業」",
    "snippet": "",
    "cats": [
-    "smart"
+    "smart",
+    "event"
    ],
    "published": "2026-11-02T14:13+09:00",
    "first_seen": "2026-11-03T22:00+09:00",
@@ -27523,7 +28135,8 @@
    "via": "Google ニュース「酪農」",
    "snippet": "",
    "cats": [
-    "dairy"
+    "dairy",
+    "event"
    ],
    "published": "2026-11-02T13:23+09:00",
    "first_seen": "2026-11-03T22:00+09:00",
@@ -27623,7 +28236,8 @@
    "via": "Google ニュース「農業 AI」",
    "snippet": "",
    "cats": [
-    "smart"
+    "smart",
+    "event"
    ],
    "published": "2026-11-02T10:21+09:00",
    "first_seen": "2026-11-03T22:00+09:00",
@@ -27711,7 +28325,8 @@
    "via": "Google ニュース「酪農」",
    "snippet": "",
    "cats": [
-    "dairy"
+    "dairy",
+    "event"
    ],
    "published": "2026-11-02T06:05+09:00",
    "first_seen": "2026-11-03T22:00+09:00",
@@ -27729,7 +28344,8 @@
    "region": "jp",
    "snippet": "",
    "cats": [
-    "smart"
+    "smart",
+    "event"
    ],
    "published": "2026-11-02T05:00+09:00",
    "first_seen": "2026-11-04T21:08+09:00",
@@ -27973,7 +28589,8 @@
    "via": "Google ニュース「農業 AI」",
    "snippet": "",
    "cats": [
-    "smart"
+    "smart",
+    "event"
    ],
    "published": "2026-11-01T10:00+09:00",
    "first_seen": "2026-11-03T22:00+09:00",
@@ -27990,7 +28607,8 @@
    "via": "Google ニュース「農業 AI」",
    "snippet": "",
    "cats": [
-    "smart"
+    "smart",
+    "event"
    ],
    "published": "2026-11-01T10:00+09:00",
    "first_seen": "2026-11-03T22:00+09:00",
@@ -28008,7 +28626,8 @@
    "region": "jp",
    "snippet": "",
    "cats": [
-    "smart"
+    "smart",
+    "event"
    ],
    "published": "2026-11-01T10:00+09:00",
    "first_seen": "2026-11-05T10:47+09:00",
@@ -28260,6 +28879,21 @@
    ],
    "published": "2026-10-31T16:00+09:00",
    "first_seen": "2026-11-25T13:34+09:00",
+   "lang": "ja",
+   "area": "japan"
+  },
+  {
+   "title": "アグリビジネス創出フェア2026でフルボ酸技術を紹介",
+   "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9BR3g1VFpscGFBbDlMX29xS0JBUGNKQjY1OGpLN1RaZmZrZGJwLWFiMWxqUURyYzM3dFJXWGU2QVNvejlGYkM3UllCZ3RralF1cVoySDZWS2FlYU1Hb1NRaEtPYkc4eVU1Ymc?oc=5",
+   "publisher": "九州産業大学",
+   "via": "Google ニュース「農機の展示会」",
+   "region": "jp",
+   "snippet": "",
+   "cats": [
+    "event"
+   ],
+   "published": "2026-10-31T16:00+09:00",
+   "first_seen": "2026-11-27T23:54+09:00",
    "lang": "ja",
    "area": "japan"
   },
@@ -28622,7 +29256,8 @@
    "region": "jp",
    "snippet": "",
    "cats": [
-    "dairy"
+    "dairy",
+    "event"
    ],
    "published": "2026-10-30T18:52+09:00",
    "first_seen": "2026-11-04T10:38+09:00",
@@ -28779,7 +29414,8 @@
    "region": "world",
    "snippet": "Video: Woody Larson, Florida dairyman and beef producer, was recently named Sunbelt Ag Expo Southeastern Farmer of the Year. His father won the same award two decades ago.",
    "cats": [
-    "dairy"
+    "dairy",
+    "event"
    ],
    "published": "2026-10-30T16:00+09:00",
    "first_seen": "2026-11-03T22:13+09:00",
@@ -28858,7 +29494,8 @@
    "region": "jp",
    "snippet": "",
    "cats": [
-    "smart"
+    "smart",
+    "event"
    ],
    "published": "2026-10-30T16:00+09:00",
    "first_seen": "2026-11-22T10:33+09:00",
@@ -29048,7 +29685,8 @@
    "region": "jp",
    "snippet": "【栃木・なすの】高齢者に居場所と交流の場を提供する喫茶イベント「おやまだい未来ナースカフェ」が１０月上旬、大田原市の旧川西中学校で開かれた。終活をテーマに、参加者が死に装束を身にまとい、実際に棺おけに入る入棺体験が行われた。 同イベントは、旧黒羽町出身でＮＨＫ連続テレビ小説「風、薫る」のモデルとなった看護師・大関和にちなみ、明治期の看護婦姿を再現したスタッフが毎月第２金曜日に来場者を出迎えている。川西地区見守り隊が開設し、大田原市東部地域包括支援センターが協力している。 高齢者ら約３０人が来場した。会場には二つのひつぎが用意され、葬儀会社アトラス大田原ホールの花塚和彦氏が解説を担当。参加者は死…",
    "cats": [
-    "iot"
+    "iot",
+    "event"
    ],
    "published": "2026-10-30T05:00+09:00",
    "first_seen": "2026-11-03T22:13+09:00",
@@ -29272,7 +29910,8 @@
    "via": "Google ニュース「スマート農業」",
    "snippet": "",
    "cats": [
-    "smart"
+    "smart",
+    "event"
    ],
    "published": "2026-10-29T21:02+09:00",
    "first_seen": "2026-11-03T22:00+09:00",
@@ -29730,25 +30369,6 @@
    "lang": "en",
    "area": "overseas",
    "summary_tries": 2
-  },
-  {
-   "title": "From Demo to Deal: FIRA USA Connects Pacific Northwest Growers With Ag Robotics and Tech",
-   "link": "https://www.globalagtechinitiative.com/in-field-technologies/robotics-automation/from-demo-to-deal-fira-usa-connects-pacific-northwest-growers-with-ag-robotics-tech/",
-   "publisher": "PrecisionAg",
-   "via": "PrecisionAg",
-   "region": "world",
-   "snippet": "The 2026 edition of the traveling AgTech event brought live demonstrations, qualified matchmaking, and on-farm tours to the heart of PNW's specialty crop region.",
-   "cats": [
-    "smart"
-   ],
-   "published": "2026-10-28T23:48+09:00",
-   "first_seen": "2026-11-03T22:13+09:00",
-   "lang": "en",
-   "area": "overseas",
-   "summary": "2026年版のFIRA USAでは、ライブデモ、商談のマッチング、農場ツアーが、太平洋岸北西部の特産作物地域で行われた。",
-   "title_ja": "デモから取引へ：FIRA USA、太平洋岸北西部の生産者と農業ロボット・技術をつなぐ",
-   "summary_en": "FIRA USA, a farm tech event, showed robots and tools to growers in the Pacific Northwest.",
-   "summary_v": 2
   }
  ]
 }
