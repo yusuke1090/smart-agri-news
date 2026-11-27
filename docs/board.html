@@ -63,6 +63,7 @@ main { padding-bottom: 40px; }
 .body h3, .body h4 { font-size: 14.5px; margin: 12px 0 2px; }
 .body a { color: var(--link); }
 .body code { font-size: 13px; background: var(--bg); padding: 0 4px; border-radius: 4px; }
+.body img { display: block; max-width: 100%; height: auto; margin: 8px 0; border-radius: 12px; }
 .body.fold { max-height: 15em; overflow: hidden; -webkit-mask-image: linear-gradient(#000 70%, transparent); mask-image: linear-gradient(#000 70%, transparent); }
 .more { font: inherit; font-size: 13px; color: var(--link); background: none; border: 0; padding: 0; cursor: pointer; }
 .meta { display: flex; gap: 12px; flex-wrap: wrap; font-size: 12.5px; color: var(--muted); margin-top: 8px;
@@ -198,6 +199,7 @@ footer a { color: var(--link); }
     s = esc(s);
     s = s.replace(/`([^`]+)`/g, "<code>$1</code>");
     s = s.replace(/\*\*([^*]+)\*\*/g, "<b>$1</b>");
+    s = s.replace(/!\[([^\]]*)\]\((https?:\/\/[^)\s]+)\)/g, '<a href="$2" target="_blank" rel="noopener"><img src="$2" alt="$1"></a>');
     s = s.replace(/\[([^\]]+)\]\((https?:\/\/[^)\s]+)\)/g, '<a href="$2" target="_blank" rel="noopener">$1</a>');
     s = s.replace(/(^|[\s(])(https?:\/\/[^\s<)]+)/g, '$1<a href="$2" target="_blank" rel="noopener">$2</a>');
     return s;
@@ -290,15 +292,25 @@ footer a { color: var(--link); }
         + '<div class="comments" hidden></div>'
         + '</article>';
     }).join("");
-    // 長い書き込みは折りたたむ
+    // 長い書き込みは折りたたむ。初めにある図は全部見せるので、図を読み込んでから測る
     list.querySelectorAll(".note > .body").forEach(function (b) {
-      if (b.scrollHeight > 330) {
+      var imgs = [].slice.call(b.querySelectorAll("img")), left = imgs.length;
+      function fold() {
+        var img = b.querySelector("img"), h = 330, top = b.getBoundingClientRect().top;
+        if (img && img.getBoundingClientRect().top - top < 200) h = Math.max(h, img.getBoundingClientRect().bottom - top + 90);
+        if (b.scrollHeight <= h) return;
         b.classList.add("fold");
+        if (h > 330) b.style.maxHeight = h + "px";
         var btn = document.createElement("button");
         btn.className = "more"; btn.type = "button"; btn.textContent = "続きを読む ▼";
-        btn.onclick = function () { b.classList.remove("fold"); btn.remove(); };
+        btn.onclick = function () { b.classList.remove("fold"); b.style.maxHeight = ""; btn.remove(); };
         b.after(btn);
       }
+      function done() { if (--left === 0) fold(); }
+      if (!left) return fold();
+      imgs.forEach(function (im) {
+        if (im.complete) done(); else { im.addEventListener("load", done); im.addEventListener("error", done); }
+      });
     });
   }
 

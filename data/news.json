@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T22:17+09:00",
+ "updated": "2026-11-27T22:36+09:00",
  "sources": [
   {
    "name": "日本農業新聞",
@@ -49,32 +49,32 @@
   {
    "name": "Google ニュース「スマート農業」",
    "ok": true,
-   "count": 30
+   "count": 100
   },
   {
    "name": "Google ニュース「スマート畜産」",
    "ok": true,
-   "count": 38
+   "count": 42
   },
   {
    "name": "Google ニュース「酪農」",
    "ok": true,
-   "count": 89
+   "count": 90
   },
   {
    "name": "Google ニュース「畜産 IoT」",
    "ok": true,
-   "count": 12
+   "count": 54
   },
   {
    "name": "Google ニュース「農業 IoT」",
    "ok": true,
-   "count": 100
+   "count": 37
   },
   {
    "name": "Google ニュース「農業 AI」",
    "ok": true,
-   "count": 49
+   "count": 100
   },
   {
    "name": "AgFunderNews",
@@ -104,7 +104,7 @@
   {
    "name": "Agriland",
    "ok": true,
-   "count": 35
+   "count": 36
   },
   {
    "name": "FeedNavigator",
@@ -114,7 +114,7 @@
   {
    "name": "Google News \"smart farming\"",
    "ok": true,
-   "count": 59
+   "count": 100
   },
   {
    "name": "Google News \"dairy tech\"",
@@ -124,7 +124,7 @@
   {
    "name": "Google News \"farm IoT\"",
    "ok": true,
-   "count": 100
+   "count": 47
   },
   {
    "name": "AllAfrica Agriculture",
@@ -169,7 +169,7 @@
   {
    "name": "Google News Tanzania",
    "ok": true,
-   "count": 37
+   "count": 100
   },
   {
    "name": "Google News Africa agritech",
@@ -178,6 +178,36 @@
   }
  ],
  "items": [
+  {
+   "title": "2027 ‘likely’ to be last year Dutch veal industry takes Irish calves",
+   "link": "https://www.agriland.ie/farming-news/2027-likely-to-be-last-year-dutch-veal-industry-takes-irish-calves/",
+   "publisher": "Agriland",
+   "via": "Agriland",
+   "region": "world",
+   "snippet": "Next year is likely to be the last year that the veal industry in the Netherlands will import Irish calves. That’s according to Joe Burke, meat and livestock manager with Bord Bia. Burke was speaking at the annual general meeting (AGM) of the Irish Creamery Milk Suppliers’ Association (ICMSA), which…",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-11-27T22:30+09:00",
+   "first_seen": "2026-11-27T22:36+09:00",
+   "lang": "en",
+   "area": "overseas"
+  },
+  {
+   "title": "NSF AgTech Engine Brings Six Agtech Startups to Fargo for Seed Fund Kickoff",
+   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPMlRQRXlHY1FKeFFfUWxBSVR5V3plMEFjOEUxanI2aGFuNi13S2ltVFpoSXJieW95SnJ4bE9IVDFRcFN3NWJyczNPdF9UWE9lQkgwd1FRbmtxTmZwVlJPdkZaYWxUMlBueHRFNDVKU1IwbHBOaU00NVlfQnZEQThkTGdVRnFVTzZlVTFROXlUQ0VNelBZYks3SWZaMExCcW1YNmtaUzVyZlE3SlNQMWhZZFg5S1FuVFZtVFlwZzFB?oc=5",
+   "publisher": "American Ag Network",
+   "via": "Google News \"smart farming\"",
+   "region": "world",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-11-27T22:21+09:00",
+   "first_seen": "2026-11-27T22:36+09:00",
+   "lang": "en",
+   "area": "overseas"
+  },
   {
    "title": "From cherry to opportunity, the defining lesson from EACMC 2026",
    "link": "https://smartfarmerkenya.com/from-cherry-to-opportunity-the-defining-lesson-from-eacmc-2026/",
@@ -557,6 +587,36 @@
    "first_seen": "2026-11-27T22:17+09:00",
    "lang": "en",
    "area": "overseas"
+  },
+  {
+   "title": "十勝AI農業特区シンポジウム」AI農業の先進地を目指して《前編》",
+   "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1DN2dHdDdSdXFVZzRySFRPYUVIOTZRYWp0NVc3ZUlmQjhzY0NKRElsU3hqSnBSRHVfLTRFN1dzNDZUam56M1JwWHEyeTRKWG0z?oc=5",
+   "publisher": "北海道新聞デジタル",
+   "via": "Google ニュース「農業 AI」",
+   "region": "jp",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-11-27T16:56+09:00",
+   "first_seen": "2026-11-27T22:36+09:00",
+   "lang": "ja",
+   "area": "japan"
+  },
+  {
+   "title": "十勝AI農業特区シンポジウム」AI農業の先進地を目指して《後編》",
+   "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBWQzVmbWNONEJBa0h2bkhRUzI5NWtBV2lVbkc2TE9yd0xSdjAwekV5U19ac28xdHc0bnlRMzJiQ21TZzdzT1JUX3FmSHdMUDRY?oc=5",
+   "publisher": "北海道新聞デジタル",
+   "via": "Google ニュース「農業 AI」",
+   "region": "jp",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-11-27T16:56+09:00",
+   "first_seen": "2026-11-27T22:36+09:00",
+   "lang": "ja",
+   "area": "japan"
   },
   {
    "title": "家畜改良事業団が優良種雄牛生産者に感謝状",
@@ -1910,6 +1970,21 @@
    "area": "africa"
   },
   {
+   "title": "十勝AI農業特区シンポジウムで挨拶｜スマート農業の実証・実装に向けて",
+   "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1RbEJ6ckR5ekVGVlRaUU9GQ0xfbm13WjlFZ1BYbHNRdFh4S0R0MjdNSFlLNl9Ya2dhWl9tVl9xcGlnc2tuS0RoRTROZDdvbC1jMXRid0JkbHZITklta3lJ?oc=5",
+   "publisher": "選挙ドットコム",
+   "via": "Google ニュース「農業 AI」",
+   "region": "jp",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-11-26T15:25+09:00",
+   "first_seen": "2026-11-27T22:36+09:00",
+   "lang": "ja",
+   "area": "japan"
+  },
+  {
    "title": "Making the beef farm fit family life",
    "link": "https://www.agriland.ie/farming-news/making-the-beef-farm-fit-family-life/",
    "publisher": "Agriland",
@@ -1923,6 +1998,21 @@
    "first_seen": "2026-11-27T12:47+09:00",
    "lang": "en",
    "area": "overseas"
+  },
+  {
+   "title": "食肉の需給予測について",
+   "link": "http://www.alic.go.jp/r-nyugyo/raku02_000009.html",
+   "publisher": "農畜産業振興機構（ALIC）",
+   "via": "農畜産業振興機構（ALIC）",
+   "region": "jp",
+   "snippet": "食肉の需給予測について",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-11-26T15:00+09:00",
+   "first_seen": "2026-11-27T22:36+09:00",
+   "lang": "ja",
+   "area": "japan"
   },
   {
    "title": "OPINION: Evidence alone won’t change food policy. We must plan for politics.",
@@ -1984,6 +2074,21 @@
    "first_seen": "2026-11-27T12:47+09:00",
    "lang": "en",
    "area": "africa"
+  },
+  {
+   "title": "ミニトマト生産者がスマート農業にチャレンジ！(北広島町)",
+   "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1CWGRWcm5PeWsxeGZ0WFJLejVlSzdLeDM4cUx2REpZVHEzVlV4cHFObjc5ejJLTF9HQmdCV0cxVnNyTnpDM2dsY1loWWNULWNpb2dhUDdzY2Z1a0dJUmtEdkVua3hTRTBsU0tMdXRFM3FNQQ?oc=5",
+   "publisher": "広島県公式ホームページ",
+   "via": "Google ニュース「スマート農業」",
+   "region": "jp",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-11-26T13:56+09:00",
+   "first_seen": "2026-11-27T22:36+09:00",
+   "lang": "ja",
+   "area": "japan"
   },
   {
    "title": "Tanzania: Tanzania's Herders Don't Trust State Vets - How Scarce Skills and Neglect Have Led to Risky Antibiotic Use",
@@ -3539,6 +3644,21 @@
    ],
    "published": "2026-11-25T10:30+09:00",
    "first_seen": "2026-11-26T12:45+09:00",
+   "lang": "ja",
+   "area": "japan"
+  },
+  {
+   "title": "【農家・JA・自治体・企業が対象】「農業現場のAI活用 実態調査（2026秋）」を開始",
+   "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9HcWNVbXVNYjVPVUh1bVVjN3llSzhXWkk2eXE0SU13Slprd3FVb29sWWUwcEs0QTBId2hmel9wLUpscmI5MjFNVmljN002R0NMcFEtNzZQWnJnVUV6SXJRWEF2UlA0NFBkV2hqSzV4Yw?oc=5",
+   "publisher": "山陽新聞",
+   "via": "Google ニュース「農業 AI」",
+   "region": "jp",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-11-25T10:21+09:00",
+   "first_seen": "2026-11-27T22:36+09:00",
    "lang": "ja",
    "area": "japan"
   },
@@ -17388,6 +17508,21 @@
    "area": "overseas"
   },
   {
+   "title": "AgTech, Resource Constraints Frame Expo Agroalimentaria 2026",
+   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOS1ZHaDc1Zzg2RjI4bFpIREdiLTEyQi01Sk9wWDYxd0NlMUlIdWtXS09jSVFLRHhPQUx6ZF8teVBSNG9sMGVhbUZNWmFCcU0yR1NaMHUzVnpiSlItNHUxZVl6R3U3STcwVllPYURwVzlIWC0yeTg5aG00TU1hS3JNZHRjVVBlcHJDaFg5MnJtZlV0SU1MVHFPUG9sMFlieWdkdXVsV2l1UXM?oc=5",
+   "publisher": "Mexico Business News",
+   "via": "Google News \"smart farming\"",
+   "region": "world",
+   "snippet": "",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-11-11T17:00+09:00",
+   "first_seen": "2026-11-27T22:36+09:00",
+   "lang": "en",
+   "area": "overseas"
+  },
+  {
    "title": "スマート農業技術を学ぶ「出前授業」を実施します！",
    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE8wa045VEl2VVlVNUliSm5hdGwtbzZUX1F1dzNGXzA1WFhRaVY0YUZsYzhIMEpBNVVkZXg4aXlzcWlGTnJYMkFZcjNXQ3VweFpLWHRnUHJrTmZ6bHVueS1R?oc=5",
    "publisher": "山口県ホームページ トップページ",
@@ -18400,6 +18535,21 @@
    "first_seen": "2026-11-11T10:28+09:00",
    "lang": "en",
    "area": "africa"
+  },
+  {
+   "title": "Robots in the Orchard: Why Fruit Thinning Is the Next Big Test for Agricultural Automation",
+   "link": "https://www.globalagtechinitiative.com/in-field-technologies/robotics-automation/robots-in-the-orchard-why-fruit-thinning-is-the-next-big-test-for-agricultural-automation/",
+   "publisher": "PrecisionAg",
+   "via": "PrecisionAg",
+   "region": "world",
+   "snippet": "Fruit thinning robots are gaining momentum as labor shortages drive orchard automation. Discover the market trends, emerging technologies, and growth opportunities ahead.",
+   "cats": [
+    "smart"
+   ],
+   "published": "2026-11-10T23:12+09:00",
+   "first_seen": "2026-11-27T22:36+09:00",
+   "lang": "en",
+   "area": "overseas"
   },
   {
    "title": "Driver hospitalised after collision involving car and cattle",
@@ -29561,25 +29711,6 @@
    "summary": "アイダホ州のジャガイモ農家が、2026年の作期を振り返り、農業経営にAIが欠かせなくなっている理由を語る。",
    "title_ja": "アイダホ州のジャガイモ農家、厳しい2026年を振り返りAIを頼りにする理由",
    "summary_en": "An Idaho potato farmer talks about a hard 2026 season and why he now uses AI.",
-   "summary_v": 2
-  },
-  {
-   "title": "Why RLF AgTech (ASX:RLF) reports a short funding runway after a narrower loss and weaker LiquaForce sales",
-   "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQU1NoTjZmUlRVSnpiNWVLcjdrVWQ5eHFzZlZ3YUZWWGl4andMQTZzdGxvV2YxU1VRXzNOb3Budzdqa2hNZWM1T0hvU1cyajR4VmpGWmJjalA4bHJlU0J0QW9qWHRuYUQwTjdoNVZpbDY4NVJxckRsaUlRbW9DVmpJUjlkMzFGTHVVdG5qVVpsWTRrVDJwYUZNTmVSOVVXcURpakI4UDVwNTU3QXhqcXhIT25CTHpoRG5vYVVvbXFxZ3ZPT3hqVF83UVg1Rndkckk1RmFNd1ZPVzltRndROUVN?oc=5",
-   "publisher": "Kalkine Media",
-   "via": "Google News \"smart farming\"",
-   "region": "world",
-   "snippet": "",
-   "cats": [
-    "smart"
-   ],
-   "published": "2026-10-28T22:32+09:00",
-   "first_seen": "2026-11-03T22:13+09:00",
-   "lang": "en",
-   "area": "overseas",
-   "summary": "RLF AgTech（ASX:RLF）は、損失が縮小した一方でLiquaForceの売上が弱く、資金の余力は短いと報告した。",
-   "title_ja": "RLF AgTech、損失縮小もLiquaForceの売上減少で資金の余力は短期",
-   "summary_en": "RLF AgTech says its money will last only a short time, after a smaller loss.",
    "summary_v": 2
   }
  ]
