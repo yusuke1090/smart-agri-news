@@ -66,6 +66,47 @@ main { padding-bottom: 40px; }
 .body img { display: block; max-width: 100%; height: auto; margin: 8px 0; border-radius: 12px; }
 .body a.wide { display: block; overflow-x: auto; }
 .body a.wide img { max-width: none; }
+/* 年表（棒を押すと、下にくわしく出る） */
+:root { --rm-me: #dbe9fa; --rm-me-t: #1d4a7a; --rm-you: #fde3cc; --rm-you-t: #7a3f0c; --rm-both: #e6ebe0; --rm-both-t: #2f3a2c;
+  --rm-trip: #e8ddfa; --rm-trip-t: #4b2f8f; }
+@media (prefers-color-scheme: dark) {
+  :root { --rm-me: #22374f; --rm-me-t: #cfe2ff; --rm-you: #4a3222; --rm-you-t: #ffd9b8; --rm-both: #2b3428; --rm-both-t: #dfe8d8;
+    --rm-trip: #372b55; --rm-trip-t: #e3d6ff; }
+}
+.rm { margin: 8px 0; border: 1px solid var(--border); border-radius: 12px; background: var(--panel); overflow: hidden; }
+.rm-hint { font-size: 12px; color: var(--muted); padding: 7px 12px 5px; }
+.rm-scroll { overflow-x: auto; border-top: 1px solid var(--border); }
+.rm-grid { position: relative; }
+.rm-head { position: relative; height: 46px; border-bottom: 1px solid var(--border); }
+.rm-corner, .rm-name { position: sticky; left: 0; z-index: 3; width: 48px; height: 100%; background: var(--panel); border-right: 1px solid var(--border); }
+.rm-name { display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 14px; }
+.rm-t-me { color: var(--rm-me-t); } .rm-t-you { color: var(--rm-you-t); } .rm-t-both { color: var(--muted); }
+.rm-y { position: absolute; top: 4px; font-size: 13px; font-weight: 700; white-space: nowrap; }
+.rm-y span { position: sticky; left: 55px; padding-left: 7px; }
+.rm-m { position: absolute; top: 26px; font-size: 11.5px; color: var(--muted); text-align: center; }
+.rm-lane { position: relative; border-bottom: 1px solid var(--border); }
+.rm-lane:last-child { border-bottom: 0; }
+.rm-lines { position: absolute; top: 46px; bottom: 0; pointer-events: none; opacity: .55;
+  background: repeating-linear-gradient(90deg, var(--border) 0 1px, transparent 1px 92px); }
+.rm-yl { position: absolute; top: 0; bottom: 0; border-left: 2px solid var(--border); pointer-events: none; }
+.rm-goal { position: absolute; top: 46px; bottom: 0; z-index: 1; border-left: 2px dashed var(--accent); pointer-events: none; }
+.rm-today { position: absolute; top: 0; bottom: 0; z-index: 1; border-left: 2px solid var(--warn); pointer-events: none; }
+.rm-bar { position: absolute; z-index: 2; height: 28px; padding: 0; border: 0; border-radius: 7px; font: inherit; font-size: 13px;
+  text-align: left; white-space: nowrap; cursor: pointer; }
+.rm-bar span { position: sticky; left: 54px; display: inline-block; padding: 0 10px; line-height: 28px; }
+.rm-pill { border-radius: 14px; }
+.rm-bar.on { outline: 2px solid var(--text); outline-offset: 1px; }
+.rm-c-me { background: var(--rm-me); color: var(--rm-me-t); }
+.rm-c-you { background: var(--rm-you); color: var(--rm-you-t); }
+.rm-c-both { background: var(--rm-both); color: var(--rm-both-t); }
+.rm-c-trip { background: var(--rm-trip); color: var(--rm-trip-t); font-weight: 700; }
+.rm-c-goal { background: #2e7d32; color: #fff; font-weight: 700; }
+.rm-detail { border-top: 1px solid var(--border); padding: 10px 14px 4px; font-size: 14px; }
+.rm-dh { display: flex; align-items: center; gap: 8px; }
+.rm-dh b { flex: 1; font-size: 15px; }
+.rm-chip { flex: none; font-size: 11.5px; font-weight: 700; padding: 1px 9px; border-radius: 999px; }
+.rm-x { border: 0; background: none; color: var(--muted); font-size: 22px; line-height: 1; padding: 0 4px; cursor: pointer; }
+.rm-when { color: var(--muted); font-size: 12.5px; margin: 2px 0 2px; }
 .body.fold { max-height: 15em; overflow: hidden; -webkit-mask-image: linear-gradient(#000 70%, transparent); mask-image: linear-gradient(#000 70%, transparent); }
 .more { font: inherit; font-size: 13px; color: var(--link); background: none; border: 0; padding: 0; cursor: pointer; }
 .meta { display: flex; gap: 12px; flex-wrap: wrap; font-size: 12.5px; color: var(--muted); margin-top: 8px;
@@ -294,29 +335,117 @@ footer a { color: var(--link); }
         + '<div class="comments" hidden></div>'
         + '</article>';
     }).join("");
-    // 長い書き込みは折りたたむ。初めにある図は全部見せるので、図を読み込んでから測る
+    // 長い書き込みは折りたたむ。初めにある図・年表は全部見せるので、読み込んでから測る
     list.querySelectorAll(".note > .body").forEach(function (b) {
-      var imgs = [].slice.call(b.querySelectorAll("img")), left = imgs.length;
-      function fold() {
-        imgs.forEach(function (im) {   // 横に長い図（年表など）は縮めずに、横に送って見る
+      var waits = [].slice.call(b.querySelectorAll("img")).map(function (im) {
+        return /-timeline\.svg$/.test(im.src) ? roadmap(im) : loaded(im);
+      });
+      Promise.all(waits).then(function () {
+        b.querySelectorAll("img").forEach(function (im) {   // 横に長い図は縮めずに、横に送って見る
           if (im.naturalWidth > im.naturalHeight * 3) im.parentNode.classList.add("wide");
         });
-        var img = b.querySelector("img"), h = 330, top = b.getBoundingClientRect().top;
-        if (img && img.getBoundingClientRect().top - top < 200) h = Math.max(h, img.getBoundingClientRect().bottom - top + 90);
+        var fig = b.querySelector("img, .rm"), h = 330, top = b.getBoundingClientRect().top;
+        if (fig && fig.getBoundingClientRect().top - top < 200) h = Math.max(h, fig.getBoundingClientRect().bottom - top + 90);
         if (b.scrollHeight <= h) return;
         b.classList.add("fold");
         if (h > 330) b.style.maxHeight = h + "px";
         var btn = document.createElement("button");
         btn.className = "more"; btn.type = "button"; btn.textContent = "続きを読む ▼";
-        btn.onclick = function () { b.classList.remove("fold"); b.style.maxHeight = ""; btn.remove(); };
+        btn.onclick = function () { unfold(b); };
         b.after(btn);
-      }
-      function done() { if (--left === 0) fold(); }
-      if (!left) return fold();
-      imgs.forEach(function (im) {
-        if (im.complete) done(); else { im.addEventListener("load", done); im.addEventListener("error", done); }
       });
     });
+  }
+  function unfold(b) {
+    b.classList.remove("fold"); b.style.maxHeight = "";
+    var btn = b.nextElementSibling;
+    if (btn && btn.classList.contains("more")) btn.remove();
+  }
+  function loaded(im) {
+    return im.complete ? Promise.resolve() : new Promise(function (ok) {
+      im.addEventListener("load", ok); im.addEventListener("error", ok);
+    });
+  }
+
+  // ---------- 年表（〇〇-timeline.svg と同じ名前の .json があれば、棒を押すとくわしく見られる年表にする） ----------
+  // json は tools/make_board_figures.py が作る。GitHub の画面では、今までどおり svg の画像が出る
+  var MW = 92, LW = 48, TRACK = 34;   // 1か月の幅、左の欄の幅、1段の高さ
+  function roadmap(im) {
+    return fetch(im.src.replace(/\.svg$/, ".json"), { cache: "no-cache" })
+      .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+      .then(function (j) {
+        var a = im.parentNode, p = a.parentNode, el = roadmapEl(j);
+        (p.tagName === "P" && p.childNodes.length === 1 ? p : a).replaceWith(el);
+        var s = el.querySelector(".rm-scroll"), t = el.querySelector(".rm-today");   // 今日の少し前から見せる
+        if (t) s.scrollLeft = Math.max(0, parseFloat(t.style.left) - LW - MW);
+      })
+      .catch(function () { return loaded(im); });
+  }
+  function ymIndex(start, ym) {
+    var a = start.split("-"), b = ym.split("-");
+    return (b[0] - a[0]) * 12 + (b[1] - a[1]);
+  }
+  function ymText(it) {
+    var a = it.start.split("-").map(Number);
+    if (it.kind !== "bar") return a[0] + "年" + a[1] + "月";
+    var b = it.end.split("-").map(Number);
+    return a[0] + "年" + a[1] + "月〜" + (b[0] === a[0] ? "" : b[0] + "年") + b[1] + "月";
+  }
+  function roadmapEl(j) {
+    var W = LW + j.months * MW, sy = +j.start.split("-")[0], sm = +j.start.split("-")[1];
+    var cv = document.createElement("canvas").getContext("2d"), ff = getComputedStyle(document.body).fontFamily;
+    var head = '<div class="rm-head"><div class="rm-corner"></div>', lines = "";
+    for (var i = 0; i < j.months; i++) {
+      var m = (sm - 1 + i) % 12 + 1, x = LW + i * MW;
+      if (i === 0 || m === 1) {
+        head += '<div class="rm-y" style="left:' + x + 'px;width:' + Math.min(13 - m, j.months - i) * MW + 'px"><span>'
+          + (sy + Math.floor((sm - 1 + i) / 12)) + "年</span></div>";
+        lines += '<div class="rm-yl" style="left:' + x + 'px"></div>';
+      }
+      head += '<div class="rm-m" style="left:' + x + 'px;width:' + MW + 'px">' + m + '月</div>';
+    }
+    var lanes = j.lanes.map(function (lane, li) {
+      var ends = [], bars = "";
+      lane.items.forEach(function (it, k) {
+        var x0 = LW + ymIndex(j.start, it.start) * MW, x1, t, bar = it.kind === "bar";
+        if (bar) x1 = LW + (ymIndex(j.start, it.end) + 1) * MW;
+        else { cv.font = (it.kind === "event" ? "" : "700 ") + "13px " + ff; x1 = x0 + cv.measureText(it.label).width + 30; }
+        for (t = 0; t < ends.length && ends[t] > x0; t++);   // 重ならない段に入れる
+        ends[t] = x1 + 4;
+        if (it.kind === "goal") lines += '<div class="rm-goal" style="left:' + x0 + 'px"></div>';
+        bars += '<button type="button" class="rm-bar rm-c-' + (it.kind === "trip" || it.kind === "goal" ? it.kind : lane.key)
+          + (bar ? "" : " rm-pill") + '" data-k="' + li + "-" + k + '" style="left:' + (x0 + 3) + "px;top:" + (6 + t * TRACK) + "px"
+          + (bar ? ";width:" + (x1 - x0 - 6) + "px" : "") + '"><span>' + esc(it.label) + "</span></button>";
+      });
+      return '<div class="rm-lane" style="height:' + (ends.length * TRACK + 8) + 'px"><div class="rm-name rm-t-' + lane.key + '">'
+        + esc(lane.name) + "</div>" + bars + "</div>";
+    }).join("");
+    var now = new Date(), ti = (now.getFullYear() - sy) * 12 + now.getMonth() + 1 - sm + (now.getDate() - 1) / 31;
+    if (ti >= 0 && ti <= j.months) lines += '<div class="rm-today" style="left:' + (LW + ti * MW) + 'px"></div>';
+    var el = document.createElement("div");
+    el.className = "rm";
+    el.innerHTML = '<div class="rm-hint">横に送って見る・押すとくわしく</div>'
+      + '<div class="rm-scroll"><div class="rm-grid" style="width:' + W + 'px">'
+      + '<div class="rm-lines" style="left:' + LW + "px;width:" + (W - LW) + 'px"></div>' + lines + head + "</div>" + lanes + "</div></div>"
+      + '<div class="rm-detail" hidden></div>';
+    var detail = el.querySelector(".rm-detail"), cur = null;
+    function close() { if (cur) cur.classList.remove("on"); cur = null; detail.hidden = true; }
+    el.addEventListener("click", function (e) {
+      var btn = e.target.closest(".rm-bar");
+      if (e.target.closest(".rm-x") || (btn && btn === cur)) return close();
+      if (!btn) return;
+      var k = btn.dataset.k.split("-"), lane = j.lanes[k[0]], it = lane.items[k[1]];
+      if (cur) cur.classList.remove("on");
+      cur = btn; btn.classList.add("on");
+      detail.innerHTML = '<div class="rm-dh"><span class="rm-chip rm-c-' + lane.key + '">' + esc(lane.name) + "</span><b>" + esc(it.label)
+        + '</b><button type="button" class="rm-x" aria-label="閉じる">×</button></div>'
+        + '<div class="rm-when">' + ymText(it) + "</div>"
+        + "<ul>" + it.details.map(function (d) { return "<li>" + inline(d) + "</li>"; }).join("") + "</ul>";
+      detail.hidden = false;
+      var b = el.closest(".body");
+      if (b && b.classList.contains("fold")) unfold(b);
+    });
+    return el;
   }
 
   // ---------- コメント（ボタンを押したときだけ GitHub から読み込む。読み込みの回数制限を節約するため） ----------
