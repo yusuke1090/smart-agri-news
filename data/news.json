@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T22:39+09:00",
+ "updated": "2026-11-27T23:07+09:00",
  "sources": [
   {
    "name": "日本農業新聞",
@@ -54,7 +54,7 @@
   {
    "name": "Google ニュース「スマート畜産」",
    "ok": true,
-   "count": 42
+   "count": 38
   },
   {
    "name": "Google ニュース「酪農」",
@@ -64,7 +64,7 @@
   {
    "name": "Google ニュース「畜産 IoT」",
    "ok": true,
-   "count": 54
+   "count": 12
   },
   {
    "name": "Google ニュース「農業 IoT」",
@@ -104,7 +104,7 @@
   {
    "name": "Agriland",
    "ok": true,
-   "count": 36
+   "count": 37
   },
   {
    "name": "FeedNavigator",
@@ -114,17 +114,17 @@
   {
    "name": "Google News \"smart farming\"",
    "ok": true,
-   "count": 100
+   "count": 61
   },
   {
    "name": "Google News \"dairy tech\"",
    "ok": true,
-   "count": 73
+   "count": 35
   },
   {
    "name": "Google News \"farm IoT\"",
    "ok": true,
-   "count": 47
+   "count": 48
   },
   {
    "name": "AllAfrica Agriculture",
@@ -169,7 +169,7 @@
   {
    "name": "Google News Tanzania",
    "ok": true,
-   "count": 100
+   "count": 37
   },
   {
    "name": "Google News Africa agritech",
@@ -178,6 +178,21 @@
   }
  ],
  "items": [
+  {
+   "title": "End of an era as Donegal Creameries ends some doorstep deliveries",
+   "link": "https://www.agriland.ie/farming-news/end-of-an-era-as-donegal-creameries-ends-some-doorstep-deliveries/",
+   "publisher": "Agriland",
+   "via": "Agriland",
+   "region": "world",
+   "snippet": "Donegal Creameries, which has been supplying milk products in the county for over a century has announced that it will no longer continue its doorstep delivery service in an area of Donegal. The creamery at Killygordon was established in 1899 with all products being produced and sold locally. It is…",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-11-27T23:00+09:00",
+   "first_seen": "2026-11-27T23:07+09:00",
+   "lang": "en",
+   "area": "overseas"
+  },
   {
    "title": "2027 ‘likely’ to be last year Dutch veal industry takes Irish calves",
    "link": "https://www.agriland.ie/farming-news/2027-likely-to-be-last-year-dutch-veal-industry-takes-irish-calves/",
@@ -527,6 +542,21 @@
    "first_seen": "2026-11-27T22:17+09:00",
    "lang": "en",
    "area": "overseas"
+  },
+  {
+   "title": "KALRO promotes improved feeds, breeds for dairy farmers",
+   "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOV0xzSkotVWJvWEh4MW9Xay1wdC1NYk9PdE5TQWVpZ0xjU3UyWkE1cmJSRFNvd1BaVmk3Rk12LXYtQ1A0S3Q2aXZmR0FkamNvTEFkX1FYXzVJMDFVYjZrTGRwMlp3TjFQaUhZZEs1UzM3aVBiS1BJb2EtT3lmTXljOVI0b2NUNlVnWkJZ?oc=5",
+   "publisher": "Kenya News Agency",
+   "via": "Google News Kenya",
+   "region": "africa",
+   "snippet": "",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-11-27T17:37+09:00",
+   "first_seen": "2026-11-27T23:07+09:00",
+   "lang": "en",
+   "area": "africa"
   },
   {
    "title": "Kenyans moves into staple foods crisis as one of Africa’s least fed nations",
@@ -29688,44 +29718,6 @@
    "summary": "2026年版のFIRA USAでは、ライブデモ、商談のマッチング、農場ツアーが、太平洋岸北西部の特産作物地域で行われた。",
    "title_ja": "デモから取引へ：FIRA USA、太平洋岸北西部の生産者と農業ロボット・技術をつなぐ",
    "summary_en": "FIRA USA, a farm tech event, showed robots and tools to growers in the Pacific Northwest.",
-   "summary_v": 2
-  },
-  {
-   "title": "Dairy Farmers of America closes in on Nestlé in global dairy rankings",
-   "link": "https://www.foodnavigator.com/Article/2026/10/28/dairy-ma-reshapes-global-rankings-and-growth-strategies/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
-   "publisher": "DairyReporter",
-   "via": "DairyReporter",
-   "region": "world",
-   "snippet": "Dairy Farmers of America could overtake Nestlé in global dairy sales, RaboResearch says, as acquisitions reshape its Global Dairy Top 20.",
-   "cats": [
-    "dairy"
-   ],
-   "published": "2026-10-28T22:44+09:00",
-   "first_seen": "2026-11-03T22:13+09:00",
-   "lang": "en",
-   "area": "overseas",
-   "summary": "RaboResearchによると、買収でグローバル乳業ランキングが変わる中、米DFAが乳製品販売でネスレを抜く可能性がある。",
-   "title_ja": "Dairy Farmers of America、世界の乳業ランキングでネスレに迫る",
-   "summary_en": "RaboResearch says Dairy Farmers of America could soon pass Nestlé in global dairy sales.",
-   "summary_v": 2
-  },
-  {
-   "title": "An Idaho potato farmer reflects on challenging 2026 & why he’s turning to AI for help",
-   "link": "https://www.agnavigator.com/Article/2026/10/28/how-this-idaho-potato-farmer-uses-ai-to-navigate-challenging-farm-economics/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
-   "publisher": "FeedNavigator",
-   "via": "FeedNavigator",
-   "region": "world",
-   "snippet": "An Idaho potato farmer shares his thoughts on the 2026 season and why AI is becoming a crucial tool to improve farming operations.",
-   "cats": [
-    "smart"
-   ],
-   "published": "2026-10-28T22:39+09:00",
-   "first_seen": "2026-11-03T22:13+09:00",
-   "lang": "en",
-   "area": "overseas",
-   "summary": "アイダホ州のジャガイモ農家が、2026年の作期を振り返り、農業経営にAIが欠かせなくなっている理由を語る。",
-   "title_ja": "アイダホ州のジャガイモ農家、厳しい2026年を振り返りAIを頼りにする理由",
-   "summary_en": "An Idaho potato farmer talks about a hard 2026 season and why he now uses AI.",
    "summary_v": 2
   }
  ]

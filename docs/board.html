@@ -64,6 +64,8 @@ main { padding-bottom: 40px; }
 .body a { color: var(--link); }
 .body code { font-size: 13px; background: var(--bg); padding: 0 4px; border-radius: 4px; }
 .body img { display: block; max-width: 100%; height: auto; margin: 8px 0; border-radius: 12px; }
+.body a.wide { display: block; overflow-x: auto; }
+.body a.wide img { max-width: none; }
 .body.fold { max-height: 15em; overflow: hidden; -webkit-mask-image: linear-gradient(#000 70%, transparent); mask-image: linear-gradient(#000 70%, transparent); }
 .more { font: inherit; font-size: 13px; color: var(--link); background: none; border: 0; padding: 0; cursor: pointer; }
 .meta { display: flex; gap: 12px; flex-wrap: wrap; font-size: 12.5px; color: var(--muted); margin-top: 8px;
@@ -296,6 +298,9 @@ footer a { color: var(--link); }
     list.querySelectorAll(".note > .body").forEach(function (b) {
       var imgs = [].slice.call(b.querySelectorAll("img")), left = imgs.length;
       function fold() {
+        imgs.forEach(function (im) {   // 横に長い図（年表など）は縮めずに、横に送って見る
+          if (im.naturalWidth > im.naturalHeight * 3) im.parentNode.classList.add("wide");
+        });
         var img = b.querySelector("img"), h = 330, top = b.getBoundingClientRect().top;
         if (img && img.getBoundingClientRect().top - top < 200) h = Math.max(h, img.getBoundingClientRect().bottom - top + 90);
         if (b.scrollHeight <= h) return;
