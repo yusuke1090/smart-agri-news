@@ -117,6 +117,7 @@ python3 tools/make_dict.py /tmp/EJDict
 - 書き込み方は2つ。**合言葉を知っていればアカウントなし**でページの中から書ける（下の「アカウントなしの書き込み」。中継の準備ができるまでは出ない）。GitHub のアカウントがあれば「＋ 書き込む」から専用のフォーム（`.github/ISSUE_TEMPLATE/board.yml`）でも書け、ラベルは自動で付く
 - 編集は GitHub の Issue の画面で行う。GitHub で書いたものは本人が直せる。リポジトリの持ち主はすべての書き込みを直せる・消せる
 - Issue を Close すると伝言板から消える。Issues は公開なので、書き込みは誰でも読める
+- 本文の `![説明](https://…)` は図として出る（押すと大きく開く）。図は `python3 tools/make_board_figures.py` で `site/board-img/` に作り、`https://yusuke1090.github.io/smart-agri-news/board-img/<名前>.svg` で貼る
 
 ### 🔎 関連する事業（伝言板の調べもの）
 
@@ -185,6 +186,7 @@ site/cow.html                  牛の教科書への移動の案内（教科書�
 site/board-research.json       伝言板の「🔎 関連する事業」（Issue 番号ごとの調べた結果）
 tools/board-relay.gs           アカウントなしの書き込みの中継（Google Apps Script に貼って使う）
 tools/board_unresearched.py    まだ「関連する事業」を調べていない伝言板の書き込みを出す
+tools/make_board_figures.py    伝言板の書き込みに貼る図（site/board-img/）を作る
 data/news.json                 集めた記事（過去30日分）
 docs/                          公開されるサイト（build.py が作る。手で編集しない）
 .github/workflows/update.yml   毎朝の自動更新
