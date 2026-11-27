@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T23:07+09:00",
+ "updated": "2026-11-27T23:09+09:00",
  "sources": [
   {
    "name": "日本農業新聞",
@@ -59,12 +59,12 @@
   {
    "name": "Google ニュース「酪農」",
    "ok": true,
-   "count": 91
+   "count": 100
   },
   {
    "name": "Google ニュース「畜産 IoT」",
    "ok": true,
-   "count": 12
+   "count": 54
   },
   {
    "name": "Google ニュース「農業 IoT」",
@@ -114,17 +114,17 @@
   {
    "name": "Google News \"smart farming\"",
    "ok": true,
-   "count": 61
+   "count": 100
   },
   {
    "name": "Google News \"dairy tech\"",
    "ok": true,
-   "count": 35
+   "count": 73
   },
   {
    "name": "Google News \"farm IoT\"",
    "ok": true,
-   "count": 48
+   "count": 100
   },
   {
    "name": "AllAfrica Agriculture",
@@ -133,8 +133,8 @@
   },
   {
    "name": "Kilimo News（ケニア）",
-   "ok": true,
-   "count": 30
+   "ok": false,
+   "count": 0
   },
   {
    "name": "Smart Farmer Kenya",
@@ -164,17 +164,17 @@
   {
    "name": "Google News Kenya",
    "ok": true,
-   "count": 100
+   "count": 66
   },
   {
    "name": "Google News Tanzania",
    "ok": true,
-   "count": 37
+   "count": 100
   },
   {
    "name": "Google News Africa agritech",
    "ok": true,
-   "count": 15
+   "count": 46
   }
  ],
  "items": [
@@ -10324,6 +10324,21 @@
    "area": "japan"
   },
   {
+   "title": "温暖化で北海道・十勝地方も米どころに？ 帯広畜産大が水田で試行 [北海道]",
+   "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1kcFU5dmpCMkxYOExjNnNSQTVWdXR2c0pyQWEybmp4WU1vOWNfUUY4ZFBlcGM5WHJtLWVvQnlybGtaN2l5Z1NFeU02MjJRXzd2U1ppNGZBZG9nYVUyUS05YW15NXlKUnM?oc=5",
+   "publisher": "朝日新聞",
+   "via": "Google ニュース「酪農」",
+   "region": "jp",
+   "snippet": "",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-11-18T17:00+09:00",
+   "first_seen": "2026-11-27T23:09+09:00",
+   "lang": "ja",
+   "area": "japan"
+  },
+  {
    "title": "Baladna stays profitable amid turmoil, pushes Algeria and Syria growth",
    "link": "https://www.foodnavigator.com/Article/2026/11/18/baladna-stays-profitable-amid-turmoil-pushes-algeria-and-syria-growth/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
    "publisher": "DairyReporter",
@@ -16305,6 +16320,21 @@
    "first_seen": "2026-11-24T14:29+09:00",
    "lang": "en",
    "area": "overseas"
+  },
+  {
+   "title": "酪農と温泉の豊富町へ。移住で見つける、 自分に合う暮らしと仕事20261112",
+   "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1BaVh1aF9pRktRUGJOY1RlWTVRZldpbmxSSS1YanhzOE5sOWRCcTRpNFcyRlR5ajdIdmJ6MUVmZ2NxRWZ5Z3VuMjJ5OVlwRkY4UUtwSVA0T3NadGljbFdOSkhZVXhKbmNJ?oc=5",
+   "publisher": "北海道の人、暮らし、仕事。 くらしごと",
+   "via": "Google ニュース「酪農」",
+   "region": "jp",
+   "snippet": "",
+   "cats": [
+    "dairy"
+   ],
+   "published": "2026-11-12T17:00+09:00",
+   "first_seen": "2026-11-27T23:09+09:00",
+   "lang": "ja",
+   "area": "japan"
   },
   {
    "title": "【解説】牛乳消費量が少ない 年間処理量６万トン以上減か 加工用にも限界が…生乳減産へ 北海道",
