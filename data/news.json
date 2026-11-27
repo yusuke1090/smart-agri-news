@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T22:36+09:00",
+ "updated": "2026-11-27T22:39+09:00",
  "sources": [
   {
    "name": "日本農業新聞",
@@ -59,7 +59,7 @@
   {
    "name": "Google ニュース「酪農」",
    "ok": true,
-   "count": 90
+   "count": 91
   },
   {
    "name": "Google ニュース「畜産 IoT」",
@@ -119,7 +119,7 @@
   {
    "name": "Google News \"dairy tech\"",
    "ok": true,
-   "count": 35
+   "count": 73
   },
   {
    "name": "Google News \"farm IoT\"",
@@ -133,8 +133,8 @@
   },
   {
    "name": "Kilimo News（ケニア）",
-   "ok": false,
-   "count": 0
+   "ok": true,
+   "count": 30
   },
   {
    "name": "Smart Farmer Kenya",
@@ -464,6 +464,21 @@
    ],
    "published": "2026-11-27T18:00+09:00",
    "first_seen": "2026-11-27T22:17+09:00",
+   "lang": "en",
+   "area": "africa"
+  },
+  {
+   "title": "KNCCI Connects Kenyan Coffee to Chinese Buyers",
+   "link": "https://kilimonews.co.ke/general-news/kncci-connects-kenyan-coffee-to-chinese-buyers/",
+   "publisher": "Kilimo News（ケニア）",
+   "via": "Kilimo News（ケニア）",
+   "region": "africa",
+   "snippet": "By Kimuri Mwangi Kenyan coffee exporters, cooperatives, and processors are set to explore new business opportunities in China after the Kenya National Chamber of Commerce and Industry (KNCCI) met with a Chinese delegation led by the Xiamen Municipal Bureau of Commerce. The engagement, which brought…",
+   "cats": [
+    "general"
+   ],
+   "published": "2026-11-27T17:58+09:00",
+   "first_seen": "2026-11-27T22:39+09:00",
    "lang": "en",
    "area": "africa"
   },
