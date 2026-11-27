@@ -6,6 +6,7 @@
 書き込みには ![説明](https://yusuke1090.github.io/smart-agri-news/board-img/<名前>.svg) で貼る。
 横に長い図（幅が高さの3倍より大きい）は、伝言板では縮めずに横に送って見る形で出る。
 """
+import json
 from pathlib import Path
 from xml.sax.saxutils import escape
 
@@ -113,10 +114,23 @@ def timeline():
             f'font-family="{FONT}">' + "".join(out + body) + "</svg>\n")
 
 
+def timeline_json():
+    """伝言板の board.html が、棒を押すとくわしく見られる年表にするためのデータ（svg と同じ名前の .json）"""
+    keys = {"僕": "me", "A": "you", "2人": "both"}
+    kind = {None: "event", "TRIP": "trip", "GOAL": "goal"}
+    lanes = [{"name": lane, "key": keys[lane],
+              "items": [{"start": s, "end": e if e not in kind else None, "kind": kind.get(e, "bar"),
+                         "label": label, "details": details}
+                        for s, e, label, details in roadmap7.ITEMS[lane]]}
+             for lane in keys]
+    return json.dumps({"start": "%d-%02d" % START, "months": MONTHS, "lanes": lanes}, ensure_ascii=False, indent=1) + "\n"
+
+
 def main():
     OUT.mkdir(parents=True, exist_ok=True)
     (OUT / "7-timeline.svg").write_text(timeline(), encoding="utf-8")
-    print("site/board-img/7-timeline.svg")
+    (OUT / "7-timeline.json").write_text(timeline_json(), encoding="utf-8")
+    print("site/board-img/7-timeline.svg・.json")
 
 
 if __name__ == "__main__":

@@ -117,7 +117,7 @@ python3 tools/make_dict.py /tmp/EJDict
 - 書き込み方は2つ。**合言葉を知っていればアカウントなし**でページの中から書ける（下の「アカウントなしの書き込み」。中継の準備ができるまでは出ない）。GitHub のアカウントがあれば「＋ 書き込む」から専用のフォーム（`.github/ISSUE_TEMPLATE/board.yml`）でも書け、ラベルは自動で付く
 - 編集は GitHub の Issue の画面で行う。GitHub で書いたものは本人が直せる。リポジトリの持ち主はすべての書き込みを直せる・消せる
 - Issue を Close すると伝言板から消える。Issues は公開なので、書き込みは誰でも読める
-- 本文の `![説明](https://…)` は図として出る（押すと大きく開く）。図は `python3 tools/make_board_figures.py` で `site/board-img/` に作り、`https://yusuke1090.github.io/smart-agri-news/board-img/<名前>.svg` で貼る
+- 本文の `![説明](https://…)` は図として出る（押すと大きく開く）。図は `python3 tools/make_board_figures.py` で `site/board-img/` に作り、`https://yusuke1090.github.io/smart-agri-news/board-img/<名前>.svg` で貼る。横に長い図は縮めずに横に送って見る形で出る。`〇〇-timeline.svg` と同じ名前の `.json` があれば、棒を押すとくわしく見られる年表になる（#7。中身は `tools/roadmap7.py`）
 
 ### 🔎 関連する事業（伝言板の調べもの）
 
