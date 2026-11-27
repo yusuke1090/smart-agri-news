@@ -698,6 +698,7 @@ def main():
     for name in ("board.html", "translate.js", "sync.js", "firebase-config.js", "board-research.json", "cow.html"):   # そのまま公開するファイル（cow.html は教科書への移動の案内、sync.js はスマホと PC でお気に入りを合わせる）
         (OUT / name).write_text((ROOT / "site" / name).read_text(encoding="utf-8"), encoding="utf-8")
     shutil.copytree(ROOT / "site" / "dict", OUT / "dict", dirs_exist_ok=True)   # 「🔤 訳す」の英和辞書
+    shutil.copytree(ROOT / "site" / "board-img", OUT / "board-img", dirs_exist_ok=True)   # 伝言板の書き込みに貼る図（tools/make_board_figures.py）
     print(f"記事 {len(kept)}件で docs/ を作りました（{now:%Y-%m-%d %H:%M} JST）")
 
 
